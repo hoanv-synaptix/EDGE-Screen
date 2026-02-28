@@ -1,0 +1,164 @@
+build/object/lv_xml_widget.o: \
+ g:\hoanv\projects\edge_monitor\lvgl\src\others\xml\lv_xml_widget.c \
+ g:\hoanv\projects\edge_monitor\lvgl\src\others\xml\lv_xml_widget.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_kconfig.h \
+ G:/HoaNV/Projects/EDGE_MONITOR/lvgl-simulator/lv_conf.h \
+ g:\hoanv\projects\edge_monitor\custom\lv_conf_ext.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\others\xml\lv_xml_parser.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_style.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\font\lv_font.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\font\lv_symbol_def.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\draw\lv_draw_buf.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_area.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_math.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_color.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_assert.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_log.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_mem.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_string.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_palette.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_color.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_color_op.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_string.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\draw\lv_image_dsc.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_area.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_area.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_anim.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_timer.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\tick\lv_tick.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_ll.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_text.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_sprintf.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_bidi.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_grad.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\layouts\lv_layout.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\layouts\flex/lv_flex.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_area.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\layouts\grid/lv_grid.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_area.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_style_gen.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_string.h \
+ g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_mem.h
+
+g:\hoanv\projects\edge_monitor\lvgl\src\others\xml\lv_xml_widget.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_kconfig.h:
+
+G:/HoaNV/Projects/EDGE_MONITOR/lvgl-simulator/lv_conf.h:
+
+g:\hoanv\projects\edge_monitor\custom\lv_conf_ext.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\others\xml\lv_xml_parser.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_style.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\font\lv_font.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\font\lv_symbol_def.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\draw\lv_draw_buf.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_area.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_math.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_color.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_assert.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_log.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_mem.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_string.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_palette.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_color.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_color_op.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_string.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\draw\lv_image_dsc.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_area.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_area.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_anim.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_timer.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\tick\lv_tick.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_ll.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_text.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_sprintf.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_bidi.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_grad.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\layouts\lv_layout.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\layouts\flex/lv_flex.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_area.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\layouts\grid/lv_grid.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_area.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_style_gen.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_string.h:
+
+g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_mem.h:

@@ -1,0 +1,1 @@
+GEN_CSRCS += _logo1_I1_220x220.c
