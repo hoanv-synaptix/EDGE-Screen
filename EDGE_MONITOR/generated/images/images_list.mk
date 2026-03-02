@@ -1,0 +1,1 @@
+GEN_CSRCS += _logo_input_RGB565A8_40x40.c _logo1_I1_220x220.c _icon_online_RGB565A8_20x20.c

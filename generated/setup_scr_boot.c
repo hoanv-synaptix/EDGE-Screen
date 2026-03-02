@@ -248,4 +248,6 @@ void setup_scr_boot(lv_ui *ui)
     //Update current screen layout.
     lv_obj_update_layout(ui->boot);
 
+    //Init events for screen.
+    events_init_boot(ui);
 }
