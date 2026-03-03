@@ -72,10 +72,12 @@ void ui_animation(void * var, uint32_t duration, int32_t delay, int32_t start_va
 void init_scr_del_flag(lv_ui *ui)
 {
 
+    ui->boot_del = true;
     ui->scr_dashboard_del = true;
     ui->scr_downtime_del = true;
     ui->scr_prod_entry_del = true;
-    ui->boot_del = true;
+    ui->scr_SetupHome_del = true;
+    ui->scr_setup_network_del = true;
     ui->src_status_del = true;
 }
 
@@ -89,8 +91,8 @@ void setup_ui(lv_ui *ui)
     setup_bottom_layer();
     init_scr_del_flag(ui);
     init_keyboard(ui);
-    setup_scr_scr_dashboard(ui);
-    lv_screen_load(ui->scr_dashboard);
+    setup_scr_boot(ui);
+    lv_screen_load(ui->boot);
 }
 
 void video_play(lv_ui *ui)

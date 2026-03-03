@@ -67,7 +67,7 @@ void setup_scr_scr_dashboard(lv_ui *ui)
     //Write codes scr_dashboard_lbl_running
     ui->scr_dashboard_lbl_running = lv_label_create(ui->scr_dashboard_cont_topbar);
     lv_obj_set_pos(ui->scr_dashboard_lbl_running, 4, 24);
-    lv_obj_set_size(ui->scr_dashboard_lbl_running, 393, 32);
+    lv_obj_set_size(ui->scr_dashboard_lbl_running, 393, 35);
     lv_label_set_text(ui->scr_dashboard_lbl_running, "RUNNING: WO#2024-001");
     lv_label_set_long_mode(ui->scr_dashboard_lbl_running, LV_LABEL_LONG_WRAP);
 

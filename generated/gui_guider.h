@@ -19,6 +19,17 @@ extern "C" {
 typedef struct
 {
   
+	lv_obj_t *boot;
+	bool boot_del;
+	lv_obj_t *boot_cont_center;
+	lv_obj_t *boot_img_logo;
+	lv_obj_t *boot_lbl_title;
+	lv_obj_t *boot_lbl_status;
+	lv_obj_t *boot_cont_footer;
+	lv_obj_t *boot_lbl_version;
+	lv_obj_t *boot_lbl_edgeid;
+	lv_obj_t *boot_lbl_date;
+	lv_obj_t *boot_bar_1;
 	lv_obj_t *scr_dashboard;
 	bool scr_dashboard_del;
 	lv_obj_t *scr_dashboard_cont_dash_bg;
@@ -124,24 +135,91 @@ typedef struct
 	lv_obj_t *scr_prod_entry_btn_pe_submit;
 	lv_obj_t *scr_prod_entry_btn_pe_submit_label;
 	lv_obj_t *scr_prod_entry_ta_pe_note;
-	lv_obj_t *boot;
-	bool boot_del;
-	lv_obj_t *boot_cont_center;
-	lv_obj_t *boot_img_logo;
-	lv_obj_t *boot_lbl_title;
-	lv_obj_t *boot_lbl_status;
-	lv_obj_t *boot_bar_progress;
-	lv_obj_t *boot_lbl_loanding_detail;
-	lv_obj_t *boot_cont_footer;
-	lv_obj_t *boot_lbl_version;
-	lv_obj_t *boot_lbl_edgeid;
-	lv_obj_t *boot_lbl_date;
+	lv_obj_t *scr_SetupHome;
+	bool scr_SetupHome_del;
+	lv_obj_t *scr_SetupHome_cont_root;
+	lv_obj_t *scr_SetupHome_cont_topbar;
+	lv_obj_t *scr_SetupHome_lbl_tiltle;
+	lv_obj_t *scr_SetupHome_cont_top_right;
+	lv_obj_t *scr_SetupHome_lbl_device;
+	lv_obj_t *scr_SetupHome_btn_online;
+	lv_obj_t *scr_SetupHome_btn_online_label;
+	lv_obj_t *scr_SetupHome_cont_list;
+	lv_obj_t *scr_SetupHome_card_network;
+	lv_obj_t *scr_SetupHome_lbl_net_sub;
+	lv_obj_t *scr_SetupHome_img_wifi;
+	lv_obj_t *scr_SetupHome_lbl_net_tiltle;
+	lv_obj_t *scr_SetupHome_lbl_net_status;
+	lv_obj_t *scr_SetupHome_btn_net;
+	lv_obj_t *scr_SetupHome_btn_net_label;
+	lv_obj_t *scr_SetupHome_card_server;
+	lv_obj_t *scr_SetupHome_lbl_server_broker;
+	lv_obj_t *scr_SetupHome_img_server;
+	lv_obj_t *scr_SetupHome_lbl_server_tiltle;
+	lv_obj_t *scr_SetupHome_lbl_server_status;
+	lv_obj_t *scr_SetupHome_btn_server;
+	lv_obj_t *scr_SetupHome_btn_server_label;
+	lv_obj_t *scr_SetupHome_card_sync;
+	lv_obj_t *scr_SetupHome_lbl_sync_time;
+	lv_obj_t *scr_SetupHome_img_sync;
+	lv_obj_t *scr_SetupHome_lbl_sync_tiltle;
+	lv_obj_t *scr_SetupHome_lbl_sync_status;
+	lv_obj_t *scr_SetupHome_btn_sync;
+	lv_obj_t *scr_SetupHome_btn_sync_label;
+	lv_obj_t *scr_SetupHome_card_system;
+	lv_obj_t *scr_SetupHome_lbl_sys_fw;
+	lv_obj_t *scr_SetupHome_img_sys;
+	lv_obj_t *scr_SetupHome_lbl_sys_tiltle;
+	lv_obj_t *scr_SetupHome_lbl_sys_info;
+	lv_obj_t *scr_SetupHome_btn_sys;
+	lv_obj_t *scr_SetupHome_btn_sys_label;
+	lv_obj_t *scr_SetupHome_imgbtn_back;
+	lv_obj_t *scr_SetupHome_imgbtn_back_label;
+	lv_obj_t *scr_setup_network;
+	bool scr_setup_network_del;
+	lv_obj_t *scr_setup_network_cont_root;
+	lv_obj_t *scr_setup_network_cont_topbar;
+	lv_obj_t *scr_setup_network_lbl_top_tiltle;
+	lv_obj_t *scr_setup_network_cont_top_right;
+	lv_obj_t *scr_setup_network_lbl_value;
+	lv_obj_t *scr_setup_network_btn_online;
+	lv_obj_t *scr_setup_network_btn_online_label;
+	lv_obj_t *scr_setup_network_cont_body;
+	lv_obj_t *scr_setup_network_cont_net;
+	lv_obj_t *scr_setup_network_cont_header;
+	lv_obj_t *scr_setup_network_lbl_header;
+	lv_obj_t *scr_setup_network_img_wifi;
+	lv_obj_t *scr_setup_network_line_1;
+	lv_obj_t *scr_setup_network_cont_wifi_row;
+	lv_obj_t *scr_setup_network_lbl_wifi;
+	lv_obj_t *scr_setup_network_dd_ssid;
+	lv_obj_t *scr_setup_network_btn_scan;
+	lv_obj_t *scr_setup_network_btn_scan_label;
+	lv_obj_t *scr_setup_network_line_2;
+	lv_obj_t *scr_setup_network_cont_pass_row;
+	lv_obj_t *scr_setup_network_lbl_pass;
+	lv_obj_t *scr_setup_network_ta_pass;
+	lv_obj_t *scr_setup_network_cont_auto_row;
+	lv_obj_t *scr_setup_network_lbl_auto;
+	lv_obj_t *scr_setup_network_sw_auto;
+	lv_obj_t *scr_setup_network_line_3;
+	lv_obj_t *scr_setup_network_cont_row_status;
+	lv_obj_t *scr_setup_network_led_status;
+	lv_obj_t *scr_setup_network_lbl_status;
+	lv_obj_t *scr_setup_network_lbl_ip_value;
+	lv_obj_t *scr_setup_network_line_4;
+	lv_obj_t *scr_setup_network_cont_btn_row;
+	lv_obj_t *scr_setup_network_btn_connect;
+	lv_obj_t *scr_setup_network_btn_connect_label;
+	lv_obj_t *scr_setup_network_btn_save;
+	lv_obj_t *scr_setup_network_btn_save_label;
+	lv_obj_t *scr_setup_network_imgbtn_back;
+	lv_obj_t *scr_setup_network_imgbtn_back_label;
 	lv_obj_t *src_status;
 	bool src_status_del;
 	lv_obj_t *src_status_cont_;
 	lv_obj_t *src_status_cont_net_;
 	lv_obj_t *src_status_lbl_online;
-	lv_obj_t *src_status_img_;
 	lv_obj_t *src_status_lbl_;
 	lv_obj_t *src_status_lbl_edge_;
 	lv_obj_t *src_status_lbl_app_;
@@ -201,15 +279,24 @@ void init_keyboard(lv_ui *ui);
 extern lv_ui guider_ui;
 
 
+void setup_scr_boot(lv_ui *ui);
 void setup_scr_scr_dashboard(lv_ui *ui);
 void setup_scr_scr_downtime(lv_ui *ui);
 void setup_scr_scr_prod_entry(lv_ui *ui);
-void setup_scr_boot(lv_ui *ui);
+void setup_scr_scr_SetupHome(lv_ui *ui);
+void setup_scr_scr_setup_network(lv_ui *ui);
 void setup_scr_src_status(lv_ui *ui);
+LV_IMAGE_DECLARE(_logoSynaptiX_RGB565A8_200x200);
 LV_IMAGE_DECLARE(_logo_input_RGB565A8_40x40);
-LV_IMAGE_DECLARE(_logo1_I1_220x220);
-LV_IMAGE_DECLARE(_icon_online_RGB565A8_20x20);
+LV_IMAGE_DECLARE(_wifi_RGB565A8_64x64);
+LV_IMAGE_DECLARE(_server3_RGB565A8_64x64);
+LV_IMAGE_DECLARE(_sync_RGB565A8_64x64);
+LV_IMAGE_DECLARE(_system_RGB565A8_64x64);
+LV_IMAGE_DECLARE(_leftarrow_RGB565A8_64x64);
 
+LV_FONT_DECLARE(lv_font_montserratMedium_40)
+LV_FONT_DECLARE(lv_font_montserratMedium_26)
+LV_FONT_DECLARE(lv_font_montserratMedium_22)
 LV_FONT_DECLARE(lv_font_Acme_Regular_34)
 LV_FONT_DECLARE(lv_font_Acme_Regular_30)
 LV_FONT_DECLARE(lv_font_Acme_Regular_60)
@@ -221,9 +308,13 @@ LV_FONT_DECLARE(lv_font_montserratMedium_30)
 LV_FONT_DECLARE(lv_font_Acme_Regular_25)
 LV_FONT_DECLARE(lv_font_Acme_Regular_26)
 LV_FONT_DECLARE(lv_font_Abel_regular_24)
-LV_FONT_DECLARE(lv_font_montserratMedium_40)
-LV_FONT_DECLARE(lv_font_montserratMedium_26)
-LV_FONT_DECLARE(lv_font_montserratMedium_22)
+LV_FONT_DECLARE(lv_font_Acme_Regular_50)
+LV_FONT_DECLARE(lv_font_arial_25)
+LV_FONT_DECLARE(lv_font_arial_22)
+LV_FONT_DECLARE(lv_font_montserratMedium_12)
+LV_FONT_DECLARE(lv_font_arial_32)
+LV_FONT_DECLARE(lv_font_montserratMedium_25)
+LV_FONT_DECLARE(lv_font_arial_30)
 
 
 #ifdef __cplusplus

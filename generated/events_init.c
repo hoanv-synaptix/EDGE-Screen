@@ -16,6 +16,26 @@
 #endif
 
 
+static void boot_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_SCREEN_LOADED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.boot_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 100, 2000, true, false);
+        ui_animation(guider_ui.boot_bar_1, 100, 0, lv_bar_get_value(guider_ui.boot_bar_1), 100, &lv_anim_path_linear, 1, 0, 0, 0, (lv_anim_exec_xcb_t)lv_bar_set_value, NULL, NULL, NULL);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+void events_init_boot (lv_ui *ui)
+{
+    lv_obj_add_event_cb(ui->boot, boot_event_handler, LV_EVENT_ALL, ui);
+}
+
 static void scr_dashboard_btn_stop_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
@@ -50,6 +70,7 @@ static void scr_dashboard_btn_setup_event_handler (lv_event_t *e)
     switch (code) {
     case LV_EVENT_CLICKED:
     {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupHome, guider_ui.scr_SetupHome_del, &guider_ui.scr_dashboard_del, setup_scr_scr_SetupHome, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
         break;
     }
     default:
@@ -160,13 +181,13 @@ void events_init_scr_prod_entry (lv_ui *ui)
     lv_obj_add_event_cb(ui->scr_prod_entry_btn_pe_submit, scr_prod_entry_btn_pe_submit_event_handler, LV_EVENT_ALL, ui);
 }
 
-static void boot_event_handler (lv_event_t *e)
+static void scr_SetupHome_btn_net_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
     switch (code) {
     case LV_EVENT_CLICKED:
     {
-        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.boot_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_setup_network, guider_ui.scr_setup_network_del, &guider_ui.scr_SetupHome_del, setup_scr_scr_setup_network, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
         break;
     }
     default:
@@ -174,9 +195,58 @@ static void boot_event_handler (lv_event_t *e)
     }
 }
 
-void events_init_boot (lv_ui *ui)
+static void scr_SetupHome_imgbtn_back_event_handler (lv_event_t *e)
 {
-    lv_obj_add_event_cb(ui->boot, boot_event_handler, LV_EVENT_ALL, ui);
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.scr_SetupHome_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+void events_init_scr_SetupHome (lv_ui *ui)
+{
+    lv_obj_add_event_cb(ui->scr_SetupHome_btn_net, scr_SetupHome_btn_net_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_SetupHome_imgbtn_back, scr_SetupHome_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
+}
+
+static void scr_setup_network_btn_save_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_PRESSED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupHome, guider_ui.scr_SetupHome_del, &guider_ui.scr_setup_network_del, setup_scr_scr_SetupHome, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+static void scr_setup_network_imgbtn_back_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupHome, guider_ui.scr_SetupHome_del, &guider_ui.scr_setup_network_del, setup_scr_scr_SetupHome, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+void events_init_scr_setup_network (lv_ui *ui)
+{
+    lv_obj_add_event_cb(ui->scr_setup_network_btn_save, scr_setup_network_btn_save_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_setup_network_imgbtn_back, scr_setup_network_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
 }
 
 

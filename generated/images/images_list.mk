@@ -1,1 +1,1 @@
-GEN_CSRCS += _logo_input_RGB565A8_40x40.c _logo1_I1_220x220.c _icon_online_RGB565A8_20x20.c
+GEN_CSRCS += _logoSynaptiX_RGB565A8_200x200.c _logo_input_RGB565A8_40x40.c _wifi_RGB565A8_64x64.c _server3_RGB565A8_64x64.c _sync_RGB565A8_64x64.c _system_RGB565A8_64x64.c _leftarrow_RGB565A8_64x64.c

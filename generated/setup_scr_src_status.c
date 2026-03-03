@@ -35,10 +35,7 @@ void setup_scr_src_status(lv_ui *ui)
     lv_obj_set_scrollbar_mode(ui->src_status_cont_, LV_SCROLLBAR_MODE_OFF);
 
     //Write style for src_status_cont_, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->src_status_cont_, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_opa(ui->src_status_cont_, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_color(ui->src_status_cont_, lv_color_hex(0x2195f6), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_side(ui->src_status_cont_, LV_BORDER_SIDE_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->src_status_cont_, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->src_status_cont_, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->src_status_cont_, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->src_status_cont_, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -56,10 +53,7 @@ void setup_scr_src_status(lv_ui *ui)
     lv_obj_set_scrollbar_mode(ui->src_status_cont_net_, LV_SCROLLBAR_MODE_OFF);
 
     //Write style for src_status_cont_net_, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->src_status_cont_net_, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_opa(ui->src_status_cont_net_, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_color(ui->src_status_cont_net_, lv_color_hex(0x2195f6), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_side(ui->src_status_cont_net_, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->src_status_cont_net_, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->src_status_cont_net_, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->src_status_cont_net_, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->src_status_cont_net_, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -92,20 +86,6 @@ void setup_scr_src_status(lv_ui *ui)
     lv_obj_set_style_pad_bottom(ui->src_status_lbl_online, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_left(ui->src_status_lbl_online, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->src_status_lbl_online, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-
-    //Write codes src_status_img_
-    ui->src_status_img_ = lv_image_create(ui->src_status_cont_net_);
-    lv_obj_set_pos(ui->src_status_img_, 30, 26);
-    lv_obj_set_size(ui->src_status_img_, 20, 20);
-    lv_obj_add_flag(ui->src_status_img_, LV_OBJ_FLAG_CLICKABLE);
-    lv_image_set_src(ui->src_status_img_, &_icon_online_RGB565A8_20x20);
-    lv_image_set_pivot(ui->src_status_img_, 50,50);
-    lv_image_set_rotation(ui->src_status_img_, 0);
-
-    //Write style for src_status_img_, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_image_recolor_opa(ui->src_status_img_, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_image_recolor(ui->src_status_img_, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_image_opa(ui->src_status_img_, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes src_status_lbl_
     ui->src_status_lbl_ = lv_label_create(ui->src_status_cont_);
@@ -229,10 +209,7 @@ void setup_scr_src_status(lv_ui *ui)
     lv_obj_set_scrollbar_mode(ui->src_status_cont_body, LV_SCROLLBAR_MODE_OFF);
 
     //Write style for src_status_cont_body, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->src_status_cont_body, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_opa(ui->src_status_cont_body, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_color(ui->src_status_cont_body, lv_color_hex(0x2195f6), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_side(ui->src_status_cont_body, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->src_status_cont_body, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->src_status_cont_body, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->src_status_cont_body, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->src_status_cont_body, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -250,10 +227,7 @@ void setup_scr_src_status(lv_ui *ui)
     lv_obj_set_scrollbar_mode(ui->src_status_cont_card_net, LV_SCROLLBAR_MODE_OFF);
 
     //Write style for src_status_cont_card_net, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->src_status_cont_card_net, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_opa(ui->src_status_cont_card_net, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_color(ui->src_status_cont_card_net, lv_color_hex(0x2195f6), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_side(ui->src_status_cont_card_net, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->src_status_cont_card_net, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->src_status_cont_card_net, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->src_status_cont_card_net, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->src_status_cont_card_net, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -386,10 +360,7 @@ void setup_scr_src_status(lv_ui *ui)
     lv_obj_set_scrollbar_mode(ui->src_status_cont_card_mqtt, LV_SCROLLBAR_MODE_OFF);
 
     //Write style for src_status_cont_card_mqtt, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->src_status_cont_card_mqtt, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_opa(ui->src_status_cont_card_mqtt, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_color(ui->src_status_cont_card_mqtt, lv_color_hex(0x2195f6), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_side(ui->src_status_cont_card_mqtt, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->src_status_cont_card_mqtt, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->src_status_cont_card_mqtt, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->src_status_cont_card_mqtt, 225, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->src_status_cont_card_mqtt, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -522,10 +493,7 @@ void setup_scr_src_status(lv_ui *ui)
     lv_obj_set_scrollbar_mode(ui->src_status_cont_card_sysc, LV_SCROLLBAR_MODE_OFF);
 
     //Write style for src_status_cont_card_sysc, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->src_status_cont_card_sysc, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_opa(ui->src_status_cont_card_sysc, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_color(ui->src_status_cont_card_sysc, lv_color_hex(0x2195f6), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_side(ui->src_status_cont_card_sysc, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->src_status_cont_card_sysc, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->src_status_cont_card_sysc, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->src_status_cont_card_sysc, 171, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->src_status_cont_card_sysc, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -569,7 +537,7 @@ void setup_scr_src_status(lv_ui *ui)
     //Write style for src_status_lbl_spending, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
     lv_obj_set_style_border_width(ui->src_status_lbl_spending, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->src_status_lbl_spending, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->src_status_lbl_spending, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->src_status_lbl_spending, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui->src_status_lbl_spending, &lv_font_montserratMedium_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->src_status_lbl_spending, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->src_status_lbl_spending, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -592,7 +560,7 @@ void setup_scr_src_status(lv_ui *ui)
     //Write style for src_status_lbl_note, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
     lv_obj_set_style_border_width(ui->src_status_lbl_note, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->src_status_lbl_note, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->src_status_lbl_note, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->src_status_lbl_note, lv_color_hex(0xf2f2f2), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui->src_status_lbl_note, &lv_font_montserratMedium_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->src_status_lbl_note, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->src_status_lbl_note, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -607,7 +575,7 @@ void setup_scr_src_status(lv_ui *ui)
 
     //Write codes src_status_lbl_oldest
     ui->src_status_lbl_oldest = lv_label_create(ui->src_status_cont_card_sysc);
-    lv_obj_set_pos(ui->src_status_lbl_oldest, 694, 26);
+    lv_obj_set_pos(ui->src_status_lbl_oldest, 680, 25);
     lv_obj_set_size(ui->src_status_lbl_oldest, 526, 32);
     lv_label_set_text(ui->src_status_lbl_oldest, "Oldest: 08:21:00    28/02/2026");
     lv_label_set_long_mode(ui->src_status_lbl_oldest, LV_LABEL_LONG_WRAP);
@@ -615,7 +583,7 @@ void setup_scr_src_status(lv_ui *ui)
     //Write style for src_status_lbl_oldest, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
     lv_obj_set_style_border_width(ui->src_status_lbl_oldest, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->src_status_lbl_oldest, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->src_status_lbl_oldest, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->src_status_lbl_oldest, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui->src_status_lbl_oldest, &lv_font_montserratMedium_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->src_status_lbl_oldest, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->src_status_lbl_oldest, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -638,7 +606,7 @@ void setup_scr_src_status(lv_ui *ui)
     //Write style for src_status_lbl_last_sync, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
     lv_obj_set_style_border_width(ui->src_status_lbl_last_sync, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->src_status_lbl_last_sync, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->src_status_lbl_last_sync, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->src_status_lbl_last_sync, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui->src_status_lbl_last_sync, &lv_font_montserratMedium_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->src_status_lbl_last_sync, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->src_status_lbl_last_sync, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -661,7 +629,7 @@ void setup_scr_src_status(lv_ui *ui)
     //Write style for src_status_lbl_retry_policy, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
     lv_obj_set_style_border_width(ui->src_status_lbl_retry_policy, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->src_status_lbl_retry_policy, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->src_status_lbl_retry_policy, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->src_status_lbl_retry_policy, lv_color_hex(0xf6f6f6), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui->src_status_lbl_retry_policy, &lv_font_montserratMedium_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->src_status_lbl_retry_policy, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->src_status_lbl_retry_policy, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -676,15 +644,12 @@ void setup_scr_src_status(lv_ui *ui)
 
     //Write codes src_status_cont_bottom
     ui->src_status_cont_bottom = lv_obj_create(ui->src_status);
-    lv_obj_set_pos(ui->src_status_cont_bottom, 0, 601);
+    lv_obj_set_pos(ui->src_status_cont_bottom, 0, 600);
     lv_obj_set_size(ui->src_status_cont_bottom, 1280, 119);
     lv_obj_set_scrollbar_mode(ui->src_status_cont_bottom, LV_SCROLLBAR_MODE_OFF);
 
     //Write style for src_status_cont_bottom, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->src_status_cont_bottom, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_opa(ui->src_status_cont_bottom, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_color(ui->src_status_cont_bottom, lv_color_hex(0x2195f6), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_side(ui->src_status_cont_bottom, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->src_status_cont_bottom, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->src_status_cont_bottom, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->src_status_cont_bottom, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->src_status_cont_bottom, lv_color_hex(0x1c1c1c), LV_PART_MAIN|LV_STATE_DEFAULT);

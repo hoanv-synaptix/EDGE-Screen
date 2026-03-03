@@ -688,11 +688,11 @@
 
 #define LV_USE_CHECKBOX 0
 
-#define LV_USE_DROPDOWN 0
+#define LV_USE_DROPDOWN 1
 
 #define LV_USE_IMAGE 1
 
-#define LV_USE_IMAGEBUTTON 0
+#define LV_USE_IMAGEBUTTON 1
 
 #define LV_USE_KEYBOARD 0
 
@@ -706,9 +706,9 @@
 #define LV_LABEL_WAIT_CHAR_COUNT 3
 #endif    /* LV_USE_LABEL */
 
-#define LV_USE_LED 0
+#define LV_USE_LED 1
 
-#define LV_USE_LINE 0
+#define LV_USE_LINE 1
 
 #define LV_USE_LIST 0
 
@@ -734,7 +734,7 @@
 
 #define LV_USE_SPINNER 0
 
-#define LV_USE_SWITCH 0
+#define LV_USE_SWITCH 1
 
 #define LV_USE_TABLE 0
 
