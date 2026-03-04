@@ -66,7 +66,7 @@ void setup_scr_scr_downtime(lv_ui *ui)
 
     //Write codes scr_downtime_lbl_machine_status
     ui->scr_downtime_lbl_machine_status = lv_label_create(ui->scr_downtime_cont_dt_topbar);
-    lv_obj_set_pos(ui->scr_downtime_lbl_machine_status, 4, 24);
+    lv_obj_set_pos(ui->scr_downtime_lbl_machine_status, 478, 24);
     lv_obj_set_size(ui->scr_downtime_lbl_machine_status, 323, 32);
     lv_label_set_text(ui->scr_downtime_lbl_machine_status, "MACHINE STOPPED");
     lv_label_set_long_mode(ui->scr_downtime_lbl_machine_status, LV_LABEL_LONG_WRAP);
@@ -109,6 +109,44 @@ void setup_scr_scr_downtime(lv_ui *ui)
     lv_obj_set_style_pad_bottom(ui->scr_downtime_lbl_timer, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_left(ui->scr_downtime_lbl_timer, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_downtime_lbl_timer, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write codes scr_downtime_imgbtn_back
+    ui->scr_downtime_imgbtn_back = lv_imagebutton_create(ui->scr_downtime_cont_dt_topbar);
+    lv_obj_set_pos(ui->scr_downtime_imgbtn_back, 20, 8);
+    lv_obj_set_size(ui->scr_downtime_imgbtn_back, 64, 64);
+    lv_imagebutton_set_src(ui->scr_downtime_imgbtn_back, LV_IMAGEBUTTON_STATE_RELEASED, &_leftarrow_RGB565A8_64x64, NULL, NULL);
+    ui->scr_downtime_imgbtn_back_label = lv_label_create(ui->scr_downtime_imgbtn_back);
+    lv_label_set_text(ui->scr_downtime_imgbtn_back_label, "");
+    lv_label_set_long_mode(ui->scr_downtime_imgbtn_back_label, LV_LABEL_LONG_WRAP);
+    lv_obj_align(ui->scr_downtime_imgbtn_back_label, LV_ALIGN_CENTER, 0, 0);
+    lv_obj_set_style_pad_all(ui->scr_downtime_imgbtn_back, 0, LV_STATE_DEFAULT);
+
+    //Write style for scr_downtime_imgbtn_back, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_text_color(ui->scr_downtime_imgbtn_back, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_downtime_imgbtn_back, &lv_font_montserratMedium_12, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->scr_downtime_imgbtn_back, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_downtime_imgbtn_back, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_downtime_imgbtn_back, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write style for scr_downtime_imgbtn_back, Part: LV_PART_MAIN, State: LV_STATE_PRESSED.
+    lv_obj_set_style_image_recolor_opa(ui->scr_downtime_imgbtn_back, 0, LV_PART_MAIN|LV_STATE_PRESSED);
+    lv_obj_set_style_image_opa(ui->scr_downtime_imgbtn_back, 255, LV_PART_MAIN|LV_STATE_PRESSED);
+    lv_obj_set_style_text_color(ui->scr_downtime_imgbtn_back, lv_color_hex(0xFF33FF), LV_PART_MAIN|LV_STATE_PRESSED);
+    lv_obj_set_style_text_font(ui->scr_downtime_imgbtn_back, &lv_font_montserratMedium_12, LV_PART_MAIN|LV_STATE_PRESSED);
+    lv_obj_set_style_text_opa(ui->scr_downtime_imgbtn_back, 255, LV_PART_MAIN|LV_STATE_PRESSED);
+    lv_obj_set_style_shadow_width(ui->scr_downtime_imgbtn_back, 0, LV_PART_MAIN|LV_STATE_PRESSED);
+
+    //Write style for scr_downtime_imgbtn_back, Part: LV_PART_MAIN, State: LV_STATE_CHECKED.
+    lv_obj_set_style_image_recolor_opa(ui->scr_downtime_imgbtn_back, 0, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_image_opa(ui->scr_downtime_imgbtn_back, 255, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_text_color(ui->scr_downtime_imgbtn_back, lv_color_hex(0xFF33FF), LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_text_font(ui->scr_downtime_imgbtn_back, &lv_font_montserratMedium_12, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_text_opa(ui->scr_downtime_imgbtn_back, 255, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_shadow_width(ui->scr_downtime_imgbtn_back, 0, LV_PART_MAIN|LV_STATE_CHECKED);
+
+    //Write style for scr_downtime_imgbtn_back, Part: LV_PART_MAIN, State: LV_IMAGEBUTTON_STATE_RELEASED.
+    lv_obj_set_style_image_recolor_opa(ui->scr_downtime_imgbtn_back, 0, LV_PART_MAIN|LV_IMAGEBUTTON_STATE_RELEASED);
+    lv_obj_set_style_image_opa(ui->scr_downtime_imgbtn_back, 255, LV_PART_MAIN|LV_IMAGEBUTTON_STATE_RELEASED);
 
     //Write codes scr_downtime_cont_dt_center
     ui->scr_downtime_cont_dt_center = lv_obj_create(ui->scr_downtime_cont_dt);

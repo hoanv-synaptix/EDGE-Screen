@@ -100,6 +100,20 @@ void events_init_scr_dashboard (lv_ui *ui)
     lv_obj_add_event_cb(ui->scr_dashboard_btn_input_prod, scr_dashboard_btn_input_prod_event_handler, LV_EVENT_ALL, ui);
 }
 
+static void scr_downtime_imgbtn_back_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.scr_downtime_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
 static void scr_downtime_btn_g_machine_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
@@ -129,8 +143,23 @@ static void scr_downtime_btn_dt__event_handler (lv_event_t *e)
 
 void events_init_scr_downtime (lv_ui *ui)
 {
+    lv_obj_add_event_cb(ui->scr_downtime_imgbtn_back, scr_downtime_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_downtime_btn_g_machine, scr_downtime_btn_g_machine_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_downtime_btn_dt_, scr_downtime_btn_dt__event_handler, LV_EVENT_ALL, ui);
+}
+
+static void scr_prod_entry_imgbtn_back_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.scr_prod_entry_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
 }
 
 static void scr_prod_entry_btn_grp_material_event_handler (lv_event_t *e)
@@ -139,20 +168,6 @@ static void scr_prod_entry_btn_grp_material_event_handler (lv_event_t *e)
     switch (code) {
     case LV_EVENT_CLICKED:
     {
-        break;
-    }
-    default:
-        break;
-    }
-}
-
-static void scr_prod_entry_btn_pe_back_event_handler (lv_event_t *e)
-{
-    lv_event_code_t code = lv_event_get_code(e);
-    switch (code) {
-    case LV_EVENT_CLICKED:
-    {
-        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.scr_prod_entry_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
         break;
     }
     default:
@@ -176,8 +191,8 @@ static void scr_prod_entry_btn_pe_submit_event_handler (lv_event_t *e)
 
 void events_init_scr_prod_entry (lv_ui *ui)
 {
+    lv_obj_add_event_cb(ui->scr_prod_entry_imgbtn_back, scr_prod_entry_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_prod_entry_btn_grp_material, scr_prod_entry_btn_grp_material_event_handler, LV_EVENT_ALL, ui);
-    lv_obj_add_event_cb(ui->scr_prod_entry_btn_pe_back, scr_prod_entry_btn_pe_back_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_prod_entry_btn_pe_submit, scr_prod_entry_btn_pe_submit_event_handler, LV_EVENT_ALL, ui);
 }
 
@@ -188,6 +203,34 @@ static void scr_SetupHome_btn_net_event_handler (lv_event_t *e)
     case LV_EVENT_CLICKED:
     {
         ui_load_scr_animation(&guider_ui, &guider_ui.scr_setup_network, guider_ui.scr_setup_network_del, &guider_ui.scr_SetupHome_del, setup_scr_scr_setup_network, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+static void scr_SetupHome_btn_server_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupMQTT, guider_ui.scr_SetupMQTT_del, &guider_ui.scr_SetupHome_del, setup_scr_scr_SetupMQTT, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+static void scr_SetupHome_btn_sync_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupDataSync, guider_ui.scr_SetupDataSync_del, &guider_ui.scr_SetupHome_del, setup_scr_scr_SetupDataSync, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
         break;
     }
     default:
@@ -212,6 +255,8 @@ static void scr_SetupHome_imgbtn_back_event_handler (lv_event_t *e)
 void events_init_scr_SetupHome (lv_ui *ui)
 {
     lv_obj_add_event_cb(ui->scr_SetupHome_btn_net, scr_SetupHome_btn_net_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_SetupHome_btn_server, scr_SetupHome_btn_server_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_SetupHome_btn_sync, scr_SetupHome_btn_sync_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_SetupHome_imgbtn_back, scr_SetupHome_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
 }
 
@@ -247,6 +292,74 @@ void events_init_scr_setup_network (lv_ui *ui)
 {
     lv_obj_add_event_cb(ui->scr_setup_network_btn_save, scr_setup_network_btn_save_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_setup_network_imgbtn_back, scr_setup_network_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
+}
+
+static void scr_SetupMQTT_imgbtn_back_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupHome, guider_ui.scr_SetupHome_del, &guider_ui.scr_SetupMQTT_del, setup_scr_scr_SetupHome, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+static void scr_SetupMQTT_btn_save_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupHome, guider_ui.scr_SetupHome_del, &guider_ui.scr_SetupMQTT_del, setup_scr_scr_SetupHome, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+void events_init_scr_SetupMQTT (lv_ui *ui)
+{
+    lv_obj_add_event_cb(ui->scr_SetupMQTT_imgbtn_back, scr_SetupMQTT_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_SetupMQTT_btn_save, scr_SetupMQTT_btn_save_event_handler, LV_EVENT_ALL, ui);
+}
+
+static void scr_SetupDataSync_btn_save_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupHome, guider_ui.scr_SetupHome_del, &guider_ui.scr_SetupDataSync_del, setup_scr_scr_SetupHome, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+static void scr_SetupDataSync_imgbtn_back_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupHome, guider_ui.scr_SetupHome_del, &guider_ui.scr_SetupDataSync_del, setup_scr_scr_SetupHome, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+void events_init_scr_SetupDataSync (lv_ui *ui)
+{
+    lv_obj_add_event_cb(ui->scr_SetupDataSync_btn_save, scr_SetupDataSync_btn_save_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_SetupDataSync_imgbtn_back, scr_SetupDataSync_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
 }
 
 

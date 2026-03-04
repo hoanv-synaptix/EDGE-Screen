@@ -68,6 +68,8 @@ typedef struct
 	lv_obj_t *scr_downtime_cont_dt_topbar;
 	lv_obj_t *scr_downtime_lbl_machine_status;
 	lv_obj_t *scr_downtime_lbl_timer;
+	lv_obj_t *scr_downtime_imgbtn_back;
+	lv_obj_t *scr_downtime_imgbtn_back_label;
 	lv_obj_t *scr_downtime_cont_dt_center;
 	lv_obj_t *scr_downtime_cont_dt_left;
 	lv_obj_t *scr_downtime_btn_g_machine;
@@ -97,6 +99,8 @@ typedef struct
 	lv_obj_t *scr_prod_entry_cont_pe_header;
 	lv_obj_t *scr_prod_entry_lbl_pe_tiltle;
 	lv_obj_t *scr_prod_entry_label_pe_wo;
+	lv_obj_t *scr_prod_entry_imgbtn_back;
+	lv_obj_t *scr_prod_entry_imgbtn_back_label;
 	lv_obj_t *scr_prod_entry_cont_pe_kpi_row;
 	lv_obj_t *scr_prod_entry_cont_total_finished;
 	lv_obj_t *scr_prod_entry_lbl_total_title;
@@ -130,8 +134,6 @@ typedef struct
 	lv_obj_t *scr_prod_entry_btn_def_2;
 	lv_obj_t *scr_prod_entry_btn_def_2_label;
 	lv_obj_t *scr_prod_entry_cont_pe_bottom;
-	lv_obj_t *scr_prod_entry_btn_pe_back;
-	lv_obj_t *scr_prod_entry_btn_pe_back_label;
 	lv_obj_t *scr_prod_entry_btn_pe_submit;
 	lv_obj_t *scr_prod_entry_btn_pe_submit_label;
 	lv_obj_t *scr_prod_entry_ta_pe_note;
@@ -215,6 +217,104 @@ typedef struct
 	lv_obj_t *scr_setup_network_btn_save_label;
 	lv_obj_t *scr_setup_network_imgbtn_back;
 	lv_obj_t *scr_setup_network_imgbtn_back_label;
+	lv_obj_t *scr_SetupMQTT;
+	bool scr_SetupMQTT_del;
+	lv_obj_t *scr_SetupMQTT_cont_root;
+	lv_obj_t *scr_SetupMQTT_cont_topbar;
+	lv_obj_t *scr_SetupMQTT_lbl_tiltle;
+	lv_obj_t *scr_SetupMQTT_cont_top_right;
+	lv_obj_t *scr_SetupMQTT_lbl_device;
+	lv_obj_t *scr_SetupMQTT_btn_online;
+	lv_obj_t *scr_SetupMQTT_btn_online_label;
+	lv_obj_t *scr_SetupMQTT_imgbtn_back;
+	lv_obj_t *scr_SetupMQTT_imgbtn_back_label;
+	lv_obj_t *scr_SetupMQTT_cont_body;
+	lv_obj_t *scr_SetupMQTT_cont_mqtt;
+	lv_obj_t *scr_SetupMQTT_cont_header;
+	lv_obj_t *scr_SetupMQTT_label_header;
+	lv_obj_t *scr_SetupMQTT_img_cload;
+	lv_obj_t *scr_SetupMQTT_cont_broker_scan;
+	lv_obj_t *scr_SetupMQTT_lbl_broker;
+	lv_obj_t *scr_SetupMQTT_btn_scan;
+	lv_obj_t *scr_SetupMQTT_btn_scan_label;
+	lv_obj_t *scr_SetupMQTT_ta_broker;
+	lv_obj_t *scr_SetupMQTT_cont_port_row;
+	lv_obj_t *scr_SetupMQTT_lbl_port;
+	lv_obj_t *scr_SetupMQTT_ta_port;
+	lv_obj_t *scr_SetupMQTT_cont_tls_row;
+	lv_obj_t *scr_SetupMQTT_lbl_tls;
+	lv_obj_t *scr_SetupMQTT_sw_tls;
+	lv_obj_t *scr_SetupMQTT_cont_status_row;
+	lv_obj_t *scr_SetupMQTT_led_status;
+	lv_obj_t *scr_SetupMQTT_lbl_status;
+	lv_obj_t *scr_SetupMQTT_lbl_pending;
+	lv_obj_t *scr_SetupMQTT_cont_btn_row;
+	lv_obj_t *scr_SetupMQTT_btn_conncect;
+	lv_obj_t *scr_SetupMQTT_btn_conncect_label;
+	lv_obj_t *scr_SetupMQTT_btn_save;
+	lv_obj_t *scr_SetupMQTT_btn_save_label;
+	lv_obj_t *scr_SetupMQTT_cont_user;
+	lv_obj_t *scr_SetupMQTT_lbl_user;
+	lv_obj_t *scr_SetupMQTT_ta_user;
+	lv_obj_t *scr_SetupMQTT_cont_password;
+	lv_obj_t *scr_SetupMQTT_lbl_password;
+	lv_obj_t *scr_SetupMQTT_ta_password;
+	lv_obj_t *scr_SetupMQTT_line_8;
+	lv_obj_t *scr_SetupMQTT_line_6;
+	lv_obj_t *scr_SetupMQTT_line_5;
+	lv_obj_t *scr_SetupMQTT_line_9;
+	lv_obj_t *scr_SetupDataSync;
+	bool scr_SetupDataSync_del;
+	lv_obj_t *scr_SetupDataSync_cont_root;
+	lv_obj_t *scr_SetupDataSync_cont_topbar;
+	lv_obj_t *scr_SetupDataSync_lbl_tiltle;
+	lv_obj_t *scr_SetupDataSync_cont_top_right;
+	lv_obj_t *scr_SetupDataSync_lbl_device;
+	lv_obj_t *scr_SetupDataSync_btn_online;
+	lv_obj_t *scr_SetupDataSync_btn_online_label;
+	lv_obj_t *scr_SetupDataSync_cont_body;
+	lv_obj_t *scr_SetupDataSync_cont_sync;
+	lv_obj_t *scr_SetupDataSync_cont_header;
+	lv_obj_t *scr_SetupDataSync_lbl_header;
+	lv_obj_t *scr_SetupDataSync_img_sync;
+	lv_obj_t *scr_SetupDataSync_cont_last_row;
+	lv_obj_t *scr_SetupDataSync_lbl_last_tiltle;
+	lv_obj_t *scr_SetupDataSync_lbl_last_value;
+	lv_obj_t *scr_SetupDataSync_img_lastsync;
+	lv_obj_t *scr_SetupDataSync_btn_last;
+	lv_obj_t *scr_SetupDataSync_btn_last_label;
+	lv_obj_t *scr_SetupDataSync_line_8;
+	lv_obj_t *scr_SetupDataSync_line_7;
+	lv_obj_t *scr_SetupDataSync_line_6;
+	lv_obj_t *scr_SetupDataSync_line_5;
+	lv_obj_t *scr_SetupDataSync_line_9;
+	lv_obj_t *scr_SetupDataSync_cont_btn_row;
+	lv_obj_t *scr_SetupDataSync_btn_sync;
+	lv_obj_t *scr_SetupDataSync_btn_sync_label;
+	lv_obj_t *scr_SetupDataSync_btn_save;
+	lv_obj_t *scr_SetupDataSync_btn_save_label;
+	lv_obj_t *scr_SetupDataSync_cont_ver_row;
+	lv_obj_t *scr_SetupDataSync_lbl_ver_tiltle;
+	lv_obj_t *scr_SetupDataSync_lbl_ver_value;
+	lv_obj_t *scr_SetupDataSync_img_ver;
+	lv_obj_t *scr_SetupDataSync_btn_ver;
+	lv_obj_t *scr_SetupDataSync_btn_ver_label;
+	lv_obj_t *scr_SetupDataSync_cont_auto_row;
+	lv_obj_t *scr_SetupDataSync_lbl_auto_tiltle;
+	lv_obj_t *scr_SetupDataSync_lbl_auto_value;
+	lv_obj_t *scr_SetupDataSync_img_auto;
+	lv_obj_t *scr_SetupDataSync_btn_auto;
+	lv_obj_t *scr_SetupDataSync_btn_auto_label;
+	lv_obj_t *scr_SetupDataSync_cont_status_row;
+	lv_obj_t *scr_SetupDataSync_lbl_status_tiltle;
+	lv_obj_t *scr_SetupDataSync_lbl_status_msg;
+	lv_obj_t *scr_SetupDataSync_img_status;
+	lv_obj_t *scr_SetupDataSync_btn_status;
+	lv_obj_t *scr_SetupDataSync_btn_status_label;
+	lv_obj_t *scr_SetupDataSync_led_status;
+	lv_obj_t *scr_SetupDataSync_lbl_status;
+	lv_obj_t *scr_SetupDataSync_imgbtn_back;
+	lv_obj_t *scr_SetupDataSync_imgbtn_back_label;
 	lv_obj_t *src_status;
 	bool src_status_del;
 	lv_obj_t *src_status_cont_;
@@ -285,14 +385,20 @@ void setup_scr_scr_downtime(lv_ui *ui);
 void setup_scr_scr_prod_entry(lv_ui *ui);
 void setup_scr_scr_SetupHome(lv_ui *ui);
 void setup_scr_scr_setup_network(lv_ui *ui);
+void setup_scr_scr_SetupMQTT(lv_ui *ui);
+void setup_scr_scr_SetupDataSync(lv_ui *ui);
 void setup_scr_src_status(lv_ui *ui);
 LV_IMAGE_DECLARE(_logoSynaptiX_RGB565A8_200x200);
-LV_IMAGE_DECLARE(_logo_input_RGB565A8_40x40);
+LV_IMAGE_DECLARE(_input_RGB565A8_64x64);
+LV_IMAGE_DECLARE(_leftarrow_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_wifi_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_server3_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_sync_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_system_RGB565A8_64x64);
-LV_IMAGE_DECLARE(_leftarrow_RGB565A8_64x64);
+LV_IMAGE_DECLARE(_lasttime_RGB565A8_48x48);
+LV_IMAGE_DECLARE(_configuration_RGB565A8_48x48);
+LV_IMAGE_DECLARE(_clock_RGB565A8_48x48);
+LV_IMAGE_DECLARE(_status_RGB565A8_48x48);
 
 LV_FONT_DECLARE(lv_font_montserratMedium_40)
 LV_FONT_DECLARE(lv_font_montserratMedium_26)
@@ -301,6 +407,7 @@ LV_FONT_DECLARE(lv_font_Acme_Regular_34)
 LV_FONT_DECLARE(lv_font_Acme_Regular_30)
 LV_FONT_DECLARE(lv_font_Acme_Regular_60)
 LV_FONT_DECLARE(lv_font_Acme_Regular_40)
+LV_FONT_DECLARE(lv_font_montserratMedium_12)
 LV_FONT_DECLARE(lv_font_Adventpro_regular_26)
 LV_FONT_DECLARE(lv_font_Acme_Regular_24)
 LV_FONT_DECLARE(lv_font_Acme_Regular_64)
@@ -311,10 +418,10 @@ LV_FONT_DECLARE(lv_font_Abel_regular_24)
 LV_FONT_DECLARE(lv_font_Acme_Regular_50)
 LV_FONT_DECLARE(lv_font_arial_25)
 LV_FONT_DECLARE(lv_font_arial_22)
-LV_FONT_DECLARE(lv_font_montserratMedium_12)
 LV_FONT_DECLARE(lv_font_arial_32)
 LV_FONT_DECLARE(lv_font_montserratMedium_25)
 LV_FONT_DECLARE(lv_font_arial_30)
+LV_FONT_DECLARE(lv_font_arial_28)
 
 
 #ifdef __cplusplus

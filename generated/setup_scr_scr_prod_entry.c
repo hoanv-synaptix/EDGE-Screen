@@ -64,9 +64,9 @@ void setup_scr_scr_prod_entry(lv_ui *ui)
 
     //Write codes scr_prod_entry_lbl_pe_tiltle
     ui->scr_prod_entry_lbl_pe_tiltle = lv_label_create(ui->scr_prod_entry_cont_pe_header);
-    lv_obj_set_pos(ui->scr_prod_entry_lbl_pe_tiltle, 0, 15);
+    lv_obj_set_pos(ui->scr_prod_entry_lbl_pe_tiltle, 466, 15);
     lv_obj_set_size(ui->scr_prod_entry_lbl_pe_tiltle, 348, 30);
-    lv_label_set_text(ui->scr_prod_entry_lbl_pe_tiltle, ". PRODUCTION ENTRY");
+    lv_label_set_text(ui->scr_prod_entry_lbl_pe_tiltle, "PRODUCTION ENTRY");
     lv_label_set_long_mode(ui->scr_prod_entry_lbl_pe_tiltle, LV_LABEL_LONG_WRAP);
 
     //Write style for scr_prod_entry_lbl_pe_tiltle, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
@@ -107,6 +107,44 @@ void setup_scr_scr_prod_entry(lv_ui *ui)
     lv_obj_set_style_pad_bottom(ui->scr_prod_entry_label_pe_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_left(ui->scr_prod_entry_label_pe_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_prod_entry_label_pe_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write codes scr_prod_entry_imgbtn_back
+    ui->scr_prod_entry_imgbtn_back = lv_imagebutton_create(ui->scr_prod_entry_cont_pe_header);
+    lv_obj_set_pos(ui->scr_prod_entry_imgbtn_back, 20, -2);
+    lv_obj_set_size(ui->scr_prod_entry_imgbtn_back, 64, 64);
+    lv_imagebutton_set_src(ui->scr_prod_entry_imgbtn_back, LV_IMAGEBUTTON_STATE_RELEASED, &_leftarrow_RGB565A8_64x64, NULL, NULL);
+    ui->scr_prod_entry_imgbtn_back_label = lv_label_create(ui->scr_prod_entry_imgbtn_back);
+    lv_label_set_text(ui->scr_prod_entry_imgbtn_back_label, "");
+    lv_label_set_long_mode(ui->scr_prod_entry_imgbtn_back_label, LV_LABEL_LONG_WRAP);
+    lv_obj_align(ui->scr_prod_entry_imgbtn_back_label, LV_ALIGN_CENTER, 0, 0);
+    lv_obj_set_style_pad_all(ui->scr_prod_entry_imgbtn_back, 0, LV_STATE_DEFAULT);
+
+    //Write style for scr_prod_entry_imgbtn_back, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_text_color(ui->scr_prod_entry_imgbtn_back, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_prod_entry_imgbtn_back, &lv_font_montserratMedium_12, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->scr_prod_entry_imgbtn_back, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_prod_entry_imgbtn_back, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_prod_entry_imgbtn_back, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write style for scr_prod_entry_imgbtn_back, Part: LV_PART_MAIN, State: LV_STATE_PRESSED.
+    lv_obj_set_style_image_recolor_opa(ui->scr_prod_entry_imgbtn_back, 0, LV_PART_MAIN|LV_STATE_PRESSED);
+    lv_obj_set_style_image_opa(ui->scr_prod_entry_imgbtn_back, 255, LV_PART_MAIN|LV_STATE_PRESSED);
+    lv_obj_set_style_text_color(ui->scr_prod_entry_imgbtn_back, lv_color_hex(0xFF33FF), LV_PART_MAIN|LV_STATE_PRESSED);
+    lv_obj_set_style_text_font(ui->scr_prod_entry_imgbtn_back, &lv_font_montserratMedium_12, LV_PART_MAIN|LV_STATE_PRESSED);
+    lv_obj_set_style_text_opa(ui->scr_prod_entry_imgbtn_back, 255, LV_PART_MAIN|LV_STATE_PRESSED);
+    lv_obj_set_style_shadow_width(ui->scr_prod_entry_imgbtn_back, 0, LV_PART_MAIN|LV_STATE_PRESSED);
+
+    //Write style for scr_prod_entry_imgbtn_back, Part: LV_PART_MAIN, State: LV_STATE_CHECKED.
+    lv_obj_set_style_image_recolor_opa(ui->scr_prod_entry_imgbtn_back, 0, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_image_opa(ui->scr_prod_entry_imgbtn_back, 255, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_text_color(ui->scr_prod_entry_imgbtn_back, lv_color_hex(0xFF33FF), LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_text_font(ui->scr_prod_entry_imgbtn_back, &lv_font_montserratMedium_12, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_text_opa(ui->scr_prod_entry_imgbtn_back, 255, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_shadow_width(ui->scr_prod_entry_imgbtn_back, 0, LV_PART_MAIN|LV_STATE_CHECKED);
+
+    //Write style for scr_prod_entry_imgbtn_back, Part: LV_PART_MAIN, State: LV_IMAGEBUTTON_STATE_RELEASED.
+    lv_obj_set_style_image_recolor_opa(ui->scr_prod_entry_imgbtn_back, 0, LV_PART_MAIN|LV_IMAGEBUTTON_STATE_RELEASED);
+    lv_obj_set_style_image_opa(ui->scr_prod_entry_imgbtn_back, 255, LV_PART_MAIN|LV_IMAGEBUTTON_STATE_RELEASED);
 
     //Write codes scr_prod_entry_cont_pe_kpi_row
     ui->scr_prod_entry_cont_pe_kpi_row = lv_obj_create(ui->scr_prod_entry_cont_pe_bg);
@@ -592,29 +630,6 @@ void setup_scr_scr_prod_entry(lv_ui *ui)
     lv_obj_set_style_pad_right(ui->scr_prod_entry_cont_pe_bottom, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_prod_entry_cont_pe_bottom, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
-    //Write codes scr_prod_entry_btn_pe_back
-    ui->scr_prod_entry_btn_pe_back = lv_button_create(ui->scr_prod_entry_cont_pe_bottom);
-    lv_obj_set_pos(ui->scr_prod_entry_btn_pe_back, 10, 10);
-    lv_obj_set_size(ui->scr_prod_entry_btn_pe_back, 140, 70);
-    ui->scr_prod_entry_btn_pe_back_label = lv_label_create(ui->scr_prod_entry_btn_pe_back);
-    lv_label_set_text(ui->scr_prod_entry_btn_pe_back_label, "BACK");
-    lv_label_set_long_mode(ui->scr_prod_entry_btn_pe_back_label, LV_LABEL_LONG_WRAP);
-    lv_obj_align(ui->scr_prod_entry_btn_pe_back_label, LV_ALIGN_CENTER, 0, 0);
-    lv_obj_set_style_pad_all(ui->scr_prod_entry_btn_pe_back, 0, LV_STATE_DEFAULT);
-    lv_obj_set_width(ui->scr_prod_entry_btn_pe_back_label, LV_PCT(100));
-
-    //Write style for scr_prod_entry_btn_pe_back, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_bg_opa(ui->scr_prod_entry_btn_pe_back, 212, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_color(ui->scr_prod_entry_btn_pe_back, lv_color_hex(0x2A2A2A), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_grad_dir(ui->scr_prod_entry_btn_pe_back, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(ui->scr_prod_entry_btn_pe_back, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_prod_entry_btn_pe_back, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_prod_entry_btn_pe_back, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->scr_prod_entry_btn_pe_back, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_prod_entry_btn_pe_back, &lv_font_Acme_Regular_26, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_opa(ui->scr_prod_entry_btn_pe_back, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_prod_entry_btn_pe_back, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
-
     //Write codes scr_prod_entry_btn_pe_submit
     ui->scr_prod_entry_btn_pe_submit = lv_button_create(ui->scr_prod_entry_cont_pe_bottom);
     lv_obj_set_pos(ui->scr_prod_entry_btn_pe_submit, 1042, 10);
@@ -640,8 +655,8 @@ void setup_scr_scr_prod_entry(lv_ui *ui)
 
     //Write codes scr_prod_entry_ta_pe_note
     ui->scr_prod_entry_ta_pe_note = lv_textarea_create(ui->scr_prod_entry_cont_pe_bottom);
-    lv_obj_set_pos(ui->scr_prod_entry_ta_pe_note, 171, 10);
-    lv_obj_set_size(ui->scr_prod_entry_ta_pe_note, 850, 70);
+    lv_obj_set_pos(ui->scr_prod_entry_ta_pe_note, 25, 10);
+    lv_obj_set_size(ui->scr_prod_entry_ta_pe_note, 990, 70);
     lv_textarea_set_text(ui->scr_prod_entry_ta_pe_note, "Add defect note here...");
     lv_textarea_set_placeholder_text(ui->scr_prod_entry_ta_pe_note, "");
     lv_textarea_set_password_bullet(ui->scr_prod_entry_ta_pe_note, "*");

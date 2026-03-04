@@ -24,6 +24,8 @@ void events_init_scr_downtime(lv_ui *ui);
 void events_init_scr_prod_entry(lv_ui *ui);
 void events_init_scr_SetupHome(lv_ui *ui);
 void events_init_scr_setup_network(lv_ui *ui);
+void events_init_scr_SetupMQTT(lv_ui *ui);
+void events_init_scr_SetupDataSync(lv_ui *ui);
 
 #ifdef __cplusplus
 }

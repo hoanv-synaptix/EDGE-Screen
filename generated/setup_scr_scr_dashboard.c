@@ -522,7 +522,7 @@ void setup_scr_scr_dashboard(lv_ui *ui)
     lv_obj_set_pos(ui->scr_dashboard_btn_input_prod, 0, 516);
     lv_obj_set_size(ui->scr_dashboard_btn_input_prod, 1232, 110);
     ui->scr_dashboard_btn_input_prod_label = lv_label_create(ui->scr_dashboard_btn_input_prod);
-    lv_label_set_text(ui->scr_dashboard_btn_input_prod_label, "INPUT PRODUCTION / DEFECT");
+    lv_label_set_text(ui->scr_dashboard_btn_input_prod_label, "              INPUT PRODUCTION / DEFECT");
     lv_label_set_long_mode(ui->scr_dashboard_btn_input_prod_label, LV_LABEL_LONG_WRAP);
     lv_obj_align(ui->scr_dashboard_btn_input_prod_label, LV_ALIGN_CENTER, 0, 0);
     lv_obj_set_style_pad_all(ui->scr_dashboard_btn_input_prod, 0, LV_STATE_DEFAULT);
@@ -542,10 +542,10 @@ void setup_scr_scr_dashboard(lv_ui *ui)
 
     //Write codes scr_dashboard_img_1
     ui->scr_dashboard_img_1 = lv_image_create(ui->scr_dashboard_cont_dash_bg);
-    lv_obj_set_pos(ui->scr_dashboard_img_1, 318, 551);
-    lv_obj_set_size(ui->scr_dashboard_img_1, 40, 40);
+    lv_obj_set_pos(ui->scr_dashboard_img_1, 340, 539);
+    lv_obj_set_size(ui->scr_dashboard_img_1, 64, 64);
     lv_obj_add_flag(ui->scr_dashboard_img_1, LV_OBJ_FLAG_CLICKABLE);
-    lv_image_set_src(ui->scr_dashboard_img_1, &_logo_input_RGB565A8_40x40);
+    lv_image_set_src(ui->scr_dashboard_img_1, &_input_RGB565A8_64x64);
     lv_image_set_pivot(ui->scr_dashboard_img_1, 50,50);
     lv_image_set_rotation(ui->scr_dashboard_img_1, 0);
 

@@ -87,7 +87,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
 
     //Write codes scr_SetupHome_cont_top_right
     ui->scr_SetupHome_cont_top_right = lv_obj_create(ui->scr_SetupHome_cont_topbar);
-    lv_obj_set_pos(ui->scr_SetupHome_cont_top_right, 1010, 0);
+    lv_obj_set_pos(ui->scr_SetupHome_cont_top_right, 990, 0);
     lv_obj_set_size(ui->scr_SetupHome_cont_top_right, 270, 90);
     lv_obj_set_scrollbar_mode(ui->scr_SetupHome_cont_top_right, LV_SCROLLBAR_MODE_OFF);
 
@@ -669,7 +669,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
 
     //Write codes scr_SetupHome_imgbtn_back
     ui->scr_SetupHome_imgbtn_back = lv_imagebutton_create(ui->scr_SetupHome_cont_root);
-    lv_obj_set_pos(ui->scr_SetupHome_imgbtn_back, 20, 14);
+    lv_obj_set_pos(ui->scr_SetupHome_imgbtn_back, 40, 14);
     lv_obj_set_size(ui->scr_SetupHome_imgbtn_back, 64, 64);
     lv_imagebutton_set_src(ui->scr_SetupHome_imgbtn_back, LV_IMAGEBUTTON_STATE_RELEASED, &_leftarrow_RGB565A8_64x64, NULL, NULL);
     ui->scr_SetupHome_imgbtn_back_label = lv_label_create(ui->scr_SetupHome_imgbtn_back);

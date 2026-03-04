@@ -1,1 +1,1 @@
-GEN_CSRCS += _logoSynaptiX_RGB565A8_200x200.c _logo_input_RGB565A8_40x40.c _wifi_RGB565A8_64x64.c _server3_RGB565A8_64x64.c _sync_RGB565A8_64x64.c _system_RGB565A8_64x64.c _leftarrow_RGB565A8_64x64.c
+GEN_CSRCS += _logoSynaptiX_RGB565A8_200x200.c _input_RGB565A8_64x64.c _leftarrow_RGB565A8_64x64.c _wifi_RGB565A8_64x64.c _server3_RGB565A8_64x64.c _sync_RGB565A8_64x64.c _system_RGB565A8_64x64.c _lasttime_RGB565A8_48x48.c _configuration_RGB565A8_48x48.c _clock_RGB565A8_48x48.c _status_RGB565A8_48x48.c

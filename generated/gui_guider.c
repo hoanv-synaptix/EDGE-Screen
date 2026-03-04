@@ -78,6 +78,8 @@ void init_scr_del_flag(lv_ui *ui)
     ui->scr_prod_entry_del = true;
     ui->scr_SetupHome_del = true;
     ui->scr_setup_network_del = true;
+    ui->scr_SetupMQTT_del = true;
+    ui->scr_SetupDataSync_del = true;
     ui->src_status_del = true;
 }
 

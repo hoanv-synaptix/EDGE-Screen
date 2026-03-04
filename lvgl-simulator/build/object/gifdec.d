@@ -1,62 +1,61 @@
-build/object/gifdec.o: \
- g:\hoanv\projects\edge_monitor\lvgl\src\libs\gif\gifdec.c \
- g:\hoanv\projects\edge_monitor\lvgl\src\libs\gif\gifdec.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_fs.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_kconfig.h \
- G:/HoaNV/Projects/EDGE_MONITOR/lvgl-simulator/lv_conf.h \
- g:\hoanv\projects\edge_monitor\custom\lv_conf_ext.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_log.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_mem.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_string.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_color.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_assert.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_log.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_mem.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_math.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_palette.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_color.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_color_op.h
+build/object/gifdec.o: d:\synaptix\edge-screen\lvgl\src\libs\gif\gifdec.c \
+ d:\synaptix\edge-screen\lvgl\src\libs\gif\gifdec.h \
+ d:\synaptix\edge-screen\lvgl\src\misc\lv_fs.h \
+ d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\edge-screen\lvgl\src\lv_conf_kconfig.h \
+ D:/Synaptix/EDGE-Screen/lvgl-simulator/lv_conf.h \
+ d:\synaptix\edge-screen\custom\lv_conf_ext.h \
+ d:\synaptix\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\edge-screen\lvgl\src\misc\lv_log.h \
+ d:\synaptix\edge-screen\lvgl\src\stdlib\lv_mem.h \
+ d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\edge-screen\lvgl\src\stdlib\lv_string.h \
+ d:\synaptix\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\edge-screen\lvgl\src\misc\lv_color.h \
+ d:\synaptix\edge-screen\lvgl\src\misc\lv_assert.h \
+ d:\synaptix\edge-screen\lvgl\src\misc\lv_log.h \
+ d:\synaptix\edge-screen\lvgl\src\stdlib\lv_mem.h \
+ d:\synaptix\edge-screen\lvgl\src\misc\lv_math.h \
+ d:\synaptix\edge-screen\lvgl\src\misc\lv_palette.h \
+ d:\synaptix\edge-screen\lvgl\src\misc\lv_color.h \
+ d:\synaptix\edge-screen\lvgl\src\misc\lv_color_op.h
 
-g:\hoanv\projects\edge_monitor\lvgl\src\libs\gif\gifdec.h:
+d:\synaptix\edge-screen\lvgl\src\libs\gif\gifdec.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_fs.h:
+d:\synaptix\edge-screen\lvgl\src\misc\lv_fs.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h:
+d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_kconfig.h:
+d:\synaptix\edge-screen\lvgl\src\lv_conf_kconfig.h:
 
-G:/HoaNV/Projects/EDGE_MONITOR/lvgl-simulator/lv_conf.h:
+D:/Synaptix/EDGE-Screen/lvgl-simulator/lv_conf.h:
 
-g:\hoanv\projects\edge_monitor\custom\lv_conf_ext.h:
+d:\synaptix\edge-screen\custom\lv_conf_ext.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h:
+d:\synaptix\edge-screen\lvgl\src\misc\lv_types.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_log.h:
+d:\synaptix\edge-screen\lvgl\src\misc\lv_log.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_mem.h:
+d:\synaptix\edge-screen\lvgl\src\stdlib\lv_mem.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h:
+d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_string.h:
+d:\synaptix\edge-screen\lvgl\src\stdlib\lv_string.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h:
+d:\synaptix\edge-screen\lvgl\src\misc\lv_types.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_color.h:
+d:\synaptix\edge-screen\lvgl\src\misc\lv_color.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_assert.h:
+d:\synaptix\edge-screen\lvgl\src\misc\lv_assert.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_log.h:
+d:\synaptix\edge-screen\lvgl\src\misc\lv_log.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\stdlib\lv_mem.h:
+d:\synaptix\edge-screen\lvgl\src\stdlib\lv_mem.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_math.h:
+d:\synaptix\edge-screen\lvgl\src\misc\lv_math.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_palette.h:
+d:\synaptix\edge-screen\lvgl\src\misc\lv_palette.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_color.h:
+d:\synaptix\edge-screen\lvgl\src\misc\lv_color.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_color_op.h:
+d:\synaptix\edge-screen\lvgl\src\misc\lv_color_op.h:

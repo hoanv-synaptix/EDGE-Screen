@@ -1,26 +1,26 @@
 build/object/lv_rtthread.o: \
- g:\hoanv\projects\edge_monitor\lvgl\src\osal\lv_rtthread.c \
- g:\hoanv\projects\edge_monitor\lvgl\src\osal\lv_os.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_kconfig.h \
- G:/HoaNV/Projects/EDGE_MONITOR/lvgl-simulator/lv_conf.h \
- g:\hoanv\projects\edge_monitor\custom\lv_conf_ext.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge_monitor\lvgl\src\osal\lv_os_none.h
+ d:\synaptix\edge-screen\lvgl\src\osal\lv_rtthread.c \
+ d:\synaptix\edge-screen\lvgl\src\osal\lv_os.h \
+ d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\edge-screen\lvgl\src\lv_conf_kconfig.h \
+ D:/Synaptix/EDGE-Screen/lvgl-simulator/lv_conf.h \
+ d:\synaptix\edge-screen\custom\lv_conf_ext.h \
+ d:\synaptix\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\edge-screen\lvgl\src\osal\lv_os_none.h
 
-g:\hoanv\projects\edge_monitor\lvgl\src\osal\lv_os.h:
+d:\synaptix\edge-screen\lvgl\src\osal\lv_os.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h:
+d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_kconfig.h:
+d:\synaptix\edge-screen\lvgl\src\lv_conf_kconfig.h:
 
-G:/HoaNV/Projects/EDGE_MONITOR/lvgl-simulator/lv_conf.h:
+D:/Synaptix/EDGE-Screen/lvgl-simulator/lv_conf.h:
 
-g:\hoanv\projects\edge_monitor\custom\lv_conf_ext.h:
+d:\synaptix\edge-screen\custom\lv_conf_ext.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\misc\lv_types.h:
+d:\synaptix\edge-screen\lvgl\src\misc\lv_types.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\lv_conf_internal.h:
+d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge_monitor\lvgl\src\osal\lv_os_none.h:
+d:\synaptix\edge-screen\lvgl\src\osal\lv_os_none.h:
