@@ -196,6 +196,20 @@ void events_init_scr_prod_entry (lv_ui *ui)
     lv_obj_add_event_cb(ui->scr_prod_entry_btn_pe_submit, scr_prod_entry_btn_pe_submit_event_handler, LV_EVENT_ALL, ui);
 }
 
+static void scr_SetupHome_card_network_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_setup_network, guider_ui.scr_setup_network_del, &guider_ui.scr_SetupHome_del, setup_scr_scr_setup_network, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
 static void scr_SetupHome_btn_net_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
@@ -210,6 +224,20 @@ static void scr_SetupHome_btn_net_event_handler (lv_event_t *e)
     }
 }
 
+static void scr_SetupHome_card_server_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupMQTT, guider_ui.scr_SetupMQTT_del, &guider_ui.scr_SetupHome_del, setup_scr_scr_SetupMQTT, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
 static void scr_SetupHome_btn_server_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
@@ -217,6 +245,20 @@ static void scr_SetupHome_btn_server_event_handler (lv_event_t *e)
     case LV_EVENT_CLICKED:
     {
         ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupMQTT, guider_ui.scr_SetupMQTT_del, &guider_ui.scr_SetupHome_del, setup_scr_scr_SetupMQTT, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+static void scr_SetupHome_card_sync_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupDataSync, guider_ui.scr_SetupDataSync_del, &guider_ui.scr_SetupHome_del, setup_scr_scr_SetupDataSync, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
         break;
     }
     default:
@@ -254,8 +296,11 @@ static void scr_SetupHome_imgbtn_back_event_handler (lv_event_t *e)
 
 void events_init_scr_SetupHome (lv_ui *ui)
 {
+    lv_obj_add_event_cb(ui->scr_SetupHome_card_network, scr_SetupHome_card_network_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_SetupHome_btn_net, scr_SetupHome_btn_net_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_SetupHome_card_server, scr_SetupHome_card_server_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_SetupHome_btn_server, scr_SetupHome_btn_server_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_SetupHome_card_sync, scr_SetupHome_card_sync_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_SetupHome_btn_sync, scr_SetupHome_btn_sync_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_SetupHome_imgbtn_back, scr_SetupHome_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
 }

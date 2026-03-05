@@ -497,8 +497,8 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
     lv_obj_set_style_bg_color(ui->scr_SetupMQTT_sw_tls, lv_color_hex(0x626262), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_grad_dir(ui->scr_SetupMQTT_sw_tls, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_width(ui->scr_SetupMQTT_sw_tls, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_SetupMQTT_sw_tls, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupMQTT_sw_tls, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_SetupMQTT_sw_tls, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write style for scr_SetupMQTT_sw_tls, Part: LV_PART_INDICATOR, State: LV_STATE_CHECKED.
     lv_obj_set_style_bg_opa(ui->scr_SetupMQTT_sw_tls, 255, LV_PART_INDICATOR|LV_STATE_CHECKED);
