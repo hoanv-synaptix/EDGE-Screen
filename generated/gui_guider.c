@@ -80,7 +80,8 @@ void init_scr_del_flag(lv_ui *ui)
     ui->scr_setup_network_del = true;
     ui->scr_SetupMQTT_del = true;
     ui->scr_SetupDataSync_del = true;
-    ui->src_status_del = true;
+    ui->scr_setupModbusMaster_del = true;
+    ui->scr_SystemSetting_del = true;
 }
 
 void setup_bottom_layer(void)
@@ -104,5 +105,8 @@ void video_play(lv_ui *ui)
 
 void init_keyboard(lv_ui *ui)
 {
-
+    ui->g_kb_top_layer = lv_keyboard_create(lv_layer_top());
+    lv_obj_add_event_cb(ui->g_kb_top_layer, kb_event_cb, LV_EVENT_ALL, NULL);
+    lv_obj_add_flag(ui->g_kb_top_layer, LV_OBJ_FLAG_HIDDEN);
+    lv_obj_set_style_text_font(ui->g_kb_top_layer, &lv_font_arial_18, LV_PART_MAIN|LV_STATE_DEFAULT);
 }

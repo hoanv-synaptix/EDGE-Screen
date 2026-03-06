@@ -665,7 +665,7 @@
 
 #define LV_USE_BUTTON 1
 
-#define LV_USE_BUTTONMATRIX 0
+#define LV_USE_BUTTONMATRIX 1
 
 #define LV_USE_CALENDAR 0
 #if LV_USE_CALENDAR
@@ -694,7 +694,7 @@
 
 #define LV_USE_IMAGEBUTTON 1
 
-#define LV_USE_KEYBOARD 0
+#define LV_USE_KEYBOARD 1
 
 #define LV_USE_LABEL 1
 #if LV_USE_LABEL
@@ -722,7 +722,7 @@
 
 #define LV_USE_SCALE 0
 
-#define LV_USE_SLIDER 0
+#define LV_USE_SLIDER 1
 
 #define LV_USE_SPAN 0
 #if LV_USE_SPAN
@@ -736,7 +736,7 @@
 
 #define LV_USE_SWITCH 1
 
-#define LV_USE_TABLE 0
+#define LV_USE_TABLE 1
 
 #define LV_USE_TABVIEW 0
 

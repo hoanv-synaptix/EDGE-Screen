@@ -141,11 +141,11 @@ typedef struct
 	bool scr_SetupHome_del;
 	lv_obj_t *scr_SetupHome_cont_root;
 	lv_obj_t *scr_SetupHome_cont_topbar;
-	lv_obj_t *scr_SetupHome_lbl_tiltle;
-	lv_obj_t *scr_SetupHome_cont_top_right;
-	lv_obj_t *scr_SetupHome_lbl_device;
-	lv_obj_t *scr_SetupHome_btn_online;
-	lv_obj_t *scr_SetupHome_btn_online_label;
+	lv_obj_t *scr_SetupHome_cont_2;
+	lv_obj_t *scr_SetupHome_label_1;
+	lv_obj_t *scr_SetupHome_btn_1;
+	lv_obj_t *scr_SetupHome_btn_1_label;
+	lv_obj_t *scr_SetupHome_label_2;
 	lv_obj_t *scr_SetupHome_cont_list;
 	lv_obj_t *scr_SetupHome_card_network;
 	lv_obj_t *scr_SetupHome_lbl_net_sub;
@@ -175,6 +175,13 @@ typedef struct
 	lv_obj_t *scr_SetupHome_lbl_sys_info;
 	lv_obj_t *scr_SetupHome_btn_sys;
 	lv_obj_t *scr_SetupHome_btn_sys_label;
+	lv_obj_t *scr_SetupHome_cont_3;
+	lv_obj_t *scr_SetupHome_label_5;
+	lv_obj_t *scr_SetupHome_img_1;
+	lv_obj_t *scr_SetupHome_lbl_Modbus;
+	lv_obj_t *scr_SetupHome_label_3;
+	lv_obj_t *scr_SetupHome_btn_2;
+	lv_obj_t *scr_SetupHome_btn_2_label;
 	lv_obj_t *scr_SetupHome_imgbtn_back;
 	lv_obj_t *scr_SetupHome_imgbtn_back_label;
 	lv_obj_t *scr_setup_network;
@@ -194,9 +201,9 @@ typedef struct
 	lv_obj_t *scr_setup_network_line_1;
 	lv_obj_t *scr_setup_network_cont_wifi_row;
 	lv_obj_t *scr_setup_network_lbl_wifi;
-	lv_obj_t *scr_setup_network_dd_ssid;
 	lv_obj_t *scr_setup_network_btn_scan;
 	lv_obj_t *scr_setup_network_btn_scan_label;
+	lv_obj_t *scr_setup_network_ta_wifi;
 	lv_obj_t *scr_setup_network_line_2;
 	lv_obj_t *scr_setup_network_cont_pass_row;
 	lv_obj_t *scr_setup_network_lbl_pass;
@@ -315,43 +322,82 @@ typedef struct
 	lv_obj_t *scr_SetupDataSync_lbl_status;
 	lv_obj_t *scr_SetupDataSync_imgbtn_back;
 	lv_obj_t *scr_SetupDataSync_imgbtn_back_label;
-	lv_obj_t *src_status;
-	bool src_status_del;
-	lv_obj_t *src_status_cont_;
-	lv_obj_t *src_status_cont_net_;
-	lv_obj_t *src_status_lbl_online;
-	lv_obj_t *src_status_lbl_;
-	lv_obj_t *src_status_lbl_edge_;
-	lv_obj_t *src_status_lbl_app_;
-	lv_obj_t *src_status_btn_;
-	lv_obj_t *src_status_btn__label;
-	lv_obj_t *src_status_btn_lang;
-	lv_obj_t *src_status_btn_lang_label;
-	lv_obj_t *src_status_cont_body;
-	lv_obj_t *src_status_cont_card_net;
-	lv_obj_t *src_status_lbl_net_tiltle;
-	lv_obj_t *src_status_lbl_ssid;
-	lv_obj_t *src_status_lbl_ip;
-	lv_obj_t *src_status_lbl_lan;
-	lv_obj_t *src_status_lbl_wifi;
-	lv_obj_t *src_status_cont_card_mqtt;
-	lv_obj_t *src_status_lbl_pub_topic;
-	lv_obj_t *src_status_lbl_mqtt_tiltle;
-	lv_obj_t *src_status_lbl_broker;
-	lv_obj_t *src_status_lbl_sub_topic;
-	lv_obj_t *src_status_lbl_mqtt_status;
-	lv_obj_t *src_status_cont_card_sysc;
-	lv_obj_t *src_status_lbl_sync_tiltle;
-	lv_obj_t *src_status_lbl_spending;
-	lv_obj_t *src_status_lbl_note;
-	lv_obj_t *src_status_lbl_oldest;
-	lv_obj_t *src_status_lbl_last_sync;
-	lv_obj_t *src_status_lbl_retry_policy;
-	lv_obj_t *src_status_cont_bottom;
-	lv_obj_t *src_status_btn_settings;
-	lv_obj_t *src_status_btn_settings_label;
-	lv_obj_t *src_status_btn_continue;
-	lv_obj_t *src_status_btn_continue_label;
+	lv_obj_t *scr_setupModbusMaster;
+	bool scr_setupModbusMaster_del;
+	lv_obj_t *scr_setupModbusMaster_cont_root;
+	lv_obj_t *scr_setupModbusMaster_cont_modbus_main;
+	lv_obj_t *scr_setupModbusMaster_cont_rs485;
+	lv_obj_t *scr_setupModbusMaster_dropdown_poll_Interval;
+	lv_obj_t *scr_setupModbusMaster_lbl_rs485_tiltle;
+	lv_obj_t *scr_setupModbusMaster_lbl_mode;
+	lv_obj_t *scr_setupModbusMaster_dropdown_baudrate;
+	lv_obj_t *scr_setupModbusMaster_lbl_Baudrate;
+	lv_obj_t *scr_setupModbusMaster_dropdown_parity;
+	lv_obj_t *scr_setupModbusMaster_lbl_parity;
+	lv_obj_t *scr_setupModbusMaster_dropdown_bitstop;
+	lv_obj_t *scr_setupModbusMaster_lbl_stopbit;
+	lv_obj_t *scr_setupModbusMaster_dropdown_timeout;
+	lv_obj_t *scr_setupModbusMaster_lbl_timeout;
+	lv_obj_t *scr_setupModbusMaster_lbl_poll_Interval;
+	lv_obj_t *scr_setupModbusMaster_dropdown_mode;
+	lv_obj_t *scr_setupModbusMaster_cont_device_list;
+	lv_obj_t *scr_setupModbusMaster_lbl_device_list;
+	lv_obj_t *scr_setupModbusMaster_tab_device;
+	lv_obj_t *scr_setupModbusMaster_btn_add_device;
+	lv_obj_t *scr_setupModbusMaster_btn_add_device_label;
+	lv_obj_t *scr_setupModbusMaster_cont_topbar;
+	lv_obj_t *scr_setupModbusMaster_lbl_modbus;
+	lv_obj_t *scr_setupModbusMaster_cont_topbar_right;
+	lv_obj_t *scr_setupModbusMaster_lbl_device;
+	lv_obj_t *scr_setupModbusMaster_btn_online;
+	lv_obj_t *scr_setupModbusMaster_btn_online_label;
+	lv_obj_t *scr_setupModbusMaster_imgbtn_1;
+	lv_obj_t *scr_setupModbusMaster_imgbtn_1_label;
+	lv_obj_t *scr_setupModbusMaster_btn_test_connection;
+	lv_obj_t *scr_setupModbusMaster_btn_test_connection_label;
+	lv_obj_t *scr_setupModbusMaster_btn_save;
+	lv_obj_t *scr_setupModbusMaster_btn_save_label;
+	lv_obj_t *scr_SystemSetting;
+	bool scr_SystemSetting_del;
+	lv_obj_t *scr_SystemSetting_cont_root;
+	lv_obj_t *scr_SystemSetting_cont_topbar;
+	lv_obj_t *scr_SystemSetting_lbl_tiltle;
+	lv_obj_t *scr_SystemSetting_cont_top_right;
+	lv_obj_t *scr_SystemSetting_label_device;
+	lv_obj_t *scr_SystemSetting_btn_online;
+	lv_obj_t *scr_SystemSetting_btn_online_label;
+	lv_obj_t *scr_SystemSetting_cont_1;
+	lv_obj_t *scr_SystemSetting_cont_2;
+	lv_obj_t *scr_SystemSetting_cont_8;
+	lv_obj_t *scr_SystemSetting_label_6;
+	lv_obj_t *scr_SystemSetting_img_1;
+	lv_obj_t *scr_SystemSetting_cont_7;
+	lv_obj_t *scr_SystemSetting_label_5;
+	lv_obj_t *scr_SystemSetting_slider_1;
+	lv_obj_t *scr_SystemSetting_label_4;
+	lv_obj_t *scr_SystemSetting_ddlist_1;
+	lv_obj_t *scr_SystemSetting_line_4;
+	lv_obj_t *scr_SystemSetting_line_2;
+	lv_obj_t *scr_SystemSetting_line_1;
+	lv_obj_t *scr_SystemSetting_cont_3;
+	lv_obj_t *scr_SystemSetting_btn_2;
+	lv_obj_t *scr_SystemSetting_btn_2_label;
+	lv_obj_t *scr_SystemSetting_btn_1;
+	lv_obj_t *scr_SystemSetting_btn_1_label;
+	lv_obj_t *scr_SystemSetting_cont_9;
+	lv_obj_t *scr_SystemSetting_label_9;
+	lv_obj_t *scr_SystemSetting_img_2;
+	lv_obj_t *scr_SystemSetting_cont_10;
+	lv_obj_t *scr_SystemSetting_label_8;
+	lv_obj_t *scr_SystemSetting_label_7;
+	lv_obj_t *scr_SystemSetting_label_10;
+	lv_obj_t *scr_SystemSetting_label_11;
+	lv_obj_t *scr_SystemSetting_label_12;
+	lv_obj_t *scr_SystemSetting_label_13;
+	lv_obj_t *scr_SystemSetting_line_5;
+	lv_obj_t *scr_SystemSetting_imgbtn_back;
+	lv_obj_t *scr_SystemSetting_imgbtn_back_label;
+	lv_obj_t *g_kb_top_layer;
 }lv_ui;
 
 typedef void (*ui_setup_scr_t)(lv_ui * ui);
@@ -387,7 +433,8 @@ void setup_scr_scr_SetupHome(lv_ui *ui);
 void setup_scr_scr_setup_network(lv_ui *ui);
 void setup_scr_scr_SetupMQTT(lv_ui *ui);
 void setup_scr_scr_SetupDataSync(lv_ui *ui);
-void setup_scr_src_status(lv_ui *ui);
+void setup_scr_scr_setupModbusMaster(lv_ui *ui);
+void setup_scr_scr_SystemSetting(lv_ui *ui);
 LV_IMAGE_DECLARE(_logoSynaptiX_RGB565A8_200x200);
 LV_IMAGE_DECLARE(_input_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_leftarrow_RGB565A8_64x64);
@@ -395,10 +442,12 @@ LV_IMAGE_DECLARE(_wifi_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_server3_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_sync_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_system_RGB565A8_64x64);
+LV_IMAGE_DECLARE(_modbus_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_lasttime_RGB565A8_48x48);
 LV_IMAGE_DECLARE(_configuration_RGB565A8_48x48);
 LV_IMAGE_DECLARE(_clock_RGB565A8_48x48);
 LV_IMAGE_DECLARE(_status_RGB565A8_48x48);
+LV_IMAGE_DECLARE(_brightness_RGB565A8_64x64);
 
 LV_FONT_DECLARE(lv_font_montserratMedium_40)
 LV_FONT_DECLARE(lv_font_montserratMedium_26)
@@ -415,13 +464,15 @@ LV_FONT_DECLARE(lv_font_montserratMedium_30)
 LV_FONT_DECLARE(lv_font_Acme_Regular_25)
 LV_FONT_DECLARE(lv_font_Acme_Regular_26)
 LV_FONT_DECLARE(lv_font_Abel_regular_24)
-LV_FONT_DECLARE(lv_font_Acme_Regular_50)
 LV_FONT_DECLARE(lv_font_arial_25)
+LV_FONT_DECLARE(lv_font_Acme_Regular_50)
 LV_FONT_DECLARE(lv_font_arial_22)
 LV_FONT_DECLARE(lv_font_arial_32)
 LV_FONT_DECLARE(lv_font_montserratMedium_25)
 LV_FONT_DECLARE(lv_font_arial_30)
 LV_FONT_DECLARE(lv_font_arial_28)
+LV_FONT_DECLARE(lv_font_arial_40)
+LV_FONT_DECLARE(lv_font_arial_18)
 
 
 #ifdef __cplusplus

@@ -15,6 +15,7 @@
 #include "freemaster_client.h"
 #endif
 
+lv_obj_t *g_kb = NULL;
 
 static void boot_event_handler (lv_event_t *e)
 {
@@ -280,6 +281,34 @@ static void scr_SetupHome_btn_sync_event_handler (lv_event_t *e)
     }
 }
 
+static void scr_SetupHome_card_system_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SystemSetting, guider_ui.scr_SystemSetting_del, &guider_ui.scr_SetupHome_del, setup_scr_scr_SystemSetting, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+static void scr_SetupHome_cont_3_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_setupModbusMaster, guider_ui.scr_setupModbusMaster_del, &guider_ui.scr_SetupHome_del, setup_scr_scr_setupModbusMaster, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
 static void scr_SetupHome_imgbtn_back_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
@@ -302,7 +331,34 @@ void events_init_scr_SetupHome (lv_ui *ui)
     lv_obj_add_event_cb(ui->scr_SetupHome_btn_server, scr_SetupHome_btn_server_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_SetupHome_card_sync, scr_SetupHome_card_sync_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_SetupHome_btn_sync, scr_SetupHome_btn_sync_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_SetupHome_card_system, scr_SetupHome_card_system_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_SetupHome_cont_3, scr_SetupHome_cont_3_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_SetupHome_imgbtn_back, scr_SetupHome_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
+}
+
+static void scr_setup_network_ta_wifi_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_FOCUSED:
+    {
+        void kb_create(lv_ui *ui)
+        {
+            g_kb = lv_keyboard_create(lv_scr_act());
+            lv_obj_set_size(g_kb, 800, 300);
+            lv_obj_align(g_kb, LV_ALIGN_BOTTOM_MID, 0, 0);
+            lv_obj_add_flag(g_kb, LV_OBJ_FLAG_HIDDEN);   // ẩn lúc đầu
+        }
+
+        break;
+    }
+    case LV_EVENT_CLICKED:
+    {
+        break;
+    }
+    default:
+        break;
+    }
 }
 
 static void scr_setup_network_btn_save_event_handler (lv_event_t *e)
@@ -335,6 +391,7 @@ static void scr_setup_network_imgbtn_back_event_handler (lv_event_t *e)
 
 void events_init_scr_setup_network (lv_ui *ui)
 {
+    lv_obj_add_event_cb(ui->scr_setup_network_ta_wifi, scr_setup_network_ta_wifi_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_setup_network_btn_save, scr_setup_network_btn_save_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_setup_network_imgbtn_back, scr_setup_network_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
 }
@@ -405,6 +462,44 @@ void events_init_scr_SetupDataSync (lv_ui *ui)
 {
     lv_obj_add_event_cb(ui->scr_SetupDataSync_btn_save, scr_SetupDataSync_btn_save_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_SetupDataSync_imgbtn_back, scr_SetupDataSync_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
+}
+
+static void scr_setupModbusMaster_imgbtn_1_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupHome, guider_ui.scr_SetupHome_del, &guider_ui.scr_setupModbusMaster_del, setup_scr_scr_SetupHome, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+void events_init_scr_setupModbusMaster (lv_ui *ui)
+{
+    lv_obj_add_event_cb(ui->scr_setupModbusMaster_imgbtn_1, scr_setupModbusMaster_imgbtn_1_event_handler, LV_EVENT_ALL, ui);
+}
+
+static void scr_SystemSetting_imgbtn_back_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupHome, guider_ui.scr_SetupHome_del, &guider_ui.scr_SystemSetting_del, setup_scr_scr_SetupHome, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+void events_init_scr_SystemSetting (lv_ui *ui)
+{
+    lv_obj_add_event_cb(ui->scr_SystemSetting_imgbtn_back, scr_SystemSetting_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
 }
 
 

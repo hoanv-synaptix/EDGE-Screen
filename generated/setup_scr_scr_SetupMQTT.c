@@ -343,7 +343,7 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
     lv_textarea_set_placeholder_text(ui->scr_SetupMQTT_ta_broker, "");
     lv_textarea_set_password_bullet(ui->scr_SetupMQTT_ta_broker, "*");
     lv_textarea_set_password_mode(ui->scr_SetupMQTT_ta_broker, false);
-    lv_textarea_set_one_line(ui->scr_SetupMQTT_ta_broker, false);
+    lv_textarea_set_one_line(ui->scr_SetupMQTT_ta_broker, true);
     lv_textarea_set_accepted_chars(ui->scr_SetupMQTT_ta_broker, "");
     lv_textarea_set_max_length(ui->scr_SetupMQTT_ta_broker, 32);
 #if LV_USE_KEYBOARD
@@ -419,7 +419,7 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
     lv_textarea_set_placeholder_text(ui->scr_SetupMQTT_ta_port, "");
     lv_textarea_set_password_bullet(ui->scr_SetupMQTT_ta_port, "*");
     lv_textarea_set_password_mode(ui->scr_SetupMQTT_ta_port, false);
-    lv_textarea_set_one_line(ui->scr_SetupMQTT_ta_port, false);
+    lv_textarea_set_one_line(ui->scr_SetupMQTT_ta_port, true);
     lv_textarea_set_accepted_chars(ui->scr_SetupMQTT_ta_port, "");
     lv_textarea_set_max_length(ui->scr_SetupMQTT_ta_port, 32);
 #if LV_USE_KEYBOARD
@@ -691,7 +691,7 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
     lv_textarea_set_placeholder_text(ui->scr_SetupMQTT_ta_user, "");
     lv_textarea_set_password_bullet(ui->scr_SetupMQTT_ta_user, "*");
     lv_textarea_set_password_mode(ui->scr_SetupMQTT_ta_user, false);
-    lv_textarea_set_one_line(ui->scr_SetupMQTT_ta_user, false);
+    lv_textarea_set_one_line(ui->scr_SetupMQTT_ta_user, true);
     lv_textarea_set_accepted_chars(ui->scr_SetupMQTT_ta_user, "");
     lv_textarea_set_max_length(ui->scr_SetupMQTT_ta_user, 32);
 #if LV_USE_KEYBOARD
@@ -766,8 +766,8 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
     lv_textarea_set_text(ui->scr_SetupMQTT_ta_password, "******");
     lv_textarea_set_placeholder_text(ui->scr_SetupMQTT_ta_password, "");
     lv_textarea_set_password_bullet(ui->scr_SetupMQTT_ta_password, "*");
-    lv_textarea_set_password_mode(ui->scr_SetupMQTT_ta_password, false);
-    lv_textarea_set_one_line(ui->scr_SetupMQTT_ta_password, false);
+    lv_textarea_set_password_mode(ui->scr_SetupMQTT_ta_password, true);
+    lv_textarea_set_one_line(ui->scr_SetupMQTT_ta_password, true);
     lv_textarea_set_accepted_chars(ui->scr_SetupMQTT_ta_password, "");
     lv_textarea_set_max_length(ui->scr_SetupMQTT_ta_password, 32);
 #if LV_USE_KEYBOARD

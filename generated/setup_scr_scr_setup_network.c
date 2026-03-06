@@ -287,68 +287,6 @@ void setup_scr_scr_setup_network(lv_ui *ui)
     lv_obj_set_style_pad_left(ui->scr_setup_network_lbl_wifi, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_setup_network_lbl_wifi, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
-    //Write codes scr_setup_network_dd_ssid
-    ui->scr_setup_network_dd_ssid = lv_dropdown_create(ui->scr_setup_network_cont_wifi_row);
-    lv_obj_set_pos(ui->scr_setup_network_dd_ssid, 173, 27);
-    lv_obj_set_size(ui->scr_setup_network_dd_ssid, 680, 60);
-    lv_dropdown_set_options(ui->scr_setup_network_dd_ssid, "HVC_wifi6\nlist2\nlist3");
-
-    //Write style for scr_setup_network_dd_ssid, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_text_color(ui->scr_setup_network_dd_ssid, lv_color_hex(0x0D3055), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_setup_network_dd_ssid, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_opa(ui->scr_setup_network_dd_ssid, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(ui->scr_setup_network_dd_ssid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_setup_network_dd_ssid, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_setup_network_dd_ssid, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_setup_network_dd_ssid, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_setup_network_dd_ssid, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_opa(ui->scr_setup_network_dd_ssid, 166, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_color(ui->scr_setup_network_dd_ssid, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_grad_dir(ui->scr_setup_network_dd_ssid, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_setup_network_dd_ssid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-
-    //Write style state: LV_STATE_CHECKED for &style_scr_setup_network_dd_ssid_extra_list_selected_checked
-    static lv_style_t style_scr_setup_network_dd_ssid_extra_list_selected_checked;
-    ui_init_style(&style_scr_setup_network_dd_ssid_extra_list_selected_checked);
-
-    lv_style_set_border_width(&style_scr_setup_network_dd_ssid_extra_list_selected_checked, 1);
-    lv_style_set_border_opa(&style_scr_setup_network_dd_ssid_extra_list_selected_checked, 255);
-    lv_style_set_border_color(&style_scr_setup_network_dd_ssid_extra_list_selected_checked, lv_color_hex(0xe1e6ee));
-    lv_style_set_border_side(&style_scr_setup_network_dd_ssid_extra_list_selected_checked, LV_BORDER_SIDE_FULL);
-    lv_style_set_radius(&style_scr_setup_network_dd_ssid_extra_list_selected_checked, 3);
-    lv_style_set_bg_opa(&style_scr_setup_network_dd_ssid_extra_list_selected_checked, 255);
-    lv_style_set_bg_color(&style_scr_setup_network_dd_ssid_extra_list_selected_checked, lv_color_hex(0x00a1b5));
-    lv_style_set_bg_grad_dir(&style_scr_setup_network_dd_ssid_extra_list_selected_checked, LV_GRAD_DIR_NONE);
-    lv_obj_add_style(lv_dropdown_get_list(ui->scr_setup_network_dd_ssid), &style_scr_setup_network_dd_ssid_extra_list_selected_checked, LV_PART_SELECTED|LV_STATE_CHECKED);
-
-    //Write style state: LV_STATE_DEFAULT for &style_scr_setup_network_dd_ssid_extra_list_main_default
-    static lv_style_t style_scr_setup_network_dd_ssid_extra_list_main_default;
-    ui_init_style(&style_scr_setup_network_dd_ssid_extra_list_main_default);
-
-    lv_style_set_max_height(&style_scr_setup_network_dd_ssid_extra_list_main_default, 90);
-    lv_style_set_text_color(&style_scr_setup_network_dd_ssid_extra_list_main_default, lv_color_hex(0x0D3055));
-    lv_style_set_text_font(&style_scr_setup_network_dd_ssid_extra_list_main_default, &lv_font_montserratMedium_12);
-    lv_style_set_text_opa(&style_scr_setup_network_dd_ssid_extra_list_main_default, 255);
-    lv_style_set_border_width(&style_scr_setup_network_dd_ssid_extra_list_main_default, 1);
-    lv_style_set_border_opa(&style_scr_setup_network_dd_ssid_extra_list_main_default, 255);
-    lv_style_set_border_color(&style_scr_setup_network_dd_ssid_extra_list_main_default, lv_color_hex(0xe1e6ee));
-    lv_style_set_border_side(&style_scr_setup_network_dd_ssid_extra_list_main_default, LV_BORDER_SIDE_FULL);
-    lv_style_set_radius(&style_scr_setup_network_dd_ssid_extra_list_main_default, 3);
-    lv_style_set_bg_opa(&style_scr_setup_network_dd_ssid_extra_list_main_default, 255);
-    lv_style_set_bg_color(&style_scr_setup_network_dd_ssid_extra_list_main_default, lv_color_hex(0xffffff));
-    lv_style_set_bg_grad_dir(&style_scr_setup_network_dd_ssid_extra_list_main_default, LV_GRAD_DIR_NONE);
-    lv_obj_add_style(lv_dropdown_get_list(ui->scr_setup_network_dd_ssid), &style_scr_setup_network_dd_ssid_extra_list_main_default, LV_PART_MAIN|LV_STATE_DEFAULT);
-
-    //Write style state: LV_STATE_DEFAULT for &style_scr_setup_network_dd_ssid_extra_list_scrollbar_default
-    static lv_style_t style_scr_setup_network_dd_ssid_extra_list_scrollbar_default;
-    ui_init_style(&style_scr_setup_network_dd_ssid_extra_list_scrollbar_default);
-
-    lv_style_set_radius(&style_scr_setup_network_dd_ssid_extra_list_scrollbar_default, 3);
-    lv_style_set_bg_opa(&style_scr_setup_network_dd_ssid_extra_list_scrollbar_default, 255);
-    lv_style_set_bg_color(&style_scr_setup_network_dd_ssid_extra_list_scrollbar_default, lv_color_hex(0x00ff00));
-    lv_style_set_bg_grad_dir(&style_scr_setup_network_dd_ssid_extra_list_scrollbar_default, LV_GRAD_DIR_NONE);
-    lv_obj_add_style(lv_dropdown_get_list(ui->scr_setup_network_dd_ssid), &style_scr_setup_network_dd_ssid_extra_list_scrollbar_default, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
-
     //Write codes scr_setup_network_btn_scan
     ui->scr_setup_network_btn_scan = lv_button_create(ui->scr_setup_network_cont_wifi_row);
     lv_obj_set_pos(ui->scr_setup_network_btn_scan, 883, 27);
@@ -371,6 +309,43 @@ void setup_scr_scr_setup_network(lv_ui *ui)
     lv_obj_set_style_text_font(ui->scr_setup_network_btn_scan, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_setup_network_btn_scan, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_setup_network_btn_scan, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write codes scr_setup_network_ta_wifi
+    ui->scr_setup_network_ta_wifi = lv_textarea_create(ui->scr_setup_network_cont_wifi_row);
+    lv_obj_set_pos(ui->scr_setup_network_ta_wifi, 173, 27);
+    lv_obj_set_size(ui->scr_setup_network_ta_wifi, 691, 60);
+    lv_textarea_set_text(ui->scr_setup_network_ta_wifi, "HVC_wifi6");
+    lv_textarea_set_placeholder_text(ui->scr_setup_network_ta_wifi, "");
+    lv_textarea_set_password_bullet(ui->scr_setup_network_ta_wifi, "*");
+    lv_textarea_set_password_mode(ui->scr_setup_network_ta_wifi, false);
+    lv_textarea_set_one_line(ui->scr_setup_network_ta_wifi, true);
+    lv_textarea_set_accepted_chars(ui->scr_setup_network_ta_wifi, "");
+    lv_textarea_set_max_length(ui->scr_setup_network_ta_wifi, 32);
+#if LV_USE_KEYBOARD
+    lv_obj_add_event_cb(ui->scr_setup_network_ta_wifi, ta_event_cb, LV_EVENT_ALL, ui->g_kb_top_layer);
+#endif
+
+    //Write style for scr_setup_network_ta_wifi, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_text_color(ui->scr_setup_network_ta_wifi, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_setup_network_ta_wifi, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->scr_setup_network_ta_wifi, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_letter_space(ui->scr_setup_network_ta_wifi, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_setup_network_ta_wifi, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_opa(ui->scr_setup_network_ta_wifi, 166, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(ui->scr_setup_network_ta_wifi, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_grad_dir(ui->scr_setup_network_ta_wifi, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->scr_setup_network_ta_wifi, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_setup_network_ta_wifi, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(ui->scr_setup_network_ta_wifi, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_setup_network_ta_wifi, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_setup_network_ta_wifi, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->scr_setup_network_ta_wifi, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write style for scr_setup_network_ta_wifi, Part: LV_PART_SCROLLBAR, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_bg_opa(ui->scr_setup_network_ta_wifi, 255, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(ui->scr_setup_network_ta_wifi, lv_color_hex(0x2195f6), LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_grad_dir(ui->scr_setup_network_ta_wifi, LV_GRAD_DIR_NONE, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->scr_setup_network_ta_wifi, 0, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
 
     //Write codes scr_setup_network_line_2
     ui->scr_setup_network_line_2 = lv_line_create(ui->scr_setup_network_cont_net);
@@ -431,8 +406,8 @@ void setup_scr_scr_setup_network(lv_ui *ui)
     lv_textarea_set_text(ui->scr_setup_network_ta_pass, "**********");
     lv_textarea_set_placeholder_text(ui->scr_setup_network_ta_pass, "");
     lv_textarea_set_password_bullet(ui->scr_setup_network_ta_pass, "*");
-    lv_textarea_set_password_mode(ui->scr_setup_network_ta_pass, false);
-    lv_textarea_set_one_line(ui->scr_setup_network_ta_pass, false);
+    lv_textarea_set_password_mode(ui->scr_setup_network_ta_pass, true);
+    lv_textarea_set_one_line(ui->scr_setup_network_ta_pass, true);
     lv_textarea_set_accepted_chars(ui->scr_setup_network_ta_pass, "");
     lv_textarea_set_max_length(ui->scr_setup_network_ta_pass, 32);
 #if LV_USE_KEYBOARD
