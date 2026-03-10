@@ -151,20 +151,20 @@ void setup_scr_scr_setupModbusMaster(lv_ui *ui)
     lv_label_set_long_mode(ui->scr_setupModbusMaster_lbl_rs485_tiltle, LV_LABEL_LONG_WRAP);
 
     //Write style for scr_setupModbusMaster_lbl_rs485_tiltle, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_border_width(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_setupModbusMaster_lbl_rs485_tiltle, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui->scr_setupModbusMaster_lbl_rs485_tiltle, &lv_font_arial_40, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_setupModbusMaster_lbl_rs485_tiltle, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_setupModbusMaster_lbl_rs485_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_setupModbusMaster_lbl_mode
     ui->scr_setupModbusMaster_lbl_mode = lv_label_create(ui->scr_setupModbusMaster_cont_rs485);
@@ -655,20 +655,20 @@ void setup_scr_scr_setupModbusMaster(lv_ui *ui)
     lv_label_set_long_mode(ui->scr_setupModbusMaster_lbl_device_list, LV_LABEL_LONG_WRAP);
 
     //Write style for scr_setupModbusMaster_lbl_device_list, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_border_width(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_setupModbusMaster_lbl_device_list, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_font(ui->scr_setupModbusMaster_lbl_device_list, &lv_font_arial_40, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_setupModbusMaster_lbl_device_list, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_setupModbusMaster_lbl_device_list, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_setupModbusMaster_lbl_device_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_setupModbusMaster_tab_device
     ui->scr_setupModbusMaster_tab_device = lv_table_create(ui->scr_setupModbusMaster_cont_device_list);

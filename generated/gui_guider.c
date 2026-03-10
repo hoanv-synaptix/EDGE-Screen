@@ -73,6 +73,7 @@ void init_scr_del_flag(lv_ui *ui)
 {
 
     ui->boot_del = true;
+    ui->scr_login_del = true;
     ui->scr_dashboard_del = true;
     ui->scr_downtime_del = true;
     ui->scr_prod_entry_del = true;

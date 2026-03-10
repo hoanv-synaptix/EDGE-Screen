@@ -30,6 +30,33 @@ typedef struct
 	lv_obj_t *boot_lbl_edgeid;
 	lv_obj_t *boot_lbl_date;
 	lv_obj_t *boot_bar_1;
+	lv_obj_t *scr_login;
+	bool scr_login_del;
+	lv_obj_t *scr_login_cont_root;
+	lv_obj_t *scr_login_cont_body;
+	lv_obj_t *scr_login_cont_nfc;
+	lv_obj_t *scr_login_lbl_nfc_tiltle;
+	lv_obj_t *scr_login_img_nfc;
+	lv_obj_t *scr_login_lbl_nfc_hint;
+	lv_obj_t *scr_login_label_nfc_status;
+	lv_obj_t *scr_login_line_1;
+	lv_obj_t *scr_login_btn_confirm;
+	lv_obj_t *scr_login_btn_confirm_label;
+	lv_obj_t *scr_login_cont_account;
+	lv_obj_t *scr_login_lbl_acc_tiltle;
+	lv_obj_t *scr_login_lbl_acc_user;
+	lv_obj_t *scr_login_lbl_acc_password;
+	lv_obj_t *scr_login_ta_acc_user;
+	lv_obj_t *scr_login_ta_acc_password;
+	lv_obj_t *scr_login_btn_login;
+	lv_obj_t *scr_login_btn_login_label;
+	lv_obj_t *scr_login_line_2;
+	lv_obj_t *scr_login_lbl_acc_status;
+	lv_obj_t *scr_login_cont_topbar;
+	lv_obj_t *scr_login_lbl_tiltle;
+	lv_obj_t *scr_login_cont_top_right;
+	lv_obj_t *scr_login_imgbtn_back;
+	lv_obj_t *scr_login_imgbtn_back_label;
 	lv_obj_t *scr_dashboard;
 	bool scr_dashboard_del;
 	lv_obj_t *scr_dashboard_cont_dash_bg;
@@ -201,8 +228,6 @@ typedef struct
 	lv_obj_t *scr_setup_network_line_1;
 	lv_obj_t *scr_setup_network_cont_wifi_row;
 	lv_obj_t *scr_setup_network_lbl_wifi;
-	lv_obj_t *scr_setup_network_btn_scan;
-	lv_obj_t *scr_setup_network_btn_scan_label;
 	lv_obj_t *scr_setup_network_ta_wifi;
 	lv_obj_t *scr_setup_network_line_2;
 	lv_obj_t *scr_setup_network_cont_pass_row;
@@ -367,33 +392,33 @@ typedef struct
 	lv_obj_t *scr_SystemSetting_btn_online;
 	lv_obj_t *scr_SystemSetting_btn_online_label;
 	lv_obj_t *scr_SystemSetting_cont_1;
-	lv_obj_t *scr_SystemSetting_cont_2;
-	lv_obj_t *scr_SystemSetting_cont_8;
-	lv_obj_t *scr_SystemSetting_label_6;
-	lv_obj_t *scr_SystemSetting_img_1;
-	lv_obj_t *scr_SystemSetting_cont_7;
-	lv_obj_t *scr_SystemSetting_label_5;
-	lv_obj_t *scr_SystemSetting_slider_1;
-	lv_obj_t *scr_SystemSetting_label_4;
-	lv_obj_t *scr_SystemSetting_ddlist_1;
+	lv_obj_t *scr_SystemSetting_cont_body;
+	lv_obj_t *scr_SystemSetting_cont_display;
+	lv_obj_t *scr_SystemSetting_label_display;
+	lv_obj_t *scr_SystemSetting_img_display;
+	lv_obj_t *scr_SystemSetting_cont_display_detail;
+	lv_obj_t *scr_SystemSetting_lbl_display_brightness;
+	lv_obj_t *scr_SystemSetting_slider_display_brightness;
+	lv_obj_t *scr_SystemSetting_lbl_display_sleep;
+	lv_obj_t *scr_SystemSetting_ddlist_display_sleep;
 	lv_obj_t *scr_SystemSetting_line_4;
 	lv_obj_t *scr_SystemSetting_line_2;
 	lv_obj_t *scr_SystemSetting_line_1;
-	lv_obj_t *scr_SystemSetting_cont_3;
-	lv_obj_t *scr_SystemSetting_btn_2;
-	lv_obj_t *scr_SystemSetting_btn_2_label;
-	lv_obj_t *scr_SystemSetting_btn_1;
-	lv_obj_t *scr_SystemSetting_btn_1_label;
-	lv_obj_t *scr_SystemSetting_cont_9;
-	lv_obj_t *scr_SystemSetting_label_9;
-	lv_obj_t *scr_SystemSetting_img_2;
-	lv_obj_t *scr_SystemSetting_cont_10;
-	lv_obj_t *scr_SystemSetting_label_8;
-	lv_obj_t *scr_SystemSetting_label_7;
-	lv_obj_t *scr_SystemSetting_label_10;
-	lv_obj_t *scr_SystemSetting_label_11;
-	lv_obj_t *scr_SystemSetting_label_12;
-	lv_obj_t *scr_SystemSetting_label_13;
+	lv_obj_t *scr_SystemSetting_cont_button;
+	lv_obj_t *scr_SystemSetting_btn_reboot;
+	lv_obj_t *scr_SystemSetting_btn_reboot_label;
+	lv_obj_t *scr_SystemSetting_btn_reset;
+	lv_obj_t *scr_SystemSetting_btn_reset_label;
+	lv_obj_t *scr_SystemSetting_cont_device;
+	lv_obj_t *scr_SystemSetting_lbl_device_tiltle;
+	lv_obj_t *scr_SystemSetting_img_device;
+	lv_obj_t *scr_SystemSetting_cont_device_detail;
+	lv_obj_t *scr_SystemSetting_lbl_device_name;
+	lv_obj_t *scr_SystemSetting_lbl_device_fw;
+	lv_obj_t *scr_SystemSetting_lbl_device_serinumber;
+	lv_obj_t *scr_SystemSetting_lbl_device_name_value;
+	lv_obj_t *scr_SystemSetting_lbl_device_fw_value;
+	lv_obj_t *scr_SystemSetting_lbl_device_serinumber_value;
 	lv_obj_t *scr_SystemSetting_line_5;
 	lv_obj_t *scr_SystemSetting_imgbtn_back;
 	lv_obj_t *scr_SystemSetting_imgbtn_back_label;
@@ -426,6 +451,7 @@ extern lv_ui guider_ui;
 
 
 void setup_scr_boot(lv_ui *ui);
+void setup_scr_scr_login(lv_ui *ui);
 void setup_scr_scr_dashboard(lv_ui *ui);
 void setup_scr_scr_downtime(lv_ui *ui);
 void setup_scr_scr_prod_entry(lv_ui *ui);
@@ -436,8 +462,9 @@ void setup_scr_scr_SetupDataSync(lv_ui *ui);
 void setup_scr_scr_setupModbusMaster(lv_ui *ui);
 void setup_scr_scr_SystemSetting(lv_ui *ui);
 LV_IMAGE_DECLARE(_logoSynaptiX_RGB565A8_200x200);
-LV_IMAGE_DECLARE(_input_RGB565A8_64x64);
+LV_IMAGE_DECLARE(_nfc_RGB565A8_200x200);
 LV_IMAGE_DECLARE(_leftarrow_RGB565A8_64x64);
+LV_IMAGE_DECLARE(_input_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_wifi_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_server3_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_sync_RGB565A8_64x64);
@@ -452,11 +479,15 @@ LV_IMAGE_DECLARE(_brightness_RGB565A8_64x64);
 LV_FONT_DECLARE(lv_font_montserratMedium_40)
 LV_FONT_DECLARE(lv_font_montserratMedium_26)
 LV_FONT_DECLARE(lv_font_montserratMedium_22)
+LV_FONT_DECLARE(lv_font_arial_40)
+LV_FONT_DECLARE(lv_font_arial_30)
+LV_FONT_DECLARE(lv_font_arial_20)
+LV_FONT_DECLARE(lv_font_Acme_Regular_50)
+LV_FONT_DECLARE(lv_font_montserratMedium_12)
 LV_FONT_DECLARE(lv_font_Acme_Regular_34)
 LV_FONT_DECLARE(lv_font_Acme_Regular_30)
 LV_FONT_DECLARE(lv_font_Acme_Regular_60)
 LV_FONT_DECLARE(lv_font_Acme_Regular_40)
-LV_FONT_DECLARE(lv_font_montserratMedium_12)
 LV_FONT_DECLARE(lv_font_Adventpro_regular_26)
 LV_FONT_DECLARE(lv_font_Acme_Regular_24)
 LV_FONT_DECLARE(lv_font_Acme_Regular_64)
@@ -465,13 +496,10 @@ LV_FONT_DECLARE(lv_font_Acme_Regular_25)
 LV_FONT_DECLARE(lv_font_Acme_Regular_26)
 LV_FONT_DECLARE(lv_font_Abel_regular_24)
 LV_FONT_DECLARE(lv_font_arial_25)
-LV_FONT_DECLARE(lv_font_Acme_Regular_50)
 LV_FONT_DECLARE(lv_font_arial_22)
 LV_FONT_DECLARE(lv_font_arial_32)
 LV_FONT_DECLARE(lv_font_montserratMedium_25)
-LV_FONT_DECLARE(lv_font_arial_30)
 LV_FONT_DECLARE(lv_font_arial_28)
-LV_FONT_DECLARE(lv_font_arial_40)
 LV_FONT_DECLARE(lv_font_arial_18)
 
 

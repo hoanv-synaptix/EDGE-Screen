@@ -247,8 +247,8 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
 
     //Write codes scr_SetupHome_lbl_net_status
     ui->scr_SetupHome_lbl_net_status = lv_label_create(ui->scr_SetupHome_card_network);
-    lv_obj_set_pos(ui->scr_SetupHome_lbl_net_status, 909, 41);
-    lv_obj_set_size(ui->scr_SetupHome_lbl_net_status, 146, 28);
+    lv_obj_set_pos(ui->scr_SetupHome_lbl_net_status, 890, 42);
+    lv_obj_set_size(ui->scr_SetupHome_lbl_net_status, 180, 28);
     lv_label_set_text(ui->scr_SetupHome_lbl_net_status, "Connected");
     lv_label_set_long_mode(ui->scr_SetupHome_lbl_net_status, LV_LABEL_LONG_WRAP);
 
@@ -373,8 +373,8 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
 
     //Write codes scr_SetupHome_lbl_server_status
     ui->scr_SetupHome_lbl_server_status = lv_label_create(ui->scr_SetupHome_card_server);
-    lv_obj_set_pos(ui->scr_SetupHome_lbl_server_status, 909, 42);
-    lv_obj_set_size(ui->scr_SetupHome_lbl_server_status, 146, 28);
+    lv_obj_set_pos(ui->scr_SetupHome_lbl_server_status, 890, 42);
+    lv_obj_set_size(ui->scr_SetupHome_lbl_server_status, 180, 28);
     lv_label_set_text(ui->scr_SetupHome_lbl_server_status, "Connected");
     lv_label_set_long_mode(ui->scr_SetupHome_lbl_server_status, LV_LABEL_LONG_WRAP);
 

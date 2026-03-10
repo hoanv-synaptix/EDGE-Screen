@@ -287,33 +287,10 @@ void setup_scr_scr_setup_network(lv_ui *ui)
     lv_obj_set_style_pad_left(ui->scr_setup_network_lbl_wifi, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_setup_network_lbl_wifi, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
-    //Write codes scr_setup_network_btn_scan
-    ui->scr_setup_network_btn_scan = lv_button_create(ui->scr_setup_network_cont_wifi_row);
-    lv_obj_set_pos(ui->scr_setup_network_btn_scan, 883, 27);
-    lv_obj_set_size(ui->scr_setup_network_btn_scan, 150, 60);
-    ui->scr_setup_network_btn_scan_label = lv_label_create(ui->scr_setup_network_btn_scan);
-    lv_label_set_text(ui->scr_setup_network_btn_scan_label, "SCAN");
-    lv_label_set_long_mode(ui->scr_setup_network_btn_scan_label, LV_LABEL_LONG_WRAP);
-    lv_obj_align(ui->scr_setup_network_btn_scan_label, LV_ALIGN_CENTER, 0, 0);
-    lv_obj_set_style_pad_all(ui->scr_setup_network_btn_scan, 0, LV_STATE_DEFAULT);
-    lv_obj_set_width(ui->scr_setup_network_btn_scan_label, LV_PCT(100));
-
-    //Write style for scr_setup_network_btn_scan, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_bg_opa(ui->scr_setup_network_btn_scan, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_color(ui->scr_setup_network_btn_scan, lv_color_hex(0x2D9CDB), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_grad_dir(ui->scr_setup_network_btn_scan, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(ui->scr_setup_network_btn_scan, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_setup_network_btn_scan, 14, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_setup_network_btn_scan, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->scr_setup_network_btn_scan, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_setup_network_btn_scan, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_opa(ui->scr_setup_network_btn_scan, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_setup_network_btn_scan, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
-
     //Write codes scr_setup_network_ta_wifi
     ui->scr_setup_network_ta_wifi = lv_textarea_create(ui->scr_setup_network_cont_wifi_row);
     lv_obj_set_pos(ui->scr_setup_network_ta_wifi, 173, 27);
-    lv_obj_set_size(ui->scr_setup_network_ta_wifi, 691, 60);
+    lv_obj_set_size(ui->scr_setup_network_ta_wifi, 860, 60);
     lv_textarea_set_text(ui->scr_setup_network_ta_wifi, "HVC_wifi6");
     lv_textarea_set_placeholder_text(ui->scr_setup_network_ta_wifi, "");
     lv_textarea_set_password_bullet(ui->scr_setup_network_ta_wifi, "*");
@@ -403,7 +380,7 @@ void setup_scr_scr_setup_network(lv_ui *ui)
     ui->scr_setup_network_ta_pass = lv_textarea_create(ui->scr_setup_network_cont_pass_row);
     lv_obj_set_pos(ui->scr_setup_network_ta_pass, 173, 0);
     lv_obj_set_size(ui->scr_setup_network_ta_pass, 860, 60);
-    lv_textarea_set_text(ui->scr_setup_network_ta_pass, "**********");
+    lv_textarea_set_text(ui->scr_setup_network_ta_pass, "havicom2025");
     lv_textarea_set_placeholder_text(ui->scr_setup_network_ta_pass, "");
     lv_textarea_set_password_bullet(ui->scr_setup_network_ta_pass, "*");
     lv_textarea_set_password_mode(ui->scr_setup_network_ta_pass, true);

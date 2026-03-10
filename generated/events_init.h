@@ -19,6 +19,7 @@ extern "C" {
 void events_init(lv_ui *ui);
 
 void events_init_boot(lv_ui *ui);
+void events_init_scr_login(lv_ui *ui);
 void events_init_scr_dashboard(lv_ui *ui);
 void events_init_scr_downtime(lv_ui *ui);
 void events_init_scr_prod_entry(lv_ui *ui);
