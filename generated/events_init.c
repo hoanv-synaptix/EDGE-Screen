@@ -312,7 +312,7 @@ static void scr_SetupHome_card_system_event_handler (lv_event_t *e)
     }
 }
 
-static void scr_SetupHome_cont_3_event_handler (lv_event_t *e)
+static void scr_SetupHome_cont_modbus_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
     switch (code) {
@@ -349,7 +349,7 @@ void events_init_scr_SetupHome (lv_ui *ui)
     lv_obj_add_event_cb(ui->scr_SetupHome_card_sync, scr_SetupHome_card_sync_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_SetupHome_btn_sync, scr_SetupHome_btn_sync_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_SetupHome_card_system, scr_SetupHome_card_system_event_handler, LV_EVENT_ALL, ui);
-    lv_obj_add_event_cb(ui->scr_SetupHome_cont_3, scr_SetupHome_cont_3_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_SetupHome_cont_modbus, scr_SetupHome_cont_modbus_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_SetupHome_imgbtn_back, scr_SetupHome_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
 }
 

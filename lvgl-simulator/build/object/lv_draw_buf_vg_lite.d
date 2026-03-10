@@ -1,17 +1,17 @@
 build/object/lv_draw_buf_vg_lite.o: \
- d:\synaptix\edge-screen\lvgl\src\draw\vg_lite\lv_draw_buf_vg_lite.c \
- d:\synaptix\edge-screen\lvgl\src\draw\vg_lite\lv_draw_vg_lite.h \
- d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h \
- d:\synaptix\edge-screen\lvgl\src\lv_conf_kconfig.h \
- D:/Synaptix/EDGE-Screen/lvgl-simulator/lv_conf.h \
- d:\synaptix\edge-screen\custom\lv_conf_ext.h
+ g:\hoanv\projects\edge_monitor\edge-screen\lvgl\src\draw\vg_lite\lv_draw_buf_vg_lite.c \
+ g:\hoanv\projects\edge_monitor\edge-screen\lvgl\src\draw\vg_lite\lv_draw_vg_lite.h \
+ g:\hoanv\projects\edge_monitor\edge-screen\lvgl\src\lv_conf_internal.h \
+ g:\hoanv\projects\edge_monitor\edge-screen\lvgl\src\lv_conf_kconfig.h \
+ G:/HoaNV/Projects/EDGE_MONITOR/EDGE-Screen/lvgl-simulator/lv_conf.h \
+ g:\hoanv\projects\edge_monitor\edge-screen\custom\lv_conf_ext.h
 
-d:\synaptix\edge-screen\lvgl\src\draw\vg_lite\lv_draw_vg_lite.h:
+g:\hoanv\projects\edge_monitor\edge-screen\lvgl\src\draw\vg_lite\lv_draw_vg_lite.h:
 
-d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h:
+g:\hoanv\projects\edge_monitor\edge-screen\lvgl\src\lv_conf_internal.h:
 
-d:\synaptix\edge-screen\lvgl\src\lv_conf_kconfig.h:
+g:\hoanv\projects\edge_monitor\edge-screen\lvgl\src\lv_conf_kconfig.h:
 
-D:/Synaptix/EDGE-Screen/lvgl-simulator/lv_conf.h:
+G:/HoaNV/Projects/EDGE_MONITOR/EDGE-Screen/lvgl-simulator/lv_conf.h:
 
-d:\synaptix\edge-screen\custom\lv_conf_ext.h:
+g:\hoanv\projects\edge_monitor\edge-screen\custom\lv_conf_ext.h:

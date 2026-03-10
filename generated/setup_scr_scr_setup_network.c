@@ -85,25 +85,9 @@ void setup_scr_scr_setup_network(lv_ui *ui)
     lv_obj_set_style_pad_left(ui->scr_setup_network_lbl_top_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_setup_network_lbl_top_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
-    //Write codes scr_setup_network_cont_top_right
-    ui->scr_setup_network_cont_top_right = lv_obj_create(ui->scr_setup_network_cont_topbar);
-    lv_obj_set_pos(ui->scr_setup_network_cont_top_right, 990, 0);
-    lv_obj_set_size(ui->scr_setup_network_cont_top_right, 270, 90);
-    lv_obj_set_scrollbar_mode(ui->scr_setup_network_cont_top_right, LV_SCROLLBAR_MODE_OFF);
-
-    //Write style for scr_setup_network_cont_top_right, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->scr_setup_network_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_setup_network_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_opa(ui->scr_setup_network_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_setup_network_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_bottom(ui->scr_setup_network_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_setup_network_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_setup_network_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_setup_network_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-
     //Write codes scr_setup_network_lbl_value
-    ui->scr_setup_network_lbl_value = lv_label_create(ui->scr_setup_network_cont_top_right);
-    lv_obj_set_pos(ui->scr_setup_network_lbl_value, 1, 39);
+    ui->scr_setup_network_lbl_value = lv_label_create(ui->scr_setup_network_cont_topbar);
+    lv_obj_set_pos(ui->scr_setup_network_lbl_value, 950, 39);
     lv_obj_set_size(ui->scr_setup_network_lbl_value, 132, 32);
     lv_label_set_text(ui->scr_setup_network_lbl_value, "EDGE-01");
     lv_label_set_long_mode(ui->scr_setup_network_lbl_value, LV_LABEL_LONG_WRAP);
@@ -125,9 +109,9 @@ void setup_scr_scr_setup_network(lv_ui *ui)
     lv_obj_set_style_shadow_width(ui->scr_setup_network_lbl_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_setup_network_btn_online
-    ui->scr_setup_network_btn_online = lv_button_create(ui->scr_setup_network_cont_top_right);
-    lv_obj_set_pos(ui->scr_setup_network_btn_online, 128, 30);
-    lv_obj_set_size(ui->scr_setup_network_btn_online, 130, 50);
+    ui->scr_setup_network_btn_online = lv_button_create(ui->scr_setup_network_cont_topbar);
+    lv_obj_set_pos(ui->scr_setup_network_btn_online, 1080, 30);
+    lv_obj_set_size(ui->scr_setup_network_btn_online, 160, 50);
     ui->scr_setup_network_btn_online_label = lv_label_create(ui->scr_setup_network_btn_online);
     lv_label_set_text(ui->scr_setup_network_btn_online_label, "ONLINE");
     lv_label_set_long_mode(ui->scr_setup_network_btn_online_label, LV_LABEL_LONG_WRAP);

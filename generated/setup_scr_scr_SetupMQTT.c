@@ -85,25 +85,9 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
     lv_obj_set_style_pad_left(ui->scr_SetupMQTT_lbl_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SetupMQTT_lbl_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
-    //Write codes scr_SetupMQTT_cont_top_right
-    ui->scr_SetupMQTT_cont_top_right = lv_obj_create(ui->scr_SetupMQTT_cont_topbar);
-    lv_obj_set_pos(ui->scr_SetupMQTT_cont_top_right, 990, 0);
-    lv_obj_set_size(ui->scr_SetupMQTT_cont_top_right, 270, 90);
-    lv_obj_set_scrollbar_mode(ui->scr_SetupMQTT_cont_top_right, LV_SCROLLBAR_MODE_OFF);
-
-    //Write style for scr_SetupMQTT_cont_top_right, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->scr_SetupMQTT_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_SetupMQTT_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_opa(ui->scr_SetupMQTT_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_SetupMQTT_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_bottom(ui->scr_SetupMQTT_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_SetupMQTT_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_SetupMQTT_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_SetupMQTT_cont_top_right, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-
     //Write codes scr_SetupMQTT_lbl_device
-    ui->scr_SetupMQTT_lbl_device = lv_label_create(ui->scr_SetupMQTT_cont_top_right);
-    lv_obj_set_pos(ui->scr_SetupMQTT_lbl_device, 1, 39);
+    ui->scr_SetupMQTT_lbl_device = lv_label_create(ui->scr_SetupMQTT_cont_topbar);
+    lv_obj_set_pos(ui->scr_SetupMQTT_lbl_device, 950, 39);
     lv_obj_set_size(ui->scr_SetupMQTT_lbl_device, 132, 32);
     lv_label_set_text(ui->scr_SetupMQTT_lbl_device, "EDGE-01");
     lv_label_set_long_mode(ui->scr_SetupMQTT_lbl_device, LV_LABEL_LONG_WRAP);
@@ -125,9 +109,9 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
     lv_obj_set_style_shadow_width(ui->scr_SetupMQTT_lbl_device, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SetupMQTT_btn_online
-    ui->scr_SetupMQTT_btn_online = lv_button_create(ui->scr_SetupMQTT_cont_top_right);
-    lv_obj_set_pos(ui->scr_SetupMQTT_btn_online, 128, 30);
-    lv_obj_set_size(ui->scr_SetupMQTT_btn_online, 130, 50);
+    ui->scr_SetupMQTT_btn_online = lv_button_create(ui->scr_SetupMQTT_cont_topbar);
+    lv_obj_set_pos(ui->scr_SetupMQTT_btn_online, 1080, 30);
+    lv_obj_set_size(ui->scr_SetupMQTT_btn_online, 160, 50);
     ui->scr_SetupMQTT_btn_online_label = lv_label_create(ui->scr_SetupMQTT_btn_online);
     lv_label_set_text(ui->scr_SetupMQTT_btn_online_label, "ONLINE");
     lv_label_set_long_mode(ui->scr_SetupMQTT_btn_online_label, LV_LABEL_LONG_WRAP);
@@ -276,7 +260,7 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
     //Write codes scr_SetupMQTT_cont_broker_scan
     ui->scr_SetupMQTT_cont_broker_scan = lv_obj_create(ui->scr_SetupMQTT_cont_mqtt);
     lv_obj_set_pos(ui->scr_SetupMQTT_cont_broker_scan, 0, 80);
-    lv_obj_set_size(ui->scr_SetupMQTT_cont_broker_scan, 1050, 60);
+    lv_obj_set_size(ui->scr_SetupMQTT_cont_broker_scan, 1050, 70);
     lv_obj_set_scrollbar_mode(ui->scr_SetupMQTT_cont_broker_scan, LV_SCROLLBAR_MODE_OFF);
 
     //Write style for scr_SetupMQTT_cont_broker_scan, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
@@ -291,7 +275,7 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
 
     //Write codes scr_SetupMQTT_lbl_broker
     ui->scr_SetupMQTT_lbl_broker = lv_label_create(ui->scr_SetupMQTT_cont_broker_scan);
-    lv_obj_set_pos(ui->scr_SetupMQTT_lbl_broker, 13, 14);
+    lv_obj_set_pos(ui->scr_SetupMQTT_lbl_broker, 13, 17);
     lv_obj_set_size(ui->scr_SetupMQTT_lbl_broker, 100, 32);
     lv_label_set_text(ui->scr_SetupMQTT_lbl_broker, "Broker:");
     lv_label_set_long_mode(ui->scr_SetupMQTT_lbl_broker, LV_LABEL_LONG_WRAP);
@@ -312,34 +296,11 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
     lv_obj_set_style_pad_left(ui->scr_SetupMQTT_lbl_broker, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SetupMQTT_lbl_broker, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
-    //Write codes scr_SetupMQTT_btn_scan
-    ui->scr_SetupMQTT_btn_scan = lv_button_create(ui->scr_SetupMQTT_cont_broker_scan);
-    lv_obj_set_pos(ui->scr_SetupMQTT_btn_scan, 883, 0);
-    lv_obj_set_size(ui->scr_SetupMQTT_btn_scan, 150, 60);
-    ui->scr_SetupMQTT_btn_scan_label = lv_label_create(ui->scr_SetupMQTT_btn_scan);
-    lv_label_set_text(ui->scr_SetupMQTT_btn_scan_label, "SCAN");
-    lv_label_set_long_mode(ui->scr_SetupMQTT_btn_scan_label, LV_LABEL_LONG_WRAP);
-    lv_obj_align(ui->scr_SetupMQTT_btn_scan_label, LV_ALIGN_CENTER, 0, 0);
-    lv_obj_set_style_pad_all(ui->scr_SetupMQTT_btn_scan, 0, LV_STATE_DEFAULT);
-    lv_obj_set_width(ui->scr_SetupMQTT_btn_scan_label, LV_PCT(100));
-
-    //Write style for scr_SetupMQTT_btn_scan, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_bg_opa(ui->scr_SetupMQTT_btn_scan, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_color(ui->scr_SetupMQTT_btn_scan, lv_color_hex(0x2D9CDB), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_grad_dir(ui->scr_SetupMQTT_btn_scan, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(ui->scr_SetupMQTT_btn_scan, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_SetupMQTT_btn_scan, 14, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_SetupMQTT_btn_scan, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->scr_SetupMQTT_btn_scan, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupMQTT_btn_scan, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_opa(ui->scr_SetupMQTT_btn_scan, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SetupMQTT_btn_scan, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
-
     //Write codes scr_SetupMQTT_ta_broker
     ui->scr_SetupMQTT_ta_broker = lv_textarea_create(ui->scr_SetupMQTT_cont_broker_scan);
-    lv_obj_set_pos(ui->scr_SetupMQTT_ta_broker, 173, 0);
-    lv_obj_set_size(ui->scr_SetupMQTT_ta_broker, 689, 60);
-    lv_textarea_set_text(ui->scr_SetupMQTT_ta_broker, "mqtt.local");
+    lv_obj_set_pos(ui->scr_SetupMQTT_ta_broker, 173, 1);
+    lv_obj_set_size(ui->scr_SetupMQTT_ta_broker, 860, 50);
+    lv_textarea_set_text(ui->scr_SetupMQTT_ta_broker, "mqtt://broker.hivemq.com");
     lv_textarea_set_placeholder_text(ui->scr_SetupMQTT_ta_broker, "");
     lv_textarea_set_password_bullet(ui->scr_SetupMQTT_ta_broker, "*");
     lv_textarea_set_password_mode(ui->scr_SetupMQTT_ta_broker, false);
@@ -374,8 +335,8 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
 
     //Write codes scr_SetupMQTT_cont_port_row
     ui->scr_SetupMQTT_cont_port_row = lv_obj_create(ui->scr_SetupMQTT_cont_mqtt);
-    lv_obj_set_pos(ui->scr_SetupMQTT_cont_port_row, 0, 150);
-    lv_obj_set_size(ui->scr_SetupMQTT_cont_port_row, 1050, 60);
+    lv_obj_set_pos(ui->scr_SetupMQTT_cont_port_row, 0, 160);
+    lv_obj_set_size(ui->scr_SetupMQTT_cont_port_row, 1050, 70);
     lv_obj_set_scrollbar_mode(ui->scr_SetupMQTT_cont_port_row, LV_SCROLLBAR_MODE_OFF);
 
     //Write style for scr_SetupMQTT_cont_port_row, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
@@ -414,7 +375,7 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
     //Write codes scr_SetupMQTT_ta_port
     ui->scr_SetupMQTT_ta_port = lv_textarea_create(ui->scr_SetupMQTT_cont_port_row);
     lv_obj_set_pos(ui->scr_SetupMQTT_ta_port, 173, 0);
-    lv_obj_set_size(ui->scr_SetupMQTT_ta_port, 860, 60);
+    lv_obj_set_size(ui->scr_SetupMQTT_ta_port, 860, 50);
     lv_textarea_set_text(ui->scr_SetupMQTT_ta_port, "1883");
     lv_textarea_set_placeholder_text(ui->scr_SetupMQTT_ta_port, "");
     lv_textarea_set_password_bullet(ui->scr_SetupMQTT_ta_port, "*");
@@ -448,144 +409,10 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
     lv_obj_set_style_bg_grad_dir(ui->scr_SetupMQTT_ta_port, LV_GRAD_DIR_NONE, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupMQTT_ta_port, 0, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
 
-    //Write codes scr_SetupMQTT_cont_tls_row
-    ui->scr_SetupMQTT_cont_tls_row = lv_obj_create(ui->scr_SetupMQTT_cont_mqtt);
-    lv_obj_set_pos(ui->scr_SetupMQTT_cont_tls_row, 0, 371);
-    lv_obj_set_size(ui->scr_SetupMQTT_cont_tls_row, 1050, 40);
-    lv_obj_set_scrollbar_mode(ui->scr_SetupMQTT_cont_tls_row, LV_SCROLLBAR_MODE_OFF);
-
-    //Write style for scr_SetupMQTT_cont_tls_row, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->scr_SetupMQTT_cont_tls_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_SetupMQTT_cont_tls_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_opa(ui->scr_SetupMQTT_cont_tls_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_SetupMQTT_cont_tls_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_bottom(ui->scr_SetupMQTT_cont_tls_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_SetupMQTT_cont_tls_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_SetupMQTT_cont_tls_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_SetupMQTT_cont_tls_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-
-    //Write codes scr_SetupMQTT_lbl_tls
-    ui->scr_SetupMQTT_lbl_tls = lv_label_create(ui->scr_SetupMQTT_cont_tls_row);
-    lv_obj_set_pos(ui->scr_SetupMQTT_lbl_tls, 13, 5);
-    lv_obj_set_size(ui->scr_SetupMQTT_lbl_tls, 162, 32);
-    lv_label_set_text(ui->scr_SetupMQTT_lbl_tls, "Enable TLS");
-    lv_label_set_long_mode(ui->scr_SetupMQTT_lbl_tls, LV_LABEL_LONG_WRAP);
-
-    //Write style for scr_SetupMQTT_lbl_tls, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->scr_SetupMQTT_lbl_tls, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_SetupMQTT_lbl_tls, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->scr_SetupMQTT_lbl_tls, lv_color_hex(0xbdbdbd), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupMQTT_lbl_tls, &lv_font_montserratMedium_25, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_opa(ui->scr_SetupMQTT_lbl_tls, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_letter_space(ui->scr_SetupMQTT_lbl_tls, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_line_space(ui->scr_SetupMQTT_lbl_tls, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SetupMQTT_lbl_tls, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_opa(ui->scr_SetupMQTT_lbl_tls, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_SetupMQTT_lbl_tls, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_SetupMQTT_lbl_tls, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_bottom(ui->scr_SetupMQTT_lbl_tls, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_SetupMQTT_lbl_tls, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_SetupMQTT_lbl_tls, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-
-    //Write codes scr_SetupMQTT_sw_tls
-    ui->scr_SetupMQTT_sw_tls = lv_switch_create(ui->scr_SetupMQTT_cont_tls_row);
-    lv_obj_set_pos(ui->scr_SetupMQTT_sw_tls, 179, 4);
-    lv_obj_set_size(ui->scr_SetupMQTT_sw_tls, 70, 30);
-
-    //Write style for scr_SetupMQTT_sw_tls, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_bg_opa(ui->scr_SetupMQTT_sw_tls, 230, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_color(ui->scr_SetupMQTT_sw_tls, lv_color_hex(0x626262), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_grad_dir(ui->scr_SetupMQTT_sw_tls, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(ui->scr_SetupMQTT_sw_tls, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_SetupMQTT_sw_tls, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_SetupMQTT_sw_tls, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-
-    //Write style for scr_SetupMQTT_sw_tls, Part: LV_PART_INDICATOR, State: LV_STATE_CHECKED.
-    lv_obj_set_style_bg_opa(ui->scr_SetupMQTT_sw_tls, 255, LV_PART_INDICATOR|LV_STATE_CHECKED);
-    lv_obj_set_style_bg_color(ui->scr_SetupMQTT_sw_tls, lv_color_hex(0x2195f6), LV_PART_INDICATOR|LV_STATE_CHECKED);
-    lv_obj_set_style_bg_grad_dir(ui->scr_SetupMQTT_sw_tls, LV_GRAD_DIR_NONE, LV_PART_INDICATOR|LV_STATE_CHECKED);
-    lv_obj_set_style_border_width(ui->scr_SetupMQTT_sw_tls, 0, LV_PART_INDICATOR|LV_STATE_CHECKED);
-
-    //Write style for scr_SetupMQTT_sw_tls, Part: LV_PART_KNOB, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_bg_opa(ui->scr_SetupMQTT_sw_tls, 255, LV_PART_KNOB|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_color(ui->scr_SetupMQTT_sw_tls, lv_color_hex(0xffffff), LV_PART_KNOB|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_grad_dir(ui->scr_SetupMQTT_sw_tls, LV_GRAD_DIR_NONE, LV_PART_KNOB|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(ui->scr_SetupMQTT_sw_tls, 0, LV_PART_KNOB|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_SetupMQTT_sw_tls, 10, LV_PART_KNOB|LV_STATE_DEFAULT);
-
-    //Write codes scr_SetupMQTT_cont_status_row
-    ui->scr_SetupMQTT_cont_status_row = lv_obj_create(ui->scr_SetupMQTT_cont_mqtt);
-    lv_obj_set_pos(ui->scr_SetupMQTT_cont_status_row, 0, 429);
-    lv_obj_set_size(ui->scr_SetupMQTT_cont_status_row, 1050, 70);
-    lv_obj_set_scrollbar_mode(ui->scr_SetupMQTT_cont_status_row, LV_SCROLLBAR_MODE_OFF);
-
-    //Write style for scr_SetupMQTT_cont_status_row, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->scr_SetupMQTT_cont_status_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_SetupMQTT_cont_status_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_opa(ui->scr_SetupMQTT_cont_status_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_SetupMQTT_cont_status_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_bottom(ui->scr_SetupMQTT_cont_status_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_SetupMQTT_cont_status_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_SetupMQTT_cont_status_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_SetupMQTT_cont_status_row, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-
-    //Write codes scr_SetupMQTT_led_status
-    ui->scr_SetupMQTT_led_status = lv_led_create(ui->scr_SetupMQTT_cont_status_row);
-    lv_obj_set_pos(ui->scr_SetupMQTT_led_status, 30, 6);
-    lv_obj_set_size(ui->scr_SetupMQTT_led_status, 16, 16);
-    lv_led_set_brightness(ui->scr_SetupMQTT_led_status, 255);
-    lv_led_set_color(ui->scr_SetupMQTT_led_status, lv_color_hex(0x00FF39));
-
-    //Write codes scr_SetupMQTT_lbl_status
-    ui->scr_SetupMQTT_lbl_status = lv_label_create(ui->scr_SetupMQTT_cont_status_row);
-    lv_obj_set_pos(ui->scr_SetupMQTT_lbl_status, 50, 2);
-    lv_obj_set_size(ui->scr_SetupMQTT_lbl_status, 154, 24);
-    lv_label_set_text(ui->scr_SetupMQTT_lbl_status, "Connected");
-    lv_label_set_long_mode(ui->scr_SetupMQTT_lbl_status, LV_LABEL_LONG_WRAP);
-
-    //Write style for scr_SetupMQTT_lbl_status, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->scr_SetupMQTT_lbl_status, lv_color_hex(0x00FF39), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupMQTT_lbl_status, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_opa(ui->scr_SetupMQTT_lbl_status, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_letter_space(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_line_space(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SetupMQTT_lbl_status, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_opa(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_bottom(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-
-    //Write codes scr_SetupMQTT_lbl_pending
-    ui->scr_SetupMQTT_lbl_pending = lv_label_create(ui->scr_SetupMQTT_cont_status_row);
-    lv_obj_set_pos(ui->scr_SetupMQTT_lbl_pending, 50, 40);
-    lv_obj_set_size(ui->scr_SetupMQTT_lbl_pending, 234, 32);
-    lv_label_set_text(ui->scr_SetupMQTT_lbl_pending, "Pending events: 3");
-    lv_label_set_long_mode(ui->scr_SetupMQTT_lbl_pending, LV_LABEL_LONG_WRAP);
-
-    //Write style for scr_SetupMQTT_lbl_pending, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->scr_SetupMQTT_lbl_pending, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_SetupMQTT_lbl_pending, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->scr_SetupMQTT_lbl_pending, lv_color_hex(0xbdbdbd), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupMQTT_lbl_pending, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_opa(ui->scr_SetupMQTT_lbl_pending, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_letter_space(ui->scr_SetupMQTT_lbl_pending, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_line_space(ui->scr_SetupMQTT_lbl_pending, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SetupMQTT_lbl_pending, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_opa(ui->scr_SetupMQTT_lbl_pending, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_SetupMQTT_lbl_pending, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_SetupMQTT_lbl_pending, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_bottom(ui->scr_SetupMQTT_lbl_pending, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_SetupMQTT_lbl_pending, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_SetupMQTT_lbl_pending, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-
     //Write codes scr_SetupMQTT_cont_btn_row
     ui->scr_SetupMQTT_cont_btn_row = lv_obj_create(ui->scr_SetupMQTT_cont_mqtt);
-    lv_obj_set_pos(ui->scr_SetupMQTT_cont_btn_row, 0, 513);
-    lv_obj_set_size(ui->scr_SetupMQTT_cont_btn_row, 1050, 90);
+    lv_obj_set_pos(ui->scr_SetupMQTT_cont_btn_row, 0, 410);
+    lv_obj_set_size(ui->scr_SetupMQTT_cont_btn_row, 1050, 160);
     lv_obj_set_scrollbar_mode(ui->scr_SetupMQTT_cont_btn_row, LV_SCROLLBAR_MODE_OFF);
 
     //Write style for scr_SetupMQTT_cont_btn_row, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
@@ -600,8 +427,8 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
 
     //Write codes scr_SetupMQTT_btn_conncect
     ui->scr_SetupMQTT_btn_conncect = lv_button_create(ui->scr_SetupMQTT_cont_btn_row);
-    lv_obj_set_pos(ui->scr_SetupMQTT_btn_conncect, 14, 2);
-    lv_obj_set_size(ui->scr_SetupMQTT_btn_conncect, 480, 80);
+    lv_obj_set_pos(ui->scr_SetupMQTT_btn_conncect, 11, 80);
+    lv_obj_set_size(ui->scr_SetupMQTT_btn_conncect, 520, 80);
     ui->scr_SetupMQTT_btn_conncect_label = lv_label_create(ui->scr_SetupMQTT_btn_conncect);
     lv_label_set_text(ui->scr_SetupMQTT_btn_conncect_label, "CONNECT");
     lv_label_set_long_mode(ui->scr_SetupMQTT_btn_conncect_label, LV_LABEL_LONG_WRAP);
@@ -623,7 +450,7 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
 
     //Write codes scr_SetupMQTT_btn_save
     ui->scr_SetupMQTT_btn_save = lv_button_create(ui->scr_SetupMQTT_cont_btn_row);
-    lv_obj_set_pos(ui->scr_SetupMQTT_btn_save, 553, 2);
+    lv_obj_set_pos(ui->scr_SetupMQTT_btn_save, 553, 80);
     lv_obj_set_size(ui->scr_SetupMQTT_btn_save, 480, 80);
     ui->scr_SetupMQTT_btn_save_label = lv_label_create(ui->scr_SetupMQTT_btn_save);
     lv_label_set_text(ui->scr_SetupMQTT_btn_save_label, "SAVE");
@@ -644,10 +471,53 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SetupMQTT_btn_save, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_SetupMQTT_btn_save, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
+    //Write codes scr_SetupMQTT_lbl_status
+    ui->scr_SetupMQTT_lbl_status = lv_label_create(ui->scr_SetupMQTT_cont_btn_row);
+    lv_obj_set_pos(ui->scr_SetupMQTT_lbl_status, 50, 15);
+    lv_obj_set_size(ui->scr_SetupMQTT_lbl_status, 154, 24);
+    lv_label_set_text(ui->scr_SetupMQTT_lbl_status, "Connected");
+    lv_label_set_long_mode(ui->scr_SetupMQTT_lbl_status, LV_LABEL_LONG_WRAP);
+
+    //Write style for scr_SetupMQTT_lbl_status, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_border_width(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->scr_SetupMQTT_lbl_status, lv_color_hex(0x00FF39), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupMQTT_lbl_status, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->scr_SetupMQTT_lbl_status, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_letter_space(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_line_space(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SetupMQTT_lbl_status, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_opa(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_bottom(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_SetupMQTT_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write codes scr_SetupMQTT_led_status
+    ui->scr_SetupMQTT_led_status = lv_led_create(ui->scr_SetupMQTT_cont_btn_row);
+    lv_obj_set_pos(ui->scr_SetupMQTT_led_status, 30, 18);
+    lv_obj_set_size(ui->scr_SetupMQTT_led_status, 16, 16);
+    lv_led_set_brightness(ui->scr_SetupMQTT_led_status, 255);
+    lv_led_set_color(ui->scr_SetupMQTT_led_status, lv_color_hex(0x00FF39));
+
+    //Write codes scr_SetupMQTT_line_11
+    ui->scr_SetupMQTT_line_11 = lv_line_create(ui->scr_SetupMQTT_cont_btn_row);
+    lv_obj_set_pos(ui->scr_SetupMQTT_line_11, 0, 60);
+    lv_obj_set_size(ui->scr_SetupMQTT_line_11, 1050, 2);
+    static lv_point_precise_t scr_SetupMQTT_line_11[] = {{0, 0},{1050, 0}};
+    lv_line_set_points(ui->scr_SetupMQTT_line_11, scr_SetupMQTT_line_11, 2);
+
+    //Write style for scr_SetupMQTT_line_11, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_line_width(ui->scr_SetupMQTT_line_11, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_line_color(ui->scr_SetupMQTT_line_11, lv_color_hex(0x2b2b2b), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_line_opa(ui->scr_SetupMQTT_line_11, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_line_rounded(ui->scr_SetupMQTT_line_11, true, LV_PART_MAIN|LV_STATE_DEFAULT);
+
     //Write codes scr_SetupMQTT_cont_user
     ui->scr_SetupMQTT_cont_user = lv_obj_create(ui->scr_SetupMQTT_cont_mqtt);
-    lv_obj_set_pos(ui->scr_SetupMQTT_cont_user, 0, 220);
-    lv_obj_set_size(ui->scr_SetupMQTT_cont_user, 1050, 60);
+    lv_obj_set_pos(ui->scr_SetupMQTT_cont_user, 0, 240);
+    lv_obj_set_size(ui->scr_SetupMQTT_cont_user, 1050, 70);
     lv_obj_set_scrollbar_mode(ui->scr_SetupMQTT_cont_user, LV_SCROLLBAR_MODE_OFF);
 
     //Write style for scr_SetupMQTT_cont_user, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
@@ -686,7 +556,7 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
     //Write codes scr_SetupMQTT_ta_user
     ui->scr_SetupMQTT_ta_user = lv_textarea_create(ui->scr_SetupMQTT_cont_user);
     lv_obj_set_pos(ui->scr_SetupMQTT_ta_user, 173, 0);
-    lv_obj_set_size(ui->scr_SetupMQTT_ta_user, 860, 60);
+    lv_obj_set_size(ui->scr_SetupMQTT_ta_user, 860, 50);
     lv_textarea_set_text(ui->scr_SetupMQTT_ta_user, "SynaptiX");
     lv_textarea_set_placeholder_text(ui->scr_SetupMQTT_ta_user, "");
     lv_textarea_set_password_bullet(ui->scr_SetupMQTT_ta_user, "*");
@@ -722,8 +592,8 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
 
     //Write codes scr_SetupMQTT_cont_password
     ui->scr_SetupMQTT_cont_password = lv_obj_create(ui->scr_SetupMQTT_cont_mqtt);
-    lv_obj_set_pos(ui->scr_SetupMQTT_cont_password, 0, 289);
-    lv_obj_set_size(ui->scr_SetupMQTT_cont_password, 1050, 60);
+    lv_obj_set_pos(ui->scr_SetupMQTT_cont_password, 0, 320);
+    lv_obj_set_size(ui->scr_SetupMQTT_cont_password, 1050, 70);
     lv_obj_set_scrollbar_mode(ui->scr_SetupMQTT_cont_password, LV_SCROLLBAR_MODE_OFF);
 
     //Write style for scr_SetupMQTT_cont_password, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
@@ -762,7 +632,7 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
     //Write codes scr_SetupMQTT_ta_password
     ui->scr_SetupMQTT_ta_password = lv_textarea_create(ui->scr_SetupMQTT_cont_password);
     lv_obj_set_pos(ui->scr_SetupMQTT_ta_password, 173, 0);
-    lv_obj_set_size(ui->scr_SetupMQTT_ta_password, 860, 60);
+    lv_obj_set_size(ui->scr_SetupMQTT_ta_password, 860, 50);
     lv_textarea_set_text(ui->scr_SetupMQTT_ta_password, "******");
     lv_textarea_set_placeholder_text(ui->scr_SetupMQTT_ta_password, "");
     lv_textarea_set_password_bullet(ui->scr_SetupMQTT_ta_password, "*");
@@ -811,7 +681,7 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
 
     //Write codes scr_SetupMQTT_line_6
     ui->scr_SetupMQTT_line_6 = lv_line_create(ui->scr_SetupMQTT_cont_body);
-    lv_obj_set_pos(ui->scr_SetupMQTT_line_6, 115, 390);
+    lv_obj_set_pos(ui->scr_SetupMQTT_line_6, 114, 430);
     lv_obj_set_size(ui->scr_SetupMQTT_line_6, 1050, 2);
     static lv_point_precise_t scr_SetupMQTT_line_6[] = {{0, 0},{1050, 0}};
     lv_line_set_points(ui->scr_SetupMQTT_line_6, scr_SetupMQTT_line_6, 2);
@@ -821,32 +691,6 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
     lv_obj_set_style_line_color(ui->scr_SetupMQTT_line_6, lv_color_hex(0x2b2b2b), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_line_opa(ui->scr_SetupMQTT_line_6, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_line_rounded(ui->scr_SetupMQTT_line_6, true, LV_PART_MAIN|LV_STATE_DEFAULT);
-
-    //Write codes scr_SetupMQTT_line_5
-    ui->scr_SetupMQTT_line_5 = lv_line_create(ui->scr_SetupMQTT_cont_body);
-    lv_obj_set_pos(ui->scr_SetupMQTT_line_5, 115, 440);
-    lv_obj_set_size(ui->scr_SetupMQTT_line_5, 1050, 2);
-    static lv_point_precise_t scr_SetupMQTT_line_5[] = {{0, 0},{1050, 0}};
-    lv_line_set_points(ui->scr_SetupMQTT_line_5, scr_SetupMQTT_line_5, 2);
-
-    //Write style for scr_SetupMQTT_line_5, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_line_width(ui->scr_SetupMQTT_line_5, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_line_color(ui->scr_SetupMQTT_line_5, lv_color_hex(0x2b2b2b), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_line_opa(ui->scr_SetupMQTT_line_5, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_line_rounded(ui->scr_SetupMQTT_line_5, true, LV_PART_MAIN|LV_STATE_DEFAULT);
-
-    //Write codes scr_SetupMQTT_line_9
-    ui->scr_SetupMQTT_line_9 = lv_line_create(ui->scr_SetupMQTT_cont_body);
-    lv_obj_set_pos(ui->scr_SetupMQTT_line_9, 115, 530);
-    lv_obj_set_size(ui->scr_SetupMQTT_line_9, 1050, 2);
-    static lv_point_precise_t scr_SetupMQTT_line_9[] = {{0, 0},{1050, 0}};
-    lv_line_set_points(ui->scr_SetupMQTT_line_9, scr_SetupMQTT_line_9, 2);
-
-    //Write style for scr_SetupMQTT_line_9, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_line_width(ui->scr_SetupMQTT_line_9, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_line_color(ui->scr_SetupMQTT_line_9, lv_color_hex(0x2b2b2b), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_line_opa(ui->scr_SetupMQTT_line_9, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_line_rounded(ui->scr_SetupMQTT_line_9, true, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //The custom code of scr_SetupMQTT.
 
