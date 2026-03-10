@@ -135,7 +135,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     ui->scr_SetupHome_cont_list = lv_obj_create(ui->scr_SetupHome_cont_root);
     lv_obj_set_pos(ui->scr_SetupHome_cont_list, 40, 100);
     lv_obj_set_size(ui->scr_SetupHome_cont_list, 1200, 581);
-    lv_obj_set_scrollbar_mode(ui->scr_SetupHome_cont_list, LV_SCROLLBAR_MODE_ON);
+    lv_obj_set_scrollbar_mode(ui->scr_SetupHome_cont_list, LV_SCROLLBAR_MODE_OFF);
 
     //Write style for scr_SetupHome_cont_list, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
     lv_obj_set_style_border_width(ui->scr_SetupHome_cont_list, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
