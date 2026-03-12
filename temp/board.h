@@ -738,7 +738,7 @@
 
 #define LV_USE_TABLE 1
 
-#define LV_USE_TABVIEW 0
+#define LV_USE_TABVIEW 1
 
 #define LV_USE_TEXTAREA 1
 #if LV_USE_TEXTAREA

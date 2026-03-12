@@ -83,6 +83,7 @@ void init_scr_del_flag(lv_ui *ui)
     ui->scr_SetupDataSync_del = true;
     ui->scr_setupModbusMaster_del = true;
     ui->scr_SystemSetting_del = true;
+    ui->scr_input_config_del = true;
 }
 
 void setup_bottom_layer(void)

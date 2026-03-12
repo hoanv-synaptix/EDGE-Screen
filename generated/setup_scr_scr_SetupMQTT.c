@@ -374,7 +374,7 @@ void setup_scr_scr_SetupMQTT(lv_ui *ui)
 
     //Write codes scr_SetupMQTT_ta_port
     ui->scr_SetupMQTT_ta_port = lv_textarea_create(ui->scr_SetupMQTT_cont_port_row);
-    lv_obj_set_pos(ui->scr_SetupMQTT_ta_port, 173, 0);
+    lv_obj_set_pos(ui->scr_SetupMQTT_ta_port, 174, 0);
     lv_obj_set_size(ui->scr_SetupMQTT_ta_port, 860, 50);
     lv_textarea_set_text(ui->scr_SetupMQTT_ta_port, "1883");
     lv_textarea_set_placeholder_text(ui->scr_SetupMQTT_ta_port, "");

@@ -364,7 +364,7 @@ void setup_scr_scr_setup_network(lv_ui *ui)
     ui->scr_setup_network_ta_pass = lv_textarea_create(ui->scr_setup_network_cont_pass_row);
     lv_obj_set_pos(ui->scr_setup_network_ta_pass, 173, 0);
     lv_obj_set_size(ui->scr_setup_network_ta_pass, 860, 60);
-    lv_textarea_set_text(ui->scr_setup_network_ta_pass, "havicom2025");
+    lv_textarea_set_text(ui->scr_setup_network_ta_pass, "havicom2025@");
     lv_textarea_set_placeholder_text(ui->scr_setup_network_ta_pass, "");
     lv_textarea_set_password_bullet(ui->scr_setup_network_ta_pass, "*");
     lv_textarea_set_password_mode(ui->scr_setup_network_ta_pass, true);

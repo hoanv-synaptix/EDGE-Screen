@@ -29,6 +29,7 @@ void events_init_scr_SetupMQTT(lv_ui *ui);
 void events_init_scr_SetupDataSync(lv_ui *ui);
 void events_init_scr_setupModbusMaster(lv_ui *ui);
 void events_init_scr_SystemSetting(lv_ui *ui);
+void events_init_scr_input_config(lv_ui *ui);
 
 #ifdef __cplusplus
 }
