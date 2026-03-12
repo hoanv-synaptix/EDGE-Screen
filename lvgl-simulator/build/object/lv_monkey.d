@@ -1,68 +1,68 @@
 build/object/lv_monkey.o: \
- d:\synaptix\edge-screen\lvgl\src\others\monkey\lv_monkey.c \
- d:\synaptix\edge-screen\lvgl\src\others\monkey\lv_monkey_private.h \
- d:\synaptix\edge-screen\lvgl\src\others\monkey\lv_monkey.h \
- d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h \
- d:\synaptix\edge-screen\lvgl\src\lv_conf_kconfig.h \
- D:/Synaptix/EDGE-Screen/lvgl-simulator/lv_conf.h \
- d:\synaptix\edge-screen\custom\lv_conf_ext.h \
- d:\synaptix\edge-screen\lvgl\src\indev\lv_indev.h \
- d:\synaptix\edge-screen\lvgl\src\core\lv_group.h \
- d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h \
- d:\synaptix\edge-screen\lvgl\src\misc\lv_types.h \
- d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h \
- d:\synaptix\edge-screen\lvgl\src\misc\lv_ll.h \
- d:\synaptix\edge-screen\lvgl\src\misc\lv_types.h \
- d:\synaptix\edge-screen\lvgl\src\misc\lv_area.h \
- d:\synaptix\edge-screen\lvgl\src\misc\lv_math.h \
- d:\synaptix\edge-screen\lvgl\src\misc\lv_timer.h \
- d:\synaptix\edge-screen\lvgl\src\tick\lv_tick.h \
- d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h \
- d:\synaptix\edge-screen\lvgl\src\misc\lv_types.h \
- d:\synaptix\edge-screen\lvgl\src\misc\lv_ll.h \
- d:\synaptix\edge-screen\lvgl\src\misc\lv_event.h \
- d:\synaptix\edge-screen\lvgl\src\misc\lv_array.h
+ g:\hoanv\projects\edge-screen\lvgl\src\others\monkey\lv_monkey.c \
+ g:\hoanv\projects\edge-screen\lvgl\src\others\monkey\lv_monkey_private.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\others\monkey\lv_monkey.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_kconfig.h \
+ G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator/lv_conf.h \
+ g:\hoanv\projects\edge-screen\custom\lv_conf_ext.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\indev\lv_indev.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\core\lv_group.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_ll.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_math.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_timer.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\tick\lv_tick.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_ll.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_event.h \
+ g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_array.h
 
-d:\synaptix\edge-screen\lvgl\src\others\monkey\lv_monkey_private.h:
+g:\hoanv\projects\edge-screen\lvgl\src\others\monkey\lv_monkey_private.h:
 
-d:\synaptix\edge-screen\lvgl\src\others\monkey\lv_monkey.h:
+g:\hoanv\projects\edge-screen\lvgl\src\others\monkey\lv_monkey.h:
 
-d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h:
+g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
 
-d:\synaptix\edge-screen\lvgl\src\lv_conf_kconfig.h:
+g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_kconfig.h:
 
-D:/Synaptix/EDGE-Screen/lvgl-simulator/lv_conf.h:
+G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator/lv_conf.h:
 
-d:\synaptix\edge-screen\custom\lv_conf_ext.h:
+g:\hoanv\projects\edge-screen\custom\lv_conf_ext.h:
 
-d:\synaptix\edge-screen\lvgl\src\indev\lv_indev.h:
+g:\hoanv\projects\edge-screen\lvgl\src\indev\lv_indev.h:
 
-d:\synaptix\edge-screen\lvgl\src\core\lv_group.h:
+g:\hoanv\projects\edge-screen\lvgl\src\core\lv_group.h:
 
-d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h:
+g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
 
-d:\synaptix\edge-screen\lvgl\src\misc\lv_types.h:
+g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
 
-d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h:
+g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
 
-d:\synaptix\edge-screen\lvgl\src\misc\lv_ll.h:
+g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_ll.h:
 
-d:\synaptix\edge-screen\lvgl\src\misc\lv_types.h:
+g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
 
-d:\synaptix\edge-screen\lvgl\src\misc\lv_area.h:
+g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h:
 
-d:\synaptix\edge-screen\lvgl\src\misc\lv_math.h:
+g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_math.h:
 
-d:\synaptix\edge-screen\lvgl\src\misc\lv_timer.h:
+g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_timer.h:
 
-d:\synaptix\edge-screen\lvgl\src\tick\lv_tick.h:
+g:\hoanv\projects\edge-screen\lvgl\src\tick\lv_tick.h:
 
-d:\synaptix\edge-screen\lvgl\src\lv_conf_internal.h:
+g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
 
-d:\synaptix\edge-screen\lvgl\src\misc\lv_types.h:
+g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
 
-d:\synaptix\edge-screen\lvgl\src\misc\lv_ll.h:
+g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_ll.h:
 
-d:\synaptix\edge-screen\lvgl\src\misc\lv_event.h:
+g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_event.h:
 
-d:\synaptix\edge-screen\lvgl\src\misc\lv_array.h:
+g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_array.h:

@@ -318,7 +318,7 @@ static void scr_SetupHome_cont_modbus_event_handler (lv_event_t *e)
     switch (code) {
     case LV_EVENT_CLICKED:
     {
-        ui_load_scr_animation(&guider_ui, &guider_ui.scr_setupModbusMaster, guider_ui.scr_setupModbusMaster_del, &guider_ui.scr_SetupHome_del, setup_scr_scr_setupModbusMaster, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_config_modbus, guider_ui.scr_config_modbus_del, &guider_ui.scr_SetupHome_del, setup_scr_scr_config_modbus, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
         break;
     }
     default:
@@ -496,25 +496,6 @@ void events_init_scr_SetupDataSync (lv_ui *ui)
     lv_obj_add_event_cb(ui->scr_SetupDataSync_imgbtn_back, scr_SetupDataSync_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
 }
 
-static void scr_setupModbusMaster_imgbtn_1_event_handler (lv_event_t *e)
-{
-    lv_event_code_t code = lv_event_get_code(e);
-    switch (code) {
-    case LV_EVENT_CLICKED:
-    {
-        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupHome, guider_ui.scr_SetupHome_del, &guider_ui.scr_setupModbusMaster_del, setup_scr_scr_SetupHome, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
-        break;
-    }
-    default:
-        break;
-    }
-}
-
-void events_init_scr_setupModbusMaster (lv_ui *ui)
-{
-    lv_obj_add_event_cb(ui->scr_setupModbusMaster_imgbtn_1, scr_setupModbusMaster_imgbtn_1_event_handler, LV_EVENT_ALL, ui);
-}
-
 static void scr_SystemSetting_imgbtn_back_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
@@ -566,6 +547,25 @@ void events_init_scr_input_config (lv_ui *ui)
 {
     lv_obj_add_event_cb(ui->scr_input_config_imgbtn_back, scr_input_config_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_input_config_btn_save, scr_input_config_btn_save_event_handler, LV_EVENT_ALL, ui);
+}
+
+static void scr_config_modbus_imgbtn_black_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupHome, guider_ui.scr_SetupHome_del, &guider_ui.scr_config_modbus_del, setup_scr_scr_SetupHome, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+void events_init_scr_config_modbus (lv_ui *ui)
+{
+    lv_obj_add_event_cb(ui->scr_config_modbus_imgbtn_black, scr_config_modbus_imgbtn_black_event_handler, LV_EVENT_ALL, ui);
 }
 
 
