@@ -19,7 +19,7 @@ extern "C" {
 void events_init(lv_ui *ui);
 
 void events_init_boot(lv_ui *ui);
-void events_init_scr_login(lv_ui *ui);
+void events_init_scr_operator_authentication(lv_ui *ui);
 void events_init_scr_dashboard(lv_ui *ui);
 void events_init_scr_downtime(lv_ui *ui);
 void events_init_scr_prod_entry(lv_ui *ui);
@@ -30,6 +30,7 @@ void events_init_scr_SetupDataSync(lv_ui *ui);
 void events_init_scr_SystemSetting(lv_ui *ui);
 void events_init_scr_input_config(lv_ui *ui);
 void events_init_scr_config_modbus(lv_ui *ui);
+void events_init_scr_secure_setup_access(lv_ui *ui);
 
 #ifdef __cplusplus
 }

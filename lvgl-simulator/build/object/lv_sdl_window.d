@@ -1,707 +1,707 @@
 build/object/lv_sdl_window.o: \
- g:\hoanv\projects\edge-screen\lvgl\src\drivers\sdl\lv_sdl_window.c \
- g:\hoanv\projects\edge-screen\lvgl\src\drivers\sdl\lv_sdl_window.h \
- g:\hoanv\projects\edge-screen\lvgl\src\display\lv_display.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_kconfig.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator/lv_conf.h \
- g:\hoanv\projects\edge-screen\custom\lv_conf_ext.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_timer.h \
- g:\hoanv\projects\edge-screen\lvgl\src\tick\lv_tick.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_ll.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_event.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_array.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_assert.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_log.h \
- g:\hoanv\projects\edge-screen\lvgl\src\stdlib\lv_mem.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge-screen\lvgl\src\stdlib\lv_string.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_math.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_palette.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color_op.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h \
- g:\hoanv\projects\edge-screen\lvgl\src\indev\lv_indev.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_group.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_ll.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_timer.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_event.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_refr.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_style.h \
- g:\hoanv\projects\edge-screen\lvgl\src\font\lv_font.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge-screen\lvgl\src\font\lv_symbol_def.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_buf.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color.h \
- g:\hoanv\projects\edge-screen\lvgl\src\stdlib\lv_string.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_image_dsc.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_anim.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_timer.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_text.h \
- g:\hoanv\projects\edge-screen\lvgl\src\stdlib\lv_sprintf.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_bidi.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_grad.h \
- g:\hoanv\projects\edge-screen\lvgl\src\layouts\lv_layout.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge-screen\lvgl\src\layouts\flex/lv_flex.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h \
- g:\hoanv\projects\edge-screen\lvgl\src\layouts\grid/lv_grid.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_style_gen.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_assert.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_tree.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_anim.h \
- g:\hoanv\projects\edge-screen\lvgl\src\display\lv_display.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_pos.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_scroll.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_style.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_bidi.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_style_gen.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_style.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_draw.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_rect.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_style.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_text.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_profiler.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_matrix.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_image_decoder.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_buf.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_fs.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_label.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_rect.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_bidi.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_image.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_line.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_arc.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_triangle.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_class.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_property.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_event.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_event.h \
- g:\hoanv\projects\edge-screen\lvgl\src\indev\lv_indev.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_group.h \
- g:\hoanv\projects\edge-screen\lvgl\src\stdlib\lv_string.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_global.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\lv_draw_sw.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color.h \
- g:\hoanv\projects\edge-screen\lvgl\src\display\lv_display.h \
- g:\hoanv\projects\edge-screen\lvgl\src\osal\lv_os.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge-screen\lvgl\src\osal\lv_os_none.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_vector.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_array.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_image.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_triangle.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_label.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_image.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_line.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_arc.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\lv_draw_sw_utils.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\blend/lv_draw_sw_blend.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\lv_draw_sw_mask.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_math.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_style.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color_op.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_log.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_timer.h \
- g:\hoanv\projects\edge-screen\lvgl\src\osal\lv_os.h \
- g:\hoanv\projects\edge-screen\lvgl\src\others\sysmon\lv_sysmon.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_timer.h \
- g:\hoanv\projects\edge-screen\lvgl\src\others\observer\lv_observer.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj.h \
- g:\hoanv\projects\edge-screen\lvgl\src\stdlib\builtin\lv_tlsf.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_ll.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge-screen\lvgl\src\tick\lv_tick.h \
- g:\hoanv\projects\edge-screen\lvgl\src\layouts\lv_layout.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_timer_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_anim_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\tick\lv_tick_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\tick\lv_tick.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_buf_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\osal\lv_os.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\lv_cache.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\lv_cache_entry.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\class/lv_cache_class.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\class/lv_cache_lru_rb.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\lv_cache_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\osal\lv_os.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\class/lv_cache_lru_ll.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\instance/lv_cache_instance.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\instance/lv_image_header_cache.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\instance/lv_image_cache.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\lv_draw_sw_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\lv_draw_sw.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\lv_draw_sw_mask_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\lv_draw_sw_mask.h \
- g:\hoanv\projects\edge-screen\lvgl\src\stdlib\builtin\lv_tlsf_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\stdlib\builtin\lv_tlsf.h \
- g:\hoanv\projects\edge-screen\lvgl\src\osal\lv_os.h \
- g:\hoanv\projects\edge-screen\lvgl\src\others\sysmon\lv_sysmon_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\others\sysmon\lv_sysmon.h \
- g:\hoanv\projects\edge-screen\lvgl\src\others\test\lv_test_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge-screen\lvgl\src\layouts\lv_layout_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\layouts\lv_layout.h \
- g:\hoanv\projects\edge-screen\lvgl\src\display\lv_display_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw.h \
- g:\hoanv\projects\edge-screen\lvgl\src\display\lv_display.h \
- g:\hoanv\projects\edge-screen\lvgl\src\others\sysmon\lv_sysmon_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_init.h \
- g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc/lv_types.h \
- g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_buf.h \
- g:\hoanv\projects\edge-screen\lvgl\src\drivers\sdl\lv_sdl_private.h \
- g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_main.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_stdinc.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_config.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_platform.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/begin_code.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/close_code.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_assert.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_atomic.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_audio.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_error.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_endian.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_mutex.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_thread.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_rwops.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_clipboard.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_cpuinfo.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_events.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_video.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_pixels.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_rect.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_surface.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_blendmode.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_keyboard.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_keycode.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_scancode.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_mouse.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_joystick.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_gamecontroller.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_quit.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_gesture.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_touch.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_filesystem.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_haptic.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_hints.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_loadso.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_log.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_messagebox.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_metal.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_power.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_render.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_sensor.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_shape.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_system.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_timer.h \
- G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_version.h
-
-g:\hoanv\projects\edge-screen\lvgl\src\drivers\sdl\lv_sdl_window.h:
-
-g:\hoanv\projects\edge-screen\lvgl\src\display\lv_display.h:
-
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
-
-g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
-
-g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_kconfig.h:
-
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator/lv_conf.h:
-
-g:\hoanv\projects\edge-screen\custom\lv_conf_ext.h:
-
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_timer.h:
-
-g:\hoanv\projects\edge-screen\lvgl\src\tick\lv_tick.h:
-
-g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
-
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
-
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
-
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_ll.h:
-
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_event.h:
-
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_array.h:
-
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color.h:
-
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_assert.h:
-
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_log.h:
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\drivers\sdl\lv_sdl_window.c \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\drivers\sdl\lv_sdl_window.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\display\lv_display.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_kconfig.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator/lv_conf.h \
+ d:\synaptix\project-cnc\edge-screen\custom\lv_conf_ext.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_timer.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\tick\lv_tick.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_ll.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_event.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_array.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_assert.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_log.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\lv_mem.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\lv_string.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_math.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_palette.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color_op.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\indev\lv_indev.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_group.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_ll.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_timer.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_event.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_refr.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_style.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\font\lv_font.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\font\lv_symbol_def.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_buf.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\lv_string.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_image_dsc.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_anim.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_timer.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_text.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\lv_sprintf.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_bidi.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_grad.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\layouts\lv_layout.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\layouts\flex/lv_flex.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\layouts\grid/lv_grid.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_style_gen.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_assert.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_tree.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_anim.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\display\lv_display.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_pos.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_scroll.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_style.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_bidi.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_style_gen.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_style.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_draw.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_rect.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_style.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_text.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_profiler.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_matrix.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_image_decoder.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_buf.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_fs.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_label.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_rect.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_bidi.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_image.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_line.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_arc.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_triangle.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_class.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_property.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_event.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_event.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\indev\lv_indev.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_group.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\lv_string.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_global.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\lv_draw_sw.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\display\lv_display.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\osal\lv_os.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\osal\lv_os_none.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_vector.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_array.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_image.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_triangle.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_label.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_image.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_line.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_arc.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\lv_draw_sw_utils.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\blend/lv_draw_sw_blend.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\lv_draw_sw_mask.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_math.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_style.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color_op.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_log.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_timer.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\osal\lv_os.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\others\sysmon\lv_sysmon.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_timer.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\others\observer\lv_observer.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\builtin\lv_tlsf.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_ll.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\tick\lv_tick.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\layouts\lv_layout.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_timer_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_anim_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\tick\lv_tick_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\tick\lv_tick.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_buf_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\osal\lv_os.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\lv_cache.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\lv_cache_entry.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\class/lv_cache_class.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\class/lv_cache_lru_rb.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\lv_cache_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\osal\lv_os.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\class/lv_cache_lru_ll.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\instance/lv_cache_instance.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\instance/lv_image_header_cache.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\instance/lv_image_cache.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\lv_draw_sw_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\lv_draw_sw.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\lv_draw_sw_mask_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\lv_draw_sw_mask.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\builtin\lv_tlsf_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\builtin\lv_tlsf.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\osal\lv_os.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\others\sysmon\lv_sysmon_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\others\sysmon\lv_sysmon.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\others\test\lv_test_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\layouts\lv_layout_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\layouts\lv_layout.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\display\lv_display_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\display\lv_display.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\others\sysmon\lv_sysmon_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_init.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc/lv_types.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_buf.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\drivers\sdl\lv_sdl_private.h \
+ d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_main.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_stdinc.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_config.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_platform.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/begin_code.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/close_code.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_assert.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_atomic.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_audio.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_error.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_endian.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_mutex.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_thread.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_rwops.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_clipboard.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_cpuinfo.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_events.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_video.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_pixels.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_rect.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_surface.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_blendmode.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_keyboard.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_keycode.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_scancode.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_mouse.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_joystick.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_gamecontroller.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_quit.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_gesture.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_touch.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_filesystem.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_haptic.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_hints.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_loadso.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_log.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_messagebox.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_metal.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_power.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_render.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_sensor.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_shape.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_system.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_timer.h \
+ D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_version.h
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\drivers\sdl\lv_sdl_window.h:
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\display\lv_display.h:
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h:
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_kconfig.h:
+
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator/lv_conf.h:
+
+d:\synaptix\project-cnc\edge-screen\custom\lv_conf_ext.h:
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_timer.h:
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\tick\lv_tick.h:
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h:
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h:
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_ll.h:
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_event.h:
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_array.h:
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color.h:
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_assert.h:
+
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_log.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\stdlib\lv_mem.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\lv_mem.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\stdlib\lv_string.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\lv_string.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_math.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_math.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_palette.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_palette.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color_op.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color_op.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\indev\lv_indev.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\indev\lv_indev.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_group.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_group.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_ll.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_ll.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_timer.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_timer.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_event.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_event.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_refr.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_refr.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_style.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_style.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\font\lv_font.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\font\lv_font.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\font\lv_symbol_def.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\font\lv_symbol_def.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_buf.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_buf.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\stdlib\lv_string.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\lv_string.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_image_dsc.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_image_dsc.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_anim.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_anim.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_timer.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_timer.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_text.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_text.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\stdlib\lv_sprintf.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\lv_sprintf.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_bidi.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_bidi.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_grad.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_grad.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\layouts\lv_layout.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\layouts\lv_layout.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\layouts\flex/lv_flex.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\layouts\flex/lv_flex.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\layouts\grid/lv_grid.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\layouts\grid/lv_grid.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_style_gen.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_style_gen.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_assert.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_assert.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_tree.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_tree.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_anim.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_anim.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\display\lv_display.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\display\lv_display.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_pos.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_pos.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_scroll.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_scroll.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_style.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_style.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_bidi.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_bidi.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_style_gen.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_style_gen.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_style.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_style.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_draw.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_draw.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_rect.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_rect.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_style.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_style.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_text.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_text.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_profiler.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_profiler.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_matrix.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_matrix.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_image_decoder.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_image_decoder.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_buf.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_buf.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_fs.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_fs.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_label.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_label.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_rect.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_rect.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_bidi.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_bidi.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_image.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_image.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_line.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_line.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_arc.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_arc.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_triangle.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_triangle.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_class.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_class.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_property.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_property.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj_event.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj_event.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_event.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_event.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\indev\lv_indev.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\indev\lv_indev.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_group.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_group.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\stdlib\lv_string.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\lv_string.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_global.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_global.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\lv_draw_sw.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\lv_draw_sw.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\display\lv_display.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\display\lv_display.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\osal\lv_os.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\osal\lv_os.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\osal\lv_os_none.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\osal\lv_os_none.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_vector.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_vector.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_array.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_array.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_image.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_image.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_triangle.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_triangle.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_label.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_label.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_image.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_image.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_line.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_line.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_arc.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_arc.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\lv_draw_sw_utils.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\lv_draw_sw_utils.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\blend/lv_draw_sw_blend.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\blend/lv_draw_sw_blend.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\lv_draw_sw_mask.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\lv_draw_sw_mask.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_math.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_math.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_area.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_area.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_style.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_style.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_color_op.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_color_op.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_log.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_log.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_timer.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_timer.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\osal\lv_os.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\osal\lv_os.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\others\sysmon\lv_sysmon.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\others\sysmon\lv_sysmon.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_timer.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_timer.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\others\observer\lv_observer.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\others\observer\lv_observer.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\stdlib\builtin\lv_tlsf.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\builtin\lv_tlsf.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_ll.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_ll.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\tick\lv_tick.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\tick\lv_tick.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\layouts\lv_layout.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\layouts\lv_layout.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_timer_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_timer_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_anim_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_anim_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\tick\lv_tick_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\tick\lv_tick_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\tick\lv_tick.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\tick\lv_tick.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_buf_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_buf_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\osal\lv_os.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\osal\lv_os.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\lv_cache.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\lv_cache.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\lv_cache_entry.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\lv_cache_entry.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\class/lv_cache_class.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\class/lv_cache_class.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\class/lv_cache_lru_rb.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\class/lv_cache_lru_rb.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\lv_cache_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\lv_cache_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\osal\lv_os.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\osal\lv_os.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\class/lv_cache_lru_ll.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\class/lv_cache_lru_ll.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\instance/lv_cache_instance.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\instance/lv_cache_instance.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\instance/lv_image_header_cache.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\instance/lv_image_header_cache.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\cache\instance/lv_image_cache.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\cache\instance/lv_image_cache.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\lv_draw_sw_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\lv_draw_sw_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\lv_draw_sw.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\lv_draw_sw.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\lv_draw_sw_mask_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\lv_draw_sw_mask_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\sw\lv_draw_sw_mask.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\sw\lv_draw_sw_mask.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\stdlib\builtin\lv_tlsf_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\builtin\lv_tlsf_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\stdlib\builtin\lv_tlsf.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\stdlib\builtin\lv_tlsf.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\osal\lv_os.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\osal\lv_os.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\others\sysmon\lv_sysmon_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\others\sysmon\lv_sysmon_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\others\sysmon\lv_sysmon.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\others\sysmon\lv_sysmon.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\others\test\lv_test_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\others\test\lv_test_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\layouts\lv_layout_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\layouts\lv_layout_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\layouts\lv_layout.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\layouts\lv_layout.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\display\lv_display_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\display\lv_display_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\core\lv_obj.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_obj.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\display\lv_display.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\display\lv_display.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\others\sysmon\lv_sysmon_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\others\sysmon\lv_sysmon_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\lv_init.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_init.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\lv_conf_internal.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc/lv_types.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc/lv_types.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\draw\lv_draw_buf.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_draw_buf.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\drivers\sdl\lv_sdl_private.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\drivers\sdl\lv_sdl_private.h:
 
-g:\hoanv\projects\edge-screen\lvgl\src\misc\lv_types.h:
+d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_types.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_main.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_main.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_stdinc.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_stdinc.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_config.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_config.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_platform.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_platform.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/begin_code.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/begin_code.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/close_code.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/close_code.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_assert.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_assert.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_atomic.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_atomic.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_audio.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_audio.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_error.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_error.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_endian.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_endian.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_mutex.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_mutex.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_thread.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_thread.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_rwops.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_rwops.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_clipboard.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_clipboard.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_cpuinfo.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_cpuinfo.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_events.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_events.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_video.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_video.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_pixels.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_pixels.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_rect.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_rect.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_surface.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_surface.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_blendmode.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_blendmode.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_keyboard.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_keyboard.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_keycode.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_keycode.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_scancode.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_scancode.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_mouse.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_mouse.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_joystick.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_joystick.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_gamecontroller.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_gamecontroller.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_quit.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_quit.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_gesture.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_gesture.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_touch.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_touch.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_filesystem.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_filesystem.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_haptic.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_haptic.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_hints.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_hints.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_loadso.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_loadso.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_log.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_log.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_messagebox.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_messagebox.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_metal.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_metal.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_power.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_power.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_render.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_render.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_sensor.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_sensor.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_shape.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_shape.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_system.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_system.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_timer.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_timer.h:
 
-G:/HoaNV/Projects/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_version.h:
+D:/Synaptix/Project-CNC/EDGE-Screen/lvgl-simulator\modules\SDL2\i686-w64-mingw32\include/SDL2/SDL_version.h:

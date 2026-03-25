@@ -37,13 +37,13 @@ void events_init_boot (lv_ui *ui)
     lv_obj_add_event_cb(ui->boot, boot_event_handler, LV_EVENT_ALL, ui);
 }
 
-static void scr_login_btn_login_event_handler (lv_event_t *e)
+static void scr_operator_authentication_btn_confirm_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
     switch (code) {
     case LV_EVENT_CLICKED:
     {
-        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.scr_login_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.scr_operator_authentication_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
         break;
     }
     default:
@@ -51,17 +51,13 @@ static void scr_login_btn_login_event_handler (lv_event_t *e)
     }
 }
 
-void events_init_scr_login (lv_ui *ui)
-{
-    lv_obj_add_event_cb(ui->scr_login_btn_login, scr_login_btn_login_event_handler, LV_EVENT_ALL, ui);
-}
-
-static void scr_dashboard_btn_stop_event_handler (lv_event_t *e)
+static void scr_operator_authentication_btn_cancel_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
     switch (code) {
     case LV_EVENT_CLICKED:
     {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_login, guider_ui.scr_login_del, &guider_ui.scr_operator_authentication_del, setup_scr_scr_login, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
         break;
     }
     default:
@@ -69,17 +65,10 @@ static void scr_dashboard_btn_stop_event_handler (lv_event_t *e)
     }
 }
 
-static void scr_dashboard_btn_error_event_handler (lv_event_t *e)
+void events_init_scr_operator_authentication (lv_ui *ui)
 {
-    lv_event_code_t code = lv_event_get_code(e);
-    switch (code) {
-    case LV_EVENT_CLICKED:
-    {
-        break;
-    }
-    default:
-        break;
-    }
+    lv_obj_add_event_cb(ui->scr_operator_authentication_btn_confirm, scr_operator_authentication_btn_confirm_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_operator_authentication_btn_cancel, scr_operator_authentication_btn_cancel_event_handler, LV_EVENT_ALL, ui);
 }
 
 static void scr_dashboard_btn_setup_event_handler (lv_event_t *e)
@@ -112,8 +101,6 @@ static void scr_dashboard_btn_input_prod_event_handler (lv_event_t *e)
 
 void events_init_scr_dashboard (lv_ui *ui)
 {
-    lv_obj_add_event_cb(ui->scr_dashboard_btn_stop, scr_dashboard_btn_stop_event_handler, LV_EVENT_ALL, ui);
-    lv_obj_add_event_cb(ui->scr_dashboard_btn_error, scr_dashboard_btn_error_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_dashboard_btn_setup, scr_dashboard_btn_setup_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_dashboard_btn_input_prod, scr_dashboard_btn_input_prod_event_handler, LV_EVENT_ALL, ui);
 }
@@ -566,6 +553,25 @@ static void scr_config_modbus_imgbtn_black_event_handler (lv_event_t *e)
 void events_init_scr_config_modbus (lv_ui *ui)
 {
     lv_obj_add_event_cb(ui->scr_config_modbus_imgbtn_black, scr_config_modbus_imgbtn_black_event_handler, LV_EVENT_ALL, ui);
+}
+
+static void scr_secure_setup_access_btn_cancel_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.scr_secure_setup_access_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+void events_init_scr_secure_setup_access (lv_ui *ui)
+{
+    lv_obj_add_event_cb(ui->scr_secure_setup_access_btn_cancel, scr_secure_setup_access_btn_cancel_event_handler, LV_EVENT_ALL, ui);
 }
 
 

@@ -335,51 +335,51 @@ void setup_scr_scr_downtime(lv_ui *ui)
     lv_obj_set_style_pad_right(ui->scr_downtime_cont_dt_reason_box, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_downtime_cont_dt_reason_box, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
-    //Write codes scr_downtime_btn_2
-    ui->scr_downtime_btn_2 = lv_button_create(ui->scr_downtime_cont_dt_reason_box);
-    lv_obj_set_pos(ui->scr_downtime_btn_2, 27, 184);
-    lv_obj_set_size(ui->scr_downtime_btn_2, 800, 90);
-    ui->scr_downtime_btn_2_label = lv_label_create(ui->scr_downtime_btn_2);
-    lv_label_set_text(ui->scr_downtime_btn_2_label, "     Power Loss");
-    lv_label_set_long_mode(ui->scr_downtime_btn_2_label, LV_LABEL_LONG_WRAP);
-    lv_obj_align(ui->scr_downtime_btn_2_label, LV_ALIGN_LEFT_MID, 0, 0);
-    lv_obj_set_style_pad_all(ui->scr_downtime_btn_2, 0, LV_STATE_DEFAULT);
-    lv_obj_set_width(ui->scr_downtime_btn_2_label, LV_PCT(100));
+    //Write codes scr_downtime_btn_power_loss
+    ui->scr_downtime_btn_power_loss = lv_button_create(ui->scr_downtime_cont_dt_reason_box);
+    lv_obj_set_pos(ui->scr_downtime_btn_power_loss, 27, 184);
+    lv_obj_set_size(ui->scr_downtime_btn_power_loss, 800, 90);
+    ui->scr_downtime_btn_power_loss_label = lv_label_create(ui->scr_downtime_btn_power_loss);
+    lv_label_set_text(ui->scr_downtime_btn_power_loss_label, "     Power Loss");
+    lv_label_set_long_mode(ui->scr_downtime_btn_power_loss_label, LV_LABEL_LONG_WRAP);
+    lv_obj_align(ui->scr_downtime_btn_power_loss_label, LV_ALIGN_LEFT_MID, 0, 0);
+    lv_obj_set_style_pad_all(ui->scr_downtime_btn_power_loss, 0, LV_STATE_DEFAULT);
+    lv_obj_set_width(ui->scr_downtime_btn_power_loss_label, LV_PCT(100));
 
-    //Write style for scr_downtime_btn_2, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_bg_opa(ui->scr_downtime_btn_2, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_color(ui->scr_downtime_btn_2, lv_color_hex(0x242424), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_grad_dir(ui->scr_downtime_btn_2, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(ui->scr_downtime_btn_2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_downtime_btn_2, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_downtime_btn_2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->scr_downtime_btn_2, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_downtime_btn_2, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_opa(ui->scr_downtime_btn_2, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_downtime_btn_2, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
+    //Write style for scr_downtime_btn_power_loss, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_bg_opa(ui->scr_downtime_btn_power_loss, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(ui->scr_downtime_btn_power_loss, lv_color_hex(0x242424), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_grad_dir(ui->scr_downtime_btn_power_loss, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->scr_downtime_btn_power_loss, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->scr_downtime_btn_power_loss, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_downtime_btn_power_loss, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->scr_downtime_btn_power_loss, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_downtime_btn_power_loss, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->scr_downtime_btn_power_loss, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_downtime_btn_power_loss, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
-    //Write codes scr_downtime_btn_1
-    ui->scr_downtime_btn_1 = lv_button_create(ui->scr_downtime_cont_dt_reason_box);
-    lv_obj_set_pos(ui->scr_downtime_btn_1, 27, 92);
-    lv_obj_set_size(ui->scr_downtime_btn_1, 800, 90);
-    ui->scr_downtime_btn_1_label = lv_label_create(ui->scr_downtime_btn_1);
-    lv_label_set_text(ui->scr_downtime_btn_1_label, "     Motor Overheat");
-    lv_label_set_long_mode(ui->scr_downtime_btn_1_label, LV_LABEL_LONG_WRAP);
-    lv_obj_align(ui->scr_downtime_btn_1_label, LV_ALIGN_LEFT_MID, 0, 0);
-    lv_obj_set_style_pad_all(ui->scr_downtime_btn_1, 0, LV_STATE_DEFAULT);
-    lv_obj_set_width(ui->scr_downtime_btn_1_label, LV_PCT(100));
+    //Write codes scr_downtime_btn_motor_overheat
+    ui->scr_downtime_btn_motor_overheat = lv_button_create(ui->scr_downtime_cont_dt_reason_box);
+    lv_obj_set_pos(ui->scr_downtime_btn_motor_overheat, 27, 92);
+    lv_obj_set_size(ui->scr_downtime_btn_motor_overheat, 800, 90);
+    ui->scr_downtime_btn_motor_overheat_label = lv_label_create(ui->scr_downtime_btn_motor_overheat);
+    lv_label_set_text(ui->scr_downtime_btn_motor_overheat_label, "     Motor Overheat");
+    lv_label_set_long_mode(ui->scr_downtime_btn_motor_overheat_label, LV_LABEL_LONG_WRAP);
+    lv_obj_align(ui->scr_downtime_btn_motor_overheat_label, LV_ALIGN_LEFT_MID, 0, 0);
+    lv_obj_set_style_pad_all(ui->scr_downtime_btn_motor_overheat, 0, LV_STATE_DEFAULT);
+    lv_obj_set_width(ui->scr_downtime_btn_motor_overheat_label, LV_PCT(100));
 
-    //Write style for scr_downtime_btn_1, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_bg_opa(ui->scr_downtime_btn_1, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_color(ui->scr_downtime_btn_1, lv_color_hex(0x242424), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_grad_dir(ui->scr_downtime_btn_1, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(ui->scr_downtime_btn_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_downtime_btn_1, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_downtime_btn_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->scr_downtime_btn_1, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_downtime_btn_1, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_opa(ui->scr_downtime_btn_1, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_downtime_btn_1, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
+    //Write style for scr_downtime_btn_motor_overheat, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_bg_opa(ui->scr_downtime_btn_motor_overheat, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_color(ui->scr_downtime_btn_motor_overheat, lv_color_hex(0x242424), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_grad_dir(ui->scr_downtime_btn_motor_overheat, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->scr_downtime_btn_motor_overheat, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->scr_downtime_btn_motor_overheat, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_downtime_btn_motor_overheat, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->scr_downtime_btn_motor_overheat, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_downtime_btn_motor_overheat, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->scr_downtime_btn_motor_overheat, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_downtime_btn_motor_overheat, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_downtime_btn_machine_1
     ui->scr_downtime_btn_machine_1 = lv_button_create(ui->scr_downtime_cont_dt_reason_box);
@@ -406,9 +406,9 @@ void setup_scr_scr_downtime(lv_ui *ui)
 
     //Write codes scr_downtime_ta_dt_note
     ui->scr_downtime_ta_dt_note = lv_textarea_create(ui->scr_downtime_cont_dt_right);
-    lv_obj_set_pos(ui->scr_downtime_ta_dt_note, 27, 297);
+    lv_obj_set_pos(ui->scr_downtime_ta_dt_note, 27, 296);
     lv_obj_set_size(ui->scr_downtime_ta_dt_note, 800, 80);
-    lv_textarea_set_text(ui->scr_downtime_ta_dt_note, "Note here...");
+    lv_textarea_set_text(ui->scr_downtime_ta_dt_note, "Note here....");
     lv_textarea_set_placeholder_text(ui->scr_downtime_ta_dt_note, "");
     lv_textarea_set_password_bullet(ui->scr_downtime_ta_dt_note, "*");
     lv_textarea_set_password_mode(ui->scr_downtime_ta_dt_note, false);

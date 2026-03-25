@@ -131,6 +131,7 @@ void setup_scr_boot(lv_ui *ui)
     ui->boot_lbl_version = lv_label_create(ui->boot_cont_footer);
     lv_obj_set_pos(ui->boot_lbl_version, 0, 13);
     lv_obj_set_size(ui->boot_lbl_version, 200, 30);
+    lv_obj_add_flag(ui->boot_lbl_version, LV_OBJ_FLAG_HIDDEN);
     lv_label_set_text(ui->boot_lbl_version, "v1.0.0");
     lv_label_set_long_mode(ui->boot_lbl_version, LV_LABEL_LONG_WRAP);
 
@@ -154,6 +155,7 @@ void setup_scr_boot(lv_ui *ui)
     ui->boot_lbl_edgeid = lv_label_create(ui->boot_cont_footer);
     lv_obj_set_pos(ui->boot_lbl_edgeid, 535, 13);
     lv_obj_set_size(ui->boot_lbl_edgeid, 200, 30);
+    lv_obj_add_flag(ui->boot_lbl_edgeid, LV_OBJ_FLAG_HIDDEN);
     lv_label_set_text(ui->boot_lbl_edgeid, "EdgeID: E-0001");
     lv_label_set_long_mode(ui->boot_lbl_edgeid, LV_LABEL_LONG_WRAP);
 
@@ -177,6 +179,7 @@ void setup_scr_boot(lv_ui *ui)
     ui->boot_lbl_date = lv_label_create(ui->boot_cont_footer);
     lv_obj_set_pos(ui->boot_lbl_date, 1070, 13);
     lv_obj_set_size(ui->boot_lbl_date, 200, 30);
+    lv_obj_add_flag(ui->boot_lbl_date, LV_OBJ_FLAG_HIDDEN);
     lv_label_set_text(ui->boot_lbl_date, "28-02-2026");
     lv_label_set_long_mode(ui->boot_lbl_date, LV_LABEL_LONG_WRAP);
 

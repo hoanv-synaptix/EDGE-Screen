@@ -21,7 +21,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     //Write codes scr_SetupHome
     ui->scr_SetupHome = lv_obj_create(NULL);
     lv_obj_set_size(ui->scr_SetupHome, 1280, 720);
-    lv_obj_set_scrollbar_mode(ui->scr_SetupHome, LV_SCROLLBAR_MODE_ON);
+    lv_obj_set_scrollbar_mode(ui->scr_SetupHome, LV_SCROLLBAR_MODE_AUTO);
 
     //Write style for scr_SetupHome, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
     lv_obj_set_style_bg_opa(ui->scr_SetupHome, 255, LV_PART_MAIN|LV_STATE_DEFAULT);

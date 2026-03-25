@@ -57,6 +57,22 @@ typedef struct
 	lv_obj_t *scr_login_cont_top_right;
 	lv_obj_t *scr_login_imgbtn_back;
 	lv_obj_t *scr_login_imgbtn_back_label;
+	lv_obj_t *scr_operator_authentication;
+	bool scr_operator_authentication_del;
+	lv_obj_t *scr_operator_authentication_cont_secure_access;
+	lv_obj_t *scr_operator_authentication_label_3;
+	lv_obj_t *scr_operator_authentication_line_4;
+	lv_obj_t *scr_operator_authentication_lbl_operator;
+	lv_obj_t *scr_operator_authentication_line_3;
+	lv_obj_t *scr_operator_authentication_btn_confirm;
+	lv_obj_t *scr_operator_authentication_btn_confirm_label;
+	lv_obj_t *scr_operator_authentication_btn_cancel;
+	lv_obj_t *scr_operator_authentication_btn_cancel_label;
+	lv_obj_t *scr_operator_authentication_lbl_action;
+	lv_obj_t *scr_operator_authentication_lbl_status;
+	lv_obj_t *scr_operator_authentication_lbl_operator_value;
+	lv_obj_t *scr_operator_authentication_lbl_action_value;
+	lv_obj_t *scr_operator_authentication_lbl_status_value;
 	lv_obj_t *scr_dashboard;
 	bool scr_dashboard_del;
 	lv_obj_t *scr_dashboard_cont_dash_bg;
@@ -111,10 +127,10 @@ typedef struct
 	lv_obj_t *scr_downtime_btn_g_other_label;
 	lv_obj_t *scr_downtime_cont_dt_right;
 	lv_obj_t *scr_downtime_cont_dt_reason_box;
-	lv_obj_t *scr_downtime_btn_2;
-	lv_obj_t *scr_downtime_btn_2_label;
-	lv_obj_t *scr_downtime_btn_1;
-	lv_obj_t *scr_downtime_btn_1_label;
+	lv_obj_t *scr_downtime_btn_power_loss;
+	lv_obj_t *scr_downtime_btn_power_loss_label;
+	lv_obj_t *scr_downtime_btn_motor_overheat;
+	lv_obj_t *scr_downtime_btn_motor_overheat_label;
 	lv_obj_t *scr_downtime_btn_machine_1;
 	lv_obj_t *scr_downtime_btn_machine_1_label;
 	lv_obj_t *scr_downtime_ta_dt_note;
@@ -152,14 +168,14 @@ typedef struct
 	lv_obj_t *scr_prod_entry_btn_grp_method_label;
 	lv_obj_t *scr_prod_entry_cont_pe_defect;
 	lv_obj_t *scr_prod_entry_lbl_defect_tiltle;
-	lv_obj_t *scr_prod_entry_btn_def_1;
-	lv_obj_t *scr_prod_entry_btn_def_1_label;
-	lv_obj_t *scr_prod_entry_btn_def_4;
-	lv_obj_t *scr_prod_entry_btn_def_4_label;
-	lv_obj_t *scr_prod_entry_btn_def_3;
-	lv_obj_t *scr_prod_entry_btn_def_3_label;
-	lv_obj_t *scr_prod_entry_btn_def_2;
-	lv_obj_t *scr_prod_entry_btn_def_2_label;
+	lv_obj_t *scr_prod_entry_btn_def_motor_overheat;
+	lv_obj_t *scr_prod_entry_btn_def_motor_overheat_label;
+	lv_obj_t *scr_prod_entry_btn_def_power_leak;
+	lv_obj_t *scr_prod_entry_btn_def_power_leak_label;
+	lv_obj_t *scr_prod_entry_btn_def_belt_broken;
+	lv_obj_t *scr_prod_entry_btn_def_belt_broken_label;
+	lv_obj_t *scr_prod_entry_btn_def_sensor_failure;
+	lv_obj_t *scr_prod_entry_btn_def_sensor_failure_label;
 	lv_obj_t *scr_prod_entry_cont_pe_bottom;
 	lv_obj_t *scr_prod_entry_btn_pe_submit;
 	lv_obj_t *scr_prod_entry_btn_pe_submit_label;
@@ -396,9 +412,7 @@ typedef struct
 	lv_obj_t *scr_input_config_tabview_intput_tab_4;
 	lv_obj_t *scr_input_config_cont_intput1;
 	lv_obj_t *scr_input_config_line_1;
-	lv_obj_t *scr_input_config_ddlist_ip1_debounce;
 	lv_obj_t *scr_input_config_ddlist_ip1_function;
-	lv_obj_t *scr_input_config_lbl_ip1_debounce;
 	lv_obj_t *scr_input_config_lbl_ip1_trigger;
 	lv_obj_t *scr_input_config_ddlist_ip1_trigger;
 	lv_obj_t *scr_input_config_lbl_ip1_function;
@@ -408,15 +422,13 @@ typedef struct
 	lv_obj_t *scr_input_config_led_ip1_status;
 	lv_obj_t *scr_input_config_line_2;
 	lv_obj_t *scr_input_config_line_3;
-	lv_obj_t *scr_input_config_line_4;
-	lv_obj_t *scr_input_config_ddlist_ip1_press;
-	lv_obj_t *scr_input_config_lbl_ip1_press;
+	lv_obj_t *scr_input_config_ddlist_ip1_enable;
+	lv_obj_t *scr_input_config_lbl_ip1_enable;
 	lv_obj_t *scr_input_config_line_17;
+	lv_obj_t *scr_input_config_line_33;
 	lv_obj_t *scr_input_config_cont_input2;
 	lv_obj_t *scr_input_config_line_22;
-	lv_obj_t *scr_input_config_ddlist_ip2_debounce;
 	lv_obj_t *scr_input_config_ddlist_ip2_function;
-	lv_obj_t *scr_input_config_lbl_ip2_debounce;
 	lv_obj_t *scr_input_config_label_ip2_trigger;
 	lv_obj_t *scr_input_config_ddlist_ip2_trigger;
 	lv_obj_t *scr_input_config_lbl_ip2_function;
@@ -427,14 +439,12 @@ typedef struct
 	lv_obj_t *scr_input_config_line_21;
 	lv_obj_t *scr_input_config_line_20;
 	lv_obj_t *scr_input_config_line_19;
-	lv_obj_t *scr_input_config_ddlist_ip2_press;
-	lv_obj_t *scr_input_config_lbl_ip2_press;
+	lv_obj_t *scr_input_config_ddlist_ip2_enable;
+	lv_obj_t *scr_input_config_lbl_ip2_enable;
 	lv_obj_t *scr_input_config_line_18;
 	lv_obj_t *scr_input_config_cont_input3;
 	lv_obj_t *scr_input_config_line_27;
-	lv_obj_t *scr_input_config_ddlist_ip3_debounce;
 	lv_obj_t *scr_input_config_ddlist_ip3_function;
-	lv_obj_t *scr_input_config_lbl_ip3_debounce;
 	lv_obj_t *scr_input_config_lbl_ip3_trigger;
 	lv_obj_t *scr_input_config_ddlist_ip3_trigger;
 	lv_obj_t *scr_input_config_lbl_ip3_function;
@@ -445,14 +455,12 @@ typedef struct
 	lv_obj_t *scr_input_config_line_26;
 	lv_obj_t *scr_input_config_line_25;
 	lv_obj_t *scr_input_config_line_24;
-	lv_obj_t *scr_input_config_ddlist_ip3_press;
-	lv_obj_t *scr_input_config_lbl_ip3_press;
+	lv_obj_t *scr_input_config_ddlist_ip3_enable;
+	lv_obj_t *scr_input_config_lbl_ip3_enable;
 	lv_obj_t *scr_input_config_line_23;
 	lv_obj_t *scr_input_config_cont_input4;
 	lv_obj_t *scr_input_config_line_32;
-	lv_obj_t *scr_input_config_ddlist_ip4_debounce;
 	lv_obj_t *scr_input_config_ddlist_ip4_function;
-	lv_obj_t *scr_input_config_lbl_ip4_debounce;
 	lv_obj_t *scr_input_config_lbl_ip4_trigger;
 	lv_obj_t *scr_input_config_ddlist_ip4_trigger;
 	lv_obj_t *scr_input_config_lbl_ip4_function;
@@ -463,8 +471,8 @@ typedef struct
 	lv_obj_t *scr_input_config_line_31;
 	lv_obj_t *scr_input_config_line_30;
 	lv_obj_t *scr_input_config_line_29;
-	lv_obj_t *scr_input_config_ddlist_ip4_press;
-	lv_obj_t *scr_input_config_lbl_ip4_press;
+	lv_obj_t *scr_input_config_ddlist_ip4_enable;
+	lv_obj_t *scr_input_config_lbl_ip4_enable;
 	lv_obj_t *scr_input_config_line_28;
 	lv_obj_t *scr_config_modbus;
 	bool scr_config_modbus_del;
@@ -486,24 +494,19 @@ typedef struct
 	lv_obj_t *scr_config_modbus_tabview_modbus_tab_3;
 	lv_obj_t *scr_config_modbus_cont_connection;
 	lv_obj_t *scr_config_modbus_line_5;
-	lv_obj_t *scr_config_modbus_ddlist_timeout;
 	lv_obj_t *scr_config_modbus_ddlist_baudrate;
-	lv_obj_t *scr_config_modbus_lbl_timeout;
 	lv_obj_t *scr_config_modbus_lbl_stopbit;
 	lv_obj_t *scr_config_modbus_ddlist_stopbit;
 	lv_obj_t *scr_config_modbus_lbl_baudrate;
 	lv_obj_t *scr_config_modbus_lbl_conncetion;
-	lv_obj_t *scr_config_modbus_lbl_retry_count;
 	lv_obj_t *scr_config_modbus_line_4;
 	lv_obj_t *scr_config_modbus_line_3;
 	lv_obj_t *scr_config_modbus_line_2;
 	lv_obj_t *scr_config_modbus_ddlist_parity;
 	lv_obj_t *scr_config_modbus_lbl_parity;
 	lv_obj_t *scr_config_modbus_line_1;
-	lv_obj_t *scr_config_modbus_ddlist_retry_count;
 	lv_obj_t *scr_config_modbus_ddlist_poll_interval;
 	lv_obj_t *scr_config_modbus_label_poll_interval;
-	lv_obj_t *scr_config_modbus_line_21;
 	lv_obj_t *scr_config_modbus_cont_configuredevice;
 	lv_obj_t *scr_config_modbus_line_27;
 	lv_obj_t *scr_config_modbus_lbl_address;
@@ -524,10 +527,31 @@ typedef struct
 	lv_obj_t *scr_config_modbus_ta_slaveid;
 	lv_obj_t *scr_config_modbus_ta_quantity;
 	lv_obj_t *scr_config_modbus_ta_address;
-	lv_obj_t *scr_config_modbus_cont_3;
+	lv_obj_t *scr_config_modbus_cont_devicelist;
 	lv_obj_t *scr_config_modbus_line_15;
 	lv_obj_t *scr_config_modbus_lbl_devicelist;
-	lv_obj_t *scr_config_modbus_table_1;
+	lv_obj_t *scr_config_modbus_cont_devicelist_header;
+	lv_obj_t *scr_config_modbus_lbl_header_name;
+	lv_obj_t *scr_config_modbus_lbl_header_slaveid;
+	lv_obj_t *scr_config_modbus_lbl_header_address;
+	lv_obj_t *scr_config_modbus_lbl_header_type;
+	lv_obj_t *scr_config_modbus_lbl_header_edit;
+	lv_obj_t *scr_config_modbus_lbl_header_del;
+	lv_obj_t *scr_config_modbus_cont_devicelist_body;
+	lv_obj_t *scr_secure_setup_access;
+	bool scr_secure_setup_access_del;
+	lv_obj_t *scr_secure_setup_access_cont_secure_access;
+	lv_obj_t *scr_secure_setup_access_lbl_secure_setup_access;
+	lv_obj_t *scr_secure_setup_access_line_1;
+	lv_obj_t *scr_secure_setup_access_lbl_status_secure_setup;
+	lv_obj_t *scr_secure_setup_access_lbl_admin_password;
+	lv_obj_t *scr_secure_setup_access_ta_admin_password;
+	lv_obj_t *scr_secure_setup_access_line_2;
+	lv_obj_t *scr_secure_setup_access_btn_confirm;
+	lv_obj_t *scr_secure_setup_access_btn_confirm_label;
+	lv_obj_t *scr_secure_setup_access_btn_cancel;
+	lv_obj_t *scr_secure_setup_access_btn_cancel_label;
+	lv_obj_t *scr_secure_setup_access_img_password;
 	lv_obj_t *g_kb_top_layer;
 }lv_ui;
 
@@ -558,6 +582,7 @@ extern lv_ui guider_ui;
 
 void setup_scr_boot(lv_ui *ui);
 void setup_scr_scr_login(lv_ui *ui);
+void setup_scr_scr_operator_authentication(lv_ui *ui);
 void setup_scr_scr_dashboard(lv_ui *ui);
 void setup_scr_scr_downtime(lv_ui *ui);
 void setup_scr_scr_prod_entry(lv_ui *ui);
@@ -568,6 +593,7 @@ void setup_scr_scr_SetupDataSync(lv_ui *ui);
 void setup_scr_scr_SystemSetting(lv_ui *ui);
 void setup_scr_scr_input_config(lv_ui *ui);
 void setup_scr_scr_config_modbus(lv_ui *ui);
+void setup_scr_scr_secure_setup_access(lv_ui *ui);
 LV_IMAGE_DECLARE(_logoSynaptiX_RGB565A8_200x200);
 LV_IMAGE_DECLARE(_nfc_RGB565A8_200x200);
 LV_IMAGE_DECLARE(_leftarrow_RGB565A8_64x64);
@@ -592,6 +618,8 @@ LV_FONT_DECLARE(lv_font_arial_30)
 LV_FONT_DECLARE(lv_font_arial_20)
 LV_FONT_DECLARE(lv_font_Acme_Regular_50)
 LV_FONT_DECLARE(lv_font_montserratMedium_12)
+LV_FONT_DECLARE(lv_font_Acme_Regular_45)
+LV_FONT_DECLARE(lv_font_arial_28)
 LV_FONT_DECLARE(lv_font_Acme_Regular_34)
 LV_FONT_DECLARE(lv_font_Acme_Regular_30)
 LV_FONT_DECLARE(lv_font_Acme_Regular_60)
@@ -606,8 +634,6 @@ LV_FONT_DECLARE(lv_font_Abel_regular_24)
 LV_FONT_DECLARE(lv_font_arial_25)
 LV_FONT_DECLARE(lv_font_arial_32)
 LV_FONT_DECLARE(lv_font_montserratMedium_25)
-LV_FONT_DECLARE(lv_font_arial_28)
-LV_FONT_DECLARE(lv_font_arial_16)
 LV_FONT_DECLARE(lv_font_arial_18)
 
 

@@ -289,7 +289,7 @@ void setup_scr_scr_login(lv_ui *ui)
 
     //Write codes scr_login_ta_acc_user
     ui->scr_login_ta_acc_user = lv_textarea_create(ui->scr_login_cont_account);
-    lv_obj_set_pos(ui->scr_login_ta_acc_user, 40, 180);
+    lv_obj_set_pos(ui->scr_login_ta_acc_user, 39, 179);
     lv_obj_set_size(ui->scr_login_ta_acc_user, 500, 44);
     lv_textarea_set_text(ui->scr_login_ta_acc_user, "admin");
     lv_textarea_set_placeholder_text(ui->scr_login_ta_acc_user, "");
@@ -329,9 +329,9 @@ void setup_scr_scr_login(lv_ui *ui)
 
     //Write codes scr_login_ta_acc_password
     ui->scr_login_ta_acc_password = lv_textarea_create(ui->scr_login_cont_account);
-    lv_obj_set_pos(ui->scr_login_ta_acc_password, 40, 325);
+    lv_obj_set_pos(ui->scr_login_ta_acc_password, 39, 324);
     lv_obj_set_size(ui->scr_login_ta_acc_password, 500, 44);
-    lv_textarea_set_text(ui->scr_login_ta_acc_password, "123456");
+    lv_textarea_set_text(ui->scr_login_ta_acc_password, "admin");
     lv_textarea_set_placeholder_text(ui->scr_login_ta_acc_password, "");
     lv_textarea_set_password_bullet(ui->scr_login_ta_acc_password, "*");
     lv_textarea_set_password_mode(ui->scr_login_ta_acc_password, true);
@@ -527,6 +527,4 @@ void setup_scr_scr_login(lv_ui *ui)
     //Update current screen layout.
     lv_obj_update_layout(ui->scr_login);
 
-    //Init events for screen.
-    events_init_scr_login(ui);
 }

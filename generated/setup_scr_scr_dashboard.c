@@ -235,7 +235,7 @@ void setup_scr_scr_dashboard(lv_ui *ui)
 
     //Write codes scr_dashboard_lbl_plan_tiltle
     ui->scr_dashboard_lbl_plan_tiltle = lv_label_create(ui->scr_dashboard_cont_kpi_plan);
-    lv_obj_set_pos(ui->scr_dashboard_lbl_plan_tiltle, 151, 30);
+    lv_obj_set_pos(ui->scr_dashboard_lbl_plan_tiltle, 151, 29);
     lv_obj_set_size(ui->scr_dashboard_lbl_plan_tiltle, 84, 32);
     lv_label_set_text(ui->scr_dashboard_lbl_plan_tiltle, "PLAN");
     lv_label_set_long_mode(ui->scr_dashboard_lbl_plan_tiltle, LV_LABEL_LONG_WRAP);

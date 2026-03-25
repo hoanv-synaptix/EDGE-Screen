@@ -300,10 +300,10 @@ void setup_scr_scr_prod_entry(lv_ui *ui)
 
     //Write codes scr_prod_entry_btn_ng_up
     ui->scr_prod_entry_btn_ng_up = lv_button_create(ui->scr_prod_entry_cont_ng_qly);
-    lv_obj_set_pos(ui->scr_prod_entry_btn_ng_up, 532, 43);
-    lv_obj_set_size(ui->scr_prod_entry_btn_ng_up, 30, 30);
+    lv_obj_set_pos(ui->scr_prod_entry_btn_ng_up, 532, 25);
+    lv_obj_set_size(ui->scr_prod_entry_btn_ng_up, 40, 40);
     ui->scr_prod_entry_btn_ng_up_label = lv_label_create(ui->scr_prod_entry_btn_ng_up);
-    lv_label_set_text(ui->scr_prod_entry_btn_ng_up_label, " " LV_SYMBOL_UP " ");
+    lv_label_set_text(ui->scr_prod_entry_btn_ng_up_label, " " LV_SYMBOL_UP " \n");
     lv_label_set_long_mode(ui->scr_prod_entry_btn_ng_up_label, LV_LABEL_LONG_WRAP);
     lv_obj_align(ui->scr_prod_entry_btn_ng_up_label, LV_ALIGN_CENTER, 0, 0);
     lv_obj_set_style_pad_all(ui->scr_prod_entry_btn_ng_up, 0, LV_STATE_DEFAULT);
@@ -323,8 +323,8 @@ void setup_scr_scr_prod_entry(lv_ui *ui)
 
     //Write codes scr_prod_entry_btn_ng_down
     ui->scr_prod_entry_btn_ng_down = lv_button_create(ui->scr_prod_entry_cont_ng_qly);
-    lv_obj_set_pos(ui->scr_prod_entry_btn_ng_down, 532, 89);
-    lv_obj_set_size(ui->scr_prod_entry_btn_ng_down, 30, 30);
+    lv_obj_set_pos(ui->scr_prod_entry_btn_ng_down, 532, 80);
+    lv_obj_set_size(ui->scr_prod_entry_btn_ng_down, 40, 40);
     ui->scr_prod_entry_btn_ng_down_label = lv_label_create(ui->scr_prod_entry_btn_ng_down);
     lv_label_set_text(ui->scr_prod_entry_btn_ng_down_label, " " LV_SYMBOL_DOWN " ");
     lv_label_set_long_mode(ui->scr_prod_entry_btn_ng_down_label, LV_LABEL_LONG_WRAP);
@@ -447,7 +447,7 @@ void setup_scr_scr_prod_entry(lv_ui *ui)
 
     //Write codes scr_prod_entry_btn_grp_man
     ui->scr_prod_entry_btn_grp_man = lv_button_create(ui->scr_prod_entry_cont_pe_group);
-    lv_obj_set_pos(ui->scr_prod_entry_btn_grp_man, 0, 186);
+    lv_obj_set_pos(ui->scr_prod_entry_btn_grp_man, -2, 187);
     lv_obj_set_size(ui->scr_prod_entry_btn_grp_man, 420, 70);
     ui->scr_prod_entry_btn_grp_man_label = lv_label_create(ui->scr_prod_entry_btn_grp_man);
     lv_label_set_text(ui->scr_prod_entry_btn_grp_man_label, "     MAN");
@@ -468,7 +468,7 @@ void setup_scr_scr_prod_entry(lv_ui *ui)
 
     //Write codes scr_prod_entry_btn_grp_method
     ui->scr_prod_entry_btn_grp_method = lv_button_create(ui->scr_prod_entry_cont_pe_group);
-    lv_obj_set_pos(ui->scr_prod_entry_btn_grp_method, 0, 114);
+    lv_obj_set_pos(ui->scr_prod_entry_btn_grp_method, -1, 114);
     lv_obj_set_size(ui->scr_prod_entry_btn_grp_method, 420, 70);
     ui->scr_prod_entry_btn_grp_method_label = lv_label_create(ui->scr_prod_entry_btn_grp_method);
     lv_label_set_text(ui->scr_prod_entry_btn_grp_method_label, "     METHOD");
@@ -530,89 +530,89 @@ void setup_scr_scr_prod_entry(lv_ui *ui)
     lv_obj_set_style_pad_left(ui->scr_prod_entry_lbl_defect_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_prod_entry_lbl_defect_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
-    //Write codes scr_prod_entry_btn_def_1
-    ui->scr_prod_entry_btn_def_1 = lv_button_create(ui->scr_prod_entry_cont_pe_defect);
-    lv_obj_set_pos(ui->scr_prod_entry_btn_def_1, 0, 42);
-    lv_obj_set_size(ui->scr_prod_entry_btn_def_1, 794, 70);
-    ui->scr_prod_entry_btn_def_1_label = lv_label_create(ui->scr_prod_entry_btn_def_1);
-    lv_label_set_text(ui->scr_prod_entry_btn_def_1_label, "     Motor Overheat");
-    lv_label_set_long_mode(ui->scr_prod_entry_btn_def_1_label, LV_LABEL_LONG_WRAP);
-    lv_obj_align(ui->scr_prod_entry_btn_def_1_label, LV_ALIGN_LEFT_MID, 0, 0);
-    lv_obj_set_style_pad_all(ui->scr_prod_entry_btn_def_1, 0, LV_STATE_DEFAULT);
-    lv_obj_set_width(ui->scr_prod_entry_btn_def_1_label, LV_PCT(100));
+    //Write codes scr_prod_entry_btn_def_motor_overheat
+    ui->scr_prod_entry_btn_def_motor_overheat = lv_button_create(ui->scr_prod_entry_cont_pe_defect);
+    lv_obj_set_pos(ui->scr_prod_entry_btn_def_motor_overheat, 0, 42);
+    lv_obj_set_size(ui->scr_prod_entry_btn_def_motor_overheat, 794, 70);
+    ui->scr_prod_entry_btn_def_motor_overheat_label = lv_label_create(ui->scr_prod_entry_btn_def_motor_overheat);
+    lv_label_set_text(ui->scr_prod_entry_btn_def_motor_overheat_label, "     Motor Overheat");
+    lv_label_set_long_mode(ui->scr_prod_entry_btn_def_motor_overheat_label, LV_LABEL_LONG_WRAP);
+    lv_obj_align(ui->scr_prod_entry_btn_def_motor_overheat_label, LV_ALIGN_LEFT_MID, 0, 0);
+    lv_obj_set_style_pad_all(ui->scr_prod_entry_btn_def_motor_overheat, 0, LV_STATE_DEFAULT);
+    lv_obj_set_width(ui->scr_prod_entry_btn_def_motor_overheat_label, LV_PCT(100));
 
-    //Write style for scr_prod_entry_btn_def_1, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_bg_opa(ui->scr_prod_entry_btn_def_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(ui->scr_prod_entry_btn_def_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_prod_entry_btn_def_1, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_prod_entry_btn_def_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->scr_prod_entry_btn_def_1, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_prod_entry_btn_def_1, &lv_font_Acme_Regular_26, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_opa(ui->scr_prod_entry_btn_def_1, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_prod_entry_btn_def_1, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
+    //Write style for scr_prod_entry_btn_def_motor_overheat, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_bg_opa(ui->scr_prod_entry_btn_def_motor_overheat, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->scr_prod_entry_btn_def_motor_overheat, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->scr_prod_entry_btn_def_motor_overheat, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_prod_entry_btn_def_motor_overheat, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->scr_prod_entry_btn_def_motor_overheat, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_prod_entry_btn_def_motor_overheat, &lv_font_Acme_Regular_26, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->scr_prod_entry_btn_def_motor_overheat, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_prod_entry_btn_def_motor_overheat, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
-    //Write codes scr_prod_entry_btn_def_4
-    ui->scr_prod_entry_btn_def_4 = lv_button_create(ui->scr_prod_entry_cont_pe_defect);
-    lv_obj_set_pos(ui->scr_prod_entry_btn_def_4, 0, 258);
-    lv_obj_set_size(ui->scr_prod_entry_btn_def_4, 794, 70);
-    ui->scr_prod_entry_btn_def_4_label = lv_label_create(ui->scr_prod_entry_btn_def_4);
-    lv_label_set_text(ui->scr_prod_entry_btn_def_4_label, "     Power leak");
-    lv_label_set_long_mode(ui->scr_prod_entry_btn_def_4_label, LV_LABEL_LONG_WRAP);
-    lv_obj_align(ui->scr_prod_entry_btn_def_4_label, LV_ALIGN_LEFT_MID, 0, 0);
-    lv_obj_set_style_pad_all(ui->scr_prod_entry_btn_def_4, 0, LV_STATE_DEFAULT);
-    lv_obj_set_width(ui->scr_prod_entry_btn_def_4_label, LV_PCT(100));
+    //Write codes scr_prod_entry_btn_def_power_leak
+    ui->scr_prod_entry_btn_def_power_leak = lv_button_create(ui->scr_prod_entry_cont_pe_defect);
+    lv_obj_set_pos(ui->scr_prod_entry_btn_def_power_leak, 0, 258);
+    lv_obj_set_size(ui->scr_prod_entry_btn_def_power_leak, 794, 70);
+    ui->scr_prod_entry_btn_def_power_leak_label = lv_label_create(ui->scr_prod_entry_btn_def_power_leak);
+    lv_label_set_text(ui->scr_prod_entry_btn_def_power_leak_label, "     Power leak");
+    lv_label_set_long_mode(ui->scr_prod_entry_btn_def_power_leak_label, LV_LABEL_LONG_WRAP);
+    lv_obj_align(ui->scr_prod_entry_btn_def_power_leak_label, LV_ALIGN_LEFT_MID, 0, 0);
+    lv_obj_set_style_pad_all(ui->scr_prod_entry_btn_def_power_leak, 0, LV_STATE_DEFAULT);
+    lv_obj_set_width(ui->scr_prod_entry_btn_def_power_leak_label, LV_PCT(100));
 
-    //Write style for scr_prod_entry_btn_def_4, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_bg_opa(ui->scr_prod_entry_btn_def_4, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(ui->scr_prod_entry_btn_def_4, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_prod_entry_btn_def_4, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_prod_entry_btn_def_4, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->scr_prod_entry_btn_def_4, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_prod_entry_btn_def_4, &lv_font_Acme_Regular_26, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_opa(ui->scr_prod_entry_btn_def_4, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_prod_entry_btn_def_4, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
+    //Write style for scr_prod_entry_btn_def_power_leak, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_bg_opa(ui->scr_prod_entry_btn_def_power_leak, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->scr_prod_entry_btn_def_power_leak, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->scr_prod_entry_btn_def_power_leak, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_prod_entry_btn_def_power_leak, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->scr_prod_entry_btn_def_power_leak, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_prod_entry_btn_def_power_leak, &lv_font_Acme_Regular_26, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->scr_prod_entry_btn_def_power_leak, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_prod_entry_btn_def_power_leak, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
-    //Write codes scr_prod_entry_btn_def_3
-    ui->scr_prod_entry_btn_def_3 = lv_button_create(ui->scr_prod_entry_cont_pe_defect);
-    lv_obj_set_pos(ui->scr_prod_entry_btn_def_3, 0, 186);
-    lv_obj_set_size(ui->scr_prod_entry_btn_def_3, 794, 70);
-    ui->scr_prod_entry_btn_def_3_label = lv_label_create(ui->scr_prod_entry_btn_def_3);
-    lv_label_set_text(ui->scr_prod_entry_btn_def_3_label, "     Belt Broken");
-    lv_label_set_long_mode(ui->scr_prod_entry_btn_def_3_label, LV_LABEL_LONG_WRAP);
-    lv_obj_align(ui->scr_prod_entry_btn_def_3_label, LV_ALIGN_LEFT_MID, 0, 0);
-    lv_obj_set_style_pad_all(ui->scr_prod_entry_btn_def_3, 0, LV_STATE_DEFAULT);
-    lv_obj_set_width(ui->scr_prod_entry_btn_def_3_label, LV_PCT(100));
+    //Write codes scr_prod_entry_btn_def_belt_broken
+    ui->scr_prod_entry_btn_def_belt_broken = lv_button_create(ui->scr_prod_entry_cont_pe_defect);
+    lv_obj_set_pos(ui->scr_prod_entry_btn_def_belt_broken, 0, 186);
+    lv_obj_set_size(ui->scr_prod_entry_btn_def_belt_broken, 794, 70);
+    ui->scr_prod_entry_btn_def_belt_broken_label = lv_label_create(ui->scr_prod_entry_btn_def_belt_broken);
+    lv_label_set_text(ui->scr_prod_entry_btn_def_belt_broken_label, "     Belt Broken");
+    lv_label_set_long_mode(ui->scr_prod_entry_btn_def_belt_broken_label, LV_LABEL_LONG_WRAP);
+    lv_obj_align(ui->scr_prod_entry_btn_def_belt_broken_label, LV_ALIGN_LEFT_MID, 0, 0);
+    lv_obj_set_style_pad_all(ui->scr_prod_entry_btn_def_belt_broken, 0, LV_STATE_DEFAULT);
+    lv_obj_set_width(ui->scr_prod_entry_btn_def_belt_broken_label, LV_PCT(100));
 
-    //Write style for scr_prod_entry_btn_def_3, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_bg_opa(ui->scr_prod_entry_btn_def_3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(ui->scr_prod_entry_btn_def_3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_prod_entry_btn_def_3, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_prod_entry_btn_def_3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->scr_prod_entry_btn_def_3, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_prod_entry_btn_def_3, &lv_font_Acme_Regular_26, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_opa(ui->scr_prod_entry_btn_def_3, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_prod_entry_btn_def_3, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
+    //Write style for scr_prod_entry_btn_def_belt_broken, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_bg_opa(ui->scr_prod_entry_btn_def_belt_broken, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->scr_prod_entry_btn_def_belt_broken, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->scr_prod_entry_btn_def_belt_broken, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_prod_entry_btn_def_belt_broken, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->scr_prod_entry_btn_def_belt_broken, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_prod_entry_btn_def_belt_broken, &lv_font_Acme_Regular_26, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->scr_prod_entry_btn_def_belt_broken, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_prod_entry_btn_def_belt_broken, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
-    //Write codes scr_prod_entry_btn_def_2
-    ui->scr_prod_entry_btn_def_2 = lv_button_create(ui->scr_prod_entry_cont_pe_defect);
-    lv_obj_set_pos(ui->scr_prod_entry_btn_def_2, 0, 114);
-    lv_obj_set_size(ui->scr_prod_entry_btn_def_2, 794, 70);
-    ui->scr_prod_entry_btn_def_2_label = lv_label_create(ui->scr_prod_entry_btn_def_2);
-    lv_label_set_text(ui->scr_prod_entry_btn_def_2_label, "     Sensor Failure");
-    lv_label_set_long_mode(ui->scr_prod_entry_btn_def_2_label, LV_LABEL_LONG_WRAP);
-    lv_obj_align(ui->scr_prod_entry_btn_def_2_label, LV_ALIGN_LEFT_MID, 0, 0);
-    lv_obj_set_style_pad_all(ui->scr_prod_entry_btn_def_2, 0, LV_STATE_DEFAULT);
-    lv_obj_set_width(ui->scr_prod_entry_btn_def_2_label, LV_PCT(100));
+    //Write codes scr_prod_entry_btn_def_sensor_failure
+    ui->scr_prod_entry_btn_def_sensor_failure = lv_button_create(ui->scr_prod_entry_cont_pe_defect);
+    lv_obj_set_pos(ui->scr_prod_entry_btn_def_sensor_failure, 0, 114);
+    lv_obj_set_size(ui->scr_prod_entry_btn_def_sensor_failure, 794, 70);
+    ui->scr_prod_entry_btn_def_sensor_failure_label = lv_label_create(ui->scr_prod_entry_btn_def_sensor_failure);
+    lv_label_set_text(ui->scr_prod_entry_btn_def_sensor_failure_label, "     Sensor Failure");
+    lv_label_set_long_mode(ui->scr_prod_entry_btn_def_sensor_failure_label, LV_LABEL_LONG_WRAP);
+    lv_obj_align(ui->scr_prod_entry_btn_def_sensor_failure_label, LV_ALIGN_LEFT_MID, 0, 0);
+    lv_obj_set_style_pad_all(ui->scr_prod_entry_btn_def_sensor_failure, 0, LV_STATE_DEFAULT);
+    lv_obj_set_width(ui->scr_prod_entry_btn_def_sensor_failure_label, LV_PCT(100));
 
-    //Write style for scr_prod_entry_btn_def_2, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_bg_opa(ui->scr_prod_entry_btn_def_2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(ui->scr_prod_entry_btn_def_2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_prod_entry_btn_def_2, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_prod_entry_btn_def_2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->scr_prod_entry_btn_def_2, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_prod_entry_btn_def_2, &lv_font_Acme_Regular_26, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_opa(ui->scr_prod_entry_btn_def_2, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_prod_entry_btn_def_2, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
+    //Write style for scr_prod_entry_btn_def_sensor_failure, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_bg_opa(ui->scr_prod_entry_btn_def_sensor_failure, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->scr_prod_entry_btn_def_sensor_failure, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->scr_prod_entry_btn_def_sensor_failure, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_prod_entry_btn_def_sensor_failure, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->scr_prod_entry_btn_def_sensor_failure, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_prod_entry_btn_def_sensor_failure, &lv_font_Acme_Regular_26, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->scr_prod_entry_btn_def_sensor_failure, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_prod_entry_btn_def_sensor_failure, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_prod_entry_cont_pe_bottom
     ui->scr_prod_entry_cont_pe_bottom = lv_obj_create(ui->scr_prod_entry_cont_pe_bg);
