@@ -336,8 +336,8 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_input_config_ddlist_ip1_function, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_input_config_ddlist_ip1_function, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_ddlist_ip1_function, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip1_function, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip1_function, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip1_function, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip1_function, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_input_config_ddlist_ip1_function, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_ddlist_ip1_function, 78, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_input_config_ddlist_ip1_function, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -389,7 +389,7 @@ void setup_scr_scr_input_config(lv_ui *ui)
     //Write codes scr_input_config_lbl_ip1_trigger
     ui->scr_input_config_lbl_ip1_trigger = lv_label_create(ui->scr_input_config_cont_intput1);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip1_trigger, 143, 247);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip1_trigger, 174, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip1_trigger, 209, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip1_trigger, "Trigger Type");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip1_trigger, LV_LABEL_LONG_WRAP);
 
@@ -401,12 +401,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip1_trigger, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip1_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip1_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip1_trigger, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip1_trigger, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip1_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip1_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip1_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip1_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip1_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip1_trigger, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip1_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_ddlist_ip1_trigger
@@ -424,8 +424,8 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_input_config_ddlist_ip1_trigger, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_input_config_ddlist_ip1_trigger, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_ddlist_ip1_trigger, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip1_trigger, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip1_trigger, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip1_trigger, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip1_trigger, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_input_config_ddlist_ip1_trigger, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_ddlist_ip1_trigger, 79, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_input_config_ddlist_ip1_trigger, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -477,7 +477,7 @@ void setup_scr_scr_input_config(lv_ui *ui)
     //Write codes scr_input_config_lbl_ip1_function
     ui->scr_input_config_lbl_ip1_function = lv_label_create(ui->scr_input_config_cont_intput1);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip1_function, 143, 68);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip1_function, 118, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip1_function, 157, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip1_function, "Function");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip1_function, LV_LABEL_LONG_WRAP);
 
@@ -489,12 +489,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip1_function, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip1_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip1_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip1_function, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip1_function, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip1_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip1_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip1_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip1_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip1_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip1_function, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip1_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_lbl_ip1
@@ -512,18 +512,18 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip1, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip1, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip1, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip1, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_lbl_ip1_livestatus
     ui->scr_input_config_lbl_ip1_livestatus = lv_label_create(ui->scr_input_config_cont_intput1);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip1_livestatus, 143, 335);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip1_livestatus, 150, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip1_livestatus, 220, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip1_livestatus, "Live Status");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip1_livestatus, LV_LABEL_LONG_WRAP);
 
@@ -535,12 +535,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip1_livestatus, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip1_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip1_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip1_livestatus, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip1_livestatus, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip1_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip1_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip1_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip1_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip1_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip1_livestatus, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip1_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_lbl_ip1_status
@@ -614,8 +614,8 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_input_config_ddlist_ip1_enable, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_input_config_ddlist_ip1_enable, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_ddlist_ip1_enable, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip1_enable, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip1_enable, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip1_enable, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip1_enable, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_input_config_ddlist_ip1_enable, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_ddlist_ip1_enable, 78, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_input_config_ddlist_ip1_enable, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -667,7 +667,7 @@ void setup_scr_scr_input_config(lv_ui *ui)
     //Write codes scr_input_config_lbl_ip1_enable
     ui->scr_input_config_lbl_ip1_enable = lv_label_create(ui->scr_input_config_cont_intput1);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip1_enable, 143, 156);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip1_enable, 99, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip1_enable, 146, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip1_enable, "Enable");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip1_enable, LV_LABEL_LONG_WRAP);
 
@@ -679,12 +679,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip1_enable, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip1_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip1_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip1_enable, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip1_enable, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip1_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip1_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip1_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip1_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip1_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip1_enable, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip1_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_line_17
@@ -763,8 +763,8 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_input_config_ddlist_ip2_function, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_input_config_ddlist_ip2_function, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_ddlist_ip2_function, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip2_function, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip2_function, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip2_function, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip2_function, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_input_config_ddlist_ip2_function, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_ddlist_ip2_function, 78, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_input_config_ddlist_ip2_function, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -816,7 +816,7 @@ void setup_scr_scr_input_config(lv_ui *ui)
     //Write codes scr_input_config_label_ip2_trigger
     ui->scr_input_config_label_ip2_trigger = lv_label_create(ui->scr_input_config_cont_input2);
     lv_obj_set_pos(ui->scr_input_config_label_ip2_trigger, 143, 247);
-    lv_obj_set_size(ui->scr_input_config_label_ip2_trigger, 176, 32);
+    lv_obj_set_size(ui->scr_input_config_label_ip2_trigger, 232, 32);
     lv_label_set_text(ui->scr_input_config_label_ip2_trigger, "Trigger Type");
     lv_label_set_long_mode(ui->scr_input_config_label_ip2_trigger, LV_LABEL_LONG_WRAP);
 
@@ -828,12 +828,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_label_ip2_trigger, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_label_ip2_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_label_ip2_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_label_ip2_trigger, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_label_ip2_trigger, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_label_ip2_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_label_ip2_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_label_ip2_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_label_ip2_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_label_ip2_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_label_ip2_trigger, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_label_ip2_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_ddlist_ip2_trigger
@@ -851,8 +851,8 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_input_config_ddlist_ip2_trigger, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_input_config_ddlist_ip2_trigger, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_ddlist_ip2_trigger, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip2_trigger, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip2_trigger, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip2_trigger, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip2_trigger, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_input_config_ddlist_ip2_trigger, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_ddlist_ip2_trigger, 79, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_input_config_ddlist_ip2_trigger, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -904,7 +904,7 @@ void setup_scr_scr_input_config(lv_ui *ui)
     //Write codes scr_input_config_lbl_ip2_function
     ui->scr_input_config_lbl_ip2_function = lv_label_create(ui->scr_input_config_cont_input2);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip2_function, 143, 68);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip2_function, 119, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip2_function, 175, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip2_function, "Function");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip2_function, LV_LABEL_LONG_WRAP);
 
@@ -916,12 +916,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip2_function, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip2_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip2_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip2_function, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip2_function, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip2_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip2_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip2_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip2_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip2_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip2_function, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip2_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_lbl_input2
@@ -939,18 +939,18 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_input2, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_input2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_input2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_input2, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_input2, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_input2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_input2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_input2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_input2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_input2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_input2, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_input2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_lbl_ip2_livestatus
     ui->scr_input_config_lbl_ip2_livestatus = lv_label_create(ui->scr_input_config_cont_input2);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip2_livestatus, 143, 335);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip2_livestatus, 151, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip2_livestatus, 206, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip2_livestatus, "Live Status");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip2_livestatus, LV_LABEL_LONG_WRAP);
 
@@ -962,12 +962,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip2_livestatus, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip2_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip2_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip2_livestatus, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip2_livestatus, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip2_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip2_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip2_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip2_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip2_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip2_livestatus, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip2_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_lbl_ip2_status
@@ -1054,8 +1054,8 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_input_config_ddlist_ip2_enable, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_input_config_ddlist_ip2_enable, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_ddlist_ip2_enable, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip2_enable, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip2_enable, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip2_enable, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip2_enable, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_input_config_ddlist_ip2_enable, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_ddlist_ip2_enable, 78, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_input_config_ddlist_ip2_enable, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -1107,7 +1107,7 @@ void setup_scr_scr_input_config(lv_ui *ui)
     //Write codes scr_input_config_lbl_ip2_enable
     ui->scr_input_config_lbl_ip2_enable = lv_label_create(ui->scr_input_config_cont_input2);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip2_enable, 143, 156);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip2_enable, 97, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip2_enable, 177, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip2_enable, "Enable");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip2_enable, LV_LABEL_LONG_WRAP);
 
@@ -1119,12 +1119,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip2_enable, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip2_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip2_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip2_enable, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip2_enable, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip2_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip2_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip2_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip2_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip2_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip2_enable, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip2_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_line_18
@@ -1190,8 +1190,8 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_input_config_ddlist_ip3_function, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_input_config_ddlist_ip3_function, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_ddlist_ip3_function, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip3_function, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip3_function, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip3_function, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip3_function, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_input_config_ddlist_ip3_function, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_ddlist_ip3_function, 78, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_input_config_ddlist_ip3_function, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -1243,7 +1243,7 @@ void setup_scr_scr_input_config(lv_ui *ui)
     //Write codes scr_input_config_lbl_ip3_trigger
     ui->scr_input_config_lbl_ip3_trigger = lv_label_create(ui->scr_input_config_cont_input3);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip3_trigger, 145, 247);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip3_trigger, 171, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip3_trigger, 216, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip3_trigger, "Trigger Type");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip3_trigger, LV_LABEL_LONG_WRAP);
 
@@ -1255,12 +1255,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip3_trigger, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip3_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip3_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip3_trigger, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip3_trigger, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip3_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip3_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip3_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip3_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip3_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip3_trigger, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip3_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_ddlist_ip3_trigger
@@ -1278,8 +1278,8 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_input_config_ddlist_ip3_trigger, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_input_config_ddlist_ip3_trigger, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_ddlist_ip3_trigger, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip3_trigger, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip3_trigger, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip3_trigger, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip3_trigger, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_input_config_ddlist_ip3_trigger, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_ddlist_ip3_trigger, 79, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_input_config_ddlist_ip3_trigger, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -1331,7 +1331,7 @@ void setup_scr_scr_input_config(lv_ui *ui)
     //Write codes scr_input_config_lbl_ip3_function
     ui->scr_input_config_lbl_ip3_function = lv_label_create(ui->scr_input_config_cont_input3);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip3_function, 145, 68);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip3_function, 117, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip3_function, 169, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip3_function, "Function");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip3_function, LV_LABEL_LONG_WRAP);
 
@@ -1343,12 +1343,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip3_function, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip3_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip3_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip3_function, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip3_function, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip3_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip3_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip3_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip3_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip3_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip3_function, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip3_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_lbl_ip3
@@ -1366,18 +1366,18 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip3, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip3, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip3, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip3, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_lbl_ip3_livestatus
     ui->scr_input_config_lbl_ip3_livestatus = lv_label_create(ui->scr_input_config_cont_input3);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip3_livestatus, 145, 335);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip3_livestatus, 155, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip3_livestatus, 204, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip3_livestatus, "Live Status");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip3_livestatus, LV_LABEL_LONG_WRAP);
 
@@ -1389,12 +1389,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip3_livestatus, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip3_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip3_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip3_livestatus, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip3_livestatus, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip3_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip3_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip3_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip3_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip3_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip3_livestatus, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip3_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_lbl_ip3_status
@@ -1481,8 +1481,8 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_input_config_ddlist_ip3_enable, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_input_config_ddlist_ip3_enable, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_ddlist_ip3_enable, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip3_enable, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip3_enable, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip3_enable, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip3_enable, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_input_config_ddlist_ip3_enable, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_ddlist_ip3_enable, 78, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_input_config_ddlist_ip3_enable, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -1534,7 +1534,7 @@ void setup_scr_scr_input_config(lv_ui *ui)
     //Write codes scr_input_config_lbl_ip3_enable
     ui->scr_input_config_lbl_ip3_enable = lv_label_create(ui->scr_input_config_cont_input3);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip3_enable, 145, 156);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip3_enable, 100, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip3_enable, 162, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip3_enable, "Enable");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip3_enable, LV_LABEL_LONG_WRAP);
 
@@ -1546,12 +1546,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip3_enable, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip3_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip3_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip3_enable, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip3_enable, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip3_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip3_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip3_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip3_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip3_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip3_enable, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip3_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_line_23
@@ -1617,8 +1617,8 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_input_config_ddlist_ip4_function, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_input_config_ddlist_ip4_function, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_ddlist_ip4_function, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip4_function, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip4_function, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip4_function, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip4_function, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_input_config_ddlist_ip4_function, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_ddlist_ip4_function, 78, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_input_config_ddlist_ip4_function, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -1670,7 +1670,7 @@ void setup_scr_scr_input_config(lv_ui *ui)
     //Write codes scr_input_config_lbl_ip4_trigger
     ui->scr_input_config_lbl_ip4_trigger = lv_label_create(ui->scr_input_config_cont_input4);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip4_trigger, 145, 247);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip4_trigger, 176, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip4_trigger, 218, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip4_trigger, "Trigger Type");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip4_trigger, LV_LABEL_LONG_WRAP);
 
@@ -1682,12 +1682,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip4_trigger, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip4_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip4_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip4_trigger, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip4_trigger, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip4_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip4_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip4_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip4_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip4_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip4_trigger, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip4_trigger, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_ddlist_ip4_trigger
@@ -1705,8 +1705,8 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_input_config_ddlist_ip4_trigger, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_input_config_ddlist_ip4_trigger, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_ddlist_ip4_trigger, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip4_trigger, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip4_trigger, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip4_trigger, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip4_trigger, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_input_config_ddlist_ip4_trigger, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_ddlist_ip4_trigger, 79, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_input_config_ddlist_ip4_trigger, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -1758,7 +1758,7 @@ void setup_scr_scr_input_config(lv_ui *ui)
     //Write codes scr_input_config_lbl_ip4_function
     ui->scr_input_config_lbl_ip4_function = lv_label_create(ui->scr_input_config_cont_input4);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip4_function, 145, 68);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip4_function, 123, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip4_function, 194, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip4_function, "Function");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip4_function, LV_LABEL_LONG_WRAP);
 
@@ -1770,12 +1770,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip4_function, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip4_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip4_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip4_function, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip4_function, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip4_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip4_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip4_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip4_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip4_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip4_function, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip4_function, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_lbl_ip4
@@ -1793,18 +1793,18 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip4, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip4, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip4, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip4, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip4, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip4, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip4, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip4, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip4, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip4, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip4, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip4, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_lbl_ip4_livestatus
     ui->scr_input_config_lbl_ip4_livestatus = lv_label_create(ui->scr_input_config_cont_input4);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip4_livestatus, 145, 335);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip4_livestatus, 151, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip4_livestatus, 256, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip4_livestatus, "Live Status");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip4_livestatus, LV_LABEL_LONG_WRAP);
 
@@ -1816,18 +1816,18 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip4_livestatus, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip4_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip4_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip4_livestatus, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip4_livestatus, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip4_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip4_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip4_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip4_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip4_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip4_livestatus, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip4_livestatus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_lbl_ip4_status
     ui->scr_input_config_lbl_ip4_status = lv_label_create(ui->scr_input_config_cont_input4);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip4_status, 477, 335);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip4_status, 114, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip4_status, 159, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip4_status, "LOW");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip4_status, LV_LABEL_LONG_WRAP);
 
@@ -1839,12 +1839,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip4_status, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip4_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip4_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip4_status, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip4_status, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip4_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip4_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip4_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip4_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip4_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip4_status, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip4_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_led_ip4_status
@@ -1908,8 +1908,8 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_input_config_ddlist_ip4_enable, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_input_config_ddlist_ip4_enable, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_ddlist_ip4_enable, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip4_enable, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip4_enable, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_ddlist_ip4_enable, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_input_config_ddlist_ip4_enable, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_input_config_ddlist_ip4_enable, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_ddlist_ip4_enable, 78, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_input_config_ddlist_ip4_enable, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -1961,7 +1961,7 @@ void setup_scr_scr_input_config(lv_ui *ui)
     //Write codes scr_input_config_lbl_ip4_enable
     ui->scr_input_config_lbl_ip4_enable = lv_label_create(ui->scr_input_config_cont_input4);
     lv_obj_set_pos(ui->scr_input_config_lbl_ip4_enable, 145, 155);
-    lv_obj_set_size(ui->scr_input_config_lbl_ip4_enable, 98, 32);
+    lv_obj_set_size(ui->scr_input_config_lbl_ip4_enable, 168, 32);
     lv_label_set_text(ui->scr_input_config_lbl_ip4_enable, "Enable");
     lv_label_set_long_mode(ui->scr_input_config_lbl_ip4_enable, LV_LABEL_LONG_WRAP);
 
@@ -1973,12 +1973,12 @@ void setup_scr_scr_input_config(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_input_config_lbl_ip4_enable, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_input_config_lbl_ip4_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_input_config_lbl_ip4_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip4_enable, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_input_config_lbl_ip4_enable, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_input_config_lbl_ip4_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_input_config_lbl_ip4_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_input_config_lbl_ip4_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_input_config_lbl_ip4_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip4_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_input_config_lbl_ip4_enable, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_input_config_lbl_ip4_enable, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_input_config_line_28

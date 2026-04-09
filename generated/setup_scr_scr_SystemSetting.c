@@ -198,12 +198,12 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_label_display, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_label_display, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_label_display, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SystemSetting_label_display, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SystemSetting_label_display, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SystemSetting_label_display, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SystemSetting_label_display, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SystemSetting_label_display, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_SystemSetting_label_display, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_SystemSetting_label_display, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_SystemSetting_label_display, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SystemSetting_label_display, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SystemSetting_img_display
@@ -250,12 +250,12 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_display_brightness, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_display_brightness, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_display_brightness, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_display_brightness, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_display_brightness, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SystemSetting_lbl_display_brightness, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SystemSetting_lbl_display_brightness, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SystemSetting_lbl_display_brightness, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_SystemSetting_lbl_display_brightness, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_SystemSetting_lbl_display_brightness, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_SystemSetting_lbl_display_brightness, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SystemSetting_lbl_display_brightness, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SystemSetting_slider_display_brightness
@@ -288,8 +288,8 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
 
     //Write codes scr_SystemSetting_lbl_display_sleep
     ui->scr_SystemSetting_lbl_display_sleep = lv_label_create(ui->scr_SystemSetting_cont_display_detail);
-    lv_obj_set_pos(ui->scr_SystemSetting_lbl_display_sleep, 33, 91);
-    lv_obj_set_size(ui->scr_SystemSetting_lbl_display_sleep, 151, 32);
+    lv_obj_set_pos(ui->scr_SystemSetting_lbl_display_sleep, 10, 91);
+    lv_obj_set_size(ui->scr_SystemSetting_lbl_display_sleep, 167, 32);
     lv_label_set_text(ui->scr_SystemSetting_lbl_display_sleep, "Auto Sleep");
     lv_label_set_long_mode(ui->scr_SystemSetting_lbl_display_sleep, LV_LABEL_LONG_WRAP);
 
@@ -301,12 +301,12 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_display_sleep, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_display_sleep, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_display_sleep, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_display_sleep, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_display_sleep, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SystemSetting_lbl_display_sleep, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SystemSetting_lbl_display_sleep, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SystemSetting_lbl_display_sleep, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_SystemSetting_lbl_display_sleep, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_SystemSetting_lbl_display_sleep, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_SystemSetting_lbl_display_sleep, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SystemSetting_lbl_display_sleep, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SystemSetting_ddlist_display_sleep
@@ -506,12 +506,12 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_device_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_device_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_device_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_device_tiltle, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_device_tiltle, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SystemSetting_lbl_device_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SystemSetting_lbl_device_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SystemSetting_lbl_device_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_SystemSetting_lbl_device_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_SystemSetting_lbl_device_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_SystemSetting_lbl_device_tiltle, 25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SystemSetting_lbl_device_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SystemSetting_img_device
@@ -545,7 +545,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
 
     //Write codes scr_SystemSetting_lbl_device_name
     ui->scr_SystemSetting_lbl_device_name = lv_label_create(ui->scr_SystemSetting_cont_device_detail);
-    lv_obj_set_pos(ui->scr_SystemSetting_lbl_device_name, 23, 10);
+    lv_obj_set_pos(ui->scr_SystemSetting_lbl_device_name, 10, 10);
     lv_obj_set_size(ui->scr_SystemSetting_lbl_device_name, 200, 32);
     lv_label_set_text(ui->scr_SystemSetting_lbl_device_name, "Device Name:");
     lv_label_set_long_mode(ui->scr_SystemSetting_lbl_device_name, LV_LABEL_LONG_WRAP);
@@ -558,17 +558,17 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_device_name, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_device_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_device_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_device_name, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_device_name, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SystemSetting_lbl_device_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SystemSetting_lbl_device_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SystemSetting_lbl_device_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_SystemSetting_lbl_device_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_SystemSetting_lbl_device_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_SystemSetting_lbl_device_name, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SystemSetting_lbl_device_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SystemSetting_lbl_device_fw
     ui->scr_SystemSetting_lbl_device_fw = lv_label_create(ui->scr_SystemSetting_cont_device_detail);
-    lv_obj_set_pos(ui->scr_SystemSetting_lbl_device_fw, 23, 57);
+    lv_obj_set_pos(ui->scr_SystemSetting_lbl_device_fw, 10, 57);
     lv_obj_set_size(ui->scr_SystemSetting_lbl_device_fw, 254, 32);
     lv_label_set_text(ui->scr_SystemSetting_lbl_device_fw, "Firmware Version:");
     lv_label_set_long_mode(ui->scr_SystemSetting_lbl_device_fw, LV_LABEL_LONG_WRAP);
@@ -581,17 +581,17 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_device_fw, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_device_fw, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_device_fw, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_device_fw, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_device_fw, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SystemSetting_lbl_device_fw, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SystemSetting_lbl_device_fw, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SystemSetting_lbl_device_fw, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_SystemSetting_lbl_device_fw, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_SystemSetting_lbl_device_fw, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_SystemSetting_lbl_device_fw, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SystemSetting_lbl_device_fw, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SystemSetting_lbl_device_serinumber
     ui->scr_SystemSetting_lbl_device_serinumber = lv_label_create(ui->scr_SystemSetting_cont_device_detail);
-    lv_obj_set_pos(ui->scr_SystemSetting_lbl_device_serinumber, 23, 104);
+    lv_obj_set_pos(ui->scr_SystemSetting_lbl_device_serinumber, 10, 104);
     lv_obj_set_size(ui->scr_SystemSetting_lbl_device_serinumber, 222, 32);
     lv_label_set_text(ui->scr_SystemSetting_lbl_device_serinumber, "Serial Number:");
     lv_label_set_long_mode(ui->scr_SystemSetting_lbl_device_serinumber, LV_LABEL_LONG_WRAP);
@@ -604,18 +604,18 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_device_serinumber, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_device_serinumber, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_device_serinumber, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_device_serinumber, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_device_serinumber, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SystemSetting_lbl_device_serinumber, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SystemSetting_lbl_device_serinumber, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SystemSetting_lbl_device_serinumber, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_SystemSetting_lbl_device_serinumber, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_SystemSetting_lbl_device_serinumber, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_SystemSetting_lbl_device_serinumber, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SystemSetting_lbl_device_serinumber, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SystemSetting_lbl_device_name_value
     ui->scr_SystemSetting_lbl_device_name_value = lv_label_create(ui->scr_SystemSetting_cont_device_detail);
     lv_obj_set_pos(ui->scr_SystemSetting_lbl_device_name_value, 453, 10);
-    lv_obj_set_size(ui->scr_SystemSetting_lbl_device_name_value, 293, 32);
+    lv_obj_set_size(ui->scr_SystemSetting_lbl_device_name_value, 345, 32);
     lv_label_set_text(ui->scr_SystemSetting_lbl_device_name_value, "EDGE - GATEWAY - 01");
     lv_label_set_long_mode(ui->scr_SystemSetting_lbl_device_name_value, LV_LABEL_LONG_WRAP);
 
@@ -627,7 +627,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_device_name_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_device_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_device_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_device_name_value, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_device_name_value, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SystemSetting_lbl_device_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SystemSetting_lbl_device_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SystemSetting_lbl_device_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -638,7 +638,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     //Write codes scr_SystemSetting_lbl_device_fw_value
     ui->scr_SystemSetting_lbl_device_fw_value = lv_label_create(ui->scr_SystemSetting_cont_device_detail);
     lv_obj_set_pos(ui->scr_SystemSetting_lbl_device_fw_value, 453, 57);
-    lv_obj_set_size(ui->scr_SystemSetting_lbl_device_fw_value, 90, 32);
+    lv_obj_set_size(ui->scr_SystemSetting_lbl_device_fw_value, 190, 32);
     lv_label_set_text(ui->scr_SystemSetting_lbl_device_fw_value, "v1.0.0");
     lv_label_set_long_mode(ui->scr_SystemSetting_lbl_device_fw_value, LV_LABEL_LONG_WRAP);
 
@@ -650,7 +650,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_device_fw_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_device_fw_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_device_fw_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_device_fw_value, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_device_fw_value, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SystemSetting_lbl_device_fw_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SystemSetting_lbl_device_fw_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SystemSetting_lbl_device_fw_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -661,7 +661,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     //Write codes scr_SystemSetting_lbl_device_serinumber_value
     ui->scr_SystemSetting_lbl_device_serinumber_value = lv_label_create(ui->scr_SystemSetting_cont_device_detail);
     lv_obj_set_pos(ui->scr_SystemSetting_lbl_device_serinumber_value, 453, 104);
-    lv_obj_set_size(ui->scr_SystemSetting_lbl_device_serinumber_value, 155, 32);
+    lv_obj_set_size(ui->scr_SystemSetting_lbl_device_serinumber_value, 218, 32);
     lv_label_set_text(ui->scr_SystemSetting_lbl_device_serinumber_value, "SN-123456");
     lv_label_set_long_mode(ui->scr_SystemSetting_lbl_device_serinumber_value, LV_LABEL_LONG_WRAP);
 
@@ -673,7 +673,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_device_serinumber_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_device_serinumber_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_device_serinumber_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_device_serinumber_value, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SystemSetting_lbl_device_serinumber_value, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SystemSetting_lbl_device_serinumber_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SystemSetting_lbl_device_serinumber_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SystemSetting_lbl_device_serinumber_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);

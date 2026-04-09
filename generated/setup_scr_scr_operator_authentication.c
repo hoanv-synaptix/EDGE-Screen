@@ -125,7 +125,7 @@ void setup_scr_scr_operator_authentication(lv_ui *ui)
 
     //Write codes scr_operator_authentication_btn_confirm
     ui->scr_operator_authentication_btn_confirm = lv_button_create(ui->scr_operator_authentication_cont_secure_access);
-    lv_obj_set_pos(ui->scr_operator_authentication_btn_confirm, 420, 321);
+    lv_obj_set_pos(ui->scr_operator_authentication_btn_confirm, 421, 321);
     lv_obj_set_size(ui->scr_operator_authentication_btn_confirm, 300, 55);
     ui->scr_operator_authentication_btn_confirm_label = lv_label_create(ui->scr_operator_authentication_btn_confirm);
     lv_label_set_text(ui->scr_operator_authentication_btn_confirm_label, "CONFIRM");

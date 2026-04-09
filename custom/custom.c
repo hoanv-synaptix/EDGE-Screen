@@ -197,7 +197,7 @@ static void save_downtime_cb(lv_event_t *e)
 
     if (code != LV_EVENT_CLICKED || ui == NULL) return;
 
-    save_text_from_ta(g_saved.downtime_note, sizeof(g_saved.downtime_note), ui->scr_downtime_ta_dt_note);
+    save_text_from_ta(g_saved.downtime_note, sizeof(g_saved.downtime_note), ui->scr_downtime_ta_dt_note_reason_stop);
     hide_keyboard();
 }
 
@@ -227,7 +227,7 @@ void restore_saved_form_data(lv_ui *ui)
     restore_text_to_ta(ui->scr_SetupMQTT_ta_password, g_saved.mqtt_password);
 
     /* Notes */
-    restore_text_to_ta(ui->scr_downtime_ta_dt_note, g_saved.downtime_note);
+    restore_text_to_ta(ui->scr_downtime_ta_dt_note_reason_stop, g_saved.downtime_note);
     restore_text_to_ta(ui->scr_prod_entry_ta_pe_note, g_saved.prod_note);
 }
 
@@ -243,8 +243,8 @@ static void bind_save_events(lv_ui *ui)
         lv_obj_add_event_cb(ui->scr_SetupMQTT_btn_save, save_mqtt_cb, LV_EVENT_CLICKED, ui);
     }
 
-    if (ui->scr_downtime_btn_dt_) {
-        lv_obj_add_event_cb(ui->scr_downtime_btn_dt_, save_downtime_cb, LV_EVENT_CLICKED, ui);
+    if (ui->scr_downtime_cont_dt_center) {
+        lv_obj_add_event_cb(ui->scr_downtime_btn_dt_submit_start, save_downtime_cb, LV_EVENT_CLICKED, ui);
     }
 
     if (ui->scr_prod_entry_btn_pe_submit) {

@@ -186,7 +186,7 @@ void setup_scr_scr_SetupDataSync(lv_ui *ui)
     //Write codes scr_SetupDataSync_lbl_header
     ui->scr_SetupDataSync_lbl_header = lv_label_create(ui->scr_SetupDataSync_cont_header);
     lv_obj_set_pos(ui->scr_SetupDataSync_lbl_header, 77, 15);
-    lv_obj_set_size(ui->scr_SetupDataSync_lbl_header, 180, 32);
+    lv_obj_set_size(ui->scr_SetupDataSync_lbl_header, 227, 32);
     lv_label_set_text(ui->scr_SetupDataSync_lbl_header, "Data Sync");
     lv_label_set_long_mode(ui->scr_SetupDataSync_lbl_header, LV_LABEL_LONG_WRAP);
 
@@ -198,12 +198,12 @@ void setup_scr_scr_SetupDataSync(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SetupDataSync_lbl_header, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupDataSync_lbl_header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupDataSync_lbl_header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_header, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_header, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SetupDataSync_lbl_header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SetupDataSync_lbl_header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupDataSync_lbl_header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_SetupDataSync_lbl_header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_SetupDataSync_lbl_header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_SetupDataSync_lbl_header, 30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SetupDataSync_lbl_header, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SetupDataSync_img_sync
@@ -250,7 +250,7 @@ void setup_scr_scr_SetupDataSync(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SetupDataSync_lbl_last_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupDataSync_lbl_last_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupDataSync_lbl_last_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_last_tiltle, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_last_tiltle, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SetupDataSync_lbl_last_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SetupDataSync_lbl_last_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupDataSync_lbl_last_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -273,7 +273,7 @@ void setup_scr_scr_SetupDataSync(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SetupDataSync_lbl_last_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupDataSync_lbl_last_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupDataSync_lbl_last_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_last_value, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_last_value, LV_TEXT_ALIGN_RIGHT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SetupDataSync_lbl_last_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SetupDataSync_lbl_last_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupDataSync_lbl_last_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -473,7 +473,7 @@ void setup_scr_scr_SetupDataSync(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SetupDataSync_lbl_ver_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupDataSync_lbl_ver_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupDataSync_lbl_ver_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_ver_tiltle, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_ver_tiltle, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SetupDataSync_lbl_ver_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SetupDataSync_lbl_ver_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupDataSync_lbl_ver_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -496,7 +496,7 @@ void setup_scr_scr_SetupDataSync(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SetupDataSync_lbl_ver_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupDataSync_lbl_ver_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupDataSync_lbl_ver_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_ver_value, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_ver_value, LV_TEXT_ALIGN_RIGHT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SetupDataSync_lbl_ver_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SetupDataSync_lbl_ver_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupDataSync_lbl_ver_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -569,7 +569,7 @@ void setup_scr_scr_SetupDataSync(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SetupDataSync_lbl_auto_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupDataSync_lbl_auto_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupDataSync_lbl_auto_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_auto_tiltle, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_auto_tiltle, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SetupDataSync_lbl_auto_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SetupDataSync_lbl_auto_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupDataSync_lbl_auto_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -592,7 +592,7 @@ void setup_scr_scr_SetupDataSync(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SetupDataSync_lbl_auto_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupDataSync_lbl_auto_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupDataSync_lbl_auto_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_auto_value, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_auto_value, LV_TEXT_ALIGN_RIGHT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SetupDataSync_lbl_auto_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SetupDataSync_lbl_auto_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupDataSync_lbl_auto_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -665,7 +665,7 @@ void setup_scr_scr_SetupDataSync(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SetupDataSync_lbl_status_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupDataSync_lbl_status_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupDataSync_lbl_status_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_status_tiltle, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_status_tiltle, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SetupDataSync_lbl_status_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SetupDataSync_lbl_status_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupDataSync_lbl_status_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -675,7 +675,7 @@ void setup_scr_scr_SetupDataSync(lv_ui *ui)
 
     //Write codes scr_SetupDataSync_lbl_status_msg
     ui->scr_SetupDataSync_lbl_status_msg = lv_label_create(ui->scr_SetupDataSync_cont_status_row);
-    lv_obj_set_pos(ui->scr_SetupDataSync_lbl_status_msg, 296, 60);
+    lv_obj_set_pos(ui->scr_SetupDataSync_lbl_status_msg, 290, 60);
     lv_obj_set_size(ui->scr_SetupDataSync_lbl_status_msg, 460, 32);
     lv_label_set_text(ui->scr_SetupDataSync_lbl_status_msg, "Last result: Synced successfully");
     lv_label_set_long_mode(ui->scr_SetupDataSync_lbl_status_msg, LV_LABEL_LONG_WRAP);
@@ -688,7 +688,7 @@ void setup_scr_scr_SetupDataSync(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SetupDataSync_lbl_status_msg, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupDataSync_lbl_status_msg, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupDataSync_lbl_status_msg, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_status_msg, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_status_msg, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SetupDataSync_lbl_status_msg, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SetupDataSync_lbl_status_msg, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupDataSync_lbl_status_msg, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -732,14 +732,14 @@ void setup_scr_scr_SetupDataSync(lv_ui *ui)
 
     //Write codes scr_SetupDataSync_led_status
     ui->scr_SetupDataSync_led_status = lv_led_create(ui->scr_SetupDataSync_cont_status_row);
-    lv_obj_set_pos(ui->scr_SetupDataSync_led_status, 270, 26);
+    lv_obj_set_pos(ui->scr_SetupDataSync_led_status, 250, 30);
     lv_obj_set_size(ui->scr_SetupDataSync_led_status, 16, 16);
     lv_led_set_brightness(ui->scr_SetupDataSync_led_status, 255);
     lv_led_set_color(ui->scr_SetupDataSync_led_status, lv_color_hex(0x00FF39));
 
     //Write codes scr_SetupDataSync_lbl_status
     ui->scr_SetupDataSync_lbl_status = lv_label_create(ui->scr_SetupDataSync_cont_status_row);
-    lv_obj_set_pos(ui->scr_SetupDataSync_lbl_status, 300, 22);
+    lv_obj_set_pos(ui->scr_SetupDataSync_lbl_status, 290, 23);
     lv_obj_set_size(ui->scr_SetupDataSync_lbl_status, 66, 29);
     lv_label_set_text(ui->scr_SetupDataSync_lbl_status, "OK");
     lv_label_set_long_mode(ui->scr_SetupDataSync_lbl_status, LV_LABEL_LONG_WRAP);
@@ -752,7 +752,7 @@ void setup_scr_scr_SetupDataSync(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_SetupDataSync_lbl_status, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupDataSync_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupDataSync_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_status, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_SetupDataSync_lbl_status, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SetupDataSync_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SetupDataSync_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupDataSync_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);

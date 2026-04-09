@@ -105,37 +105,44 @@ typedef struct
 	lv_obj_t *scr_dashboard_btn_input_prod;
 	lv_obj_t *scr_dashboard_btn_input_prod_label;
 	lv_obj_t *scr_dashboard_img_1;
+	lv_obj_t *scr_dashboard_cont_dash_status;
+	lv_obj_t *scr_dashboard_digital_clock_1;
+	lv_obj_t *scr_dashboard_img_status_wifi_yes;
+	lv_obj_t *scr_dashboard_img_status_wifi_no;
+	lv_obj_t *scr_dashboard_lbl_name_device;
+	lv_obj_t *scr_dashboard_img_status_mqtt_no;
+	lv_obj_t *scr_dashboard_img_status_mqtt_yes;
 	lv_obj_t *scr_downtime;
 	bool scr_downtime_del;
 	lv_obj_t *scr_downtime_cont_dt;
 	lv_obj_t *scr_downtime_cont_dt_topbar;
 	lv_obj_t *scr_downtime_lbl_machine_status;
-	lv_obj_t *scr_downtime_lbl_timer;
+	lv_obj_t *scr_downtime_lbl_stop_timer;
 	lv_obj_t *scr_downtime_imgbtn_back;
 	lv_obj_t *scr_downtime_imgbtn_back_label;
 	lv_obj_t *scr_downtime_cont_dt_center;
-	lv_obj_t *scr_downtime_cont_dt_left;
-	lv_obj_t *scr_downtime_btn_g_machine;
-	lv_obj_t *scr_downtime_btn_g_machine_label;
-	lv_obj_t *scr_downtime_btn_g_material;
-	lv_obj_t *scr_downtime_btn_g_material_label;
-	lv_obj_t *scr_downtime_btn_g_man;
-	lv_obj_t *scr_downtime_btn_g_man_label;
-	lv_obj_t *scr_downtime_btn_g_method;
-	lv_obj_t *scr_downtime_btn_g_method_label;
-	lv_obj_t *scr_downtime_btn_g_other;
-	lv_obj_t *scr_downtime_btn_g_other_label;
-	lv_obj_t *scr_downtime_cont_dt_right;
-	lv_obj_t *scr_downtime_cont_dt_reason_box;
-	lv_obj_t *scr_downtime_btn_power_loss;
-	lv_obj_t *scr_downtime_btn_power_loss_label;
-	lv_obj_t *scr_downtime_btn_motor_overheat;
-	lv_obj_t *scr_downtime_btn_motor_overheat_label;
-	lv_obj_t *scr_downtime_btn_machine_1;
-	lv_obj_t *scr_downtime_btn_machine_1_label;
-	lv_obj_t *scr_downtime_ta_dt_note;
-	lv_obj_t *scr_downtime_btn_dt_;
-	lv_obj_t *scr_downtime_btn_dt__label;
+	lv_obj_t *scr_downtime_cont_dt_group;
+	lv_obj_t *scr_downtime_lbl_group;
+	lv_obj_t *scr_downtime_btn_group_material;
+	lv_obj_t *scr_downtime_btn_group_material_label;
+	lv_obj_t *scr_downtime_btn_group_machine;
+	lv_obj_t *scr_downtime_btn_group_machine_label;
+	lv_obj_t *scr_downtime_btn_group_man;
+	lv_obj_t *scr_downtime_btn_group_man_label;
+	lv_obj_t *scr_downtime_btn_group_method;
+	lv_obj_t *scr_downtime_btn_group_method_label;
+	lv_obj_t *scr_downtime_btn_group_measurement;
+	lv_obj_t *scr_downtime_btn_group_measurement_label;
+	lv_obj_t *scr_downtime_cont_dt_detail;
+	lv_obj_t *scr_downtime_lbl_detail;
+	lv_obj_t *scr_downtime_ddlist_detail_machine;
+	lv_obj_t *scr_downtime_ddlist_detail_material;
+	lv_obj_t *scr_downtime_ddlist_detail_man;
+	lv_obj_t *scr_downtime_ddlist_detail_method;
+	lv_obj_t *scr_downtime_ddlist_detail_measurement;
+	lv_obj_t *scr_downtime_btn_dt_submit_start;
+	lv_obj_t *scr_downtime_btn_dt_submit_start_label;
+	lv_obj_t *scr_downtime_ta_dt_note_reason_stop;
 	lv_obj_t *scr_prod_entry;
 	bool scr_prod_entry_del;
 	lv_obj_t *scr_prod_entry_cont_pe_bg;
@@ -147,14 +154,10 @@ typedef struct
 	lv_obj_t *scr_prod_entry_cont_pe_kpi_row;
 	lv_obj_t *scr_prod_entry_cont_total_finished;
 	lv_obj_t *scr_prod_entry_lbl_total_title;
-	lv_obj_t *scr_prod_entry_lbl_total_value;
+	lv_obj_t *scr_prod_entry_ta_total_finished;
 	lv_obj_t *scr_prod_entry_cont_ng_qly;
 	lv_obj_t *scr_prod_entry_lbl_ng_title;
-	lv_obj_t *scr_prod_entry_lbl_ng_value;
-	lv_obj_t *scr_prod_entry_btn_ng_up;
-	lv_obj_t *scr_prod_entry_btn_ng_up_label;
-	lv_obj_t *scr_prod_entry_btn_ng_down;
-	lv_obj_t *scr_prod_entry_btn_ng_down_label;
+	lv_obj_t *scr_prod_entry_ta_ng_quantity;
 	lv_obj_t *scr_prod_entry_cont_pe_mid_row;
 	lv_obj_t *scr_prod_entry_cont_pe_group;
 	lv_obj_t *scr_prod_entry_lbl_group_tiltle;
@@ -166,16 +169,15 @@ typedef struct
 	lv_obj_t *scr_prod_entry_btn_grp_man_label;
 	lv_obj_t *scr_prod_entry_btn_grp_method;
 	lv_obj_t *scr_prod_entry_btn_grp_method_label;
+	lv_obj_t *scr_prod_entry_btn_measurement;
+	lv_obj_t *scr_prod_entry_btn_measurement_label;
 	lv_obj_t *scr_prod_entry_cont_pe_defect;
 	lv_obj_t *scr_prod_entry_lbl_defect_tiltle;
-	lv_obj_t *scr_prod_entry_btn_def_motor_overheat;
-	lv_obj_t *scr_prod_entry_btn_def_motor_overheat_label;
-	lv_obj_t *scr_prod_entry_btn_def_power_leak;
-	lv_obj_t *scr_prod_entry_btn_def_power_leak_label;
-	lv_obj_t *scr_prod_entry_btn_def_belt_broken;
-	lv_obj_t *scr_prod_entry_btn_def_belt_broken_label;
-	lv_obj_t *scr_prod_entry_btn_def_sensor_failure;
-	lv_obj_t *scr_prod_entry_btn_def_sensor_failure_label;
+	lv_obj_t *scr_prod_entry_ddlist_detail_material;
+	lv_obj_t *scr_prod_entry_ddlist_detail_method;
+	lv_obj_t *scr_prod_entry_ddlist_detail_man;
+	lv_obj_t *scr_prod_entry_ddlist_detail_machine;
+	lv_obj_t *scr_prod_entry_ddlist_detail_measurement;
 	lv_obj_t *scr_prod_entry_cont_pe_bottom;
 	lv_obj_t *scr_prod_entry_btn_pe_submit;
 	lv_obj_t *scr_prod_entry_btn_pe_submit_label;
@@ -598,6 +600,10 @@ LV_IMAGE_DECLARE(_logoSynaptiX_RGB565A8_200x200);
 LV_IMAGE_DECLARE(_nfc_RGB565A8_200x200);
 LV_IMAGE_DECLARE(_leftarrow_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_input_RGB565A8_64x64);
+LV_IMAGE_DECLARE(_yeswifi_RGB565A8_32x32);
+LV_IMAGE_DECLARE(_nowifi_RGB565A8_32x32);
+LV_IMAGE_DECLARE(_no_mqtt_RGB565A8_32x32);
+LV_IMAGE_DECLARE(_yes_mqtt_RGB565A8_32x32);
 LV_IMAGE_DECLARE(_wifi_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_server3_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_sync_RGB565A8_64x64);
@@ -624,14 +630,15 @@ LV_FONT_DECLARE(lv_font_Acme_Regular_34)
 LV_FONT_DECLARE(lv_font_Acme_Regular_30)
 LV_FONT_DECLARE(lv_font_Acme_Regular_60)
 LV_FONT_DECLARE(lv_font_Acme_Regular_40)
-LV_FONT_DECLARE(lv_font_Adventpro_regular_26)
+LV_FONT_DECLARE(lv_font_arial_25)
+LV_FONT_DECLARE(lv_font_montserratMedium_16)
+LV_FONT_DECLARE(lv_font_Acme_Regular_26)
+LV_FONT_DECLARE(lv_font_arial_26)
+LV_FONT_DECLARE(lv_font_Abel_regular_26)
 LV_FONT_DECLARE(lv_font_Acme_Regular_24)
 LV_FONT_DECLARE(lv_font_Acme_Regular_64)
-LV_FONT_DECLARE(lv_font_montserratMedium_30)
 LV_FONT_DECLARE(lv_font_Acme_Regular_25)
-LV_FONT_DECLARE(lv_font_Acme_Regular_26)
-LV_FONT_DECLARE(lv_font_Abel_regular_24)
-LV_FONT_DECLARE(lv_font_arial_25)
+LV_FONT_DECLARE(lv_font_montserratMedium_30)
 LV_FONT_DECLARE(lv_font_arial_32)
 LV_FONT_DECLARE(lv_font_montserratMedium_25)
 LV_FONT_DECLARE(lv_font_arial_18)

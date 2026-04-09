@@ -250,8 +250,8 @@ void setup_scr_scr_setup_network(lv_ui *ui)
 
     //Write codes scr_setup_network_lbl_wifi
     ui->scr_setup_network_lbl_wifi = lv_label_create(ui->scr_setup_network_cont_wifi_row);
-    lv_obj_set_pos(ui->scr_setup_network_lbl_wifi, 14, 41);
-    lv_obj_set_size(ui->scr_setup_network_lbl_wifi, 92, 32);
+    lv_obj_set_pos(ui->scr_setup_network_lbl_wifi, 30, 41);
+    lv_obj_set_size(ui->scr_setup_network_lbl_wifi, 118, 32);
     lv_label_set_text(ui->scr_setup_network_lbl_wifi, "Wi-Fi:");
     lv_label_set_long_mode(ui->scr_setup_network_lbl_wifi, LV_LABEL_LONG_WRAP);
 
@@ -259,11 +259,11 @@ void setup_scr_scr_setup_network(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_setup_network_lbl_wifi, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_setup_network_lbl_wifi, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_setup_network_lbl_wifi, lv_color_hex(0xbdbdbd), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_setup_network_lbl_wifi, &lv_font_montserratMedium_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_setup_network_lbl_wifi, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_setup_network_lbl_wifi, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_setup_network_lbl_wifi, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_setup_network_lbl_wifi, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_setup_network_lbl_wifi, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_setup_network_lbl_wifi, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_setup_network_lbl_wifi, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_setup_network_lbl_wifi, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_setup_network_lbl_wifi, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -339,8 +339,8 @@ void setup_scr_scr_setup_network(lv_ui *ui)
 
     //Write codes scr_setup_network_lbl_pass
     ui->scr_setup_network_lbl_pass = lv_label_create(ui->scr_setup_network_cont_pass_row);
-    lv_obj_set_pos(ui->scr_setup_network_lbl_pass, 14, 14);
-    lv_obj_set_size(ui->scr_setup_network_lbl_pass, 145, 32);
+    lv_obj_set_pos(ui->scr_setup_network_lbl_pass, 30, 14);
+    lv_obj_set_size(ui->scr_setup_network_lbl_pass, 130, 32);
     lv_label_set_text(ui->scr_setup_network_lbl_pass, "Password");
     lv_label_set_long_mode(ui->scr_setup_network_lbl_pass, LV_LABEL_LONG_WRAP);
 
@@ -348,11 +348,11 @@ void setup_scr_scr_setup_network(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_setup_network_lbl_pass, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_setup_network_lbl_pass, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_setup_network_lbl_pass, lv_color_hex(0xbdbdbd), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_setup_network_lbl_pass, &lv_font_montserratMedium_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_setup_network_lbl_pass, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_setup_network_lbl_pass, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_setup_network_lbl_pass, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_setup_network_lbl_pass, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_setup_network_lbl_pass, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_setup_network_lbl_pass, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_setup_network_lbl_pass, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_setup_network_lbl_pass, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_setup_network_lbl_pass, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -415,8 +415,8 @@ void setup_scr_scr_setup_network(lv_ui *ui)
 
     //Write codes scr_setup_network_lbl_auto
     ui->scr_setup_network_lbl_auto = lv_label_create(ui->scr_setup_network_cont_auto_row);
-    lv_obj_set_pos(ui->scr_setup_network_lbl_auto, 14, 5);
-    lv_obj_set_size(ui->scr_setup_network_lbl_auto, 209, 32);
+    lv_obj_set_pos(ui->scr_setup_network_lbl_auto, 30, 5);
+    lv_obj_set_size(ui->scr_setup_network_lbl_auto, 180, 32);
     lv_label_set_text(ui->scr_setup_network_lbl_auto, "Auto reconnect");
     lv_label_set_long_mode(ui->scr_setup_network_lbl_auto, LV_LABEL_LONG_WRAP);
 
@@ -424,11 +424,11 @@ void setup_scr_scr_setup_network(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_setup_network_lbl_auto, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_setup_network_lbl_auto, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_setup_network_lbl_auto, lv_color_hex(0xbdbdbd), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_setup_network_lbl_auto, &lv_font_montserratMedium_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_setup_network_lbl_auto, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_setup_network_lbl_auto, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_setup_network_lbl_auto, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_setup_network_lbl_auto, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_setup_network_lbl_auto, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_setup_network_lbl_auto, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_setup_network_lbl_auto, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_setup_network_lbl_auto, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_setup_network_lbl_auto, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -493,15 +493,15 @@ void setup_scr_scr_setup_network(lv_ui *ui)
 
     //Write codes scr_setup_network_led_status
     ui->scr_setup_network_led_status = lv_led_create(ui->scr_setup_network_cont_row_status);
-    lv_obj_set_pos(ui->scr_setup_network_led_status, 33, 6);
+    lv_obj_set_pos(ui->scr_setup_network_led_status, 30, 6);
     lv_obj_set_size(ui->scr_setup_network_led_status, 16, 16);
     lv_led_set_brightness(ui->scr_setup_network_led_status, 255);
     lv_led_set_color(ui->scr_setup_network_led_status, lv_color_hex(0x00FF39));
 
     //Write codes scr_setup_network_lbl_status
     ui->scr_setup_network_lbl_status = lv_label_create(ui->scr_setup_network_cont_row_status);
-    lv_obj_set_pos(ui->scr_setup_network_lbl_status, 60, 2);
-    lv_obj_set_size(ui->scr_setup_network_lbl_status, 154, 24);
+    lv_obj_set_pos(ui->scr_setup_network_lbl_status, 70, 2);
+    lv_obj_set_size(ui->scr_setup_network_lbl_status, 165, 24);
     lv_label_set_text(ui->scr_setup_network_lbl_status, "Connected");
     lv_label_set_long_mode(ui->scr_setup_network_lbl_status, LV_LABEL_LONG_WRAP);
 
@@ -513,7 +513,7 @@ void setup_scr_scr_setup_network(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_setup_network_lbl_status, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_setup_network_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_setup_network_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_setup_network_lbl_status, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_setup_network_lbl_status, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_setup_network_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_setup_network_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_setup_network_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -523,7 +523,7 @@ void setup_scr_scr_setup_network(lv_ui *ui)
 
     //Write codes scr_setup_network_lbl_ip_value
     ui->scr_setup_network_lbl_ip_value = lv_label_create(ui->scr_setup_network_cont_row_status);
-    lv_obj_set_pos(ui->scr_setup_network_lbl_ip_value, 60, 40);
+    lv_obj_set_pos(ui->scr_setup_network_lbl_ip_value, 70, 40);
     lv_obj_set_size(ui->scr_setup_network_lbl_ip_value, 201, 24);
     lv_label_set_text(ui->scr_setup_network_lbl_ip_value, "IP: 192.168.1.1");
     lv_label_set_long_mode(ui->scr_setup_network_lbl_ip_value, LV_LABEL_LONG_WRAP);
@@ -536,7 +536,7 @@ void setup_scr_scr_setup_network(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_setup_network_lbl_ip_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_setup_network_lbl_ip_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_setup_network_lbl_ip_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_setup_network_lbl_ip_value, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_setup_network_lbl_ip_value, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_setup_network_lbl_ip_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_setup_network_lbl_ip_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_setup_network_lbl_ip_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);

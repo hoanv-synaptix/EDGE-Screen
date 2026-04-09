@@ -1,3 +1,10 @@
+﻿/*
+ * FILE OVERVIEW
+ * Path: app/ui/custom/lv_conf_ext.h
+ * Role: Cau hinh bo sung cho LVGL custom layer.
+ * Flow: Duoc include de bo sung/ghi de cac tuy chon LVGL can cho project.
+ */
+
 /*
 * Copyright 2024 NXP
 * NXP Proprietary. This software is owned or controlled by NXP and may only be used strictly in

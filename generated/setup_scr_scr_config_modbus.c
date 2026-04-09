@@ -335,8 +335,8 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_config_modbus_ddlist_baudrate, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_config_modbus_ddlist_baudrate, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_ddlist_baudrate, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_ddlist_baudrate, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_config_modbus_ddlist_baudrate, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_ddlist_baudrate, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_config_modbus_ddlist_baudrate, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_ddlist_baudrate, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_ddlist_baudrate, 78, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_config_modbus_ddlist_baudrate, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -388,7 +388,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     //Write codes scr_config_modbus_lbl_stopbit
     ui->scr_config_modbus_lbl_stopbit = lv_label_create(ui->scr_config_modbus_cont_connection);
     lv_obj_set_pos(ui->scr_config_modbus_lbl_stopbit, 143, 244);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_stopbit, 120, 32);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_stopbit, 180, 32);
     lv_label_set_text(ui->scr_config_modbus_lbl_stopbit, "Stop bits");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_stopbit, LV_LABEL_LONG_WRAP);
 
@@ -400,12 +400,12 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_stopbit, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_stopbit, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_stopbit, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_stopbit, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_stopbit, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_stopbit, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_stopbit, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_stopbit, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_config_modbus_lbl_stopbit, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_stopbit, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_stopbit, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_lbl_stopbit, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_config_modbus_ddlist_stopbit
@@ -423,8 +423,8 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_config_modbus_ddlist_stopbit, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_config_modbus_ddlist_stopbit, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_ddlist_stopbit, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_ddlist_stopbit, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_config_modbus_ddlist_stopbit, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_ddlist_stopbit, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_config_modbus_ddlist_stopbit, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_ddlist_stopbit, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_ddlist_stopbit, 79, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_config_modbus_ddlist_stopbit, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -476,7 +476,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     //Write codes scr_config_modbus_lbl_baudrate
     ui->scr_config_modbus_lbl_baudrate = lv_label_create(ui->scr_config_modbus_cont_connection);
     lv_obj_set_pos(ui->scr_config_modbus_lbl_baudrate, 143, 67);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_baudrate, 143, 32);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_baudrate, 221, 32);
     lv_label_set_text(ui->scr_config_modbus_lbl_baudrate, "Baud Rate");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_baudrate, LV_LABEL_LONG_WRAP);
 
@@ -488,12 +488,12 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_baudrate, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_baudrate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_baudrate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_baudrate, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_baudrate, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_baudrate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_baudrate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_baudrate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_config_modbus_lbl_baudrate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_baudrate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_baudrate, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_lbl_baudrate, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_config_modbus_lbl_conncetion
@@ -511,12 +511,12 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_conncetion, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_conncetion, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_conncetion, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_conncetion, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_conncetion, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_conncetion, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_conncetion, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_conncetion, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_config_modbus_lbl_conncetion, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_conncetion, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_conncetion, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_lbl_conncetion, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_config_modbus_line_4
@@ -573,8 +573,8 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_config_modbus_ddlist_parity, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_config_modbus_ddlist_parity, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_ddlist_parity, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_ddlist_parity, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_config_modbus_ddlist_parity, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_ddlist_parity, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_config_modbus_ddlist_parity, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_ddlist_parity, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_ddlist_parity, 78, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_config_modbus_ddlist_parity, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -626,7 +626,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     //Write codes scr_config_modbus_lbl_parity
     ui->scr_config_modbus_lbl_parity = lv_label_create(ui->scr_config_modbus_cont_connection);
     lv_obj_set_pos(ui->scr_config_modbus_lbl_parity, 143, 151);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_parity, 77, 32);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_parity, 133, 32);
     lv_label_set_text(ui->scr_config_modbus_lbl_parity, "Parity");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_parity, LV_LABEL_LONG_WRAP);
 
@@ -638,12 +638,12 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_parity, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_parity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_parity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_parity, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_parity, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_parity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_parity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_parity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_config_modbus_lbl_parity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_parity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_parity, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_lbl_parity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_config_modbus_line_1
@@ -674,8 +674,8 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_config_modbus_ddlist_poll_interval, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_config_modbus_ddlist_poll_interval, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_ddlist_poll_interval, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_ddlist_poll_interval, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_config_modbus_ddlist_poll_interval, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_ddlist_poll_interval, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_config_modbus_ddlist_poll_interval, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_ddlist_poll_interval, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_ddlist_poll_interval, 78, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_config_modbus_ddlist_poll_interval, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -727,7 +727,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     //Write codes scr_config_modbus_label_poll_interval
     ui->scr_config_modbus_label_poll_interval = lv_label_create(ui->scr_config_modbus_cont_connection);
     lv_obj_set_pos(ui->scr_config_modbus_label_poll_interval, 143, 335);
-    lv_obj_set_size(ui->scr_config_modbus_label_poll_interval, 165, 32);
+    lv_obj_set_size(ui->scr_config_modbus_label_poll_interval, 236, 32);
     lv_label_set_text(ui->scr_config_modbus_label_poll_interval, "Poll Interval");
     lv_label_set_long_mode(ui->scr_config_modbus_label_poll_interval, LV_LABEL_LONG_WRAP);
 
@@ -739,12 +739,12 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_config_modbus_label_poll_interval, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_label_poll_interval, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_label_poll_interval, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_label_poll_interval, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_label_poll_interval, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_label_poll_interval, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_label_poll_interval, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_label_poll_interval, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_config_modbus_label_poll_interval, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_label_poll_interval, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_label_poll_interval, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_label_poll_interval, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes CONFIGURE DEVICE
@@ -785,7 +785,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     //Write codes scr_config_modbus_lbl_address
     ui->scr_config_modbus_lbl_address = lv_label_create(ui->scr_config_modbus_cont_configuredevice);
     lv_obj_set_pos(ui->scr_config_modbus_lbl_address, 143, 334);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_address, 118, 32);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_address, 204, 32);
     lv_label_set_text(ui->scr_config_modbus_lbl_address, "Address");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_address, LV_LABEL_LONG_WRAP);
 
@@ -797,18 +797,18 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_address, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_address, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_address, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_config_modbus_lbl_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_address, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_lbl_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_config_modbus_lbl_registertype
     ui->scr_config_modbus_lbl_registertype = lv_label_create(ui->scr_config_modbus_cont_configuredevice);
     lv_obj_set_pos(ui->scr_config_modbus_lbl_registertype, 143, 244);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_registertype, 193, 32);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_registertype, 229, 32);
     lv_label_set_text(ui->scr_config_modbus_lbl_registertype, "Register Type");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_registertype, LV_LABEL_LONG_WRAP);
 
@@ -820,12 +820,12 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_registertype, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_registertype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_registertype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_registertype, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_registertype, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_registertype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_registertype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_registertype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_config_modbus_lbl_registertype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_registertype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_registertype, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_lbl_registertype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_config_modbus_ddlist_registertype
@@ -843,8 +843,8 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_config_modbus_ddlist_registertype, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_config_modbus_ddlist_registertype, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_ddlist_registertype, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_ddlist_registertype, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_config_modbus_ddlist_registertype, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_ddlist_registertype, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_config_modbus_ddlist_registertype, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_ddlist_registertype, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_ddlist_registertype, 79, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_config_modbus_ddlist_registertype, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -896,7 +896,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     //Write codes scr_config_modbus_lbl_name
     ui->scr_config_modbus_lbl_name = lv_label_create(ui->scr_config_modbus_cont_configuredevice);
     lv_obj_set_pos(ui->scr_config_modbus_lbl_name, 143, 67);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_name, 87, 32);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_name, 158, 32);
     lv_label_set_text(ui->scr_config_modbus_lbl_name, "Name");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_name, LV_LABEL_LONG_WRAP);
 
@@ -908,18 +908,18 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_name, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_name, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_name, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_config_modbus_lbl_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_name, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_lbl_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_config_modbus_lbl_deviceconfigure
     ui->scr_config_modbus_lbl_deviceconfigure = lv_label_create(ui->scr_config_modbus_cont_configuredevice);
     lv_obj_set_pos(ui->scr_config_modbus_lbl_deviceconfigure, 0, 0);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_deviceconfigure, 442, 32);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_deviceconfigure, 468, 32);
     lv_label_set_text_static(ui->scr_config_modbus_lbl_deviceconfigure, "Selected Input: Configure Device");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_deviceconfigure, LV_LABEL_LONG_WRAP);
 
@@ -931,18 +931,18 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_deviceconfigure, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_deviceconfigure, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_deviceconfigure, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_deviceconfigure, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_deviceconfigure, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_deviceconfigure, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_deviceconfigure, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_deviceconfigure, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_config_modbus_lbl_deviceconfigure, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_deviceconfigure, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_deviceconfigure, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_lbl_deviceconfigure, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_config_modbus_lbl_datatype
     ui->scr_config_modbus_lbl_datatype = lv_label_create(ui->scr_config_modbus_cont_configuredevice);
     lv_obj_set_pos(ui->scr_config_modbus_lbl_datatype, 143, 417);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_datatype, 137, 32);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_datatype, 224, 32);
     lv_label_set_text(ui->scr_config_modbus_lbl_datatype, "Data type");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_datatype, LV_LABEL_LONG_WRAP);
 
@@ -954,12 +954,12 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_datatype, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_datatype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_datatype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_datatype, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_datatype, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_datatype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_datatype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_datatype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_config_modbus_lbl_datatype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_datatype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_datatype, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_lbl_datatype, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_config_modbus_line_26
@@ -1004,7 +1004,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     //Write codes scr_config_modbus_lbl_slaveid
     ui->scr_config_modbus_lbl_slaveid = lv_label_create(ui->scr_config_modbus_cont_configuredevice);
     lv_obj_set_pos(ui->scr_config_modbus_lbl_slaveid, 143, 151);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_slaveid, 120, 32);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_slaveid, 154, 32);
     lv_label_set_text(ui->scr_config_modbus_lbl_slaveid, "Slave ID");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_slaveid, LV_LABEL_LONG_WRAP);
 
@@ -1016,12 +1016,12 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_slaveid, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_slaveid, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_slaveid, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_config_modbus_lbl_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_slaveid, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_lbl_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_config_modbus_line_23
@@ -1052,8 +1052,8 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_config_modbus_ddlist_datatype, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_config_modbus_ddlist_datatype, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_ddlist_datatype, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_ddlist_datatype, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_config_modbus_ddlist_datatype, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_ddlist_datatype, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_config_modbus_ddlist_datatype, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_ddlist_datatype, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_ddlist_datatype, 78, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_config_modbus_ddlist_datatype, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -1105,7 +1105,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     //Write codes scr_config_modbus_lbl_quantity
     ui->scr_config_modbus_lbl_quantity = lv_label_create(ui->scr_config_modbus_cont_configuredevice);
     lv_obj_set_pos(ui->scr_config_modbus_lbl_quantity, 143, 502);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_quantity, 117, 32);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_quantity, 170, 32);
     lv_label_set_text(ui->scr_config_modbus_lbl_quantity, "Quantity");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_quantity, LV_LABEL_LONG_WRAP);
 
@@ -1117,12 +1117,12 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_quantity, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_quantity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_quantity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_quantity, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_quantity, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_quantity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_quantity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_quantity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_config_modbus_lbl_quantity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_quantity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_quantity, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_lbl_quantity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_config_modbus_line_22
@@ -1169,7 +1169,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_ta_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_ta_name, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_ta_name, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_ta_name, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_ta_name, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_ta_name, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write style for scr_config_modbus_ta_name, Part: LV_PART_SCROLLBAR, State: LV_STATE_DEFAULT.
@@ -1209,7 +1209,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_ta_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_ta_slaveid, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_ta_slaveid, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_ta_slaveid, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_ta_slaveid, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_ta_slaveid, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write style for scr_config_modbus_ta_slaveid, Part: LV_PART_SCROLLBAR, State: LV_STATE_DEFAULT.
@@ -1249,7 +1249,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_ta_quantity, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_ta_quantity, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_ta_quantity, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_ta_quantity, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_ta_quantity, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_ta_quantity, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write style for scr_config_modbus_ta_quantity, Part: LV_PART_SCROLLBAR, State: LV_STATE_DEFAULT.
@@ -1289,7 +1289,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_ta_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_ta_address, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_ta_address, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_ta_address, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_ta_address, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_ta_address, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write style for scr_config_modbus_ta_address, Part: LV_PART_SCROLLBAR, State: LV_STATE_DEFAULT.

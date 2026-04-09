@@ -369,7 +369,7 @@ void setup_scr_scr_login(lv_ui *ui)
 
     //Write codes scr_login_btn_login
     ui->scr_login_btn_login = lv_button_create(ui->scr_login_cont_account);
-    lv_obj_set_pos(ui->scr_login_btn_login, 90, 515);
+    lv_obj_set_pos(ui->scr_login_btn_login, 91, 515);
     lv_obj_set_size(ui->scr_login_btn_login, 400, 60);
     ui->scr_login_btn_login_label = lv_label_create(ui->scr_login_btn_login);
     lv_label_set_text(ui->scr_login_btn_login_label, "LOGIN");
@@ -527,4 +527,6 @@ void setup_scr_scr_login(lv_ui *ui)
     //Update current screen layout.
     lv_obj_update_layout(ui->scr_login);
 
+    //Init events for screen.
+    events_init_scr_login(ui);
 }
