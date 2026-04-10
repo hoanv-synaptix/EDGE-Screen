@@ -454,7 +454,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
 
     //Write codes scr_SystemSetting_btn_reset
     ui->scr_SystemSetting_btn_reset = lv_button_create(ui->scr_SystemSetting_cont_button);
-    lv_obj_set_pos(ui->scr_SystemSetting_btn_reset, 553, 2);
+    lv_obj_set_pos(ui->scr_SystemSetting_btn_reset, 554, 1);
     lv_obj_set_size(ui->scr_SystemSetting_btn_reset, 480, 80);
     ui->scr_SystemSetting_btn_reset_label = lv_label_create(ui->scr_SystemSetting_btn_reset);
     lv_label_set_text(ui->scr_SystemSetting_btn_reset_label, "RESET");

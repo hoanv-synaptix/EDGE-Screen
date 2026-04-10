@@ -75,6 +75,8 @@ void init_scr_del_flag(lv_ui *ui)
     ui->boot_del = true;
     ui->scr_login_del = true;
     ui->scr_operator_authentication_del = true;
+    ui->scr_select_wo_del = true;
+    ui->scr_confirm_wo_del = true;
     ui->scr_dashboard_del = true;
     ui->scr_downtime_del = true;
     ui->scr_prod_entry_del = true;
@@ -86,6 +88,8 @@ void init_scr_del_flag(lv_ui *ui)
     ui->scr_input_config_del = true;
     ui->scr_config_modbus_del = true;
     ui->scr_secure_setup_access_del = true;
+    ui->scr_note_del = true;
+    ui->scr_complete_wo_del = true;
 }
 
 void setup_bottom_layer(void)

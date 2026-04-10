@@ -194,7 +194,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
 
     //Write codes scr_config_modbus_btn_save
     ui->scr_config_modbus_btn_save = lv_button_create(ui->scr_config_modbus_cont_root);
-    lv_obj_set_pos(ui->scr_config_modbus_btn_save, 639, 640);
+    lv_obj_set_pos(ui->scr_config_modbus_btn_save, 640, 640);
     lv_obj_set_size(ui->scr_config_modbus_btn_save, 601, 60);
     ui->scr_config_modbus_btn_save_label = lv_label_create(ui->scr_config_modbus_btn_save);
     lv_label_set_text(ui->scr_config_modbus_btn_save_label, "SAVE");

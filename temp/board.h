@@ -714,7 +714,7 @@
 
 #define LV_USE_LOTTIE 0
 
-#define LV_USE_MENU 0
+#define LV_USE_MENU 1
 
 #define LV_USE_MSGBOX 0
 

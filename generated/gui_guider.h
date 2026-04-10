@@ -73,12 +73,48 @@ typedef struct
 	lv_obj_t *scr_operator_authentication_lbl_operator_value;
 	lv_obj_t *scr_operator_authentication_lbl_action_value;
 	lv_obj_t *scr_operator_authentication_lbl_status_value;
+	lv_obj_t *scr_select_wo;
+	bool scr_select_wo_del;
+	lv_obj_t *scr_select_wo_cont_secure_access;
+	lv_obj_t *scr_select_wo_cont_tiltle_row;
+	lv_obj_t *scr_select_wo_lbl_wo_id;
+	lv_obj_t *scr_select_wo_lbl_product_name;
+	lv_obj_t *scr_select_wo_lbl_plan_quantity;
+	lv_obj_t *scr_select_wo_lbl_status;
+	lv_obj_t *scr_select_wo_cont_list_wo;
+	lv_obj_t *scr_select_wo_cont_wo_deatail_1;
+	lv_obj_t *scr_select_wo_lbl_wo_id_value;
+	lv_obj_t *scr_select_wo_lbl_product_name_value;
+	lv_obj_t *scr_select_wo_lbl_plan_quantity_value;
+	lv_obj_t *scr_select_wo_lbl_status_value;
+	lv_obj_t *scr_select_wo_cont_topbar;
+	lv_obj_t *scr_select_wo_lbl_name_device;
+	lv_obj_t *scr_select_wo_lbl_op;
+	lv_obj_t *scr_select_wo_lbl_select_wo;
+	lv_obj_t *scr_confirm_wo;
+	bool scr_confirm_wo_del;
+	lv_obj_t *scr_confirm_wo_cont_confirm_wo;
+	lv_obj_t *scr_confirm_wo_lbl_confirm_wo;
+	lv_obj_t *scr_confirm_wo_line_8;
+	lv_obj_t *scr_confirm_wo_line_7;
+	lv_obj_t *scr_confirm_wo_btn_start;
+	lv_obj_t *scr_confirm_wo_btn_start_label;
+	lv_obj_t *scr_confirm_wo_btn_setup;
+	lv_obj_t *scr_confirm_wo_btn_setup_label;
+	lv_obj_t *scr_confirm_wo_lbl_status;
+	lv_obj_t *scr_confirm_wo_cont_wo_detail;
+	lv_obj_t *scr_confirm_wo_lbl_wo;
+	lv_obj_t *scr_confirm_wo_lbl_wo_value;
+	lv_obj_t *scr_confirm_wo_lbl_product_name;
+	lv_obj_t *scr_confirm_wo_lbl_product_name_value;
 	lv_obj_t *scr_dashboard;
 	bool scr_dashboard_del;
 	lv_obj_t *scr_dashboard_cont_dash_bg;
 	lv_obj_t *scr_dashboard_cont_topbar;
 	lv_obj_t *scr_dashboard_lbl_running;
 	lv_obj_t *scr_dashboard_lbl_op;
+	lv_obj_t *scr_dashboard_lbl_product_name;
+	lv_obj_t *scr_dashboard_lbl_name_device;
 	lv_obj_t *scr_dashboard_cont_okng_row;
 	lv_obj_t *scr_dashboard_lbl_ok;
 	lv_obj_t *scr_dashboard_lbl_ng;
@@ -96,61 +132,100 @@ typedef struct
 	lv_obj_t *scr_dashboard_cont_btn_row;
 	lv_obj_t *scr_dashboard_btn_stop;
 	lv_obj_t *scr_dashboard_btn_stop_label;
-	lv_obj_t *scr_dashboard_btn_error;
-	lv_obj_t *scr_dashboard_btn_error_label;
 	lv_obj_t *scr_dashboard_btn_setup;
 	lv_obj_t *scr_dashboard_btn_setup_label;
-	lv_obj_t *scr_dashboard_btn_break;
-	lv_obj_t *scr_dashboard_btn_break_label;
+	lv_obj_t *scr_dashboard_btn_brea;
+	lv_obj_t *scr_dashboard_btn_brea_label;
+	lv_obj_t *scr_dashboard_btn_complete;
+	lv_obj_t *scr_dashboard_btn_complete_label;
+	lv_obj_t *scr_dashboard_btn_setting;
+	lv_obj_t *scr_dashboard_btn_setting_label;
 	lv_obj_t *scr_dashboard_btn_input_prod;
 	lv_obj_t *scr_dashboard_btn_input_prod_label;
-	lv_obj_t *scr_dashboard_img_1;
+	lv_obj_t *scr_dashboard_img_input;
 	lv_obj_t *scr_dashboard_cont_dash_status;
 	lv_obj_t *scr_dashboard_digital_clock_1;
 	lv_obj_t *scr_dashboard_img_status_wifi_yes;
 	lv_obj_t *scr_dashboard_img_status_wifi_no;
-	lv_obj_t *scr_dashboard_lbl_name_device;
 	lv_obj_t *scr_dashboard_img_status_mqtt_no;
 	lv_obj_t *scr_dashboard_img_status_mqtt_yes;
+	lv_obj_t *scr_dashboard_btn_back;
+	lv_obj_t *scr_dashboard_btn_back_label;
 	lv_obj_t *scr_downtime;
 	bool scr_downtime_del;
 	lv_obj_t *scr_downtime_cont_dt;
 	lv_obj_t *scr_downtime_cont_dt_topbar;
 	lv_obj_t *scr_downtime_lbl_machine_status;
 	lv_obj_t *scr_downtime_lbl_stop_timer;
-	lv_obj_t *scr_downtime_imgbtn_back;
-	lv_obj_t *scr_downtime_imgbtn_back_label;
 	lv_obj_t *scr_downtime_cont_dt_center;
-	lv_obj_t *scr_downtime_cont_dt_group;
-	lv_obj_t *scr_downtime_lbl_group;
-	lv_obj_t *scr_downtime_btn_group_material;
-	lv_obj_t *scr_downtime_btn_group_material_label;
-	lv_obj_t *scr_downtime_btn_group_machine;
-	lv_obj_t *scr_downtime_btn_group_machine_label;
-	lv_obj_t *scr_downtime_btn_group_man;
-	lv_obj_t *scr_downtime_btn_group_man_label;
-	lv_obj_t *scr_downtime_btn_group_method;
-	lv_obj_t *scr_downtime_btn_group_method_label;
-	lv_obj_t *scr_downtime_btn_group_measurement;
-	lv_obj_t *scr_downtime_btn_group_measurement_label;
-	lv_obj_t *scr_downtime_cont_dt_detail;
-	lv_obj_t *scr_downtime_lbl_detail;
-	lv_obj_t *scr_downtime_ddlist_detail_machine;
-	lv_obj_t *scr_downtime_ddlist_detail_material;
-	lv_obj_t *scr_downtime_ddlist_detail_man;
-	lv_obj_t *scr_downtime_ddlist_detail_method;
-	lv_obj_t *scr_downtime_ddlist_detail_measurement;
-	lv_obj_t *scr_downtime_btn_dt_submit_start;
-	lv_obj_t *scr_downtime_btn_dt_submit_start_label;
-	lv_obj_t *scr_downtime_ta_dt_note_reason_stop;
+	lv_obj_t *scr_downtime_menu_detail_reason;
+	lv_obj_t *scr_downtime_menu_detail_reason_sidebar_page;
+	lv_obj_t *scr_downtime_menu_detail_reason_subpage_1_cont;
+	lv_obj_t *scr_downtime_menu_detail_reason_cont_1;
+	lv_obj_t *scr_downtime_menu_detail_reason_label_1;
+	lv_obj_t *scr_downtime_menu_detail_reason_subpage_2_cont;
+	lv_obj_t *scr_downtime_menu_detail_reason_cont_2;
+	lv_obj_t *scr_downtime_menu_detail_reason_label_2;
+	lv_obj_t *scr_downtime_menu_detail_reason_subpage_3_cont;
+	lv_obj_t *scr_downtime_menu_detail_reason_cont_3;
+	lv_obj_t *scr_downtime_menu_detail_reason_label_3;
+	lv_obj_t *scr_downtime_menu_detail_reason_subpage_4_cont;
+	lv_obj_t *scr_downtime_menu_detail_reason_cont_4;
+	lv_obj_t *scr_downtime_menu_detail_reason_label_4;
+	lv_obj_t *scr_downtime_menu_detail_reason_subpage_5_cont;
+	lv_obj_t *scr_downtime_menu_detail_reason_cont_5;
+	lv_obj_t *scr_downtime_menu_detail_reason_label_5;
+	lv_obj_t *scr_downtime_cont_dt_reason_0;
+	lv_obj_t *scr_downtime_lbl_dt_reason_0;
+	lv_obj_t *scr_downtime_ddlist_dt_reason_0;
+	lv_obj_t *scr_downtime_lbl_dt_add_description_0;
+	lv_obj_t *scr_downtime_ta_dt_note_reason_stop_0;
+	lv_obj_t *scr_downtime_btn_dt_cancel_0;
+	lv_obj_t *scr_downtime_btn_dt_cancel_0_label;
+	lv_obj_t *scr_downtime_btn_dt_submit_0;
+	lv_obj_t *scr_downtime_btn_dt_submit_0_label;
+	lv_obj_t *scr_downtime_cont_dt_reason_1;
+	lv_obj_t *scr_downtime_lbl_dt_reason_1;
+	lv_obj_t *scr_downtime_ddlist_dt_reason_1;
+	lv_obj_t *scr_downtime_lbl_dt_description_1;
+	lv_obj_t *scr_downtime_ta_dt_note_reason_stop_1;
+	lv_obj_t *scr_downtime_btn_dt_cancel_1;
+	lv_obj_t *scr_downtime_btn_dt_cancel_1_label;
+	lv_obj_t *scr_downtime_btn_dt_reason_1;
+	lv_obj_t *scr_downtime_btn_dt_reason_1_label;
+	lv_obj_t *scr_downtime_cont_dt_reason_2;
+	lv_obj_t *scr_downtime_lbl_dt_reason_2;
+	lv_obj_t *scr_downtime_ddlist_dt_reason_2;
+	lv_obj_t *scr_downtime_lbl_dt_description_2;
+	lv_obj_t *scr_downtime_ta_dt_note_reason_stop_2;
+	lv_obj_t *scr_downtime_btn_dt_cancel_2;
+	lv_obj_t *scr_downtime_btn_dt_cancel_2_label;
+	lv_obj_t *scr_downtime_btn_dt_submit_2;
+	lv_obj_t *scr_downtime_btn_dt_submit_2_label;
+	lv_obj_t *scr_downtime_cont_dt_reason_3;
+	lv_obj_t *scr_downtime_lbl_dt_reason_3;
+	lv_obj_t *scr_downtime_ddlist_dt_reason_3;
+	lv_obj_t *scr_downtime_lbl_dt_description_3;
+	lv_obj_t *scr_downtime_ta_dt_note_reason_stop_3;
+	lv_obj_t *scr_downtime_btn_dt_cancel_3;
+	lv_obj_t *scr_downtime_btn_dt_cancel_3_label;
+	lv_obj_t *scr_downtime_btn_dt_submit_3;
+	lv_obj_t *scr_downtime_btn_dt_submit_3_label;
+	lv_obj_t *scr_downtime_cont_dt_reason_4;
+	lv_obj_t *scr_downtime_lbl_dt_reason_4;
+	lv_obj_t *scr_downtime_ddlist_dt_reason_4;
+	lv_obj_t *scr_downtime_lbl_dt_description_4;
+	lv_obj_t *scr_downtime_ta_dt_note_reason_stop_4;
+	lv_obj_t *scr_downtime_btn_dt_cancel_4;
+	lv_obj_t *scr_downtime_btn_dt_cancel_4_label;
+	lv_obj_t *scr_downtime_btn_dt_submit_4;
+	lv_obj_t *scr_downtime_btn_dt_submit_4_label;
 	lv_obj_t *scr_prod_entry;
 	bool scr_prod_entry_del;
 	lv_obj_t *scr_prod_entry_cont_pe_bg;
 	lv_obj_t *scr_prod_entry_cont_pe_header;
 	lv_obj_t *scr_prod_entry_lbl_pe_tiltle;
 	lv_obj_t *scr_prod_entry_label_pe_wo;
-	lv_obj_t *scr_prod_entry_imgbtn_back;
-	lv_obj_t *scr_prod_entry_imgbtn_back_label;
 	lv_obj_t *scr_prod_entry_cont_pe_kpi_row;
 	lv_obj_t *scr_prod_entry_cont_total_finished;
 	lv_obj_t *scr_prod_entry_lbl_total_title;
@@ -158,30 +233,12 @@ typedef struct
 	lv_obj_t *scr_prod_entry_cont_ng_qly;
 	lv_obj_t *scr_prod_entry_lbl_ng_title;
 	lv_obj_t *scr_prod_entry_ta_ng_quantity;
-	lv_obj_t *scr_prod_entry_cont_pe_mid_row;
-	lv_obj_t *scr_prod_entry_cont_pe_group;
-	lv_obj_t *scr_prod_entry_lbl_group_tiltle;
-	lv_obj_t *scr_prod_entry_btn_grp_material;
-	lv_obj_t *scr_prod_entry_btn_grp_material_label;
-	lv_obj_t *scr_prod_entry_btn_grp_machine;
-	lv_obj_t *scr_prod_entry_btn_grp_machine_label;
-	lv_obj_t *scr_prod_entry_btn_grp_man;
-	lv_obj_t *scr_prod_entry_btn_grp_man_label;
-	lv_obj_t *scr_prod_entry_btn_grp_method;
-	lv_obj_t *scr_prod_entry_btn_grp_method_label;
-	lv_obj_t *scr_prod_entry_btn_measurement;
-	lv_obj_t *scr_prod_entry_btn_measurement_label;
-	lv_obj_t *scr_prod_entry_cont_pe_defect;
-	lv_obj_t *scr_prod_entry_lbl_defect_tiltle;
-	lv_obj_t *scr_prod_entry_ddlist_detail_material;
-	lv_obj_t *scr_prod_entry_ddlist_detail_method;
-	lv_obj_t *scr_prod_entry_ddlist_detail_man;
-	lv_obj_t *scr_prod_entry_ddlist_detail_machine;
-	lv_obj_t *scr_prod_entry_ddlist_detail_measurement;
 	lv_obj_t *scr_prod_entry_cont_pe_bottom;
 	lv_obj_t *scr_prod_entry_btn_pe_submit;
 	lv_obj_t *scr_prod_entry_btn_pe_submit_label;
 	lv_obj_t *scr_prod_entry_ta_pe_note;
+	lv_obj_t *scr_prod_entry_btn_cancel;
+	lv_obj_t *scr_prod_entry_btn_cancel_label;
 	lv_obj_t *scr_SetupHome;
 	bool scr_SetupHome_del;
 	lv_obj_t *scr_SetupHome_cont_root;
@@ -554,6 +611,36 @@ typedef struct
 	lv_obj_t *scr_secure_setup_access_btn_cancel;
 	lv_obj_t *scr_secure_setup_access_btn_cancel_label;
 	lv_obj_t *scr_secure_setup_access_img_password;
+	lv_obj_t *scr_note;
+	bool scr_note_del;
+	lv_obj_t *scr_note_cont_wo;
+	lv_obj_t *scr_note_lbl_wo;
+	lv_obj_t *scr_note_line_4;
+	lv_obj_t *scr_note_lbl_note;
+	lv_obj_t *scr_note_ta_note;
+	lv_obj_t *scr_note_line_3;
+	lv_obj_t *scr_note_btn_confirm;
+	lv_obj_t *scr_note_btn_confirm_label;
+	lv_obj_t *scr_note_btn_cancel;
+	lv_obj_t *scr_note_btn_cancel_label;
+	lv_obj_t *scr_complete_wo;
+	bool scr_complete_wo_del;
+	lv_obj_t *scr_complete_wo_cont_complete_wo;
+	lv_obj_t *scr_complete_wo_lbl_complete_wo;
+	lv_obj_t *scr_complete_wo_line_6;
+	lv_obj_t *scr_complete_wo_line_5;
+	lv_obj_t *scr_complete_wo_btn_confirm;
+	lv_obj_t *scr_complete_wo_btn_confirm_label;
+	lv_obj_t *scr_complete_wo_btn_cancel;
+	lv_obj_t *scr_complete_wo_btn_cancel_label;
+	lv_obj_t *scr_complete_wo_lbl_status;
+	lv_obj_t *scr_complete_wo_cont_wo_detail;
+	lv_obj_t *scr_complete_wo_lbl_wo;
+	lv_obj_t *scr_complete_wo_lbl_wo_value;
+	lv_obj_t *scr_complete_wo_lbl_product_name;
+	lv_obj_t *scr_complete_wo_lbl_product_name_value;
+	lv_obj_t *scr_complete_wo_label_2;
+	lv_obj_t *scr_complete_wo_label_1;
 	lv_obj_t *g_kb_top_layer;
 }lv_ui;
 
@@ -585,6 +672,8 @@ extern lv_ui guider_ui;
 void setup_scr_boot(lv_ui *ui);
 void setup_scr_scr_login(lv_ui *ui);
 void setup_scr_scr_operator_authentication(lv_ui *ui);
+void setup_scr_scr_select_wo(lv_ui *ui);
+void setup_scr_scr_confirm_wo(lv_ui *ui);
 void setup_scr_scr_dashboard(lv_ui *ui);
 void setup_scr_scr_downtime(lv_ui *ui);
 void setup_scr_scr_prod_entry(lv_ui *ui);
@@ -596,6 +685,8 @@ void setup_scr_scr_SystemSetting(lv_ui *ui);
 void setup_scr_scr_input_config(lv_ui *ui);
 void setup_scr_scr_config_modbus(lv_ui *ui);
 void setup_scr_scr_secure_setup_access(lv_ui *ui);
+void setup_scr_scr_note(lv_ui *ui);
+void setup_scr_scr_complete_wo(lv_ui *ui);
 LV_IMAGE_DECLARE(_logoSynaptiX_RGB565A8_200x200);
 LV_IMAGE_DECLARE(_nfc_RGB565A8_200x200);
 LV_IMAGE_DECLARE(_leftarrow_RGB565A8_64x64);
@@ -604,6 +695,7 @@ LV_IMAGE_DECLARE(_yeswifi_RGB565A8_32x32);
 LV_IMAGE_DECLARE(_nowifi_RGB565A8_32x32);
 LV_IMAGE_DECLARE(_no_mqtt_RGB565A8_32x32);
 LV_IMAGE_DECLARE(_yes_mqtt_RGB565A8_32x32);
+LV_IMAGE_DECLARE(_leftarrow_RGB565A8_50x40);
 LV_IMAGE_DECLARE(_wifi_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_server3_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_sync_RGB565A8_64x64);
@@ -626,21 +718,19 @@ LV_FONT_DECLARE(lv_font_Acme_Regular_50)
 LV_FONT_DECLARE(lv_font_montserratMedium_12)
 LV_FONT_DECLARE(lv_font_Acme_Regular_45)
 LV_FONT_DECLARE(lv_font_arial_28)
-LV_FONT_DECLARE(lv_font_Acme_Regular_34)
 LV_FONT_DECLARE(lv_font_Acme_Regular_30)
-LV_FONT_DECLARE(lv_font_Acme_Regular_60)
-LV_FONT_DECLARE(lv_font_Acme_Regular_40)
-LV_FONT_DECLARE(lv_font_arial_25)
-LV_FONT_DECLARE(lv_font_montserratMedium_16)
-LV_FONT_DECLARE(lv_font_Acme_Regular_26)
-LV_FONT_DECLARE(lv_font_arial_26)
-LV_FONT_DECLARE(lv_font_Abel_regular_26)
-LV_FONT_DECLARE(lv_font_Acme_Regular_24)
-LV_FONT_DECLARE(lv_font_Acme_Regular_64)
 LV_FONT_DECLARE(lv_font_Acme_Regular_25)
+LV_FONT_DECLARE(lv_font_arial_25)
+LV_FONT_DECLARE(lv_font_Acme_Regular_34)
+LV_FONT_DECLARE(lv_font_Acme_Regular_26)
+LV_FONT_DECLARE(lv_font_Acme_Regular_40)
+LV_FONT_DECLARE(lv_font_Acme_Regular_60)
+LV_FONT_DECLARE(lv_font_Acme_Regular_70)
+LV_FONT_DECLARE(lv_font_Abel_regular_28)
 LV_FONT_DECLARE(lv_font_montserratMedium_30)
 LV_FONT_DECLARE(lv_font_arial_32)
 LV_FONT_DECLARE(lv_font_montserratMedium_25)
+LV_FONT_DECLARE(lv_font_Acme_Regular_35)
 LV_FONT_DECLARE(lv_font_arial_18)
 
 
