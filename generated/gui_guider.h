@@ -25,10 +25,6 @@ typedef struct
 	lv_obj_t *boot_img_logo;
 	lv_obj_t *boot_lbl_title;
 	lv_obj_t *boot_lbl_status;
-	lv_obj_t *boot_cont_footer;
-	lv_obj_t *boot_lbl_version;
-	lv_obj_t *boot_lbl_edgeid;
-	lv_obj_t *boot_lbl_date;
 	lv_obj_t *boot_bar_1;
 	lv_obj_t *scr_login;
 	bool scr_login_del;
@@ -107,6 +103,8 @@ typedef struct
 	lv_obj_t *scr_confirm_wo_lbl_wo_value;
 	lv_obj_t *scr_confirm_wo_lbl_product_name;
 	lv_obj_t *scr_confirm_wo_lbl_product_name_value;
+	lv_obj_t *scr_confirm_wo_imgbtn_back;
+	lv_obj_t *scr_confirm_wo_imgbtn_back_label;
 	lv_obj_t *scr_dashboard;
 	bool scr_dashboard_del;
 	lv_obj_t *scr_dashboard_cont_dash_bg;
@@ -138,8 +136,6 @@ typedef struct
 	lv_obj_t *scr_dashboard_btn_brea_label;
 	lv_obj_t *scr_dashboard_btn_complete;
 	lv_obj_t *scr_dashboard_btn_complete_label;
-	lv_obj_t *scr_dashboard_btn_setting;
-	lv_obj_t *scr_dashboard_btn_setting_label;
 	lv_obj_t *scr_dashboard_btn_input_prod;
 	lv_obj_t *scr_dashboard_btn_input_prod_label;
 	lv_obj_t *scr_dashboard_img_input;
@@ -151,81 +147,39 @@ typedef struct
 	lv_obj_t *scr_dashboard_img_status_mqtt_yes;
 	lv_obj_t *scr_dashboard_btn_back;
 	lv_obj_t *scr_dashboard_btn_back_label;
+	lv_obj_t *scr_dashboard_btn_setting;
+	lv_obj_t *scr_dashboard_btn_setting_label;
+	lv_obj_t *scr_dashboard_btn_logout;
 	lv_obj_t *scr_downtime;
 	bool scr_downtime_del;
 	lv_obj_t *scr_downtime_cont_dt;
 	lv_obj_t *scr_downtime_cont_dt_topbar;
 	lv_obj_t *scr_downtime_lbl_machine_status;
-	lv_obj_t *scr_downtime_lbl_stop_timer;
 	lv_obj_t *scr_downtime_cont_dt_center;
-	lv_obj_t *scr_downtime_menu_detail_reason;
-	lv_obj_t *scr_downtime_menu_detail_reason_sidebar_page;
-	lv_obj_t *scr_downtime_menu_detail_reason_subpage_1_cont;
-	lv_obj_t *scr_downtime_menu_detail_reason_cont_1;
-	lv_obj_t *scr_downtime_menu_detail_reason_label_1;
-	lv_obj_t *scr_downtime_menu_detail_reason_subpage_2_cont;
-	lv_obj_t *scr_downtime_menu_detail_reason_cont_2;
-	lv_obj_t *scr_downtime_menu_detail_reason_label_2;
-	lv_obj_t *scr_downtime_menu_detail_reason_subpage_3_cont;
-	lv_obj_t *scr_downtime_menu_detail_reason_cont_3;
-	lv_obj_t *scr_downtime_menu_detail_reason_label_3;
-	lv_obj_t *scr_downtime_menu_detail_reason_subpage_4_cont;
-	lv_obj_t *scr_downtime_menu_detail_reason_cont_4;
-	lv_obj_t *scr_downtime_menu_detail_reason_label_4;
-	lv_obj_t *scr_downtime_menu_detail_reason_subpage_5_cont;
-	lv_obj_t *scr_downtime_menu_detail_reason_cont_5;
-	lv_obj_t *scr_downtime_menu_detail_reason_label_5;
-	lv_obj_t *scr_downtime_cont_dt_reason_0;
-	lv_obj_t *scr_downtime_lbl_dt_reason_0;
-	lv_obj_t *scr_downtime_ddlist_dt_reason_0;
-	lv_obj_t *scr_downtime_lbl_dt_add_description_0;
-	lv_obj_t *scr_downtime_ta_dt_note_reason_stop_0;
-	lv_obj_t *scr_downtime_btn_dt_cancel_0;
-	lv_obj_t *scr_downtime_btn_dt_cancel_0_label;
-	lv_obj_t *scr_downtime_btn_dt_submit_0;
-	lv_obj_t *scr_downtime_btn_dt_submit_0_label;
-	lv_obj_t *scr_downtime_cont_dt_reason_1;
-	lv_obj_t *scr_downtime_lbl_dt_reason_1;
-	lv_obj_t *scr_downtime_ddlist_dt_reason_1;
-	lv_obj_t *scr_downtime_lbl_dt_description_1;
-	lv_obj_t *scr_downtime_ta_dt_note_reason_stop_1;
-	lv_obj_t *scr_downtime_btn_dt_cancel_1;
-	lv_obj_t *scr_downtime_btn_dt_cancel_1_label;
-	lv_obj_t *scr_downtime_btn_dt_reason_1;
-	lv_obj_t *scr_downtime_btn_dt_reason_1_label;
-	lv_obj_t *scr_downtime_cont_dt_reason_2;
-	lv_obj_t *scr_downtime_lbl_dt_reason_2;
-	lv_obj_t *scr_downtime_ddlist_dt_reason_2;
-	lv_obj_t *scr_downtime_lbl_dt_description_2;
-	lv_obj_t *scr_downtime_ta_dt_note_reason_stop_2;
-	lv_obj_t *scr_downtime_btn_dt_cancel_2;
-	lv_obj_t *scr_downtime_btn_dt_cancel_2_label;
-	lv_obj_t *scr_downtime_btn_dt_submit_2;
-	lv_obj_t *scr_downtime_btn_dt_submit_2_label;
-	lv_obj_t *scr_downtime_cont_dt_reason_3;
-	lv_obj_t *scr_downtime_lbl_dt_reason_3;
-	lv_obj_t *scr_downtime_ddlist_dt_reason_3;
-	lv_obj_t *scr_downtime_lbl_dt_description_3;
-	lv_obj_t *scr_downtime_ta_dt_note_reason_stop_3;
-	lv_obj_t *scr_downtime_btn_dt_cancel_3;
-	lv_obj_t *scr_downtime_btn_dt_cancel_3_label;
-	lv_obj_t *scr_downtime_btn_dt_submit_3;
-	lv_obj_t *scr_downtime_btn_dt_submit_3_label;
-	lv_obj_t *scr_downtime_cont_dt_reason_4;
-	lv_obj_t *scr_downtime_lbl_dt_reason_4;
-	lv_obj_t *scr_downtime_ddlist_dt_reason_4;
-	lv_obj_t *scr_downtime_lbl_dt_description_4;
-	lv_obj_t *scr_downtime_ta_dt_note_reason_stop_4;
-	lv_obj_t *scr_downtime_btn_dt_cancel_4;
-	lv_obj_t *scr_downtime_btn_dt_cancel_4_label;
-	lv_obj_t *scr_downtime_btn_dt_submit_4;
-	lv_obj_t *scr_downtime_btn_dt_submit_4_label;
+	lv_obj_t *scr_downtime_btn_reason_1;
+	lv_obj_t *scr_downtime_btn_reason_1_label;
+	lv_obj_t *scr_downtime_btn_reaason_2;
+	lv_obj_t *scr_downtime_btn_reaason_2_label;
+	lv_obj_t *scr_downtime_btn_reason_3;
+	lv_obj_t *scr_downtime_btn_reason_3_label;
+	lv_obj_t *scr_downtime_btn_reason_4;
+	lv_obj_t *scr_downtime_btn_reason_4_label;
+	lv_obj_t *scr_downtime_btn_reason_5;
+	lv_obj_t *scr_downtime_btn_reason_5_label;
+	lv_obj_t *scr_downtime_cont_dt_reason_detial;
+	lv_obj_t *scr_downtime_lbl_dt_reason;
+	lv_obj_t *scr_downtime_ddlist_dt_reason;
+	lv_obj_t *scr_downtime_lbl_dt_add_description;
+	lv_obj_t *scr_downtime_ta_dt_note_reason_stop;
+	lv_obj_t *scr_downtime_btn_dt_cancel;
+	lv_obj_t *scr_downtime_btn_dt_cancel_label;
+	lv_obj_t *scr_downtime_btn_dt_submit;
+	lv_obj_t *scr_downtime_btn_dt_submit_label;
 	lv_obj_t *scr_prod_entry;
 	bool scr_prod_entry_del;
 	lv_obj_t *scr_prod_entry_cont_pe_bg;
 	lv_obj_t *scr_prod_entry_cont_pe_header;
 	lv_obj_t *scr_prod_entry_lbl_pe_tiltle;
-	lv_obj_t *scr_prod_entry_label_pe_wo;
 	lv_obj_t *scr_prod_entry_cont_pe_kpi_row;
 	lv_obj_t *scr_prod_entry_cont_total_finished;
 	lv_obj_t *scr_prod_entry_lbl_total_title;
@@ -303,17 +257,11 @@ typedef struct
 	lv_obj_t *scr_setup_network_cont_wifi_row;
 	lv_obj_t *scr_setup_network_lbl_wifi;
 	lv_obj_t *scr_setup_network_ta_wifi;
-	lv_obj_t *scr_setup_network_line_2;
 	lv_obj_t *scr_setup_network_cont_pass_row;
 	lv_obj_t *scr_setup_network_lbl_pass;
 	lv_obj_t *scr_setup_network_ta_pass;
-	lv_obj_t *scr_setup_network_cont_auto_row;
-	lv_obj_t *scr_setup_network_lbl_auto;
-	lv_obj_t *scr_setup_network_sw_auto;
 	lv_obj_t *scr_setup_network_line_3;
 	lv_obj_t *scr_setup_network_cont_row_status;
-	lv_obj_t *scr_setup_network_led_status;
-	lv_obj_t *scr_setup_network_lbl_status;
 	lv_obj_t *scr_setup_network_lbl_ip_value;
 	lv_obj_t *scr_setup_network_line_4;
 	lv_obj_t *scr_setup_network_cont_btn_row;
@@ -350,7 +298,6 @@ typedef struct
 	lv_obj_t *scr_SetupMQTT_btn_save;
 	lv_obj_t *scr_SetupMQTT_btn_save_label;
 	lv_obj_t *scr_SetupMQTT_lbl_status;
-	lv_obj_t *scr_SetupMQTT_led_status;
 	lv_obj_t *scr_SetupMQTT_line_11;
 	lv_obj_t *scr_SetupMQTT_cont_user;
 	lv_obj_t *scr_SetupMQTT_lbl_user;
@@ -377,8 +324,6 @@ typedef struct
 	lv_obj_t *scr_SetupDataSync_lbl_last_tiltle;
 	lv_obj_t *scr_SetupDataSync_lbl_last_value;
 	lv_obj_t *scr_SetupDataSync_img_lastsync;
-	lv_obj_t *scr_SetupDataSync_btn_last;
-	lv_obj_t *scr_SetupDataSync_btn_last_label;
 	lv_obj_t *scr_SetupDataSync_line_8;
 	lv_obj_t *scr_SetupDataSync_line_7;
 	lv_obj_t *scr_SetupDataSync_line_6;
@@ -393,22 +338,14 @@ typedef struct
 	lv_obj_t *scr_SetupDataSync_lbl_ver_tiltle;
 	lv_obj_t *scr_SetupDataSync_lbl_ver_value;
 	lv_obj_t *scr_SetupDataSync_img_ver;
-	lv_obj_t *scr_SetupDataSync_btn_ver;
-	lv_obj_t *scr_SetupDataSync_btn_ver_label;
 	lv_obj_t *scr_SetupDataSync_cont_auto_row;
-	lv_obj_t *scr_SetupDataSync_lbl_auto_tiltle;
-	lv_obj_t *scr_SetupDataSync_lbl_auto_value;
+	lv_obj_t *scr_SetupDataSync_lbl_time_auto_tiltle;
 	lv_obj_t *scr_SetupDataSync_img_auto;
-	lv_obj_t *scr_SetupDataSync_btn_auto;
-	lv_obj_t *scr_SetupDataSync_btn_auto_label;
+	lv_obj_t *scr_SetupDataSync_ddlist_time_auto_value;
 	lv_obj_t *scr_SetupDataSync_cont_status_row;
 	lv_obj_t *scr_SetupDataSync_lbl_status_tiltle;
 	lv_obj_t *scr_SetupDataSync_lbl_status_msg;
 	lv_obj_t *scr_SetupDataSync_img_status;
-	lv_obj_t *scr_SetupDataSync_btn_status;
-	lv_obj_t *scr_SetupDataSync_btn_status_label;
-	lv_obj_t *scr_SetupDataSync_led_status;
-	lv_obj_t *scr_SetupDataSync_lbl_status;
 	lv_obj_t *scr_SetupDataSync_imgbtn_back;
 	lv_obj_t *scr_SetupDataSync_imgbtn_back_label;
 	lv_obj_t *scr_SystemSetting;
@@ -471,7 +408,6 @@ typedef struct
 	lv_obj_t *scr_input_config_tabview_intput_tab_4;
 	lv_obj_t *scr_input_config_cont_intput1;
 	lv_obj_t *scr_input_config_line_1;
-	lv_obj_t *scr_input_config_ddlist_ip1_function;
 	lv_obj_t *scr_input_config_lbl_ip1_trigger;
 	lv_obj_t *scr_input_config_ddlist_ip1_trigger;
 	lv_obj_t *scr_input_config_lbl_ip1_function;
@@ -485,41 +421,41 @@ typedef struct
 	lv_obj_t *scr_input_config_lbl_ip1_enable;
 	lv_obj_t *scr_input_config_line_17;
 	lv_obj_t *scr_input_config_line_33;
+	lv_obj_t *scr_input_config_ddlist_ip1_function;
 	lv_obj_t *scr_input_config_cont_input2;
-	lv_obj_t *scr_input_config_line_22;
-	lv_obj_t *scr_input_config_ddlist_ip2_function;
+	lv_obj_t *scr_input_config_line_38;
 	lv_obj_t *scr_input_config_label_ip2_trigger;
 	lv_obj_t *scr_input_config_ddlist_ip2_trigger;
 	lv_obj_t *scr_input_config_lbl_ip2_function;
-	lv_obj_t *scr_input_config_lbl_input2;
+	lv_obj_t *scr_input_config_lbl_ip2;
 	lv_obj_t *scr_input_config_lbl_ip2_livestatus;
 	lv_obj_t *scr_input_config_lbl_ip2_status;
 	lv_obj_t *scr_input_config_led_ip2_status;
-	lv_obj_t *scr_input_config_line_21;
-	lv_obj_t *scr_input_config_line_20;
-	lv_obj_t *scr_input_config_line_19;
+	lv_obj_t *scr_input_config_line_37;
+	lv_obj_t *scr_input_config_line_36;
 	lv_obj_t *scr_input_config_ddlist_ip2_enable;
-	lv_obj_t *scr_input_config_lbl_ip2_enable;
-	lv_obj_t *scr_input_config_line_18;
+	lv_obj_t *scr_input_config_label_ip2_enable;
+	lv_obj_t *scr_input_config_line_35;
+	lv_obj_t *scr_input_config_line_34;
+	lv_obj_t *scr_input_config_ddlist_ip2_function;
 	lv_obj_t *scr_input_config_cont_input3;
-	lv_obj_t *scr_input_config_line_27;
-	lv_obj_t *scr_input_config_ddlist_ip3_function;
-	lv_obj_t *scr_input_config_lbl_ip3_trigger;
+	lv_obj_t *scr_input_config_line_43;
+	lv_obj_t *scr_input_config_lbl_ip3_trgger;
 	lv_obj_t *scr_input_config_ddlist_ip3_trigger;
 	lv_obj_t *scr_input_config_lbl_ip3_function;
 	lv_obj_t *scr_input_config_lbl_ip3;
 	lv_obj_t *scr_input_config_lbl_ip3_livestatus;
 	lv_obj_t *scr_input_config_lbl_ip3_status;
 	lv_obj_t *scr_input_config_led_ip3_status;
-	lv_obj_t *scr_input_config_line_26;
-	lv_obj_t *scr_input_config_line_25;
-	lv_obj_t *scr_input_config_line_24;
+	lv_obj_t *scr_input_config_line_42;
+	lv_obj_t *scr_input_config_line_41;
 	lv_obj_t *scr_input_config_ddlist_ip3_enable;
 	lv_obj_t *scr_input_config_lbl_ip3_enable;
-	lv_obj_t *scr_input_config_line_23;
+	lv_obj_t *scr_input_config_line_40;
+	lv_obj_t *scr_input_config_line_39;
+	lv_obj_t *scr_input_config_ddlist_ip3_function;
 	lv_obj_t *scr_input_config_cont_input4;
-	lv_obj_t *scr_input_config_line_32;
-	lv_obj_t *scr_input_config_ddlist_ip4_function;
+	lv_obj_t *scr_input_config_line_48;
 	lv_obj_t *scr_input_config_lbl_ip4_trigger;
 	lv_obj_t *scr_input_config_ddlist_ip4_trigger;
 	lv_obj_t *scr_input_config_lbl_ip4_function;
@@ -527,12 +463,13 @@ typedef struct
 	lv_obj_t *scr_input_config_lbl_ip4_livestatus;
 	lv_obj_t *scr_input_config_lbl_ip4_status;
 	lv_obj_t *scr_input_config_led_ip4_status;
-	lv_obj_t *scr_input_config_line_31;
-	lv_obj_t *scr_input_config_line_30;
-	lv_obj_t *scr_input_config_line_29;
+	lv_obj_t *scr_input_config_line_47;
+	lv_obj_t *scr_input_config_line_46;
 	lv_obj_t *scr_input_config_ddlist_ip4_enable;
 	lv_obj_t *scr_input_config_lbl_ip4_enable;
-	lv_obj_t *scr_input_config_line_28;
+	lv_obj_t *scr_input_config_line_45;
+	lv_obj_t *scr_input_config_line_44;
+	lv_obj_t *scr_input_config_ddlist_ip4_function;
 	lv_obj_t *scr_config_modbus;
 	bool scr_config_modbus_del;
 	lv_obj_t *scr_config_modbus_cont_root;
@@ -610,11 +547,10 @@ typedef struct
 	lv_obj_t *scr_secure_setup_access_btn_confirm_label;
 	lv_obj_t *scr_secure_setup_access_btn_cancel;
 	lv_obj_t *scr_secure_setup_access_btn_cancel_label;
-	lv_obj_t *scr_secure_setup_access_img_password;
 	lv_obj_t *scr_note;
 	bool scr_note_del;
 	lv_obj_t *scr_note_cont_wo;
-	lv_obj_t *scr_note_lbl_wo;
+	lv_obj_t *scr_note_lbl_wo_id;
 	lv_obj_t *scr_note_line_4;
 	lv_obj_t *scr_note_lbl_note;
 	lv_obj_t *scr_note_ta_note;
@@ -696,6 +632,7 @@ LV_IMAGE_DECLARE(_nowifi_RGB565A8_32x32);
 LV_IMAGE_DECLARE(_no_mqtt_RGB565A8_32x32);
 LV_IMAGE_DECLARE(_yes_mqtt_RGB565A8_32x32);
 LV_IMAGE_DECLARE(_leftarrow_RGB565A8_50x40);
+LV_IMAGE_DECLARE(_log_out_RGB565A8_35x35);
 LV_IMAGE_DECLARE(_wifi_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_server3_RGB565A8_64x64);
 LV_IMAGE_DECLARE(_sync_RGB565A8_64x64);
@@ -708,29 +645,28 @@ LV_IMAGE_DECLARE(_clock_RGB565A8_48x48);
 LV_IMAGE_DECLARE(_status_RGB565A8_48x48);
 LV_IMAGE_DECLARE(_brightness_RGB565A8_64x64);
 
-LV_FONT_DECLARE(lv_font_montserratMedium_40)
-LV_FONT_DECLARE(lv_font_montserratMedium_26)
-LV_FONT_DECLARE(lv_font_montserratMedium_22)
-LV_FONT_DECLARE(lv_font_arial_40)
-LV_FONT_DECLARE(lv_font_arial_30)
-LV_FONT_DECLARE(lv_font_arial_20)
+LV_FONT_DECLARE(lv_font_NotoSans_Bold_40)
+LV_FONT_DECLARE(lv_font_NotoSans_Bold_26)
+LV_FONT_DECLARE(lv_font_NotoSans_Regular_30)
+LV_FONT_DECLARE(lv_font_NotoSans_Regular_20)
+LV_FONT_DECLARE(lv_font_NotoSans_Bold_30)
+LV_FONT_DECLARE(lv_font_montserratMedium_16)
 LV_FONT_DECLARE(lv_font_Acme_Regular_50)
 LV_FONT_DECLARE(lv_font_montserratMedium_12)
-LV_FONT_DECLARE(lv_font_Acme_Regular_45)
-LV_FONT_DECLARE(lv_font_arial_28)
-LV_FONT_DECLARE(lv_font_Acme_Regular_30)
-LV_FONT_DECLARE(lv_font_Acme_Regular_25)
+LV_FONT_DECLARE(lv_font_NotoSans_Bold_45)
+LV_FONT_DECLARE(lv_font_NotoSans_Bold_28)
+LV_FONT_DECLARE(lv_font_NotoSans_Regular_28)
+LV_FONT_DECLARE(lv_font_NotoSans_Bold_25)
+LV_FONT_DECLARE(lv_font_NotoSans_Bold_50)
+LV_FONT_DECLARE(lv_font_NotoSans_Regular_25)
+LV_FONT_DECLARE(lv_font_NotoSans_Bold_34)
+LV_FONT_DECLARE(lv_font_NotoSans_Bold_60)
+LV_FONT_DECLARE(lv_font_NotoSans_Bold_32)
+LV_FONT_DECLARE(lv_font_arial_30)
+LV_FONT_DECLARE(lv_font_NotoSans_Bold_100)
+LV_FONT_DECLARE(lv_font_NotoSans_Bold_27)
+LV_FONT_DECLARE(lv_font_NotoSans_Bold_35)
 LV_FONT_DECLARE(lv_font_arial_25)
-LV_FONT_DECLARE(lv_font_Acme_Regular_34)
-LV_FONT_DECLARE(lv_font_Acme_Regular_26)
-LV_FONT_DECLARE(lv_font_Acme_Regular_40)
-LV_FONT_DECLARE(lv_font_Acme_Regular_60)
-LV_FONT_DECLARE(lv_font_Acme_Regular_70)
-LV_FONT_DECLARE(lv_font_Abel_regular_28)
-LV_FONT_DECLARE(lv_font_montserratMedium_30)
-LV_FONT_DECLARE(lv_font_arial_32)
-LV_FONT_DECLARE(lv_font_montserratMedium_25)
-LV_FONT_DECLARE(lv_font_Acme_Regular_35)
 LV_FONT_DECLARE(lv_font_arial_18)
 
 

@@ -73,7 +73,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SetupHome_label_2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupHome_label_2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_label_2, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_label_2, &lv_font_Acme_Regular_50, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_label_2, &lv_font_NotoSans_Bold_50, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_label_2, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupHome_label_2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupHome_label_2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -104,13 +104,13 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_SetupHome_btn_1, 18, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SetupHome_btn_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_btn_1, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_btn_1, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_btn_1, &lv_font_NotoSans_Bold_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_btn_1, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_SetupHome_btn_1, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SetupHome_label_1
     ui->scr_SetupHome_label_1 = lv_label_create(ui->scr_SetupHome_cont_topbar);
-    lv_obj_set_pos(ui->scr_SetupHome_label_1, 950, 39);
+    lv_obj_set_pos(ui->scr_SetupHome_label_1, 940, 38);
     lv_obj_set_size(ui->scr_SetupHome_label_1, 132, 32);
     lv_label_set_text(ui->scr_SetupHome_label_1, "EDGE-01");
     lv_label_set_long_mode(ui->scr_SetupHome_label_1, LV_LABEL_LONG_WRAP);
@@ -119,7 +119,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SetupHome_label_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupHome_label_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_label_1, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_label_1, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_label_1, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_label_1, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupHome_label_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupHome_label_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -134,7 +134,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     //Write codes scr_SetupHome_cont_list
     ui->scr_SetupHome_cont_list = lv_obj_create(ui->scr_SetupHome_cont_root);
     lv_obj_set_pos(ui->scr_SetupHome_cont_list, 40, 100);
-    lv_obj_set_size(ui->scr_SetupHome_cont_list, 1200, 581);
+    lv_obj_set_size(ui->scr_SetupHome_cont_list, 1228, 581);
     lv_obj_set_scrollbar_mode(ui->scr_SetupHome_cont_list, LV_SCROLLBAR_MODE_AUTO);
 
     //Write style for scr_SetupHome_cont_list, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
@@ -155,7 +155,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
 
     //Write style for scr_SetupHome_card_network, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
     lv_obj_set_style_border_width(ui->scr_SetupHome_card_network, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_SetupHome_card_network, 22, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->scr_SetupHome_card_network, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SetupHome_card_network, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_SetupHome_card_network, lv_color_hex(0x1a1a1a), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_grad_dir(ui->scr_SetupHome_card_network, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -163,12 +163,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_pad_bottom(ui->scr_SetupHome_card_network, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_left(ui->scr_SetupHome_card_network, 24, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupHome_card_network, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_SetupHome_card_network, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_color(ui->scr_SetupHome_card_network, lv_color_hex(0x1a1a1a), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_opa(ui->scr_SetupHome_card_network, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_spread(ui->scr_SetupHome_card_network, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_offset_x(ui->scr_SetupHome_card_network, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_offset_y(ui->scr_SetupHome_card_network, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_SetupHome_card_network, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SetupHome_img_wifi
     ui->scr_SetupHome_img_wifi = lv_image_create(ui->scr_SetupHome_card_network);
@@ -185,8 +180,8 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
 
     //Write codes scr_SetupHome_lbl_net_tiltle
     ui->scr_SetupHome_lbl_net_tiltle = lv_label_create(ui->scr_SetupHome_card_network);
-    lv_obj_set_pos(ui->scr_SetupHome_lbl_net_tiltle, 78, 31);
-    lv_obj_set_size(ui->scr_SetupHome_lbl_net_tiltle, 143, 31);
+    lv_obj_set_pos(ui->scr_SetupHome_lbl_net_tiltle, 80, 31);
+    lv_obj_set_size(ui->scr_SetupHome_lbl_net_tiltle, 499, 39);
     lv_label_set_text(ui->scr_SetupHome_lbl_net_tiltle, "Network");
     lv_label_set_long_mode(ui->scr_SetupHome_lbl_net_tiltle, LV_LABEL_LONG_WRAP);
 
@@ -194,7 +189,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SetupHome_lbl_net_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupHome_lbl_net_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_lbl_net_tiltle, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_net_tiltle, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_net_tiltle, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_lbl_net_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupHome_lbl_net_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupHome_lbl_net_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -217,7 +212,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SetupHome_lbl_net_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupHome_lbl_net_status, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_lbl_net_status, lv_color_hex(0x2ecc71), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_net_status, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_net_status, &lv_font_NotoSans_Regular_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_lbl_net_status, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupHome_lbl_net_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupHome_lbl_net_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -246,7 +241,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_SetupHome_btn_net, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SetupHome_btn_net, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_btn_net, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_btn_net, &lv_font_montserratMedium_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_btn_net, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_btn_net, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_SetupHome_btn_net, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -266,12 +261,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_pad_bottom(ui->scr_SetupHome_card_server, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_left(ui->scr_SetupHome_card_server, 24, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupHome_card_server, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_SetupHome_card_server, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_color(ui->scr_SetupHome_card_server, lv_color_hex(0x1a1a1a), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_opa(ui->scr_SetupHome_card_server, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_spread(ui->scr_SetupHome_card_server, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_offset_x(ui->scr_SetupHome_card_server, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_offset_y(ui->scr_SetupHome_card_server, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_SetupHome_card_server, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SetupHome_img_server
     ui->scr_SetupHome_img_server = lv_image_create(ui->scr_SetupHome_card_server);
@@ -288,8 +278,8 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
 
     //Write codes scr_SetupHome_lbl_server_tiltle
     ui->scr_SetupHome_lbl_server_tiltle = lv_label_create(ui->scr_SetupHome_card_server);
-    lv_obj_set_pos(ui->scr_SetupHome_lbl_server_tiltle, 77, 31);
-    lv_obj_set_size(ui->scr_SetupHome_lbl_server_tiltle, 217, 30);
+    lv_obj_set_pos(ui->scr_SetupHome_lbl_server_tiltle, 80, 31);
+    lv_obj_set_size(ui->scr_SetupHome_lbl_server_tiltle, 467, 39);
     lv_label_set_text(ui->scr_SetupHome_lbl_server_tiltle, "Server (MQTT)");
     lv_label_set_long_mode(ui->scr_SetupHome_lbl_server_tiltle, LV_LABEL_LONG_WRAP);
 
@@ -297,7 +287,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SetupHome_lbl_server_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupHome_lbl_server_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_lbl_server_tiltle, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_server_tiltle, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_server_tiltle, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_lbl_server_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupHome_lbl_server_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupHome_lbl_server_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -320,7 +310,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SetupHome_lbl_server_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupHome_lbl_server_status, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_lbl_server_status, lv_color_hex(0x2ecc71), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_server_status, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_server_status, &lv_font_NotoSans_Regular_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_lbl_server_status, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupHome_lbl_server_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupHome_lbl_server_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -349,13 +339,13 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_SetupHome_btn_server, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SetupHome_btn_server, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_btn_server, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_btn_server, &lv_font_montserratMedium_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_btn_server, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_btn_server, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_SetupHome_btn_server, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SetupHome_card_sync
     ui->scr_SetupHome_card_sync = lv_obj_create(ui->scr_SetupHome_cont_list);
-    lv_obj_set_pos(ui->scr_SetupHome_card_sync, -5, 242);
+    lv_obj_set_pos(ui->scr_SetupHome_card_sync, -3, 242);
     lv_obj_set_size(ui->scr_SetupHome_card_sync, 1200, 90);
     lv_obj_set_scrollbar_mode(ui->scr_SetupHome_card_sync, LV_SCROLLBAR_MODE_OFF);
 
@@ -369,12 +359,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_pad_bottom(ui->scr_SetupHome_card_sync, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_left(ui->scr_SetupHome_card_sync, 24, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupHome_card_sync, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_SetupHome_card_sync, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_color(ui->scr_SetupHome_card_sync, lv_color_hex(0x1a1a1a), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_opa(ui->scr_SetupHome_card_sync, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_spread(ui->scr_SetupHome_card_sync, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_offset_x(ui->scr_SetupHome_card_sync, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_offset_y(ui->scr_SetupHome_card_sync, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_SetupHome_card_sync, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SetupHome_img_sync
     ui->scr_SetupHome_img_sync = lv_image_create(ui->scr_SetupHome_card_sync);
@@ -391,8 +376,8 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
 
     //Write codes scr_SetupHome_lbl_sync_tiltle
     ui->scr_SetupHome_lbl_sync_tiltle = lv_label_create(ui->scr_SetupHome_card_sync);
-    lv_obj_set_pos(ui->scr_SetupHome_lbl_sync_tiltle, 78, 30);
-    lv_obj_set_size(ui->scr_SetupHome_lbl_sync_tiltle, 192, 33);
+    lv_obj_set_pos(ui->scr_SetupHome_lbl_sync_tiltle, 80, 30);
+    lv_obj_set_size(ui->scr_SetupHome_lbl_sync_tiltle, 537, 41);
     lv_label_set_text(ui->scr_SetupHome_lbl_sync_tiltle, "Data Sync");
     lv_label_set_long_mode(ui->scr_SetupHome_lbl_sync_tiltle, LV_LABEL_LONG_WRAP);
 
@@ -400,7 +385,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SetupHome_lbl_sync_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupHome_lbl_sync_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_lbl_sync_tiltle, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_sync_tiltle, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_sync_tiltle, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_lbl_sync_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupHome_lbl_sync_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupHome_lbl_sync_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -423,7 +408,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SetupHome_lbl_sync_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupHome_lbl_sync_status, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_lbl_sync_status, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_sync_status, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_sync_status, &lv_font_NotoSans_Regular_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_lbl_sync_status, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupHome_lbl_sync_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupHome_lbl_sync_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -452,7 +437,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_SetupHome_btn_sync, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SetupHome_btn_sync, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_btn_sync, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_btn_sync, &lv_font_montserratMedium_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_btn_sync, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_btn_sync, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_SetupHome_btn_sync, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -472,12 +457,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_pad_bottom(ui->scr_SetupHome_card_system, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_left(ui->scr_SetupHome_card_system, 24, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupHome_card_system, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_SetupHome_card_system, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_color(ui->scr_SetupHome_card_system, lv_color_hex(0x1a1a1a), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_opa(ui->scr_SetupHome_card_system, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_spread(ui->scr_SetupHome_card_system, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_offset_x(ui->scr_SetupHome_card_system, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_offset_y(ui->scr_SetupHome_card_system, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_SetupHome_card_system, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SetupHome_img_sys
     ui->scr_SetupHome_img_sys = lv_image_create(ui->scr_SetupHome_card_system);
@@ -494,8 +474,8 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
 
     //Write codes scr_SetupHome_lbl_sys_tiltle
     ui->scr_SetupHome_lbl_sys_tiltle = lv_label_create(ui->scr_SetupHome_card_system);
-    lv_obj_set_pos(ui->scr_SetupHome_lbl_sys_tiltle, 78, 32);
-    lv_obj_set_size(ui->scr_SetupHome_lbl_sys_tiltle, 143, 29);
+    lv_obj_set_pos(ui->scr_SetupHome_lbl_sys_tiltle, 80, 31);
+    lv_obj_set_size(ui->scr_SetupHome_lbl_sys_tiltle, 542, 41);
     lv_label_set_text(ui->scr_SetupHome_lbl_sys_tiltle, "System");
     lv_label_set_long_mode(ui->scr_SetupHome_lbl_sys_tiltle, LV_LABEL_LONG_WRAP);
 
@@ -503,7 +483,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SetupHome_lbl_sys_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupHome_lbl_sys_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_lbl_sys_tiltle, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_sys_tiltle, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_sys_tiltle, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_lbl_sys_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupHome_lbl_sys_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupHome_lbl_sys_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -526,7 +506,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SetupHome_lbl_sys_info, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupHome_lbl_sys_info, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_lbl_sys_info, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_sys_info, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_sys_info, &lv_font_NotoSans_Regular_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_lbl_sys_info, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupHome_lbl_sys_info, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupHome_lbl_sys_info, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -555,7 +535,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_SetupHome_btn_sys, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SetupHome_btn_sys, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_btn_sys, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_btn_sys, &lv_font_montserratMedium_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_btn_sys, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_btn_sys, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_SetupHome_btn_sys, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -575,12 +555,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_pad_bottom(ui->scr_SetupHome_cont_modbus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_left(ui->scr_SetupHome_cont_modbus, 24, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupHome_cont_modbus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_SetupHome_cont_modbus, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_color(ui->scr_SetupHome_cont_modbus, lv_color_hex(0x1a1a1a), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_opa(ui->scr_SetupHome_cont_modbus, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_spread(ui->scr_SetupHome_cont_modbus, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_offset_x(ui->scr_SetupHome_cont_modbus, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_offset_y(ui->scr_SetupHome_cont_modbus, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_SetupHome_cont_modbus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SetupHome_img_modbus
     ui->scr_SetupHome_img_modbus = lv_image_create(ui->scr_SetupHome_cont_modbus);
@@ -597,8 +572,8 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
 
     //Write codes scr_SetupHome_lbl_Modbus
     ui->scr_SetupHome_lbl_Modbus = lv_label_create(ui->scr_SetupHome_cont_modbus);
-    lv_obj_set_pos(ui->scr_SetupHome_lbl_Modbus, 78, 31);
-    lv_obj_set_size(ui->scr_SetupHome_lbl_Modbus, 234, 29);
+    lv_obj_set_pos(ui->scr_SetupHome_lbl_Modbus, 80, 35);
+    lv_obj_set_size(ui->scr_SetupHome_lbl_Modbus, 527, 36);
     lv_label_set_text(ui->scr_SetupHome_lbl_Modbus, "Modbus Master");
     lv_label_set_long_mode(ui->scr_SetupHome_lbl_Modbus, LV_LABEL_LONG_WRAP);
 
@@ -606,7 +581,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SetupHome_lbl_Modbus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupHome_lbl_Modbus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_lbl_Modbus, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_Modbus, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_Modbus, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_lbl_Modbus, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupHome_lbl_Modbus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupHome_lbl_Modbus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -629,7 +604,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SetupHome_label_modbus_infor, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupHome_label_modbus_infor, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_label_modbus_infor, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_label_modbus_infor, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_label_modbus_infor, &lv_font_NotoSans_Regular_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_label_modbus_infor, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupHome_label_modbus_infor, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupHome_label_modbus_infor, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -658,7 +633,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_SetupHome_btn_modbus, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SetupHome_btn_modbus, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_btn_modbus, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_btn_modbus, &lv_font_montserratMedium_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_btn_modbus, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_btn_modbus, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_SetupHome_btn_modbus, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -678,12 +653,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_pad_bottom(ui->scr_SetupHome_cont_input_config, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_left(ui->scr_SetupHome_cont_input_config, 24, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_SetupHome_cont_input_config, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_SetupHome_cont_input_config, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_color(ui->scr_SetupHome_cont_input_config, lv_color_hex(0x1a1a1a), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_opa(ui->scr_SetupHome_cont_input_config, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_spread(ui->scr_SetupHome_cont_input_config, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_offset_x(ui->scr_SetupHome_cont_input_config, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_offset_y(ui->scr_SetupHome_cont_input_config, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_SetupHome_cont_input_config, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SetupHome_img_inputconfig
     ui->scr_SetupHome_img_inputconfig = lv_image_create(ui->scr_SetupHome_cont_input_config);
@@ -700,8 +670,8 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
 
     //Write codes scr_SetupHome_lbl_input_config
     ui->scr_SetupHome_lbl_input_config = lv_label_create(ui->scr_SetupHome_cont_input_config);
-    lv_obj_set_pos(ui->scr_SetupHome_lbl_input_config, 78, 32);
-    lv_obj_set_size(ui->scr_SetupHome_lbl_input_config, 207, 35);
+    lv_obj_set_pos(ui->scr_SetupHome_lbl_input_config, 80, 32);
+    lv_obj_set_size(ui->scr_SetupHome_lbl_input_config, 659, 44);
     lv_label_set_text(ui->scr_SetupHome_lbl_input_config, "Input Config");
     lv_label_set_long_mode(ui->scr_SetupHome_lbl_input_config, LV_LABEL_LONG_WRAP);
 
@@ -709,7 +679,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SetupHome_lbl_input_config, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupHome_lbl_input_config, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_lbl_input_config, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_input_config, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_lbl_input_config, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_lbl_input_config, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupHome_lbl_input_config, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupHome_lbl_input_config, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -732,7 +702,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SetupHome_label_3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SetupHome_label_3, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_label_3, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_label_3, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_label_3, &lv_font_NotoSans_Regular_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_label_3, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SetupHome_label_3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SetupHome_label_3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -761,7 +731,7 @@ void setup_scr_scr_SetupHome(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_SetupHome_btn_2, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SetupHome_btn_2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SetupHome_btn_2, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SetupHome_btn_2, &lv_font_montserratMedium_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SetupHome_btn_2, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SetupHome_btn_2, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_SetupHome_btn_2, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 

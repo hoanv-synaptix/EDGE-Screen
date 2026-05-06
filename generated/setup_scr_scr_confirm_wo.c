@@ -62,7 +62,7 @@ void setup_scr_scr_confirm_wo(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_confirm_wo_lbl_confirm_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_confirm_wo_lbl_confirm_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_confirm_wo_lbl_confirm_wo, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_confirm_wo_lbl_confirm_wo, &lv_font_Acme_Regular_50, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_confirm_wo_lbl_confirm_wo, &lv_font_NotoSans_Bold_50, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_confirm_wo_lbl_confirm_wo, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_confirm_wo_lbl_confirm_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_confirm_wo_lbl_confirm_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -119,7 +119,7 @@ void setup_scr_scr_confirm_wo(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_confirm_wo_btn_start, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_confirm_wo_btn_start, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_confirm_wo_btn_start, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_confirm_wo_btn_start, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_confirm_wo_btn_start, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_confirm_wo_btn_start, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_confirm_wo_btn_start, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -142,7 +142,7 @@ void setup_scr_scr_confirm_wo(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_confirm_wo_btn_setup, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_confirm_wo_btn_setup, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_confirm_wo_btn_setup, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_confirm_wo_btn_setup, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_confirm_wo_btn_setup, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_confirm_wo_btn_setup, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_confirm_wo_btn_setup, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -157,7 +157,7 @@ void setup_scr_scr_confirm_wo(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_confirm_wo_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_confirm_wo_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_confirm_wo_lbl_status, lv_color_hex(0xABABAB), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_confirm_wo_lbl_status, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_confirm_wo_lbl_status, &lv_font_NotoSans_Regular_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_confirm_wo_lbl_status, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_confirm_wo_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_confirm_wo_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -198,7 +198,7 @@ void setup_scr_scr_confirm_wo(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_confirm_wo_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_confirm_wo_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_confirm_wo_lbl_wo, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_confirm_wo_lbl_wo, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_confirm_wo_lbl_wo, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_confirm_wo_lbl_wo, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_confirm_wo_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_confirm_wo_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -221,7 +221,7 @@ void setup_scr_scr_confirm_wo(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_confirm_wo_lbl_wo_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_confirm_wo_lbl_wo_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_confirm_wo_lbl_wo_value, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_confirm_wo_lbl_wo_value, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_confirm_wo_lbl_wo_value, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_confirm_wo_lbl_wo_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_confirm_wo_lbl_wo_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_confirm_wo_lbl_wo_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -244,7 +244,7 @@ void setup_scr_scr_confirm_wo(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_confirm_wo_lbl_product_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_confirm_wo_lbl_product_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_confirm_wo_lbl_product_name, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_confirm_wo_lbl_product_name, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_confirm_wo_lbl_product_name, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_confirm_wo_lbl_product_name, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_confirm_wo_lbl_product_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_confirm_wo_lbl_product_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -267,7 +267,7 @@ void setup_scr_scr_confirm_wo(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_confirm_wo_lbl_product_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_confirm_wo_lbl_product_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_confirm_wo_lbl_product_name_value, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_confirm_wo_lbl_product_name_value, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_confirm_wo_lbl_product_name_value, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_confirm_wo_lbl_product_name_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_confirm_wo_lbl_product_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_confirm_wo_lbl_product_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -278,6 +278,44 @@ void setup_scr_scr_confirm_wo(lv_ui *ui)
     lv_obj_set_style_pad_bottom(ui->scr_confirm_wo_lbl_product_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_left(ui->scr_confirm_wo_lbl_product_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_confirm_wo_lbl_product_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write codes scr_confirm_wo_imgbtn_back
+    ui->scr_confirm_wo_imgbtn_back = lv_imagebutton_create(ui->scr_confirm_wo);
+    lv_obj_set_pos(ui->scr_confirm_wo_imgbtn_back, 40, 14);
+    lv_obj_set_size(ui->scr_confirm_wo_imgbtn_back, 64, 64);
+    lv_imagebutton_set_src(ui->scr_confirm_wo_imgbtn_back, LV_IMAGEBUTTON_STATE_RELEASED, &_leftarrow_RGB565A8_64x64, NULL, NULL);
+    ui->scr_confirm_wo_imgbtn_back_label = lv_label_create(ui->scr_confirm_wo_imgbtn_back);
+    lv_label_set_text(ui->scr_confirm_wo_imgbtn_back_label, "");
+    lv_label_set_long_mode(ui->scr_confirm_wo_imgbtn_back_label, LV_LABEL_LONG_WRAP);
+    lv_obj_align(ui->scr_confirm_wo_imgbtn_back_label, LV_ALIGN_CENTER, 0, 0);
+    lv_obj_set_style_pad_all(ui->scr_confirm_wo_imgbtn_back, 0, LV_STATE_DEFAULT);
+
+    //Write style for scr_confirm_wo_imgbtn_back, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_text_color(ui->scr_confirm_wo_imgbtn_back, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_confirm_wo_imgbtn_back, &lv_font_montserratMedium_12, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->scr_confirm_wo_imgbtn_back, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_confirm_wo_imgbtn_back, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_confirm_wo_imgbtn_back, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write style for scr_confirm_wo_imgbtn_back, Part: LV_PART_MAIN, State: LV_STATE_PRESSED.
+    lv_obj_set_style_image_recolor_opa(ui->scr_confirm_wo_imgbtn_back, 0, LV_PART_MAIN|LV_STATE_PRESSED);
+    lv_obj_set_style_image_opa(ui->scr_confirm_wo_imgbtn_back, 255, LV_PART_MAIN|LV_STATE_PRESSED);
+    lv_obj_set_style_text_color(ui->scr_confirm_wo_imgbtn_back, lv_color_hex(0xFF33FF), LV_PART_MAIN|LV_STATE_PRESSED);
+    lv_obj_set_style_text_font(ui->scr_confirm_wo_imgbtn_back, &lv_font_montserratMedium_12, LV_PART_MAIN|LV_STATE_PRESSED);
+    lv_obj_set_style_text_opa(ui->scr_confirm_wo_imgbtn_back, 255, LV_PART_MAIN|LV_STATE_PRESSED);
+    lv_obj_set_style_shadow_width(ui->scr_confirm_wo_imgbtn_back, 0, LV_PART_MAIN|LV_STATE_PRESSED);
+
+    //Write style for scr_confirm_wo_imgbtn_back, Part: LV_PART_MAIN, State: LV_STATE_CHECKED.
+    lv_obj_set_style_image_recolor_opa(ui->scr_confirm_wo_imgbtn_back, 0, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_image_opa(ui->scr_confirm_wo_imgbtn_back, 255, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_text_color(ui->scr_confirm_wo_imgbtn_back, lv_color_hex(0xFF33FF), LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_text_font(ui->scr_confirm_wo_imgbtn_back, &lv_font_montserratMedium_12, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_text_opa(ui->scr_confirm_wo_imgbtn_back, 255, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_shadow_width(ui->scr_confirm_wo_imgbtn_back, 0, LV_PART_MAIN|LV_STATE_CHECKED);
+
+    //Write style for scr_confirm_wo_imgbtn_back, Part: LV_PART_MAIN, State: LV_IMAGEBUTTON_STATE_RELEASED.
+    lv_obj_set_style_image_recolor_opa(ui->scr_confirm_wo_imgbtn_back, 0, LV_PART_MAIN|LV_IMAGEBUTTON_STATE_RELEASED);
+    lv_obj_set_style_image_opa(ui->scr_confirm_wo_imgbtn_back, 255, LV_PART_MAIN|LV_IMAGEBUTTON_STATE_RELEASED);
 
     //The custom code of scr_confirm_wo.
 

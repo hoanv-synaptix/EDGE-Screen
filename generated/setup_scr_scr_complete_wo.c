@@ -62,7 +62,7 @@ void setup_scr_scr_complete_wo(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_complete_wo_lbl_complete_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_complete_wo_lbl_complete_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_complete_wo_lbl_complete_wo, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_complete_wo_lbl_complete_wo, &lv_font_Acme_Regular_50, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_complete_wo_lbl_complete_wo, &lv_font_NotoSans_Bold_50, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_complete_wo_lbl_complete_wo, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_complete_wo_lbl_complete_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_complete_wo_lbl_complete_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -119,7 +119,7 @@ void setup_scr_scr_complete_wo(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_complete_wo_btn_confirm, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_complete_wo_btn_confirm, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_complete_wo_btn_confirm, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_complete_wo_btn_confirm, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_complete_wo_btn_confirm, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_complete_wo_btn_confirm, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_complete_wo_btn_confirm, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -142,7 +142,7 @@ void setup_scr_scr_complete_wo(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_complete_wo_btn_cancel, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_complete_wo_btn_cancel, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_complete_wo_btn_cancel, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_complete_wo_btn_cancel, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_complete_wo_btn_cancel, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_complete_wo_btn_cancel, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_complete_wo_btn_cancel, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -157,7 +157,7 @@ void setup_scr_scr_complete_wo(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_complete_wo_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_complete_wo_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_complete_wo_lbl_status, lv_color_hex(0xABABAB), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_complete_wo_lbl_status, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_complete_wo_lbl_status, &lv_font_NotoSans_Regular_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_complete_wo_lbl_status, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_complete_wo_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_complete_wo_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -198,7 +198,7 @@ void setup_scr_scr_complete_wo(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_complete_wo_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_complete_wo_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_complete_wo_lbl_wo, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_complete_wo_lbl_wo, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_complete_wo_lbl_wo, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_complete_wo_lbl_wo, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_complete_wo_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_complete_wo_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -221,7 +221,7 @@ void setup_scr_scr_complete_wo(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_complete_wo_lbl_wo_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_complete_wo_lbl_wo_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_complete_wo_lbl_wo_value, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_complete_wo_lbl_wo_value, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_complete_wo_lbl_wo_value, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_complete_wo_lbl_wo_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_complete_wo_lbl_wo_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_complete_wo_lbl_wo_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -244,7 +244,7 @@ void setup_scr_scr_complete_wo(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_complete_wo_lbl_product_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_complete_wo_lbl_product_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_complete_wo_lbl_product_name, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_complete_wo_lbl_product_name, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_complete_wo_lbl_product_name, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_complete_wo_lbl_product_name, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_complete_wo_lbl_product_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_complete_wo_lbl_product_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -267,7 +267,7 @@ void setup_scr_scr_complete_wo(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_complete_wo_lbl_product_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_complete_wo_lbl_product_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_complete_wo_lbl_product_name_value, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_complete_wo_lbl_product_name_value, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_complete_wo_lbl_product_name_value, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_complete_wo_lbl_product_name_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_complete_wo_lbl_product_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_complete_wo_lbl_product_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -290,7 +290,7 @@ void setup_scr_scr_complete_wo(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_complete_wo_label_2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_complete_wo_label_2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_complete_wo_label_2, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_complete_wo_label_2, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_complete_wo_label_2, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_complete_wo_label_2, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_complete_wo_label_2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_complete_wo_label_2, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -313,7 +313,7 @@ void setup_scr_scr_complete_wo(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_complete_wo_label_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_complete_wo_label_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_complete_wo_label_1, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_complete_wo_label_1, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_complete_wo_label_1, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_complete_wo_label_1, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_complete_wo_label_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_complete_wo_label_1, 0, LV_PART_MAIN|LV_STATE_DEFAULT);

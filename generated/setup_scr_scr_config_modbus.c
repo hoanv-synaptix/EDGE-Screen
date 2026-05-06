@@ -64,8 +64,8 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
 
     //Write codes scr_config_modbus_lbl_tiltle
     ui->scr_config_modbus_lbl_tiltle = lv_label_create(ui->scr_config_modbus_cont_5);
-    lv_obj_set_pos(ui->scr_config_modbus_lbl_tiltle, 450, 20);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_tiltle, 380, 59);
+    lv_obj_set_pos(ui->scr_config_modbus_lbl_tiltle, 356, 20);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_tiltle, 568, 59);
     lv_label_set_text(ui->scr_config_modbus_lbl_tiltle, "MODBUS CONFIG");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_tiltle, LV_LABEL_LONG_WRAP);
 
@@ -73,7 +73,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_config_modbus_lbl_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_lbl_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_config_modbus_lbl_tiltle, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_tiltle, &lv_font_Acme_Regular_50, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_tiltle, &lv_font_NotoSans_Bold_50, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -87,7 +87,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
 
     //Write codes scr_config_modbus_lbl_device
     ui->scr_config_modbus_lbl_device = lv_label_create(ui->scr_config_modbus_cont_5);
-    lv_obj_set_pos(ui->scr_config_modbus_lbl_device, 950, 39);
+    lv_obj_set_pos(ui->scr_config_modbus_lbl_device, 940, 39);
     lv_obj_set_size(ui->scr_config_modbus_lbl_device, 132, 32);
     lv_label_set_text(ui->scr_config_modbus_lbl_device, "EDGE-01");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_device, LV_LABEL_LONG_WRAP);
@@ -96,7 +96,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_config_modbus_lbl_device, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_lbl_device, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_config_modbus_lbl_device, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_device, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_device, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_device, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_device, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_device, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -127,7 +127,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_config_modbus_btn_online, 18, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_btn_online, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_config_modbus_btn_online, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_config_modbus_btn_online, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_config_modbus_btn_online, &lv_font_NotoSans_Bold_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_config_modbus_btn_online, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_config_modbus_btn_online, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -188,7 +188,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_config_modbus_btn_test, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_btn_test, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_config_modbus_btn_test, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_config_modbus_btn_test, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_config_modbus_btn_test, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_config_modbus_btn_test, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_config_modbus_btn_test, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -211,7 +211,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_config_modbus_btn_save, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_btn_save, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_config_modbus_btn_save, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_config_modbus_btn_save, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_config_modbus_btn_save, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_config_modbus_btn_save, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_config_modbus_btn_save, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -231,7 +231,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_bg_color(ui->scr_config_modbus_tabview_modbus, lv_color_hex(0x2B2F3A), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_grad_dir(ui->scr_config_modbus_tabview_modbus, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_config_modbus_tabview_modbus, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_config_modbus_tabview_modbus, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_config_modbus_tabview_modbus, &lv_font_NotoSans_Bold_35, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_config_modbus_tabview_modbus, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_tabview_modbus, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_tabview_modbus, 16, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -258,7 +258,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     ui_init_style(&style_scr_config_modbus_tabview_modbus_extra_btnm_items_default);
 
     lv_style_set_text_color(&style_scr_config_modbus_tabview_modbus_extra_btnm_items_default, lv_color_hex(0xffffff));
-    lv_style_set_text_font(&style_scr_config_modbus_tabview_modbus_extra_btnm_items_default, &lv_font_arial_30);
+    lv_style_set_text_font(&style_scr_config_modbus_tabview_modbus_extra_btnm_items_default, &lv_font_NotoSans_Bold_35);
     lv_style_set_text_opa(&style_scr_config_modbus_tabview_modbus_extra_btnm_items_default, 255);
     for(uint32_t i = 0; i < lv_tabview_get_tab_count(ui->scr_config_modbus_tabview_modbus); i++)
     {
@@ -269,8 +269,8 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     static lv_style_t style_scr_config_modbus_tabview_modbus_extra_btnm_items_checked;
     ui_init_style(&style_scr_config_modbus_tabview_modbus_extra_btnm_items_checked);
 
-    lv_style_set_text_color(&style_scr_config_modbus_tabview_modbus_extra_btnm_items_checked, lv_color_hex(0x2195f6));
-    lv_style_set_text_font(&style_scr_config_modbus_tabview_modbus_extra_btnm_items_checked, &lv_font_arial_30);
+    lv_style_set_text_color(&style_scr_config_modbus_tabview_modbus_extra_btnm_items_checked, lv_color_hex(0xffffff));
+    lv_style_set_text_font(&style_scr_config_modbus_tabview_modbus_extra_btnm_items_checked, &lv_font_NotoSans_Bold_35);
     lv_style_set_text_opa(&style_scr_config_modbus_tabview_modbus_extra_btnm_items_checked, 255);
     lv_style_set_border_width(&style_scr_config_modbus_tabview_modbus_extra_btnm_items_checked, 4);
     lv_style_set_border_opa(&style_scr_config_modbus_tabview_modbus_extra_btnm_items_checked, 255);
@@ -1336,7 +1336,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     //Write codes scr_config_modbus_lbl_devicelist
     ui->scr_config_modbus_lbl_devicelist = lv_label_create(ui->scr_config_modbus_cont_devicelist);
     lv_obj_set_pos(ui->scr_config_modbus_lbl_devicelist, 0, 0);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_devicelist, 360, 32);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_devicelist, 668, 32);
     lv_label_set_text_static(ui->scr_config_modbus_lbl_devicelist, "Selected Input: Device List");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_devicelist, LV_LABEL_LONG_WRAP);
 
@@ -1344,16 +1344,16 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_config_modbus_lbl_devicelist, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_lbl_devicelist, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_config_modbus_lbl_devicelist, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_devicelist, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_devicelist, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_devicelist, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_devicelist, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_devicelist, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_devicelist, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_devicelist, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_devicelist, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_devicelist, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_devicelist, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_config_modbus_lbl_devicelist, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_devicelist, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_config_modbus_lbl_devicelist, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_config_modbus_lbl_devicelist, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_config_modbus_cont_devicelist_header
@@ -1378,7 +1378,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     //Write codes scr_config_modbus_lbl_header_name
     ui->scr_config_modbus_lbl_header_name = lv_label_create(ui->scr_config_modbus_cont_devicelist_header);
     lv_obj_set_pos(ui->scr_config_modbus_lbl_header_name, 5, 12);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_header_name, 88, 32);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_header_name, 137, 32);
     lv_label_set_text(ui->scr_config_modbus_lbl_header_name, "Name");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_header_name, LV_LABEL_LONG_WRAP);
 
@@ -1386,11 +1386,11 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_config_modbus_lbl_header_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_lbl_header_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_config_modbus_lbl_header_name, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_header_name, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_header_name, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_header_name, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_header_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_header_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_header_name, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_header_name, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_header_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_header_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_header_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -1401,7 +1401,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     //Write codes scr_config_modbus_lbl_header_slaveid
     ui->scr_config_modbus_lbl_header_slaveid = lv_label_create(ui->scr_config_modbus_cont_devicelist_header);
     lv_obj_set_pos(ui->scr_config_modbus_lbl_header_slaveid, 200, 12);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_header_slaveid, 128, 32);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_header_slaveid, 141, 32);
     lv_label_set_text(ui->scr_config_modbus_lbl_header_slaveid, "Slave ID");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_header_slaveid, LV_LABEL_LONG_WRAP);
 
@@ -1409,11 +1409,11 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_config_modbus_lbl_header_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_lbl_header_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_config_modbus_lbl_header_slaveid, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_header_slaveid, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_header_slaveid, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_header_slaveid, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_header_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_header_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_header_slaveid, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_header_slaveid, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_header_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_header_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_header_slaveid, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -1424,7 +1424,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     //Write codes scr_config_modbus_lbl_header_address
     ui->scr_config_modbus_lbl_header_address = lv_label_create(ui->scr_config_modbus_cont_devicelist_header);
     lv_obj_set_pos(ui->scr_config_modbus_lbl_header_address, 370, 12);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_header_address, 122, 32);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_header_address, 142, 32);
     lv_label_set_text(ui->scr_config_modbus_lbl_header_address, "Address");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_header_address, LV_LABEL_LONG_WRAP);
 
@@ -1432,11 +1432,11 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_config_modbus_lbl_header_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_lbl_header_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_config_modbus_lbl_header_address, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_header_address, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_header_address, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_header_address, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_header_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_header_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_header_address, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_header_address, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_header_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_header_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_header_address, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -1455,11 +1455,11 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_config_modbus_lbl_header_type, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_lbl_header_type, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_config_modbus_lbl_header_type, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_header_type, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_header_type, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_header_type, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_header_type, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_header_type, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_header_type, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_header_type, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_header_type, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_header_type, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_header_type, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -1470,7 +1470,7 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     //Write codes scr_config_modbus_lbl_header_edit
     ui->scr_config_modbus_lbl_header_edit = lv_label_create(ui->scr_config_modbus_cont_devicelist_header);
     lv_obj_set_pos(ui->scr_config_modbus_lbl_header_edit, 800, 12);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_header_edit, 68, 32);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_header_edit, 78, 32);
     lv_label_set_text(ui->scr_config_modbus_lbl_header_edit, "Edit");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_header_edit, LV_LABEL_LONG_WRAP);
 
@@ -1478,11 +1478,11 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_config_modbus_lbl_header_edit, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_lbl_header_edit, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_config_modbus_lbl_header_edit, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_header_edit, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_header_edit, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_header_edit, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_header_edit, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_header_edit, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_header_edit, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_header_edit, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_header_edit, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_header_edit, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_header_edit, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -1492,8 +1492,8 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
 
     //Write codes scr_config_modbus_lbl_header_del
     ui->scr_config_modbus_lbl_header_del = lv_label_create(ui->scr_config_modbus_cont_devicelist_header);
-    lv_obj_set_pos(ui->scr_config_modbus_lbl_header_del, 930, 12);
-    lv_obj_set_size(ui->scr_config_modbus_lbl_header_del, 55, 32);
+    lv_obj_set_pos(ui->scr_config_modbus_lbl_header_del, 922, 12);
+    lv_obj_set_size(ui->scr_config_modbus_lbl_header_del, 63, 32);
     lv_label_set_text(ui->scr_config_modbus_lbl_header_del, "Del");
     lv_label_set_long_mode(ui->scr_config_modbus_lbl_header_del, LV_LABEL_LONG_WRAP);
 
@@ -1501,11 +1501,11 @@ void setup_scr_scr_config_modbus(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_config_modbus_lbl_header_del, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_config_modbus_lbl_header_del, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_config_modbus_lbl_header_del, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_header_del, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_config_modbus_lbl_header_del, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_config_modbus_lbl_header_del, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_config_modbus_lbl_header_del, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_config_modbus_lbl_header_del, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_header_del, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_config_modbus_lbl_header_del, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_config_modbus_lbl_header_del, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_config_modbus_lbl_header_del, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_config_modbus_lbl_header_del, 0, LV_PART_MAIN|LV_STATE_DEFAULT);

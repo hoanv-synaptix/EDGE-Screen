@@ -683,12 +683,7 @@ build/object/lv_tjpgd.o: \
  d:\synaptix\project-cnc\edge-screen\lvgl\src/libs/ffmpeg/lv_ffmpeg.h \
  d:\synaptix\project-cnc\edge-screen\lvgl\src/widgets/lottie/lv_lottie_private.h \
  d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
- d:\synaptix\project-cnc\edge-screen\lvgl\src/osal/lv_os_private.h \
- d:\synaptix\project-cnc\edge-screen\lvgl\src\libs\tjpgd\tjpgd.h \
- d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
- d:\synaptix\project-cnc\edge-screen\lvgl\src\libs\tjpgd\tjpgdcnf.h \
- d:\synaptix\project-cnc\edge-screen\lvgl\src\libs\tjpgd\lv_tjpgd.h \
- d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_fs_private.h
+ d:\synaptix\project-cnc\edge-screen\lvgl\src/osal/lv_os_private.h
 
 d:\synaptix\project-cnc\edge-screen\lvgl\src\draw\lv_image_decoder_private.h:
 
@@ -2057,13 +2052,3 @@ d:\synaptix\project-cnc\edge-screen\lvgl\src/widgets/lottie/lv_lottie_private.h:
 d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
 
 d:\synaptix\project-cnc\edge-screen\lvgl\src/osal/lv_os_private.h:
-
-d:\synaptix\project-cnc\edge-screen\lvgl\src\libs\tjpgd\tjpgd.h:
-
-d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
-
-d:\synaptix\project-cnc\edge-screen\lvgl\src\libs\tjpgd\tjpgdcnf.h:
-
-d:\synaptix\project-cnc\edge-screen\lvgl\src\libs\tjpgd\lv_tjpgd.h:
-
-d:\synaptix\project-cnc\edge-screen\lvgl\src\misc\lv_fs_private.h:

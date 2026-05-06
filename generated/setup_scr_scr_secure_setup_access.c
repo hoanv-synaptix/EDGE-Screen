@@ -62,7 +62,7 @@ void setup_scr_scr_secure_setup_access(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_secure_setup_access_lbl_secure_setup_access, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_secure_setup_access_lbl_secure_setup_access, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_secure_setup_access_lbl_secure_setup_access, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_secure_setup_access_lbl_secure_setup_access, &lv_font_Acme_Regular_50, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_secure_setup_access_lbl_secure_setup_access, &lv_font_NotoSans_Bold_50, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_secure_setup_access_lbl_secure_setup_access, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_secure_setup_access_lbl_secure_setup_access, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_secure_setup_access_lbl_secure_setup_access, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -89,8 +89,8 @@ void setup_scr_scr_secure_setup_access(lv_ui *ui)
 
     //Write codes scr_secure_setup_access_lbl_status_secure_setup
     ui->scr_secure_setup_access_lbl_status_secure_setup = lv_label_create(ui->scr_secure_setup_access_cont_secure_access);
-    lv_obj_set_pos(ui->scr_secure_setup_access_lbl_status_secure_setup, 50, 250);
-    lv_obj_set_size(ui->scr_secure_setup_access_lbl_status_secure_setup, 685, 32);
+    lv_obj_set_pos(ui->scr_secure_setup_access_lbl_status_secure_setup, 49, 249);
+    lv_obj_set_size(ui->scr_secure_setup_access_lbl_status_secure_setup, 738, 32);
     lv_label_set_text(ui->scr_secure_setup_access_lbl_status_secure_setup, "Please enter the admin password to access settings");
     lv_label_set_long_mode(ui->scr_secure_setup_access_lbl_status_secure_setup, LV_LABEL_LONG_WRAP);
 
@@ -98,7 +98,7 @@ void setup_scr_scr_secure_setup_access(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_secure_setup_access_lbl_status_secure_setup, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_secure_setup_access_lbl_status_secure_setup, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_secure_setup_access_lbl_status_secure_setup, lv_color_hex(0xababab), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_secure_setup_access_lbl_status_secure_setup, &lv_font_arial_28, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_secure_setup_access_lbl_status_secure_setup, &lv_font_NotoSans_Regular_28, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_secure_setup_access_lbl_status_secure_setup, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_secure_setup_access_lbl_status_secure_setup, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_secure_setup_access_lbl_status_secure_setup, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -112,8 +112,8 @@ void setup_scr_scr_secure_setup_access(lv_ui *ui)
 
     //Write codes scr_secure_setup_access_lbl_admin_password
     ui->scr_secure_setup_access_lbl_admin_password = lv_label_create(ui->scr_secure_setup_access_cont_secure_access);
-    lv_obj_set_pos(ui->scr_secure_setup_access_lbl_admin_password, 50, 117);
-    lv_obj_set_size(ui->scr_secure_setup_access_lbl_admin_password, 248, 32);
+    lv_obj_set_pos(ui->scr_secure_setup_access_lbl_admin_password, 50, 115);
+    lv_obj_set_size(ui->scr_secure_setup_access_lbl_admin_password, 340, 32);
     lv_label_set_text(ui->scr_secure_setup_access_lbl_admin_password, "Admin Password");
     lv_label_set_long_mode(ui->scr_secure_setup_access_lbl_admin_password, LV_LABEL_LONG_WRAP);
 
@@ -121,7 +121,7 @@ void setup_scr_scr_secure_setup_access(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_secure_setup_access_lbl_admin_password, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_secure_setup_access_lbl_admin_password, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_secure_setup_access_lbl_admin_password, lv_color_hex(0xababab), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_secure_setup_access_lbl_admin_password, &lv_font_arial_28, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_secure_setup_access_lbl_admin_password, &lv_font_NotoSans_Bold_28, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_secure_setup_access_lbl_admin_password, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_secure_setup_access_lbl_admin_password, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_secure_setup_access_lbl_admin_password, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -135,8 +135,8 @@ void setup_scr_scr_secure_setup_access(lv_ui *ui)
 
     //Write codes scr_secure_setup_access_ta_admin_password
     ui->scr_secure_setup_access_ta_admin_password = lv_textarea_create(ui->scr_secure_setup_access_cont_secure_access);
-    lv_obj_set_pos(ui->scr_secure_setup_access_ta_admin_password, 126, 158);
-    lv_obj_set_size(ui->scr_secure_setup_access_ta_admin_password, 550, 60);
+    lv_obj_set_pos(ui->scr_secure_setup_access_ta_admin_password, 70, 158);
+    lv_obj_set_size(ui->scr_secure_setup_access_ta_admin_password, 660, 60);
     lv_textarea_set_text(ui->scr_secure_setup_access_ta_admin_password, "admin");
     lv_textarea_set_placeholder_text(ui->scr_secure_setup_access_ta_admin_password, "");
     lv_textarea_set_password_bullet(ui->scr_secure_setup_access_ta_admin_password, "*");
@@ -150,7 +150,7 @@ void setup_scr_scr_secure_setup_access(lv_ui *ui)
 
     //Write style for scr_secure_setup_access_ta_admin_password, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
     lv_obj_set_style_text_color(ui->scr_secure_setup_access_ta_admin_password, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_secure_setup_access_ta_admin_password, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_secure_setup_access_ta_admin_password, &lv_font_NotoSans_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_secure_setup_access_ta_admin_password, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_secure_setup_access_ta_admin_password, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_secure_setup_access_ta_admin_password, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -162,10 +162,27 @@ void setup_scr_scr_secure_setup_access(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_secure_setup_access_ta_admin_password, lv_color_hex(0x575757), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_secure_setup_access_ta_admin_password, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_secure_setup_access_ta_admin_password, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_secure_setup_access_ta_admin_password, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(ui->scr_secure_setup_access_ta_admin_password, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_secure_setup_access_ta_admin_password, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_secure_setup_access_ta_admin_password, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_secure_setup_access_ta_admin_password, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_secure_setup_access_ta_admin_password, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->scr_secure_setup_access_ta_admin_password, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write style for scr_secure_setup_access_ta_admin_password, Part: LV_PART_MAIN, State: LV_STATE_FOCUSED.
+    lv_obj_set_style_text_color(ui->scr_secure_setup_access_ta_admin_password, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_text_font(ui->scr_secure_setup_access_ta_admin_password, &lv_font_NotoSans_Regular_30, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_text_opa(ui->scr_secure_setup_access_ta_admin_password, 255, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_bg_opa(ui->scr_secure_setup_access_ta_admin_password, 255, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_bg_color(ui->scr_secure_setup_access_ta_admin_password, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_bg_grad_dir(ui->scr_secure_setup_access_ta_admin_password, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_width(ui->scr_secure_setup_access_ta_admin_password, 2, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_opa(ui->scr_secure_setup_access_ta_admin_password, 255, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_color(ui->scr_secure_setup_access_ta_admin_password, lv_color_hex(0xe6e6e6), LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_side(ui->scr_secure_setup_access_ta_admin_password, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_shadow_width(ui->scr_secure_setup_access_ta_admin_password, 0, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_pad_top(ui->scr_secure_setup_access_ta_admin_password, 4, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_pad_right(ui->scr_secure_setup_access_ta_admin_password, 4, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_pad_left(ui->scr_secure_setup_access_ta_admin_password, 4, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_radius(ui->scr_secure_setup_access_ta_admin_password, 4, LV_PART_MAIN|LV_STATE_FOCUSED);
 
     //Write style for scr_secure_setup_access_ta_admin_password, Part: LV_PART_SCROLLBAR, State: LV_STATE_DEFAULT.
     lv_obj_set_style_bg_opa(ui->scr_secure_setup_access_ta_admin_password, 255, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
@@ -205,7 +222,7 @@ void setup_scr_scr_secure_setup_access(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_secure_setup_access_btn_confirm, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_secure_setup_access_btn_confirm, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_secure_setup_access_btn_confirm, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_secure_setup_access_btn_confirm, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_secure_setup_access_btn_confirm, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_secure_setup_access_btn_confirm, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_secure_setup_access_btn_confirm, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -228,26 +245,9 @@ void setup_scr_scr_secure_setup_access(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_secure_setup_access_btn_cancel, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_secure_setup_access_btn_cancel, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_secure_setup_access_btn_cancel, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_secure_setup_access_btn_cancel, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_secure_setup_access_btn_cancel, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_secure_setup_access_btn_cancel, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_secure_setup_access_btn_cancel, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
-
-    //Write codes scr_secure_setup_access_img_password
-    ui->scr_secure_setup_access_img_password = lv_image_create(ui->scr_secure_setup_access_cont_secure_access);
-    lv_obj_set_pos(ui->scr_secure_setup_access_img_password, 62, 162);
-    lv_obj_set_size(ui->scr_secure_setup_access_img_password, 64, 64);
-    lv_obj_add_flag(ui->scr_secure_setup_access_img_password, LV_OBJ_FLAG_CLICKABLE);
-#if LV_USE_GUIDER_SIMULATOR
-    lv_image_set_src(ui->scr_secure_setup_access_img_password, "D:\\Synaptix\\Project-CNC\\EDGE-Screen\\import\\image\\padlock.png");
-#else
-    lv_image_set_src(ui->scr_secure_setup_access_img_password, "F:/padlock.bin");
-#endif
-    lv_image_set_pivot(ui->scr_secure_setup_access_img_password, 50,50);
-    lv_image_set_rotation(ui->scr_secure_setup_access_img_password, 0);
-
-    //Write style for scr_secure_setup_access_img_password, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_image_recolor_opa(ui->scr_secure_setup_access_img_password, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_image_opa(ui->scr_secure_setup_access_img_password, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //The custom code of scr_secure_setup_access.
 

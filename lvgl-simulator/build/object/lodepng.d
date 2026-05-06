@@ -684,8 +684,7 @@ build/object/lodepng.o: \
  d:\synaptix\project-cnc\edge-screen\lvgl\src/libs/ffmpeg/lv_ffmpeg.h \
  d:\synaptix\project-cnc\edge-screen\lvgl\src/widgets/lottie/lv_lottie_private.h \
  d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h \
- d:\synaptix\project-cnc\edge-screen\lvgl\src/osal/lv_os_private.h \
- d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_global.h
+ d:\synaptix\project-cnc\edge-screen\lvgl\src/osal/lv_os_private.h
 
 d:\synaptix\project-cnc\edge-screen\lvgl\src\libs\lodepng\lodepng.h:
 
@@ -2056,5 +2055,3 @@ d:\synaptix\project-cnc\edge-screen\lvgl\src/widgets/lottie/lv_lottie_private.h:
 d:\synaptix\project-cnc\edge-screen\lvgl\src\lv_conf_internal.h:
 
 d:\synaptix\project-cnc\edge-screen\lvgl\src/osal/lv_os_private.h:
-
-d:\synaptix\project-cnc\edge-screen\lvgl\src\core\lv_global.h:

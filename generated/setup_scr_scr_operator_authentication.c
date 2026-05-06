@@ -62,7 +62,7 @@ void setup_scr_scr_operator_authentication(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_operator_authentication_label_3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_operator_authentication_label_3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_operator_authentication_label_3, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_operator_authentication_label_3, &lv_font_Acme_Regular_45, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_operator_authentication_label_3, &lv_font_NotoSans_Bold_45, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_operator_authentication_label_3, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_operator_authentication_label_3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_operator_authentication_label_3, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -89,7 +89,7 @@ void setup_scr_scr_operator_authentication(lv_ui *ui)
 
     //Write codes scr_operator_authentication_lbl_operator
     ui->scr_operator_authentication_lbl_operator = lv_label_create(ui->scr_operator_authentication_cont_secure_access);
-    lv_obj_set_pos(ui->scr_operator_authentication_lbl_operator, 200, 117);
+    lv_obj_set_pos(ui->scr_operator_authentication_lbl_operator, 199, 117);
     lv_obj_set_size(ui->scr_operator_authentication_lbl_operator, 150, 32);
     lv_label_set_text(ui->scr_operator_authentication_lbl_operator, "Operator: ");
     lv_label_set_long_mode(ui->scr_operator_authentication_lbl_operator, LV_LABEL_LONG_WRAP);
@@ -98,7 +98,7 @@ void setup_scr_scr_operator_authentication(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_operator_authentication_lbl_operator, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_operator_authentication_lbl_operator, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_operator_authentication_lbl_operator, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_operator_authentication_lbl_operator, &lv_font_arial_28, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_operator_authentication_lbl_operator, &lv_font_NotoSans_Bold_28, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_operator_authentication_lbl_operator, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_operator_authentication_lbl_operator, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_operator_authentication_lbl_operator, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -142,7 +142,7 @@ void setup_scr_scr_operator_authentication(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_operator_authentication_btn_confirm, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_operator_authentication_btn_confirm, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_operator_authentication_btn_confirm, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_operator_authentication_btn_confirm, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_operator_authentication_btn_confirm, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_operator_authentication_btn_confirm, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_operator_authentication_btn_confirm, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -165,7 +165,7 @@ void setup_scr_scr_operator_authentication(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_operator_authentication_btn_cancel, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_operator_authentication_btn_cancel, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_operator_authentication_btn_cancel, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_operator_authentication_btn_cancel, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_operator_authentication_btn_cancel, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_operator_authentication_btn_cancel, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_operator_authentication_btn_cancel, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -180,7 +180,7 @@ void setup_scr_scr_operator_authentication(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_operator_authentication_lbl_action, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_operator_authentication_lbl_action, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_operator_authentication_lbl_action, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_operator_authentication_lbl_action, &lv_font_arial_28, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_operator_authentication_lbl_action, &lv_font_NotoSans_Bold_28, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_operator_authentication_lbl_action, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_operator_authentication_lbl_action, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_operator_authentication_lbl_action, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -203,7 +203,7 @@ void setup_scr_scr_operator_authentication(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_operator_authentication_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_operator_authentication_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_operator_authentication_lbl_status, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_operator_authentication_lbl_status, &lv_font_arial_28, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_operator_authentication_lbl_status, &lv_font_NotoSans_Bold_28, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_operator_authentication_lbl_status, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_operator_authentication_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_operator_authentication_lbl_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -217,7 +217,7 @@ void setup_scr_scr_operator_authentication(lv_ui *ui)
 
     //Write codes scr_operator_authentication_lbl_operator_value
     ui->scr_operator_authentication_lbl_operator_value = lv_label_create(ui->scr_operator_authentication_cont_secure_access);
-    lv_obj_set_pos(ui->scr_operator_authentication_lbl_operator_value, 350, 117);
+    lv_obj_set_pos(ui->scr_operator_authentication_lbl_operator_value, 364, 117);
     lv_obj_set_size(ui->scr_operator_authentication_lbl_operator_value, 300, 32);
     lv_label_set_text(ui->scr_operator_authentication_lbl_operator_value, "NGUYEN VAN A");
     lv_label_set_long_mode(ui->scr_operator_authentication_lbl_operator_value, LV_LABEL_LONG_WRAP);
@@ -226,7 +226,7 @@ void setup_scr_scr_operator_authentication(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_operator_authentication_lbl_operator_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_operator_authentication_lbl_operator_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_operator_authentication_lbl_operator_value, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_operator_authentication_lbl_operator_value, &lv_font_arial_28, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_operator_authentication_lbl_operator_value, &lv_font_NotoSans_Regular_28, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_operator_authentication_lbl_operator_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_operator_authentication_lbl_operator_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_operator_authentication_lbl_operator_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -240,7 +240,7 @@ void setup_scr_scr_operator_authentication(lv_ui *ui)
 
     //Write codes scr_operator_authentication_lbl_action_value
     ui->scr_operator_authentication_lbl_action_value = lv_label_create(ui->scr_operator_authentication_cont_secure_access);
-    lv_obj_set_pos(ui->scr_operator_authentication_lbl_action_value, 350, 174);
+    lv_obj_set_pos(ui->scr_operator_authentication_lbl_action_value, 364, 174);
     lv_obj_set_size(ui->scr_operator_authentication_lbl_action_value, 244, 32);
     lv_label_set_text(ui->scr_operator_authentication_lbl_action_value, "LOGIN");
     lv_label_set_long_mode(ui->scr_operator_authentication_lbl_action_value, LV_LABEL_LONG_WRAP);
@@ -249,7 +249,7 @@ void setup_scr_scr_operator_authentication(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_operator_authentication_lbl_action_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_operator_authentication_lbl_action_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_operator_authentication_lbl_action_value, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_operator_authentication_lbl_action_value, &lv_font_arial_28, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_operator_authentication_lbl_action_value, &lv_font_NotoSans_Regular_28, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_operator_authentication_lbl_action_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_operator_authentication_lbl_action_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_operator_authentication_lbl_action_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -263,7 +263,7 @@ void setup_scr_scr_operator_authentication(lv_ui *ui)
 
     //Write codes scr_operator_authentication_lbl_status_value
     ui->scr_operator_authentication_lbl_status_value = lv_label_create(ui->scr_operator_authentication_cont_secure_access);
-    lv_obj_set_pos(ui->scr_operator_authentication_lbl_status_value, 350, 233);
+    lv_obj_set_pos(ui->scr_operator_authentication_lbl_status_value, 364, 233);
     lv_obj_set_size(ui->scr_operator_authentication_lbl_status_value, 244, 32);
     lv_label_set_text(ui->scr_operator_authentication_lbl_status_value, "Verified");
     lv_label_set_long_mode(ui->scr_operator_authentication_lbl_status_value, LV_LABEL_LONG_WRAP);
@@ -272,7 +272,7 @@ void setup_scr_scr_operator_authentication(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_operator_authentication_lbl_status_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_operator_authentication_lbl_status_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_operator_authentication_lbl_status_value, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_operator_authentication_lbl_status_value, &lv_font_arial_28, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_operator_authentication_lbl_status_value, &lv_font_NotoSans_Regular_28, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_operator_authentication_lbl_status_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_operator_authentication_lbl_status_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_operator_authentication_lbl_status_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);

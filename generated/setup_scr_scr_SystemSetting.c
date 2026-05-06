@@ -64,8 +64,8 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
 
     //Write codes scr_SystemSetting_lbl_tiltle
     ui->scr_SystemSetting_lbl_tiltle = lv_label_create(ui->scr_SystemSetting_cont_topbar);
-    lv_obj_set_pos(ui->scr_SystemSetting_lbl_tiltle, 448, 20);
-    lv_obj_set_size(ui->scr_SystemSetting_lbl_tiltle, 384, 59);
+    lv_obj_set_pos(ui->scr_SystemSetting_lbl_tiltle, 367, 19);
+    lv_obj_set_size(ui->scr_SystemSetting_lbl_tiltle, 546, 59);
     lv_label_set_text(ui->scr_SystemSetting_lbl_tiltle, "SYSTEM SETTINGS");
     lv_label_set_long_mode(ui->scr_SystemSetting_lbl_tiltle, LV_LABEL_LONG_WRAP);
 
@@ -73,7 +73,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SystemSetting_lbl_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SystemSetting_lbl_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SystemSetting_lbl_tiltle, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_tiltle, &lv_font_Acme_Regular_50, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_tiltle, &lv_font_NotoSans_Bold_50, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -104,13 +104,13 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_SystemSetting_btn_online, 18, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SystemSetting_btn_online, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SystemSetting_btn_online, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_btn_online, &lv_font_arial_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_btn_online, &lv_font_NotoSans_Bold_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_btn_online, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_SystemSetting_btn_online, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_SystemSetting_label_device
     ui->scr_SystemSetting_label_device = lv_label_create(ui->scr_SystemSetting_cont_topbar);
-    lv_obj_set_pos(ui->scr_SystemSetting_label_device, 950, 39);
+    lv_obj_set_pos(ui->scr_SystemSetting_label_device, 940, 39);
     lv_obj_set_size(ui->scr_SystemSetting_label_device, 132, 32);
     lv_label_set_text(ui->scr_SystemSetting_label_device, "EDGE-01");
     lv_label_set_long_mode(ui->scr_SystemSetting_label_device, LV_LABEL_LONG_WRAP);
@@ -119,7 +119,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SystemSetting_label_device, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SystemSetting_label_device, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SystemSetting_label_device, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_label_device, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_label_device, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_label_device, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_label_device, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_label_device, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -186,7 +186,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     //Write codes scr_SystemSetting_label_display
     ui->scr_SystemSetting_label_display = lv_label_create(ui->scr_SystemSetting_cont_display);
     lv_obj_set_pos(ui->scr_SystemSetting_label_display, 77, 15);
-    lv_obj_set_size(ui->scr_SystemSetting_label_display, 147, 32);
+    lv_obj_set_size(ui->scr_SystemSetting_label_display, 279, 42);
     lv_label_set_text(ui->scr_SystemSetting_label_display, "Display");
     lv_label_set_long_mode(ui->scr_SystemSetting_label_display, LV_LABEL_LONG_WRAP);
 
@@ -194,7 +194,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SystemSetting_label_display, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SystemSetting_label_display, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SystemSetting_label_display, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_label_display, &lv_font_arial_32, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_label_display, &lv_font_NotoSans_Bold_32, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_label_display, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_label_display, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_label_display, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -246,7 +246,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SystemSetting_lbl_display_brightness, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SystemSetting_lbl_display_brightness, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SystemSetting_lbl_display_brightness, lv_color_hex(0xbdbdbd), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_display_brightness, &lv_font_montserratMedium_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_display_brightness, &lv_font_NotoSans_Bold_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_display_brightness, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_display_brightness, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_display_brightness, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -297,7 +297,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SystemSetting_lbl_display_sleep, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SystemSetting_lbl_display_sleep, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SystemSetting_lbl_display_sleep, lv_color_hex(0xbdbdbd), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_display_sleep, &lv_font_montserratMedium_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_display_sleep, &lv_font_NotoSans_Bold_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_display_sleep, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_display_sleep, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_display_sleep, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -311,36 +311,81 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
 
     //Write codes scr_SystemSetting_ddlist_display_sleep
     ui->scr_SystemSetting_ddlist_display_sleep = lv_dropdown_create(ui->scr_SystemSetting_cont_display_detail);
-    lv_obj_set_pos(ui->scr_SystemSetting_ddlist_display_sleep, 208, 74);
-    lv_obj_set_size(ui->scr_SystemSetting_ddlist_display_sleep, 303, 49);
-    lv_dropdown_set_options(ui->scr_SystemSetting_ddlist_display_sleep, "5 min.\n10 min.\n30 min.");
+    lv_obj_set_pos(ui->scr_SystemSetting_ddlist_display_sleep, 208, 73);
+    lv_obj_set_size(ui->scr_SystemSetting_ddlist_display_sleep, 303, 50);
+    lv_dropdown_set_options(ui->scr_SystemSetting_ddlist_display_sleep, "5 min.\n10 min.\n15 min.\n30 min.");
 
     //Write style for scr_SystemSetting_ddlist_display_sleep, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
     lv_obj_set_style_text_color(ui->scr_SystemSetting_ddlist_display_sleep, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_ddlist_display_sleep, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_ddlist_display_sleep, &lv_font_NotoSans_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_ddlist_display_sleep, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_width(ui->scr_SystemSetting_ddlist_display_sleep, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_opa(ui->scr_SystemSetting_ddlist_display_sleep, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_color(ui->scr_SystemSetting_ddlist_display_sleep, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_border_side(ui->scr_SystemSetting_ddlist_display_sleep, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_border_width(ui->scr_SystemSetting_ddlist_display_sleep, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_top(ui->scr_SystemSetting_ddlist_display_sleep, 8, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_SystemSetting_ddlist_display_sleep, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_SystemSetting_ddlist_display_sleep, 6, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_SystemSetting_ddlist_display_sleep, 1, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_SystemSetting_ddlist_display_sleep, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_SystemSetting_ddlist_display_sleep, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->scr_SystemSetting_ddlist_display_sleep, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_opa(ui->scr_SystemSetting_ddlist_display_sleep, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_SystemSetting_ddlist_display_sleep, lv_color_hex(0x414040), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_grad_dir(ui->scr_SystemSetting_ddlist_display_sleep, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SystemSetting_ddlist_display_sleep, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
+    //Write style for scr_SystemSetting_ddlist_display_sleep, Part: LV_PART_MAIN, State: LV_STATE_CHECKED.
+    lv_obj_set_style_text_color(ui->scr_SystemSetting_ddlist_display_sleep, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_ddlist_display_sleep, &lv_font_NotoSans_Regular_30, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_text_opa(ui->scr_SystemSetting_ddlist_display_sleep, 255, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_border_width(ui->scr_SystemSetting_ddlist_display_sleep, 1, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_border_opa(ui->scr_SystemSetting_ddlist_display_sleep, 255, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_border_color(ui->scr_SystemSetting_ddlist_display_sleep, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_border_side(ui->scr_SystemSetting_ddlist_display_sleep, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_pad_top(ui->scr_SystemSetting_ddlist_display_sleep, 8, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_pad_left(ui->scr_SystemSetting_ddlist_display_sleep, 20, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_pad_right(ui->scr_SystemSetting_ddlist_display_sleep, 6, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_radius(ui->scr_SystemSetting_ddlist_display_sleep, 3, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_bg_opa(ui->scr_SystemSetting_ddlist_display_sleep, 255, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_bg_color(ui->scr_SystemSetting_ddlist_display_sleep, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_bg_grad_dir(ui->scr_SystemSetting_ddlist_display_sleep, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_CHECKED);
+    lv_obj_set_style_shadow_width(ui->scr_SystemSetting_ddlist_display_sleep, 0, LV_PART_MAIN|LV_STATE_CHECKED);
+
+    //Write style for scr_SystemSetting_ddlist_display_sleep, Part: LV_PART_MAIN, State: LV_STATE_FOCUSED.
+    lv_obj_set_style_text_color(ui->scr_SystemSetting_ddlist_display_sleep, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_ddlist_display_sleep, &lv_font_NotoSans_Regular_30, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_text_opa(ui->scr_SystemSetting_ddlist_display_sleep, 255, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_width(ui->scr_SystemSetting_ddlist_display_sleep, 1, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_opa(ui->scr_SystemSetting_ddlist_display_sleep, 255, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_color(ui->scr_SystemSetting_ddlist_display_sleep, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_side(ui->scr_SystemSetting_ddlist_display_sleep, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_pad_top(ui->scr_SystemSetting_ddlist_display_sleep, 8, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_pad_left(ui->scr_SystemSetting_ddlist_display_sleep, 20, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_pad_right(ui->scr_SystemSetting_ddlist_display_sleep, 6, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_radius(ui->scr_SystemSetting_ddlist_display_sleep, 3, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_bg_opa(ui->scr_SystemSetting_ddlist_display_sleep, 255, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_bg_color(ui->scr_SystemSetting_ddlist_display_sleep, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_bg_grad_dir(ui->scr_SystemSetting_ddlist_display_sleep, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_shadow_width(ui->scr_SystemSetting_ddlist_display_sleep, 0, LV_PART_MAIN|LV_STATE_FOCUSED);
+
+    //Write style for scr_SystemSetting_ddlist_display_sleep, Part: LV_PART_MAIN, State: LV_STATE_DISABLED.
+    lv_obj_set_style_text_color(ui->scr_SystemSetting_ddlist_display_sleep, lv_color_hex(0x0D3055), LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_ddlist_display_sleep, &lv_font_NotoSans_Regular_30, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_text_opa(ui->scr_SystemSetting_ddlist_display_sleep, 255, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_border_width(ui->scr_SystemSetting_ddlist_display_sleep, 1, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_border_opa(ui->scr_SystemSetting_ddlist_display_sleep, 255, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_border_color(ui->scr_SystemSetting_ddlist_display_sleep, lv_color_hex(0xe1e6ee), LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_border_side(ui->scr_SystemSetting_ddlist_display_sleep, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_pad_top(ui->scr_SystemSetting_ddlist_display_sleep, 8, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_pad_left(ui->scr_SystemSetting_ddlist_display_sleep, 20, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_pad_right(ui->scr_SystemSetting_ddlist_display_sleep, 20, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_radius(ui->scr_SystemSetting_ddlist_display_sleep, 3, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_bg_opa(ui->scr_SystemSetting_ddlist_display_sleep, 255, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_bg_color(ui->scr_SystemSetting_ddlist_display_sleep, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_bg_grad_dir(ui->scr_SystemSetting_ddlist_display_sleep, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_shadow_width(ui->scr_SystemSetting_ddlist_display_sleep, 0, LV_PART_MAIN|LV_STATE_DISABLED);
+
     //Write style state: LV_STATE_CHECKED for &style_scr_SystemSetting_ddlist_display_sleep_extra_list_selected_checked
     static lv_style_t style_scr_SystemSetting_ddlist_display_sleep_extra_list_selected_checked;
     ui_init_style(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_selected_checked);
 
-    lv_style_set_border_width(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_selected_checked, 1);
-    lv_style_set_border_opa(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_selected_checked, 255);
-    lv_style_set_border_color(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_selected_checked, lv_color_hex(0xe1e6ee));
-    lv_style_set_border_side(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_selected_checked, LV_BORDER_SIDE_FULL);
-    lv_style_set_radius(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_selected_checked, 3);
+    lv_style_set_border_width(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_selected_checked, 0);
+    lv_style_set_radius(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_selected_checked, 5);
     lv_style_set_bg_opa(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_selected_checked, 255);
     lv_style_set_bg_color(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_selected_checked, lv_color_hex(0x00a1b5));
     lv_style_set_bg_grad_dir(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_selected_checked, LV_GRAD_DIR_NONE);
@@ -352,13 +397,13 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
 
     lv_style_set_max_height(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_main_default, 90);
     lv_style_set_text_color(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_main_default, lv_color_hex(0x0D3055));
-    lv_style_set_text_font(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_main_default, &lv_font_montserratMedium_12);
+    lv_style_set_text_font(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_main_default, &lv_font_NotoSans_Regular_30);
     lv_style_set_text_opa(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_main_default, 255);
     lv_style_set_border_width(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_main_default, 1);
     lv_style_set_border_opa(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_main_default, 255);
     lv_style_set_border_color(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_main_default, lv_color_hex(0xe1e6ee));
     lv_style_set_border_side(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_main_default, LV_BORDER_SIDE_FULL);
-    lv_style_set_radius(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_main_default, 3);
+    lv_style_set_radius(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_main_default, 5);
     lv_style_set_bg_opa(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_main_default, 255);
     lv_style_set_bg_color(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_main_default, lv_color_hex(0xffffff));
     lv_style_set_bg_grad_dir(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_main_default, LV_GRAD_DIR_NONE);
@@ -368,7 +413,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     static lv_style_t style_scr_SystemSetting_ddlist_display_sleep_extra_list_scrollbar_default;
     ui_init_style(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_scrollbar_default);
 
-    lv_style_set_radius(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_scrollbar_default, 3);
+    lv_style_set_radius(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_scrollbar_default, 5);
     lv_style_set_bg_opa(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_scrollbar_default, 255);
     lv_style_set_bg_color(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_scrollbar_default, lv_color_hex(0x00ff00));
     lv_style_set_bg_grad_dir(&style_scr_SystemSetting_ddlist_display_sleep_extra_list_scrollbar_default, LV_GRAD_DIR_NONE);
@@ -448,7 +493,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_SystemSetting_btn_reboot, 14, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SystemSetting_btn_reboot, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SystemSetting_btn_reboot, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_btn_reboot, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_btn_reboot, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_btn_reboot, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_SystemSetting_btn_reboot, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -471,7 +516,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_SystemSetting_btn_reset, 14, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_SystemSetting_btn_reset, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SystemSetting_btn_reset, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_btn_reset, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_btn_reset, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_btn_reset, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_SystemSetting_btn_reset, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -494,7 +539,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     //Write codes scr_SystemSetting_lbl_device_tiltle
     ui->scr_SystemSetting_lbl_device_tiltle = lv_label_create(ui->scr_SystemSetting_cont_device);
     lv_obj_set_pos(ui->scr_SystemSetting_lbl_device_tiltle, 77, 15);
-    lv_obj_set_size(ui->scr_SystemSetting_lbl_device_tiltle, 147, 32);
+    lv_obj_set_size(ui->scr_SystemSetting_lbl_device_tiltle, 298, 38);
     lv_label_set_text(ui->scr_SystemSetting_lbl_device_tiltle, "Device");
     lv_label_set_long_mode(ui->scr_SystemSetting_lbl_device_tiltle, LV_LABEL_LONG_WRAP);
 
@@ -502,7 +547,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SystemSetting_lbl_device_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SystemSetting_lbl_device_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SystemSetting_lbl_device_tiltle, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_device_tiltle, &lv_font_arial_32, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_device_tiltle, &lv_font_NotoSans_Bold_32, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_device_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_device_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_device_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -554,7 +599,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SystemSetting_lbl_device_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SystemSetting_lbl_device_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SystemSetting_lbl_device_name, lv_color_hex(0xbdbdbd), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_device_name, &lv_font_montserratMedium_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_device_name, &lv_font_NotoSans_Bold_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_device_name, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_device_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_device_name, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -577,7 +622,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SystemSetting_lbl_device_fw, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SystemSetting_lbl_device_fw, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SystemSetting_lbl_device_fw, lv_color_hex(0xbdbdbd), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_device_fw, &lv_font_montserratMedium_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_device_fw, &lv_font_NotoSans_Bold_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_device_fw, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_device_fw, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_device_fw, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -600,7 +645,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SystemSetting_lbl_device_serinumber, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SystemSetting_lbl_device_serinumber, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SystemSetting_lbl_device_serinumber, lv_color_hex(0xbdbdbd), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_device_serinumber, &lv_font_montserratMedium_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_device_serinumber, &lv_font_NotoSans_Bold_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_device_serinumber, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_device_serinumber, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_device_serinumber, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -623,7 +668,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SystemSetting_lbl_device_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SystemSetting_lbl_device_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SystemSetting_lbl_device_name_value, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_device_name_value, &lv_font_montserratMedium_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_device_name_value, &lv_font_NotoSans_Regular_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_device_name_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_device_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_device_name_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -646,7 +691,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SystemSetting_lbl_device_fw_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SystemSetting_lbl_device_fw_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SystemSetting_lbl_device_fw_value, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_device_fw_value, &lv_font_montserratMedium_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_device_fw_value, &lv_font_NotoSans_Regular_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_device_fw_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_device_fw_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_device_fw_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -669,7 +714,7 @@ void setup_scr_scr_SystemSetting(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_SystemSetting_lbl_device_serinumber_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_SystemSetting_lbl_device_serinumber_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_SystemSetting_lbl_device_serinumber_value, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_device_serinumber_value, &lv_font_montserratMedium_25, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_SystemSetting_lbl_device_serinumber_value, &lv_font_NotoSans_Regular_25, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_SystemSetting_lbl_device_serinumber_value, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_SystemSetting_lbl_device_serinumber_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_SystemSetting_lbl_device_serinumber_value, 0, LV_PART_MAIN|LV_STATE_DEFAULT);

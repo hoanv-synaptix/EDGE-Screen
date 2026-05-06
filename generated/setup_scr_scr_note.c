@@ -51,28 +51,28 @@ void setup_scr_scr_note(lv_ui *ui)
     lv_obj_set_style_shadow_offset_x(ui->scr_note_cont_wo, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_offset_y(ui->scr_note_cont_wo, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
 
-    //Write codes scr_note_lbl_wo
-    ui->scr_note_lbl_wo = lv_label_create(ui->scr_note_cont_wo);
-    lv_obj_set_pos(ui->scr_note_lbl_wo, 0, 10);
-    lv_obj_set_size(ui->scr_note_lbl_wo, 800, 60);
-    lv_label_set_text(ui->scr_note_lbl_wo, "WO-001");
-    lv_label_set_long_mode(ui->scr_note_lbl_wo, LV_LABEL_LONG_WRAP);
+    //Write codes scr_note_lbl_wo_id
+    ui->scr_note_lbl_wo_id = lv_label_create(ui->scr_note_cont_wo);
+    lv_obj_set_pos(ui->scr_note_lbl_wo_id, 0, 10);
+    lv_obj_set_size(ui->scr_note_lbl_wo_id, 800, 60);
+    lv_label_set_text(ui->scr_note_lbl_wo_id, "WO-001");
+    lv_label_set_long_mode(ui->scr_note_lbl_wo_id, LV_LABEL_LONG_WRAP);
 
-    //Write style for scr_note_lbl_wo, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
-    lv_obj_set_style_border_width(ui->scr_note_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_radius(ui->scr_note_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_color(ui->scr_note_lbl_wo, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_note_lbl_wo, &lv_font_Acme_Regular_50, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_opa(ui->scr_note_lbl_wo, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_letter_space(ui->scr_note_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_line_space(ui->scr_note_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_align(ui->scr_note_lbl_wo, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_bg_opa(ui->scr_note_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_note_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_right(ui->scr_note_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_bottom(ui->scr_note_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_note_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_shadow_width(ui->scr_note_lbl_wo, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    //Write style for scr_note_lbl_wo_id, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
+    lv_obj_set_style_border_width(ui->scr_note_lbl_wo_id, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_radius(ui->scr_note_lbl_wo_id, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_color(ui->scr_note_lbl_wo_id, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_note_lbl_wo_id, &lv_font_NotoSans_Bold_50, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_opa(ui->scr_note_lbl_wo_id, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_letter_space(ui->scr_note_lbl_wo_id, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_line_space(ui->scr_note_lbl_wo_id, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_align(ui->scr_note_lbl_wo_id, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_bg_opa(ui->scr_note_lbl_wo_id, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(ui->scr_note_lbl_wo_id, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_right(ui->scr_note_lbl_wo_id, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_bottom(ui->scr_note_lbl_wo_id, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_note_lbl_wo_id, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_shadow_width(ui->scr_note_lbl_wo_id, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write codes scr_note_line_4
     ui->scr_note_line_4 = lv_line_create(ui->scr_note_cont_wo);
@@ -98,7 +98,7 @@ void setup_scr_scr_note(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_note_lbl_note, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_note_lbl_note, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_note_lbl_note, lv_color_hex(0xababab), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_note_lbl_note, &lv_font_Acme_Regular_35, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_note_lbl_note, &lv_font_NotoSans_Bold_35, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_note_lbl_note, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_note_lbl_note, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_note_lbl_note, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -114,7 +114,7 @@ void setup_scr_scr_note(lv_ui *ui)
     ui->scr_note_ta_note = lv_textarea_create(ui->scr_note_cont_wo);
     lv_obj_set_pos(ui->scr_note_ta_note, 50, 186);
     lv_obj_set_size(ui->scr_note_ta_note, 700, 73);
-    lv_textarea_set_text(ui->scr_note_ta_note, "Add defect note here...");
+    lv_textarea_set_text(ui->scr_note_ta_note, "Add note...");
     lv_textarea_set_placeholder_text(ui->scr_note_ta_note, "");
     lv_textarea_set_password_bullet(ui->scr_note_ta_note, "*");
     lv_textarea_set_password_mode(ui->scr_note_ta_note, false);
@@ -127,7 +127,7 @@ void setup_scr_scr_note(lv_ui *ui)
 
     //Write style for scr_note_ta_note, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
     lv_obj_set_style_text_color(ui->scr_note_ta_note, lv_color_hex(0xABABAB), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_note_ta_note, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_note_ta_note, &lv_font_NotoSans_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_note_ta_note, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_note_ta_note, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_note_ta_note, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -139,17 +139,17 @@ void setup_scr_scr_note(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_note_ta_note, lv_color_hex(0x575757), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_note_ta_note, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_note_ta_note, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_note_ta_note, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(ui->scr_note_ta_note, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_note_ta_note, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_left(ui->scr_note_ta_note, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_note_ta_note, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
 
     //Write style for scr_note_ta_note, Part: LV_PART_MAIN, State: LV_STATE_FOCUSED.
     lv_obj_set_style_text_color(ui->scr_note_ta_note, lv_color_hex(0xababab), LV_PART_MAIN|LV_STATE_FOCUSED);
-    lv_obj_set_style_text_font(ui->scr_note_ta_note, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_text_font(ui->scr_note_ta_note, &lv_font_NotoSans_Regular_30, LV_PART_MAIN|LV_STATE_FOCUSED);
     lv_obj_set_style_text_opa(ui->scr_note_ta_note, 255, LV_PART_MAIN|LV_STATE_FOCUSED);
     lv_obj_set_style_bg_opa(ui->scr_note_ta_note, 255, LV_PART_MAIN|LV_STATE_FOCUSED);
-    lv_obj_set_style_bg_color(ui->scr_note_ta_note, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_bg_color(ui->scr_note_ta_note, lv_color_hex(0x2b2f36), LV_PART_MAIN|LV_STATE_FOCUSED);
     lv_obj_set_style_bg_grad_dir(ui->scr_note_ta_note, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_FOCUSED);
     lv_obj_set_style_border_width(ui->scr_note_ta_note, 2, LV_PART_MAIN|LV_STATE_FOCUSED);
     lv_obj_set_style_border_opa(ui->scr_note_ta_note, 255, LV_PART_MAIN|LV_STATE_FOCUSED);
@@ -199,7 +199,7 @@ void setup_scr_scr_note(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_note_btn_confirm, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_note_btn_confirm, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_note_btn_confirm, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_note_btn_confirm, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_note_btn_confirm, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_note_btn_confirm, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_note_btn_confirm, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -222,7 +222,7 @@ void setup_scr_scr_note(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_note_btn_cancel, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_note_btn_cancel, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_note_btn_cancel, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_note_btn_cancel, &lv_font_Acme_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_note_btn_cancel, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_note_btn_cancel, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_note_btn_cancel, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 

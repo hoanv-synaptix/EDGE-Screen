@@ -714,7 +714,7 @@
 
 #define LV_USE_LOTTIE 0
 
-#define LV_USE_MENU 1
+#define LV_USE_MENU 0
 
 #define LV_USE_MSGBOX 0
 
@@ -734,7 +734,7 @@
 
 #define LV_USE_SPINNER 0
 
-#define LV_USE_SWITCH 1
+#define LV_USE_SWITCH 0
 
 #define LV_USE_TABLE 0
 
@@ -845,7 +845,7 @@
 #endif    /* LV_USE_FS_FATFS */
 
 /* API for NXP RAWFS. */
-#define LV_USE_FS_RAWFS 1
+#define LV_USE_FS_RAWFS 0
 #if LV_USE_FS_RAWFS
 /* Set an upper-case letter on which the drive will accessible (e.g. 'A'). */
 #define LV_FS_RAWFS_LETTER 'F'
@@ -899,17 +899,17 @@
 #endif    /* LV_USE_FS_UEFI */
 
 /* LODEPNG decoder library */
-#define LV_USE_LODEPNG 1
+#define LV_USE_LODEPNG 0
 
 /* PNG decoder(libpng) library */
 #define LV_USE_LIBPNG 0
 
 /* BMP decoder library */
-#define LV_USE_BMP 1
+#define LV_USE_BMP 0
 
 /* JPG + split JPG decoder library.
  * Split JPG is a custom format optimized for embedded systems. */
-#define LV_USE_TJPGD 1
+#define LV_USE_TJPGD 0
 
 /* libjpeg-turbo decoder library.
  * Supports complete JPEG specifications and high-performance JPEG decoding. */

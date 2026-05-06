@@ -81,7 +81,7 @@ void setup_scr_scr_login(lv_ui *ui)
     //Write codes scr_login_lbl_nfc_tiltle
     ui->scr_login_lbl_nfc_tiltle = lv_label_create(ui->scr_login_cont_nfc);
     lv_obj_set_pos(ui->scr_login_lbl_nfc_tiltle, 85, 30);
-    lv_obj_set_size(ui->scr_login_lbl_nfc_tiltle, 400, 40);
+    lv_obj_set_size(ui->scr_login_lbl_nfc_tiltle, 400, 50);
     lv_label_set_text(ui->scr_login_lbl_nfc_tiltle, "NFC");
     lv_label_set_long_mode(ui->scr_login_lbl_nfc_tiltle, LV_LABEL_LONG_WRAP);
 
@@ -89,7 +89,7 @@ void setup_scr_scr_login(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_login_lbl_nfc_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_login_lbl_nfc_tiltle, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_login_lbl_nfc_tiltle, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_login_lbl_nfc_tiltle, &lv_font_arial_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_login_lbl_nfc_tiltle, &lv_font_NotoSans_Bold_40, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_login_lbl_nfc_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_login_lbl_nfc_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_login_lbl_nfc_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -97,7 +97,7 @@ void setup_scr_scr_login(lv_ui *ui)
     lv_obj_set_style_bg_opa(ui->scr_login_lbl_nfc_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_login_lbl_nfc_tiltle, lv_color_hex(0x476b89), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_grad_dir(ui->scr_login_lbl_nfc_tiltle, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_login_lbl_nfc_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(ui->scr_login_lbl_nfc_tiltle, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_login_lbl_nfc_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_login_lbl_nfc_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_left(ui->scr_login_lbl_nfc_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -127,7 +127,7 @@ void setup_scr_scr_login(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_login_lbl_nfc_hint, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_login_lbl_nfc_hint, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_login_lbl_nfc_hint, lv_color_hex(0xbcbcbc), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_login_lbl_nfc_hint, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_login_lbl_nfc_hint, &lv_font_NotoSans_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_login_lbl_nfc_hint, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_login_lbl_nfc_hint, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_login_lbl_nfc_hint, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -150,7 +150,7 @@ void setup_scr_scr_login(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_login_label_nfc_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_login_label_nfc_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_login_label_nfc_status, lv_color_hex(0xbcbcbc), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_login_label_nfc_status, &lv_font_arial_20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_login_label_nfc_status, &lv_font_NotoSans_Regular_20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_login_label_nfc_status, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_login_label_nfc_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_login_label_nfc_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -177,7 +177,7 @@ void setup_scr_scr_login(lv_ui *ui)
 
     //Write codes scr_login_btn_confirm
     ui->scr_login_btn_confirm = lv_button_create(ui->scr_login_cont_nfc);
-    lv_obj_set_pos(ui->scr_login_btn_confirm, 85, 515);
+    lv_obj_set_pos(ui->scr_login_btn_confirm, 84, 515);
     lv_obj_set_size(ui->scr_login_btn_confirm, 400, 60);
     ui->scr_login_btn_confirm_label = lv_label_create(ui->scr_login_btn_confirm);
     lv_label_set_text(ui->scr_login_btn_confirm_label, "CONFIRM");
@@ -194,7 +194,7 @@ void setup_scr_scr_login(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_login_btn_confirm, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_login_btn_confirm, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_login_btn_confirm, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_login_btn_confirm, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_login_btn_confirm, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_login_btn_confirm, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_login_btn_confirm, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -219,7 +219,7 @@ void setup_scr_scr_login(lv_ui *ui)
     //Write codes scr_login_lbl_acc_tiltle
     ui->scr_login_lbl_acc_tiltle = lv_label_create(ui->scr_login_cont_account);
     lv_obj_set_pos(ui->scr_login_lbl_acc_tiltle, 90, 30);
-    lv_obj_set_size(ui->scr_login_lbl_acc_tiltle, 400, 40);
+    lv_obj_set_size(ui->scr_login_lbl_acc_tiltle, 400, 50);
     lv_label_set_text(ui->scr_login_lbl_acc_tiltle, "ACCOUNT");
     lv_label_set_long_mode(ui->scr_login_lbl_acc_tiltle, LV_LABEL_LONG_WRAP);
 
@@ -227,7 +227,7 @@ void setup_scr_scr_login(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_login_lbl_acc_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_login_lbl_acc_tiltle, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_login_lbl_acc_tiltle, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_login_lbl_acc_tiltle, &lv_font_arial_40, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_login_lbl_acc_tiltle, &lv_font_NotoSans_Bold_40, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_login_lbl_acc_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_login_lbl_acc_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_login_lbl_acc_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -235,7 +235,7 @@ void setup_scr_scr_login(lv_ui *ui)
     lv_obj_set_style_bg_opa(ui->scr_login_lbl_acc_tiltle, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_color(ui->scr_login_lbl_acc_tiltle, lv_color_hex(0x476B89), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_bg_grad_dir(ui->scr_login_lbl_acc_tiltle, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_login_lbl_acc_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(ui->scr_login_lbl_acc_tiltle, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_login_lbl_acc_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_bottom(ui->scr_login_lbl_acc_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_left(ui->scr_login_lbl_acc_tiltle, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -252,7 +252,7 @@ void setup_scr_scr_login(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_login_lbl_acc_user, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_login_lbl_acc_user, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_login_lbl_acc_user, lv_color_hex(0xbcbcbc), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_login_lbl_acc_user, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_login_lbl_acc_user, &lv_font_NotoSans_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_login_lbl_acc_user, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_login_lbl_acc_user, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_login_lbl_acc_user, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -275,7 +275,7 @@ void setup_scr_scr_login(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_login_lbl_acc_password, lv_color_hex(0xbcbcbc), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_login_lbl_acc_password, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_login_lbl_acc_password, &lv_font_NotoSans_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_login_lbl_acc_password, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -287,9 +287,25 @@ void setup_scr_scr_login(lv_ui *ui)
     lv_obj_set_style_pad_left(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
 
+    //Write style for scr_login_lbl_acc_password, Part: LV_PART_MAIN, State: LV_STATE_DISABLED.
+    lv_obj_set_style_border_width(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_radius(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_text_color(ui->scr_login_lbl_acc_password, lv_color_hex(0x000000), LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_text_font(ui->scr_login_lbl_acc_password, &lv_font_montserratMedium_16, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_text_opa(ui->scr_login_lbl_acc_password, 255, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_text_letter_space(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_text_line_space(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_text_align(ui->scr_login_lbl_acc_password, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_bg_opa(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_pad_top(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_pad_right(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_pad_bottom(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_pad_left(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DISABLED);
+    lv_obj_set_style_shadow_width(ui->scr_login_lbl_acc_password, 0, LV_PART_MAIN|LV_STATE_DISABLED);
+
     //Write codes scr_login_ta_acc_user
     ui->scr_login_ta_acc_user = lv_textarea_create(ui->scr_login_cont_account);
-    lv_obj_set_pos(ui->scr_login_ta_acc_user, 39, 179);
+    lv_obj_set_pos(ui->scr_login_ta_acc_user, 38, 179);
     lv_obj_set_size(ui->scr_login_ta_acc_user, 500, 44);
     lv_textarea_set_text(ui->scr_login_ta_acc_user, "admin");
     lv_textarea_set_placeholder_text(ui->scr_login_ta_acc_user, "");
@@ -304,7 +320,7 @@ void setup_scr_scr_login(lv_ui *ui)
 
     //Write style for scr_login_ta_acc_user, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
     lv_obj_set_style_text_color(ui->scr_login_ta_acc_user, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_login_ta_acc_user, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_login_ta_acc_user, &lv_font_NotoSans_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_login_ta_acc_user, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_login_ta_acc_user, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_login_ta_acc_user, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -316,10 +332,27 @@ void setup_scr_scr_login(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_login_ta_acc_user, lv_color_hex(0x575757), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_login_ta_acc_user, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_login_ta_acc_user, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_login_ta_acc_user, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(ui->scr_login_ta_acc_user, 15, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_login_ta_acc_user, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_login_ta_acc_user, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_login_ta_acc_user, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_login_ta_acc_user, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write style for scr_login_ta_acc_user, Part: LV_PART_MAIN, State: LV_STATE_FOCUSED.
+    lv_obj_set_style_text_color(ui->scr_login_ta_acc_user, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_text_font(ui->scr_login_ta_acc_user, &lv_font_NotoSans_Regular_30, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_text_opa(ui->scr_login_ta_acc_user, 255, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_bg_opa(ui->scr_login_ta_acc_user, 255, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_bg_color(ui->scr_login_ta_acc_user, lv_color_hex(0x2b2f36), LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_bg_grad_dir(ui->scr_login_ta_acc_user, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_width(ui->scr_login_ta_acc_user, 2, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_opa(ui->scr_login_ta_acc_user, 255, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_color(ui->scr_login_ta_acc_user, lv_color_hex(0x575757), LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_side(ui->scr_login_ta_acc_user, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_shadow_width(ui->scr_login_ta_acc_user, 0, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_pad_top(ui->scr_login_ta_acc_user, 4, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_pad_right(ui->scr_login_ta_acc_user, 4, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_pad_left(ui->scr_login_ta_acc_user, 20, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_radius(ui->scr_login_ta_acc_user, 4, LV_PART_MAIN|LV_STATE_FOCUSED);
 
     //Write style for scr_login_ta_acc_user, Part: LV_PART_SCROLLBAR, State: LV_STATE_DEFAULT.
     lv_obj_set_style_bg_opa(ui->scr_login_ta_acc_user, 255, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
@@ -344,7 +377,7 @@ void setup_scr_scr_login(lv_ui *ui)
 
     //Write style for scr_login_ta_acc_password, Part: LV_PART_MAIN, State: LV_STATE_DEFAULT.
     lv_obj_set_style_text_color(ui->scr_login_ta_acc_password, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_login_ta_acc_password, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_login_ta_acc_password, &lv_font_NotoSans_Regular_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_login_ta_acc_password, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_login_ta_acc_password, 2, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_login_ta_acc_password, LV_TEXT_ALIGN_LEFT, LV_PART_MAIN|LV_STATE_DEFAULT);
@@ -356,10 +389,27 @@ void setup_scr_scr_login(lv_ui *ui)
     lv_obj_set_style_border_color(ui->scr_login_ta_acc_password, lv_color_hex(0x575757), LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_border_side(ui->scr_login_ta_acc_password, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_login_ta_acc_password, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_top(ui->scr_login_ta_acc_password, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_top(ui->scr_login_ta_acc_password, 15, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_pad_right(ui->scr_login_ta_acc_password, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_pad_left(ui->scr_login_ta_acc_password, 4, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_pad_left(ui->scr_login_ta_acc_password, 20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_login_ta_acc_password, 5, LV_PART_MAIN|LV_STATE_DEFAULT);
+
+    //Write style for scr_login_ta_acc_password, Part: LV_PART_MAIN, State: LV_STATE_FOCUSED.
+    lv_obj_set_style_text_color(ui->scr_login_ta_acc_password, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_text_font(ui->scr_login_ta_acc_password, &lv_font_NotoSans_Regular_30, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_text_opa(ui->scr_login_ta_acc_password, 255, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_bg_opa(ui->scr_login_ta_acc_password, 255, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_bg_color(ui->scr_login_ta_acc_password, lv_color_hex(0x2B2F36), LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_bg_grad_dir(ui->scr_login_ta_acc_password, LV_GRAD_DIR_NONE, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_width(ui->scr_login_ta_acc_password, 2, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_opa(ui->scr_login_ta_acc_password, 255, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_color(ui->scr_login_ta_acc_password, lv_color_hex(0x575757), LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_border_side(ui->scr_login_ta_acc_password, LV_BORDER_SIDE_FULL, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_shadow_width(ui->scr_login_ta_acc_password, 0, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_pad_top(ui->scr_login_ta_acc_password, 4, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_pad_right(ui->scr_login_ta_acc_password, 4, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_pad_left(ui->scr_login_ta_acc_password, 20, LV_PART_MAIN|LV_STATE_FOCUSED);
+    lv_obj_set_style_radius(ui->scr_login_ta_acc_password, 4, LV_PART_MAIN|LV_STATE_FOCUSED);
 
     //Write style for scr_login_ta_acc_password, Part: LV_PART_SCROLLBAR, State: LV_STATE_DEFAULT.
     lv_obj_set_style_bg_opa(ui->scr_login_ta_acc_password, 255, LV_PART_SCROLLBAR|LV_STATE_DEFAULT);
@@ -369,7 +419,7 @@ void setup_scr_scr_login(lv_ui *ui)
 
     //Write codes scr_login_btn_login
     ui->scr_login_btn_login = lv_button_create(ui->scr_login_cont_account);
-    lv_obj_set_pos(ui->scr_login_btn_login, 91, 515);
+    lv_obj_set_pos(ui->scr_login_btn_login, 90, 515);
     lv_obj_set_size(ui->scr_login_btn_login, 400, 60);
     ui->scr_login_btn_login_label = lv_label_create(ui->scr_login_btn_login);
     lv_label_set_text(ui->scr_login_btn_login_label, "LOGIN");
@@ -386,7 +436,7 @@ void setup_scr_scr_login(lv_ui *ui)
     lv_obj_set_style_radius(ui->scr_login_btn_login, 10, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_shadow_width(ui->scr_login_btn_login, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_login_btn_login, lv_color_hex(0xffffff), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_login_btn_login, &lv_font_arial_30, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_login_btn_login, &lv_font_NotoSans_Bold_30, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_login_btn_login, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_align(ui->scr_login_btn_login, LV_TEXT_ALIGN_CENTER, LV_PART_MAIN|LV_STATE_DEFAULT);
 
@@ -414,7 +464,7 @@ void setup_scr_scr_login(lv_ui *ui)
     lv_obj_set_style_border_width(ui->scr_login_lbl_acc_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_radius(ui->scr_login_lbl_acc_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_color(ui->scr_login_lbl_acc_status, lv_color_hex(0xbcbcbc), LV_PART_MAIN|LV_STATE_DEFAULT);
-    lv_obj_set_style_text_font(ui->scr_login_lbl_acc_status, &lv_font_arial_20, LV_PART_MAIN|LV_STATE_DEFAULT);
+    lv_obj_set_style_text_font(ui->scr_login_lbl_acc_status, &lv_font_NotoSans_Regular_20, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_opa(ui->scr_login_lbl_acc_status, 255, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_letter_space(ui->scr_login_lbl_acc_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);
     lv_obj_set_style_text_line_space(ui->scr_login_lbl_acc_status, 0, LV_PART_MAIN|LV_STATE_DEFAULT);

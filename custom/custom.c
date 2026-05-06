@@ -164,10 +164,6 @@ static void save_network_cb(lv_event_t *e)
     save_text_from_ta(g_saved.wifi_pass, sizeof(g_saved.wifi_pass), ui->scr_setup_network_ta_pass);
 
     hide_keyboard();
-
-    if (ui->scr_setup_network_lbl_status) {
-        lv_label_set_text(ui->scr_setup_network_lbl_status, "Saved");
-    }
 }
 
 static void save_mqtt_cb(lv_event_t *e)
@@ -197,7 +193,7 @@ static void save_downtime_cb(lv_event_t *e)
 
     if (code != LV_EVENT_CLICKED || ui == NULL) return;
 
-    save_text_from_ta(g_saved.downtime_note, sizeof(g_saved.downtime_note), ui->scr_downtime_ta_dt_note_reason_stop_0);
+    save_text_from_ta(g_saved.downtime_note, sizeof(g_saved.downtime_note), ui->scr_downtime_ta_dt_note_reason_stop);
     hide_keyboard();
 }
 
@@ -227,7 +223,7 @@ void restore_saved_form_data(lv_ui *ui)
     restore_text_to_ta(ui->scr_SetupMQTT_ta_password, g_saved.mqtt_password);
 
     /* Notes */
-    restore_text_to_ta(ui->scr_downtime_ta_dt_note_reason_stop_0, g_saved.downtime_note);
+    restore_text_to_ta(ui->scr_downtime_ta_dt_note_reason_stop, g_saved.downtime_note);
     restore_text_to_ta(ui->scr_prod_entry_ta_pe_note, g_saved.prod_note);
 }
 
@@ -244,7 +240,7 @@ static void bind_save_events(lv_ui *ui)
     }
 
     if (ui->scr_downtime_cont_dt_center) {
-        lv_obj_add_event_cb(ui->scr_downtime_btn_dt_submit_0, save_downtime_cb, LV_EVENT_CLICKED, ui);
+        lv_obj_add_event_cb(ui->scr_downtime_btn_dt_submit, save_downtime_cb, LV_EVENT_CLICKED, ui);
     }
 
     if (ui->scr_prod_entry_btn_pe_submit) {

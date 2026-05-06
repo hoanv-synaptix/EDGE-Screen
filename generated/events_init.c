@@ -137,10 +137,25 @@ static void scr_confirm_wo_btn_setup_event_handler (lv_event_t *e)
     }
 }
 
+static void scr_confirm_wo_imgbtn_back_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_select_wo, guider_ui.scr_select_wo_del, &guider_ui.scr_confirm_wo_del, setup_scr_scr_select_wo, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
 void events_init_scr_confirm_wo (lv_ui *ui)
 {
     lv_obj_add_event_cb(ui->scr_confirm_wo_btn_start, scr_confirm_wo_btn_start_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_confirm_wo_btn_setup, scr_confirm_wo_btn_setup_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_confirm_wo_imgbtn_back, scr_confirm_wo_imgbtn_back_event_handler, LV_EVENT_ALL, ui);
 }
 
 static void scr_dashboard_btn_stop_event_handler (lv_event_t *e)
@@ -199,20 +214,6 @@ static void scr_dashboard_btn_complete_event_handler (lv_event_t *e)
     }
 }
 
-static void scr_dashboard_btn_setting_event_handler (lv_event_t *e)
-{
-    lv_event_code_t code = lv_event_get_code(e);
-    switch (code) {
-    case LV_EVENT_CLICKED:
-    {
-        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupHome, guider_ui.scr_SetupHome_del, &guider_ui.scr_dashboard_del, setup_scr_scr_SetupHome, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
-        break;
-    }
-    default:
-        break;
-    }
-}
-
 static void scr_dashboard_btn_input_prod_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
@@ -241,18 +242,60 @@ static void scr_dashboard_btn_back_event_handler (lv_event_t *e)
     }
 }
 
+static void scr_dashboard_btn_setting_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_secure_setup_access, guider_ui.scr_secure_setup_access_del, &guider_ui.scr_dashboard_del, setup_scr_scr_secure_setup_access, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+static void scr_dashboard_btn_logout_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_login, guider_ui.scr_login_del, &guider_ui.scr_dashboard_del, setup_scr_scr_login, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
 void events_init_scr_dashboard (lv_ui *ui)
 {
     lv_obj_add_event_cb(ui->scr_dashboard_btn_stop, scr_dashboard_btn_stop_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_dashboard_btn_setup, scr_dashboard_btn_setup_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_dashboard_btn_brea, scr_dashboard_btn_brea_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_dashboard_btn_complete, scr_dashboard_btn_complete_event_handler, LV_EVENT_ALL, ui);
-    lv_obj_add_event_cb(ui->scr_dashboard_btn_setting, scr_dashboard_btn_setting_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_dashboard_btn_input_prod, scr_dashboard_btn_input_prod_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_dashboard_btn_back, scr_dashboard_btn_back_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_dashboard_btn_setting, scr_dashboard_btn_setting_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_dashboard_btn_logout, scr_dashboard_btn_logout_event_handler, LV_EVENT_ALL, ui);
 }
 
-static void scr_downtime_btn_dt_cancel_0_event_handler (lv_event_t *e)
+static void scr_downtime_btn_reason_1_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        break;
+    }
+    default:
+        break;
+    }
+}
+
+static void scr_downtime_btn_dt_cancel_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
     switch (code) {
@@ -266,119 +309,7 @@ static void scr_downtime_btn_dt_cancel_0_event_handler (lv_event_t *e)
     }
 }
 
-static void scr_downtime_btn_dt_submit_0_event_handler (lv_event_t *e)
-{
-    lv_event_code_t code = lv_event_get_code(e);
-    switch (code) {
-    case LV_EVENT_CLICKED:
-    {
-        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.scr_downtime_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
-        break;
-    }
-    default:
-        break;
-    }
-}
-
-static void scr_downtime_btn_dt_cancel_1_event_handler (lv_event_t *e)
-{
-    lv_event_code_t code = lv_event_get_code(e);
-    switch (code) {
-    case LV_EVENT_CLICKED:
-    {
-        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.scr_downtime_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
-        break;
-    }
-    default:
-        break;
-    }
-}
-
-static void scr_downtime_btn_dt_reason_1_event_handler (lv_event_t *e)
-{
-    lv_event_code_t code = lv_event_get_code(e);
-    switch (code) {
-    case LV_EVENT_CLICKED:
-    {
-        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.scr_downtime_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
-        break;
-    }
-    default:
-        break;
-    }
-}
-
-static void scr_downtime_btn_dt_cancel_2_event_handler (lv_event_t *e)
-{
-    lv_event_code_t code = lv_event_get_code(e);
-    switch (code) {
-    case LV_EVENT_CLICKED:
-    {
-        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.scr_downtime_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
-        break;
-    }
-    default:
-        break;
-    }
-}
-
-static void scr_downtime_btn_dt_submit_2_event_handler (lv_event_t *e)
-{
-    lv_event_code_t code = lv_event_get_code(e);
-    switch (code) {
-    case LV_EVENT_CLICKED:
-    {
-        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.scr_downtime_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
-        break;
-    }
-    default:
-        break;
-    }
-}
-
-static void scr_downtime_btn_dt_cancel_3_event_handler (lv_event_t *e)
-{
-    lv_event_code_t code = lv_event_get_code(e);
-    switch (code) {
-    case LV_EVENT_CLICKED:
-    {
-        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.scr_downtime_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
-        break;
-    }
-    default:
-        break;
-    }
-}
-
-static void scr_downtime_btn_dt_submit_3_event_handler (lv_event_t *e)
-{
-    lv_event_code_t code = lv_event_get_code(e);
-    switch (code) {
-    case LV_EVENT_CLICKED:
-    {
-        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.scr_downtime_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
-        break;
-    }
-    default:
-        break;
-    }
-}
-
-static void scr_downtime_btn_dt_cancel_4_event_handler (lv_event_t *e)
-{
-    lv_event_code_t code = lv_event_get_code(e);
-    switch (code) {
-    case LV_EVENT_CLICKED:
-    {
-        ui_load_scr_animation(&guider_ui, &guider_ui.scr_dashboard, guider_ui.scr_dashboard_del, &guider_ui.scr_downtime_del, setup_scr_scr_dashboard, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
-        break;
-    }
-    default:
-        break;
-    }
-}
-
-static void scr_downtime_btn_dt_submit_4_event_handler (lv_event_t *e)
+static void scr_downtime_btn_dt_submit_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
     switch (code) {
@@ -394,16 +325,9 @@ static void scr_downtime_btn_dt_submit_4_event_handler (lv_event_t *e)
 
 void events_init_scr_downtime (lv_ui *ui)
 {
-    lv_obj_add_event_cb(ui->scr_downtime_btn_dt_cancel_0, scr_downtime_btn_dt_cancel_0_event_handler, LV_EVENT_ALL, ui);
-    lv_obj_add_event_cb(ui->scr_downtime_btn_dt_submit_0, scr_downtime_btn_dt_submit_0_event_handler, LV_EVENT_ALL, ui);
-    lv_obj_add_event_cb(ui->scr_downtime_btn_dt_cancel_1, scr_downtime_btn_dt_cancel_1_event_handler, LV_EVENT_ALL, ui);
-    lv_obj_add_event_cb(ui->scr_downtime_btn_dt_reason_1, scr_downtime_btn_dt_reason_1_event_handler, LV_EVENT_ALL, ui);
-    lv_obj_add_event_cb(ui->scr_downtime_btn_dt_cancel_2, scr_downtime_btn_dt_cancel_2_event_handler, LV_EVENT_ALL, ui);
-    lv_obj_add_event_cb(ui->scr_downtime_btn_dt_submit_2, scr_downtime_btn_dt_submit_2_event_handler, LV_EVENT_ALL, ui);
-    lv_obj_add_event_cb(ui->scr_downtime_btn_dt_cancel_3, scr_downtime_btn_dt_cancel_3_event_handler, LV_EVENT_ALL, ui);
-    lv_obj_add_event_cb(ui->scr_downtime_btn_dt_submit_3, scr_downtime_btn_dt_submit_3_event_handler, LV_EVENT_ALL, ui);
-    lv_obj_add_event_cb(ui->scr_downtime_btn_dt_cancel_4, scr_downtime_btn_dt_cancel_4_event_handler, LV_EVENT_ALL, ui);
-    lv_obj_add_event_cb(ui->scr_downtime_btn_dt_submit_4, scr_downtime_btn_dt_submit_4_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_downtime_btn_reason_1, scr_downtime_btn_reason_1_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_downtime_btn_dt_cancel, scr_downtime_btn_dt_cancel_event_handler, LV_EVENT_ALL, ui);
+    lv_obj_add_event_cb(ui->scr_downtime_btn_dt_submit, scr_downtime_btn_dt_submit_event_handler, LV_EVENT_ALL, ui);
 }
 
 static void scr_prod_entry_btn_pe_submit_event_handler (lv_event_t *e)
@@ -502,6 +426,7 @@ static void scr_SetupHome_card_sync_event_handler (lv_event_t *e)
     switch (code) {
     case LV_EVENT_CLICKED:
     {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupDataSync, guider_ui.scr_SetupDataSync_del, &guider_ui.scr_SetupHome_del, setup_scr_scr_SetupDataSync, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
         break;
     }
     default:
@@ -529,6 +454,7 @@ static void scr_SetupHome_card_system_event_handler (lv_event_t *e)
     switch (code) {
     case LV_EVENT_CLICKED:
     {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SystemSetting, guider_ui.scr_SystemSetting_del, &guider_ui.scr_SetupHome_del, setup_scr_scr_SystemSetting, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
         break;
     }
     default:
@@ -849,6 +775,20 @@ void events_init_scr_config_modbus (lv_ui *ui)
     lv_obj_add_event_cb(ui->scr_config_modbus_btn_save, scr_config_modbus_btn_save_event_handler, LV_EVENT_ALL, ui);
 }
 
+static void scr_secure_setup_access_btn_confirm_event_handler (lv_event_t *e)
+{
+    lv_event_code_t code = lv_event_get_code(e);
+    switch (code) {
+    case LV_EVENT_CLICKED:
+    {
+        ui_load_scr_animation(&guider_ui, &guider_ui.scr_SetupHome, guider_ui.scr_SetupHome_del, &guider_ui.scr_secure_setup_access_del, setup_scr_scr_SetupHome, LV_SCR_LOAD_ANIM_NONE, 200, 200, false, true);
+        break;
+    }
+    default:
+        break;
+    }
+}
+
 static void scr_secure_setup_access_btn_cancel_event_handler (lv_event_t *e)
 {
     lv_event_code_t code = lv_event_get_code(e);
@@ -865,6 +805,7 @@ static void scr_secure_setup_access_btn_cancel_event_handler (lv_event_t *e)
 
 void events_init_scr_secure_setup_access (lv_ui *ui)
 {
+    lv_obj_add_event_cb(ui->scr_secure_setup_access_btn_confirm, scr_secure_setup_access_btn_confirm_event_handler, LV_EVENT_ALL, ui);
     lv_obj_add_event_cb(ui->scr_secure_setup_access_btn_cancel, scr_secure_setup_access_btn_cancel_event_handler, LV_EVENT_ALL, ui);
 }
 
